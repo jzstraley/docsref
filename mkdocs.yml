@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+# Copyright (c) 2022-2024 <jzstraley@gmail.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -71,8 +71,8 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: black
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
@@ -100,6 +100,7 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized:
       type: iso_datetime
+      timezone: America/Detroit
       fallback_to_build_date: true
 
 # Hooks
@@ -139,6 +140,7 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
@@ -177,8 +179,7 @@ nav:
   - Home: index.md
   - Guide:
     - Student/Intern Readings: student-intern-readings.md
-    - Cardiology: 
-      - cardiology/index.md
+    - Cardiology:
       - ACS: cardiology/acs.md
       - Cardiac Critical Care: cardiology/cardiac-critical-care.md
       - Congenital Heart Disease: cardiology/congenital-heart-disease.md
