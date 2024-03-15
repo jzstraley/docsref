@@ -16,10 +16,10 @@ date: 2022-11-20
     - Note Template: Inpatient Discharge Summary
     - Title: “CAMC IM Discharge Summary”
         1. Dates of Service/Admitting Diagnosis/Primary + Secondary Discharge Diagnosis<br>
-        ![Picture 1](/assets/images/internguidepages/1.5/1.5.5-picture1.png) 
+        ![Picture 1](../assets/images/internguidepages/1.5/1.5.5-picture1.png) 
         <br>
 	    2. Procedures/Consults<br>
-        ![Picture 2](/assets/images/internguidepages/1.5/1.5.5-picture2.png) 
+        ![Picture 2](../assets/images/internguidepages/1.5/1.5.5-picture2.png) 
         <br>
 		3. Studies
             - Use the .jsimaging_report dot phrase
@@ -34,13 +34,13 @@ date: 2022-11-20
 						6. **************************************
 		4. Hospital Course
             - Within the hospital course field on your Inpatient Workflow Discharge Platinum or within your inpatient workflow, you can complete the hospital course to auto populate into your discharge summary<br>
-        ![Picture 3](/assets/images/internguidepages/1.5/1.5.5-picture3.png) 
+        ![Picture 3](../assets/images/internguidepages/1.5/1.5.5-picture3.png) 
         <br>
 		5. Physical Exam/ Follow-Up Appointments/ Follow-Up Labs/Studies
 		6. Discharge Medications/ Pending Labs and Studies/ Condition on Discharge<br>
-        ![Picture 4](/assets/images/internguidepages/1.5/1.5.5-picture4.png) 
+        ![Picture 4](../assets/images/internguidepages/1.5/1.5.5-picture4.png) 
         <br>
 		7. Patient Instructions/Discharge Disposition/Physician Orders/Signature<br>
-        ![Picture 5](/assets/images/internguidepages/1.5/1.5.5-picture5.png) 
+        ![Picture 5](../assets/images/internguidepages/1.5/1.5.5-picture5.png) 
         <br>
 

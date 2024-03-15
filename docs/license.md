@@ -2,7 +2,7 @@
 
 **MIT License**
 
-Copyright (c) 2016-2024 Martin Donath
+Copyright (c) 2022-2024 Austin <imteched@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to

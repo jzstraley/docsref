@@ -19,7 +19,7 @@ date: 2022-11-21
             - .abappointment
             - ..abappointment
 
-![Shortcut 1.1](/assets/images/internguidepages/1.2/1.2.2-picture1.png)
+![Shortcut 1.1](../assets/images/internguidepages/1.2/1.2.2-picture1.png)
 
 1. .jsappointment
 2. .jsclinic_header

@@ -49,12 +49,12 @@ theme:
     - header.autohide
     - navigation.expand
     - navigation.footer
-    - navigation.indexes
+    # - navigation.indexes
     - navigation.instant
-    # - navigation.instant.prefetch
+    - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
-    # - navigation.sections
+    - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
@@ -175,7 +175,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Student Guide:
+  - Guide:
     - Student/Intern Readings: student-intern-readings.md
     - Cardiology: 
       - cardiology/index.md
@@ -283,7 +283,7 @@ nav:
         - Pregnancy: pharmacology/Special Topics/pregnancy.md
         - Prostate: pharmacology/Special Topics/prostate.md
         - Vitamins: pharmacology/Special Topics/vitamins.md
-      - Toxicology: pharmacology/index.md
+      - Toxicology: pharmacology/Toxicology/index.md
       - Blood & Anti-inflammatories:
         - pharmacology/blood&anti-inflammatories/index.md
         - Antiplatelets: pharmacology/blood&anti-inflammatories/antiplatelets.md
@@ -291,7 +291,7 @@ nav:
         - Gout: pharmacology/blood&anti-inflammatories/gout.md
         - Steroids: pharmacology/blood&anti-inflammatories/steroids.md
       - Cardiovascular Renal:
-        - cardiovascular-renal/index.md
+        - pharmacology/cardiovascular-renal/index.md
         - Antianginals: pharmacology/cardiovascular-renal/antianginals.md
         - Antiarrhythmics: pharmacology/cardiovascular-renal/antiarrhythmics.md
         - Antihypertensives: pharmacology/cardiovascular-renal/antihypertensives.md
@@ -302,7 +302,6 @@ nav:
     - Basics: other-topics/1-basics.md
     - Dotphrases: 
       - other-topics/dotphrases/index.md
-      - Dotphrases: other-topics/dotphrases/dotphrases.md
     - Cerner: other-topics/2-cerner.md
     - Shortcuts: other-topics/2-cerner-shortcuts.md
     - FASTHUGSBID: other-topics/3-FASTHUGSBID.md
@@ -316,9 +315,9 @@ nav:
   - Resources: 
     - resources/index.md
     - Important Websites: resources/3-important-websites.md
+  - Blog:
+    - blog/index.md
   - About: about.md
   - Changelog: changelog.md
   - License: license.md
   - Disclaimer: disclaimer.md
-  - Blog:
-    - blog/index.md

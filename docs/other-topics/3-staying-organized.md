@@ -15,10 +15,10 @@ quote: '“Don’t play mind checkers with me, man, I’m not in the mood”'
 - “Lab” System
 	- System for keeping track of labs/changes/trends <br>
 
-![Box 1.1](/assets/images/internguidepages/1.3/1.3.3-picture1.png)
+![Box 1.1](../assets/images/internguidepages/1.3/1.3.3-picture1.png)
         <br><br>
 
-![Box 1.2](/assets/images/internguidepages/1.3/1.3.3-picture2.png)
+![Box 1.2](../assets/images/internguidepages/1.3/1.3.3-picture2.png)
         <br><br>
 - “Box” System
 	- Written on the backside of the list or on the right side of the Provider Handoff
@@ -26,7 +26,7 @@ quote: '“Don’t play mind checkers with me, man, I’m not in the mood”'
 		- Half mark = In progress or half done
 		- No mark = Not Done <br>
 
-![Box 1.3](/assets/images/internguidepages/1.3/1.3.3-picture3.png)
+![Box 1.3](../assets/images/internguidepages/1.3/1.3.3-picture3.png)
         <br><br>
 
 
