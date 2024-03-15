@@ -37,3 +37,26 @@
             - [Diagnosis/Treatment](https://pubmed.ncbi.nlm.nih.gov/17060659/){:target="_blank"}
             - [Treatment](https://pubmed.ncbi.nlm.nih.gov/22315257/){:target="_blank"}
         - CLOT: Dalteparin > Warfarin in preventing recurrent VTE of malignancy
+
+
+# Oncology
+- Breast Cancer
+- Chemotherapy
+    - General
+        - Increased risk of MDS, Mixed MDS/MPN, and AML (10-20% of all cases of these cancers are chemotherapy related)
+            - [Therapy-Related Myeloid Leukemia](https://pubmed.ncbi.nlm.nih.gov/18692692/){:target="_blank"}
+            - [Etiology and management of therapy-related myeloid leukemia](https://pubmed.ncbi.nlm.nih.gov/18024664/){:target="_blank"}
+    - Common Regimens
+        - ABVD
+            - Adriamycin, Bleomycin, Vinblastine, Dacarbazine
+            - Hodgkin Lymphoma
+        - BEACOPP
+            - Bleomycin, Etoposide, Adriamycin/doxorubicin, Cyclophosphamide, Oncovorin/vincristine, Procarbazine, Prednisone
+            - Hodgkin Lymphoma
+        - FOLFIRI
+            - Leucovorin, 5-Fluorouracil, Irinotecan
+            - Advanced-stage and Metastatic Colorectal Cancer
+        - FOLFOX
+            - Leucovorin, 5-Fluorouracil, Oxaliplatin
+        - R-CHOP
+            - Rituximab, Cyclophosphamide, Hydroxy-doxorubicin, Oncovorin/Vincristine, Prednisone

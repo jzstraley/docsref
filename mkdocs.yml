@@ -95,12 +95,12 @@ plugins:
   - blog
   - tags
   - minify:
-    minify_html: true
+      minify_html: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized:
-    type: iso_datetime
-    fallback_to_build_date: true
+      type: iso_datetime
+      fallback_to_build_date: true
 
 # Hooks
 hooks:
@@ -204,7 +204,7 @@ nav:
       - Stable Ischemic Disease: cardiology/stable-ischemic-disease.md
       - Vascular Disease: 
         - cardiology/vascular-disease/index.md
-        - Hypertension: ardiology/vascular-disease/hypertension.md
+        - Hypertension: cardiology/vascular-disease/hypertension.md
       - Valvular Heart Disease: 
         - cardiology/valvular-heart-disease/index.md
     - Dermatology: dermatology.md
@@ -283,7 +283,7 @@ nav:
         - Pregnancy: pharmacology/Special Topics/pregnancy.md
         - Prostate: pharmacology/Special Topics/prostate.md
         - Vitamins: pharmacology/Special Topics/vitamins.md
-      - Overdose Toxicities: pharmacology/overdose_toxicities.md
+      - Toxicology: pharmacology/index.md
       - Blood & Anti-inflammatories:
         - pharmacology/blood&anti-inflammatories/index.md
         - Antiplatelets: pharmacology/blood&anti-inflammatories/antiplatelets.md
@@ -300,7 +300,9 @@ nav:
     - Rheumatology: rheumatology.md
   - Other Topics:
     - Basics: other-topics/1-basics.md
-    - Dotphrases: other-topics/1-dotphrases.md
+    - Dotphrases: 
+      - other-topics/dotphrases/index.md
+      - Dotphrases: other-topics/dotphrases/dotphrases.md
     - Cerner: other-topics/2-cerner.md
     - Shortcuts: other-topics/2-cerner-shortcuts.md
     - FASTHUGSBID: other-topics/3-FASTHUGSBID.md
