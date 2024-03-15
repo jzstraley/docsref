@@ -1,0 +1,112 @@
+---
+title: Anticonvulsants
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 7
+date: 2023-03-30
+---
+
+- Seizures
+  - Partial focal, yes or no
+  - Simple partial focal no
+  - Complex partial focal yes
+  - Gen, abs, tonic all ye and yes
+  - Absence Seizures
+    - Diffuse 3-Hz and wave pattern on EEG
+    - Short period of profound impairment with intact body tone
+  - Generalized tonic-clonic
+    - Abrupt loss of consciousness, stiffening of the muscles, rhythmic jerking of extremities, open eyes during ictus
+    - Most fall asleep immediately after seizure and have postictal confusion on awakening
+  - Psychogenic nonepileptic seizure (PNES)
+    - Conversion disorder, not true seizure
+    - Forceful eye closure, side to side body movements, rapid alerting and reorienting, memory recall of seizure
+    - NOT associated with abnormal cortical activity, lack post-ictal confusion
+    - Intact reflexes, pelvic thrusts
+    - Prolactin formal 15-30 minutes after seizure (elevated in epileptic seizure)
+    - Video electroencephalogram gold standard, Psychiatric Assessment
+      - Lack of epileptiform activity (normal EEG)
+
+- Barbiturates
+  - Phenobarbital
+    - MOA: Increases GABAa action
+    - SE: Sedation, dependence, Megaloblastic Anemia (Impaired folic acid absorption), Decreases OCP efficacy
+  - Pentobarbital
+  - Secobarbital
+  - Primidone
+    - SE: Megaloblastic Anemia (Impaired folic acid absorption)
+- Carbamazepine (Tegretol)
+  - MOA: Blocks Na+ channels
+  - Anticonvulsant, anticholinergic, antineuralgic, antidiuretic
+  - Antiseizure, trigeminal neuralgia, bipolar
+  - SE: Decreases T3/T4 (increased deiodination mainly), Decreases OCP efficacy, diplopia, ataxia, blood dyscrasias, liver toxic, SIADH, SJS
+- Ethosuximide (Zarontin)
+  - MOA: Blocks thalamic T-type Ca2+ channels
+  - USE: Absence seizures only
+  - SE: Fatigue, GI distress, Headache, itching, SJS
+- Gabapentinoids
+  - Gabapentin (Neurontin)
+    - Dose: 100mg TID up to 900mg TID
+      - Renally cleared
+      - Antacids decrease bioavailability by 20%
+    - MOA: Increases GABA and 5HT
+    - Use: Add on for seizures only
+      - Off-label: sleep, bipolar, migraines, fibromyalgia, anxiety, diabetic and HIV neuropathy
+    - SE: somnolence, ataxia, diplopia, dizziness
+  - Pregabalin
+- Lacosamide (Vimpat)
+- Lamotrigine (Lamictal)
+  - Dose: 12.5mg BID for 2 weeks, 25mg BID for 2 weeks, 50mg BID after
+    - Dose doubled w/carbamazepine, phenytoin, phenobarbital
+    - Dose every other day with VPA
+    - ODT and chewable available
+  - MOA: Folate antagonist, voltage gated sodium channel blocker, inhibits 5HT reuptake, inhibits release of glutamate
+    - Oral contraceptives decrease Lamictal by 50%
+  - Use: Depressive symptoms of bipolar depression (not acute), partial epilepsy, Lennox-Gestalt seizures, Rhett's, Alzheimer's aggression
+    - 25-hour half-life
+  - SE: Benign maculopapular rash(8%) within 4m ≥ SJS/TEN (0.08%)
+      - Worse if \<16 or with VPA
+    - Minimal sedation, minimal weight gain, mild dizziness, nausea
+    - Disrupts sleep if taken after 5pm
+- Levetiracetam (Keppra)
+  - No close monitoring needed
+  - SE: Fatigue, drowsiness, headache
+    - Exacerbate depression, anxiety, irritability, non-specific psychiatric adverse effects
+    - GAD and nervousness, mc in pre-existing anxiety
+- Oxcarbazepine (Trileptal)
+  - Dose: 300mg at night up to 600mg BID, no need for food
+  - MOA: Monohydroxy metabolite, voltage gated sodium channel blocker
+    - Decreased by ETOH and phenytoin
+  - Use: Epilepsy, Intermittent Explosive Disorder
+  - SE: sedation, nausea, dizziness, vertigo, hyponatremia (3%), decreases OCP efficacy
+- Phenytoin (Dilantin)
+  - SE: Megaloblastic Anemia (Impaired folic acid absorption), Decreases T3/T4 (increased deiodination mainly), Decreases OCP efficacy
+  - Fosphenytoin (Cerebyx)
+- Tiagabine
+  - MOA: Increases GABA by inhibiting reuptake
+  - Use: Only focal seizures
+- Topiramate (Topamax)
+  - Dose: 25mg at bedtime up to 25mg BID
+  - MOA: Increases cerebral GABA
+    - Increases phenytoin and VPA
+    - CBZ and phenytoin decrease
+    - Avoid with acetazolamide
+  - Use: Epilepsy, Migraine Prophylaxis, smoking cessation, tremor, bulimia, binge eating, anxiety, weight loss
+    - 24-hour half-life, Renally excreted 70%
+  - SE: Decreases OCP efficacy, Mixed RTA by inhibiting carbonic anhydrase in proximal and distal tubules, paresthesia, weight loss, sedation, dizziness, word-finding difficulties (≥100mg), Cognitive suppression and sedation that does not improve with time, reduced delayed recall, slow to complete projects
+    - Numbness and tingling in fingertips and peripheral extremities (may be improved by QHS dosing)
+    - Lowers serum bicarb, Urine pH ≥6 and hypocitraturia, increased risk for calcium phosphate stones and cardiac arrythmias in 1.5%
+- Valproic Acid (VPA)
+- Vigabatrin
+  - MOA: Increases GABA, irreversible GABA transaminase inhibitor
+  - SE: Permanent visual loss (Black box)
+- Zonisamide (Zonegran)
+- Anticonvulsant Hypersensitivity Syndrome
+  - Occurs after recent seizure
+  - Can occur with phenytoin, carbamazepine, phenobarbital, lamotrigine
+  - Symptoms
+    - Fever, rash, lymphadenopathy
+  - Labs
+    - Eosinophilia
+    - Elevated Transaminases

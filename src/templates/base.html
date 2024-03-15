@@ -226,13 +226,13 @@
       {% endif %}
     </div>
 
-    <!-- Announcement bar -->
+    <!-- Announcement bar 
     <div data-md-component="announce">
       {% if self.announce() %}
         <aside class="md-banner">
-          <div class="md-banner__inner md-grid md-typeset">
+          <div class="md-banner__inner md-grid md-typeset"> -->
 
-            <!-- Button to dismiss announcement -->
+            <!-- Button to dismiss announcement
             {% if "announce.dismiss" in features %}
               <button
                 class="md-banner__button md-icon"
@@ -241,9 +241,9 @@
                 {% set icon = config.theme.icon.close or "material/close" %}
                 {% include ".icons/" ~ icon ~ ".svg" %}
               </button>
-            {% endif %}
+            {% endif %} -->
 
-            <!-- Announcement bar content -->
+            <!-- Announcement bar content 
             {% block announce %}{% endblock %}
           </div>
           {% if "announce.dismiss" in features %}
@@ -252,7 +252,7 @@
         </aside>
       {% endif %}
     </div>
-
+-->
     <!-- Version warning -->
     {% if config.extra.version %}
       <div data-md-color-scheme="default" data-md-component="outdated" hidden>

@@ -1,0 +1,15 @@
+- Acute Renal Failure
+    - [AKI](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf){:target="_blank"}
+    - [Uric Acid as a Prognostic factor for in-hospital mortality in AKI](https://pubmed.ncbi.nlm.nih.gov/37073630/){:target="_blank"}
+    - [AKIKI: Early vs. Late in Severe AKI in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/27181456/){:target="_blank"}
+    - [IDEAL-ICU: AKI w/Sepsis in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/30304656/){:target="_blank"}
+        - [NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa1803213/){:target="_blank"}
+- Chronic Kidney Disease
+    - [ADVANCE: Intensive glycemic control (≤180) reduces risk of nephropathy](https://www.nejm.org/doi/full/10.1056/nejmoa0802987){:target="_blank"}
+    - [CHOIR: Treating to a lower Hgb target with EPO reduced MI/Death/CHF/Stroke in Anemia with CKD; no conferred survival with target >13](https://pubmed.ncbi.nlm.nih.gov/17108343/){:target="_blank"}
+    - [RENAAL: In T2DM and Nephropathy, Losartan 50-100 reduced ESRD risk](https://pubmed.ncbi.nlm.nih.gov/11565518/){:target="_blank"}
+    - [IDEAL: Early vs. Late Dialysis in CKD; No survival difference](https://pubmed.ncbi.nlm.nih.gov/20581422/){:target="_blank"}
+- Fluids/Electrolytes
+    - [SALT-ED: No reduction in hospitalization duration; reduction in major kidney-events with balanced crystalloids (LR/Normosol)](https://pubmed.ncbi.nlm.nih.gov/29485926/){:target="_blank"}
+    - Hypercalcemia
+        - [Differential Diagnosis](https://pubmed.ncbi.nlm.nih.gov/1763670/){:target="_blank"}

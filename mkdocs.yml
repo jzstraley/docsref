@@ -19,19 +19,18 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: IMTechEd
+site_url: https://www.imteched.com/mkdocs
+site_author: Austin
 site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+  A website detailing my past, present, and future work.
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: jzstraley/IMTechEd
+repo_url: https://github.com/jzstraley/IMTechEd
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2024 Martin Donath
+copyright: Copyright &copy; 2022 - 2024 Austin
 
 # Configuration
 theme:
@@ -45,17 +44,17 @@ theme:
     - content.code.copy
     # - content.code.select
     # - content.footnote.tooltips
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
+    - header.autohide
+    - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
-    - navigation.sections
+    # - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
@@ -87,17 +86,21 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: assets/favicon.ico
   icon:
     logo: logo
 
 # Plugins
 plugins:
   - blog
+  - tags
+  - minify:
+    minify_html: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+  - git-revision-date-localized:
+    type: iso_datetime
+    fallback_to_build_date: true
 
 # Hooks
 hooks:
@@ -111,18 +114,16 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    property: !ENV G-DRP25XGTN2
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://github.com/jzstraley
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/austinthefamilyguy/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jamesstraley
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/Straley/
 
 # Extensions
 markdown_extensions:
@@ -152,8 +153,8 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: IMTechEd
+      repo: IMTechEd
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -167,9 +168,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -177,97 +175,148 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Conventions: conventions.md
-    - Browser support: browser-support.md
-    - Enterprise feedback: enterprise-support.md
-    - Philosophy: philosophy.md
-    - Alternatives: alternatives.md
-    - License: license.md
-    - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
-  - Setup:
-    - setup/index.md
-    - Changing the colors: setup/changing-the-colors.md
-    - Changing the fonts: setup/changing-the-fonts.md
-    - Changing the language: setup/changing-the-language.md
-    - Changing the logo and icons: setup/changing-the-logo-and-icons.md
-    - Ensuring data privacy: setup/ensuring-data-privacy.md
-    - Setting up navigation: setup/setting-up-navigation.md
-    - Setting up site search: setup/setting-up-site-search.md
-    - Setting up site analytics: setup/setting-up-site-analytics.md
-    - Setting up social cards: setup/setting-up-social-cards.md
-    - Setting up a blog: setup/setting-up-a-blog.md
-    - Setting up tags: setup/setting-up-tags.md
-    - Setting up versioning: setup/setting-up-versioning.md
-    - Setting up the header: setup/setting-up-the-header.md
-    - Setting up the footer: setup/setting-up-the-footer.md
-    - Adding a git repository: setup/adding-a-git-repository.md
-    - Adding a comment system: setup/adding-a-comment-system.md
-    - Building an optimized site: setup/building-an-optimized-site.md
-    - Building for offline usage: setup/building-for-offline-usage.md
-    - Extensions:
-      - setup/extensions/index.md
-      - Python Markdown: setup/extensions/python-markdown.md
-      - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
-  - Plugins:
-    - plugins/index.md
-    - Blog: plugins/blog.md
-    - Group: plugins/group.md
-    - Info: plugins/info.md
-    - Meta: plugins/meta.md
-    - Offline: plugins/offline.md
-    - Optimize: plugins/optimize.md
-    - Privacy: plugins/privacy.md
-    - Projects: plugins/projects.md
-    - Search: plugins/search.md
-    - Social: plugins/social.md
-    - Tags: plugins/tags.md
-    - Typeset: plugins/typeset.md
-    - Requirements:
-      - Image processing: plugins/requirements/image-processing.md
-      - Caching: plugins/requirements/caching.md
-  - Reference:
-    - reference/index.md
-    - Admonitions: reference/admonitions.md
-    - Annotations: reference/annotations.md
-    - Buttons: reference/buttons.md
-    - Code blocks: reference/code-blocks.md
-    - Content tabs: reference/content-tabs.md
-    - Data tables: reference/data-tables.md
-    - Diagrams: reference/diagrams.md
-    - Footnotes: reference/footnotes.md
-    - Formatting: reference/formatting.md
-    - Grids: reference/grids.md
-    - Icons, Emojis: reference/icons-emojis.md
-    - Images: reference/images.md
-    - Lists: reference/lists.md
-    - Math: reference/math.md
-    - Tooltips: reference/tooltips.md
-  - Insiders:
-    - insiders/index.md
-    - Getting started: insiders/getting-started.md
-    - FAQ: insiders/faq/sponsoring.md
-    - Changelog:
-      - insiders/changelog/index.md
-      - How to upgrade: insiders/upgrade.md
-  - Community:
-    - Contributing:
-      - contributing/index.md
-      - Reporting a bug: contributing/reporting-a-bug.md
-      - Reporting a docs issue: contributing/reporting-a-docs-issue.md
-      - Requesting a change: contributing/requesting-a-change.md
-      - Adding translations: contributing/adding-translations.md
-      - Making a pull request: contributing/making-a-pull-request.md
-      - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
-    - Guides:
-      - Creating a reproduction: guides/creating-a-reproduction.md
-    - Community experts program:
-      - insiders/community-experts-program/index.md
+  - Student Guide:
+    - Student/Intern Readings: student-intern-readings.md
+    - Cardiology: 
+      - cardiology/index.md
+      - ACS: cardiology/acs.md
+      - Cardiac Critical Care: cardiology/cardiac-critical-care.md
+      - Congenital Heart Disease: cardiology/congenital-heart-disease.md
+      - Consults: cardiology/consults.md
+      - Echo: cardiology/echo.md
+      - EKG: cardiology/ekg.md
+      - Electrophysiology: 
+        - cardiology/electrophysiology/index.md
+        - Atrial Fibrillation: cardiology/electrophysiology/atrial-fibrillation.md
+      - Heart Failure: cardiology/heart-failure.md
+      - Imaging: cardiology/imaging.md
+      - Invasive Cardiology: cardiology/invasive-cardiology.md
+      - Nuclear Cardiology: cardiology/nuclear-cardiology.md
+      - Other Topics: 
+        - cardiology/other-topics/index.md
+        - Syncope: cardiology/other-topics/syncope.md
+      - Pericardial Disease: cardiology/pericardial-disease.md
+      - Pharmacology: cardiology/pharmacology-cardiology.md
+      - Prevention: 
+        - cardiology/prevention/index.md
+        - Lipids: cardiology/prevention/lipids.md
+      - Reasarch: cardiology/research.md
+      - Stable Ischemic Disease: cardiology/stable-ischemic-disease.md
+      - Vascular Disease: 
+        - cardiology/vascular-disease/index.md
+        - Hypertension: ardiology/vascular-disease/hypertension.md
+      - Valvular Heart Disease: 
+        - cardiology/valvular-heart-disease/index.md
+    - Dermatology: dermatology.md
+    - Endocrinology: endocrinology.md
+    - Gastroenterology: gastroenterology.md
+    - General: general.md
+    - Geriatrics: geriatrics.md
+    - Hematology/Oncology: hematology-oncology.md
+    - Infectious Disease: infectious-disease.md
+    - Neurology: neurology.md
+    - Nephrology: 
+      - nephrology/index.md
+      - General: nephrology/0-general.md
+      - Renal Anatomy: nephrology/1-renal_anatomy.md
+      - Renal Physiology: nephrology/2-renal_physiology.md
+      - Hypernatremia: nephrology/1-hypernatremia.md
+      - Hyponatremia: nephrology/2-hyponatremia.md
+      - Hypomagnesemia: nephrology/10-hypomagnesemia.md
+      - Hyperkalemia: nephrology/3-hyperkalemia.md
+      - Hypokalemia: nephrology/4-hypokalemia.md
+      - Hypercalcemia: nephrology/5-hypercalcemia.md
+      - Hypocalcemia: nephrology/6-hypocalcemia.md
+      - Hyperphosphatemia: nephrology/7-hyperphosphatemia.md
+      - Hypophosphatemia: nephrology/8-hypophosphatemia.md
+      - Hypermagnesemia: nephrology/9-hypermagnesemia.md
+    - Pharmacology: 
+      - pharmacology/index.md
+      - Autonomics: pharmacology/autonomics.md
+      - Chemotherapy & ID:
+        - pharmacology/Chemotherapy & ID/index.md
+        - Antibiotics: pharmacology/Chemotherapy & ID/antibiotics.md
+        - Antiemetics: pharmacology/Chemotherapy & ID/antiemetics.md
+        - Antivirals: pharmacology/Chemotherapy & ID/antivirals.md
+        - Oncologic Meds: pharmacology/Chemotherapy & ID/oncologic_meds.md
+      - Endocrine:
+        - pharmacology/Endocrine/index.md
+        - Anti-Obesity: pharmacology/Endocrine/antiobesity.md
+        - Diabetes Management: pharmacology/Endocrine/diabetes_management.md
+        - Osteoporosis: pharmacology/Endocrine/osteoporosis.md
+        - Thyroid Meds: pharmacology/Endocrine/thyroid_meds.md
+      - Labs and Side Effects:
+        - pharmacology/Labs and Side Effects/index.md
+        - General: pharmacology/Labs and Side Effects/general.md
+        - Labs: pharmacology/Labs and Side Effects/labs.md
+        - Other: pharmacology/Labs and Side Effects/other.md
+        - Side Effects: pharmacology/Labs and Side Effects/side_effects.md
+      - Nervous System:
+        - pharmacology/Nervous System/index.md
+        - Anesthetics: pharmacology/Nervous System/anesthetics.md
+        - Anticonvulsants: pharmacology/Nervous System/anticonvulsants.md
+        - CNS Drugs: pharmacology/Nervous System/cnsdrugs.md
+        - ICU: pharmacology/Nervous System/icu.md
+        - Pain Management: pharmacology/Nervous System/pain_management.md
+        - Sleep: pharmacology/Nervous System/sleep.md
+      - Psychiatry:
+        - pharmacology/Psychiatry/index.md
+        - Antidepressants: pharmacology/Psychiatry/antidepressants.md
+        - Antipsychotics: pharmacology/Psychiatry/antipsychotics.md
+        - Anxiolytics: pharmacology/Psychiatry/anxiolytics.md
+        - Mood Stabilizers: pharmacology/Psychiatry/mood_stabilizers.md
+        - Stimulants: pharmacology/Psychiatry/stimulants.md
+      - Smooth Muscle:
+        - pharmacology/Smooth Muscle/index.md
+        - Anaphylaxis: pharmacology/Smooth Muscle/anaphylaxis.md
+        - Antihistamines: pharmacology/Smooth Muscle/antihistamines.md
+        - Antipruritics: pharmacology/Smooth Muscle/antipruritics.md
+        - Asthma/COPD: pharmacology/Smooth Muscle/asthma-copd.md
+        - Decongestants: pharmacology/Smooth Muscle/decongestants.md
+      - Special Topics:
+        - pharmacology/Special Topics/index.md
+        - Antidiarrheals: pharmacology/Special Topics/antidiarrheals.md
+        - Contraceptives: pharmacology/Special Topics/contraceptives.md
+        - Dermatology: pharmacology/Special Topics/dermatology.md
+        - GERD: pharmacology/Special Topics/gerd.md
+        - Laxatives: pharmacology/Special Topics/laxatives.md
+        - Pregnancy: pharmacology/Special Topics/pregnancy.md
+        - Prostate: pharmacology/Special Topics/prostate.md
+        - Vitamins: pharmacology/Special Topics/vitamins.md
+      - Overdose Toxicities: pharmacology/overdose_toxicities.md
+      - Blood & Anti-inflammatories:
+        - pharmacology/blood&anti-inflammatories/index.md
+        - Antiplatelets: pharmacology/blood&anti-inflammatories/antiplatelets.md
+        - Antithrombotics: pharmacology/blood&anti-inflammatories/antithrombotics.md
+        - Gout: pharmacology/blood&anti-inflammatories/gout.md
+        - Steroids: pharmacology/blood&anti-inflammatories/steroids.md
+      - Cardiovascular Renal:
+        - cardiovascular-renal/index.md
+        - Antianginals: pharmacology/cardiovascular-renal/antianginals.md
+        - Antiarrhythmics: pharmacology/cardiovascular-renal/antiarrhythmics.md
+        - Antihypertensives: pharmacology/cardiovascular-renal/antihypertensives.md
+        - Lipid Therapy: pharmacology/cardiovascular-renal/lipidtherapy.md
+    - Pulmonology/Critical Care: pulmonology-critical-care.md
+    - Rheumatology: rheumatology.md
+  - Other Topics:
+    - Basics: other-topics/1-basics.md
+    - Dotphrases: other-topics/1-dotphrases.md
+    - Cerner: other-topics/2-cerner.md
+    - Shortcuts: other-topics/2-cerner-shortcuts.md
+    - FASTHUGSBID: other-topics/3-FASTHUGSBID.md
+    - Team Expectations: other-topics/5-team-expectations.md
+    - Staying Organized: other-topics/3-staying-organized.md
+    - How to Write an Admission Note: other-topics/4-how-to-write-admit-note.md
+    - Transfers: other-topics/5-transfers.md
+    - Common Inpatient Problems: other-topics/8-common-inpt-problems.md
+    - Discharge Summary: other-topics/5-discharge-summary.md
+    - Patient Instructions: other-topics/2-patient-instructions.md
+  - Resources: 
+    - resources/index.md
+    - Important Websites: resources/3-important-websites.md
+  - About: about.md
+  - Changelog: changelog.md
+  - License: license.md
+  - Disclaimer: disclaimer.md
   - Blog:
     - blog/index.md

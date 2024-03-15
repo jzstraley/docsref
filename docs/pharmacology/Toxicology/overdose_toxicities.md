@@ -1,0 +1,430 @@
+---
+title: Overdose/Toxicities
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 38
+date: 2023-03-30
+---
+
+
+- General Side Effects
+  - Alpha-1 Antagonism (Norepinephrine)
+    - Significant orthostatic hypotension/tachycardia
+    - MC: Risperidone/Paliperidone, Clozapine, Thioridazine, Trazodone
+  - Dopamine receptor antagonist
+    - Metoclopramide
+      - For nausea and vomiting, may have EPS
+  - Histamine Antagonism (Histamine)
+    - Sedation, appetite stimulation, weight gain
+    - MC: Quetiapine (most sedating), Olanzapine (weight), Clozapine (weight), Thioridazine
+  - Muscarinic Antagonism (Acetylcholine)
+    - Anticholinergic – Delirium, fever, tachycardia, flushing, dry mucus membranes, constipation, Confusion and hallucinations
+    - MC: Olanzapine, Clozapine, Thioridazine, Chlorpromazine
+  - Side Effect Monitoring
+    - EKG
+      - Amitriptyline/TCAs
+    - CBC
+      - Clozapine (Agranulocytosis) weekly but not carbamazepine
+    - Plasma levels
+      - Lithium, valproate
+    - Falls
+      - TCAs and Benzos
+    - Glucose
+      - Clozapine after 6 months
+    - Dextromethorphan (cough syrup)
+      - Dissociative symptoms and hallucinations
+      - Add Quetiapine to treat Pseudobulbar Affect
+
+| **Antipsychotic Extrapyramidal Effects – "ADAPT"** | Pharmacotherapy |
+| --- | --- |
+| **Acute Dystonia**** (4 hours)** |
+- Sudden, sustained contraction of neck, mouth, tongue and eye muscles
+ |
+- Benztropine
+- Diphenhydramine
+ |
+| **Akathisia**** (Days to weeks)** |
+- Subjective inner restlessness, inability to sit still, wanting to walk off
+- Dose dependent
+ |
+- Benzodiazepine (Lorazepam)
+- Low-Dose BB (Propranolol)
+- Benztropine
+ |
+| **Parkinsonism**** (Weeks to months)** |
+- Gradual-onset tremor, rigidity and bradykinesia
+ |
+- Benztropine≥
+- Amantadine
+- Trihexyphenidyl
+ |
+| **Tardive dyskinesia**** (4 months)** |
+- Gradual onset after prolonged therapy (≥6m): dyskinesia of mouth, face, trunk, extremities
+ |
+- Valbenazine
+- Deutetrabenazine
+- Switch to Clozapine or Quetiapine
+ |
+
+- Acetaminophen Overdose
+  - Gastroenteritis (non-specific) within hours, hepatoxicity within 1-2 days
+    - Leading cause of hepatic failure in US
+  - Treatment
+    - Activated Charcoal and N-Acetylcysteine
+    - Liver Transplant
+- Alcohol Intoxication
+  - Slurred speech, incoordination, unsteady gait, attention/memory impairment, stupor, nystagmus
+- Alcohol/Methanol Overdose
+  - Anion Gap Metabolic Acidosis
+  - Fomepizole
+    - Inhibits alcohol dehydrogenase
+- Alcohol Ketoacidosis
+  - Slurred speech, unsteady gait, altered mentation
+  - High Osmolar gap
+  - Increased anion gap
+  - Metabolic acidosis due to ketosis
+- Alcohol Withdrawal
+  - Symptoms
+    - Tachycardia, diaphoresis, anxiety, hallucinations, Seizures
+      - Macrocytic anemia
+    - Mild (6-24h) – anxiety, insomnia, tremors, diaphoresis, palpitations, GI upset, intact orientation
+    - Seizures (12-48h) – single or multiple generalized tonic, clonic
+    - Alcoholic hallucinosis (12-24h) – visual, auditory, or tactile; intact orientation
+    - Delirium Tremens (48-96h) – unstable vitals, hallucinations, confusion
+  - Withdrawal Prophylaxis
+    - Chlordiazepoxide, Diazepam (medium-acting)
+  - Treatment
+    - IV Lorazepam ≥ Chlordiazepoxide
+      - Especially in Liver disease
+    - IVF, Thiamine, Folate
+      - Thiamine prior to glucose
+- Anticholinergic Poisoning
+  - Treatment
+    - Physostigmine (cholinesterase inhibitors)
+- Arsenic Poisoning
+  - Mechanism
+    - Binds to sulfhydryl groups
+    - Disrupts cellular respiration and gluconeogenesis
+  - Sources
+    - Pesticides, insecticides
+    - Contaminated water, often from wells
+    - Pressure-treated wood
+    - Miners, smelters
+  - Clinical
+    - Acute: Garlic breath, vomiting, watery diarrhea, QTc prolongation
+      - Dehydration secondary to vomiting and diarrhea
+      - Seizure, delirium, coma, torsades de pointes
+      - Acute tubular necrosis
+      - Painful paresthesia, ascending weakness
+    - Chronic: Pigmentation, hyperkeratosis, stocking-glove neuropathy
+      - Cancer: Skin, bladder, kidney, and/or lung
+    - Mees Lines (Leukonychia striata) on the nails (hypo/hyperpigmented)
+  - Diagnosis: Elevated urine Arsenic Levels
+  - Treatment
+    - IM Dimercaprol (British anti-Lewisite)
+    - DMSA (meso-2,3-dimercaptosuccinic acid, Succimer)
+- Barbiturate Overdose
+  - Phenobarbital
+  - Weak Acids
+  - Treatment
+    - Secure airway
+    - Enhance elimination with Sodium Bicarbonate
+      - Alkalinization of the urine
+- Benzodiazepine Overdose
+  - Only Benzos = CNS depression with normal vitals
+    - Altered LOC, ataxia, slurred speech
+  - Benzos + Alcohol = CNS depression with abnormal vitals
+    - Alcohol will cause bradycardia, hypotension, respiratory depression, hyporeflexia
+  - Treatment
+    - RR Normal (12-20)
+      - Supportive Treatment
+    - Emesis, Lavage, Charcoal
+    - 1 Time Acute Overdose
+      - Flumazenil
+        - Avoid Flumazenil if chronic benzo user
+        - Partial agonist, may precipitate withdrawal/seizures
+        - Fixes CNS depression, less effective for respiratory
+        - SE: Re-sedation, hypotension, hypertension, seizures in long term users, arrhythmias, angina
+- Beta Blocker Overdose
+  - Bradycardia, AV block, and diffuse wheezing in a CAD patient
+  - Drowsiness, fatigue, depression, Bradycardia, Torsade de points, worsening HF, hypertriglyceridemia, bronchoconstriction, ED, Weight gain
+  - Treatment
+    - Hypotension: IV Glucagon
+    - Atropine, IV fluids
+- Carbon Monoxide Poisoning
+  - Treatment
+    - 100% O2
+    - Hyperbaric Oxygen if CO is ≥25-40%
+      - Lower if pregnant
+- Cocaine Toxicity
+  - Inhibits norepinephrine reuptake into the sympathetic neuron (potentiating sympathomimetic actions)
+    - Alpha and beta receptor stimulation results in coronary vasoconstriction and increased HR, Systemic BP, and Myocardial O2 demand
+    - Enhances thrombus formation by promoting platelet activation and aggregation
+  - Age \<30 w/o FH, severe or malignant hypertension, resistant hypertension, sudden rise in BP
+  - Sympathetic hyperactivity
+  - Symptoms
+    - Personality/mood changes, sleep loss, weight loss, financial difficulties
+    - Chest pain, epistaxis, rhinitis, headaches
+      - Cocaine-related Chest Pain (CRCP)
+        - Can occur due to non-cardiac causes (hemorrhagic alveolitis, pneumothorax)
+    - Hypertension, tachycardia, dilated pupils, psychomotor agitation, tremors
+  - Complications
+    - Seizures, Acute MI, Aortic Dissection, Intracranial hemorrhage
+  - Diagnosis: Urine Drug Screen
+  - Treatment of NSTEMI/Chest Pain:
+    - Benzodiazepines for BP and Anxiety and O2 (lorazepam, diazepam)
+      - Reduce sympathetic outflow (alleviate tachycardia, hypertension)
+      - +/- Phentolamine if above doesn't work
+    - Aspirin
+    - Nitroglycerin and CCBs for pain
+    - Beta blockers are contraindicated
+      - Would worsen coronary vasoconstriction (unopposed alpha-adrenergic stimulation)
+    - No fibrinolytics
+    - +/- Immediate Cardiac Catheterization
+- Cyanide Accumulation and Cyanide Toxicity
+  - Cyanide is a potent inhibitor of cytochrome oxidase-a3 in the mitochondrial ETC
+    - Inhibits cellular respiration
+  - RF: Smoke inhalation (Mc toxicity in house fires)
+
+      - Up to 90% of pts in house fires, only 35% have CO poisoning
+    - Sodium Nitroprusside for hypertensive emergency
+      - Prolonged use can lead to toxicity
+      - More common in patients with renal insufficiency, signs of CHF
+      - Onset is ~14-24 hours
+  - Symptoms
+    - Skin: Flushing before cyanosis
+    - CNS: HA, AMS, seizures, coma, confusion, agitation
+    - CV: Arrhythmias
+    - Resp: Tachypnea followed by respiratory depression, Pulmonary edema
+      - BP instability
+    - GI: Pain, nausea, vomiting
+      - "Almond like" odor to the breath
+    - Renal: Metabolic acidosis (lactic acidosis), Renal failure
+      - Bright red venous blood (elevated ventral venous oxyhemoglobin saturation
+  - Treatment
+    - Decontamination
+      - Dermal
+        - Remove clothing
+      - Ingestion
+        - Activated charcoal
+      - Antidotes
+        - 1) Hydroxocobalamin
+          - Removes cyanide from mitochondrial respiratory system
+        - 2) Sodium Thiosulphate
+          - Slower onset, can't be given with #1 or through the same catheter
+        - 3) Sodium Nitrite
+          - Only if ingested
+          - Can't be used in house fire victims due to synergistic effect with CO
+    - Respiratory
+      - No mouth-to-mouth resuscitation
+      - Use supplemental O2/intubation
+- Digitalis Toxicity
+  - Blocks na/k ATPase in myocardial cells
+    - Leading to influx of calcium, increased contractility, increased SV
+    - Prolongs refractory period reducing ventricular rate
+  - Features
+    - Characteristic ST depression with concave-up morphology "hockey stick"
+    - AKI w/hyperkalemia and increased creatinine
+    - Pain, nausea, vomiting
+    - Confusion
+    - Yellow halos around light, scotomas, blindness
+- Ethylene Glycol Ingestion
+  - Symptoms
+    - Flank Pain, hematuria, oliguria, cranial nerve palsies, tetany
+  - Labs
+    - High Osmolar gap
+    - Increased anion gap
+    - Metabolic acidosis
+    - Calcium oxalate crystals in the urine
+  - Treatment
+    - Fomepizole or Ethanol
+- Heparin
+  - Treatment
+    - Protamine
+- Isopropyl Alcohol Ingestion
+  - CNS depression, deconjugate gaze, absent ciliary reflex
+  - High Osmolar gap
+  - No Increased Anion Gap
+  - No Metabolic acidosis
+  - Treatment
+    - Supportive Care
+- Malignant Hypertension (Hypertensive Crisis)
+  - Binds to RYR1R causing CA2+ release.
+    - MAOI + tyramine or stimulant
+      - Prevents breakdown of tyramine in gut
+      - Enhances peripheral NE effects increasing BP
+  - Symptoms
+    - Headache following a meal (tyramine)
+    - Hypertension, sweating, HA, vomiting
+    - Sympathomimetic effect (hypertension)
+  - Labs
+    - Increased BUN
+  - Complications: Stroke, intracranial bleeding, death, rhabdomyolysis
+  - Treatment
+    - Stop agent
+    - IV phentolamine
+    - Dantrolene
+    - Nifedipine can be helpful
+  - Thyroxine (T4) is treated with IV thyroxine for myxedema
+    - Coma required more
+- Methanol Ingestion
+  - Visual Blurring, central scotomata, afferent pupillary defect, altered mentation, epigastric pain, hyperemic optic disc
+  - High Osmolar gap
+  - Increased anion gap
+  - Metabolic acidosis
+  - Treatment
+    - Fomepizole (inhibits the alcohol dehydrogenase that converts methanol to formaldehyde)
+    - Ethanol
+- Methemoglobinemia
+  - Formed by the oxidation of ferrous to ferric iron in hemoglobin
+  - Left shirt in the O2 curve because ferric iron cannot bind oxygen and this o2 binds tighter to ferrous iron in hemoglobin
+  - Functional anemia
+  - Causes: Dapsone, nitrates, topical/local anesthetics
+  - Treatment
+    - Methylene Blue
+- Neuroleptic Malignant Syndrome (NMS)
+  - Antagonism of Dopamine (D2) receptors in the nigrostriatal pathway
+    - Can occur with every class of antipsychotics
+  - Symptoms
+    - Slow onset, clouding of consciousness (over 1-3 days w/delirium being the 1st symptom)
+    - Fever ≥104F, confusion, delirium or catatonia
+    - Muscle rigidity (Lead-pipe), General muscle rigidity
+    - Autonomic instability (Tachypnea, hypertension, tachycardia, dysrhythmia)
+    - Abnormal vitals, sweating, mydriasis
+  - Labs
+    - Increased CPK, LFTs, WBCs
+    - Myoglobin in urine
+  - Treatment
+    - Stop antipsychotics or restart dopamine agents
+    - Antipsychotic meds
+    - May have increases Creatine Kinase and WBCs
+    - IV fluids, supportive care; ICU
+    - Benzodiazepines
+    - Dantrolene (skeletal muscle relaxant) or bromocriptine (dopamine agonist), amantadine (dopamine agonist) if refractory
+- Opioids
+  - Treatment
+    - Buprenorphine
+      - Partial mu agonist, kappa antagonist
+      - Treats withdrawal and chronic pain
+      - Combined with naloxone (blocks receptor)
+    - Naltrexone
+      - Treats dependence, not withdrawal
+    - Methadone
+      - Treats withdrawl
+- Organophosphate Toxicity
+  - Excessive salivation, miosis, lacrimation, diarrhea, emesis, urination, bronchospasm
+  - Bradycardia, heart block, prolonged QTc
+  - Treatment
+    - Pralidoxime
+      - Reverses muscle paralysis (nicotinic effects)
+    - Atropine
+- Phencyclidine (PCP) Overdose
+  - NMDA and Ach Antagonism
+    - Particularly in the hippocampus and limbic system
+  - Dopamine, norepinephrine, and serotonin receptor activation
+  - Sigma receptor complex activation causing psychotic and anticholinergic effects
+  - Lasts \<8 hours
+  - PCP withdrawal
+    - Depression
+  - Ketamine is shorter acting
+  - Vertical or horizontal nystagmus, ataxia, violent behavior, hyperthermia, disorientation, delusions, muscle rigidity
+  - Treatment
+    - Psychomotor Agitation: Parenteral Benzodiazepines (lorazepam, diazepam) ≥ Haloperidol unless seizure disorder is present
+      - B52 – Haloperidol, diphenhydramine, and benzodiazepine
+- Phenytoin Toxicity
+  - Vertical Nystagmus
+    - Cerebellar-vestibular system affected
+    - Sedation, hypotension, arrhythmias, GI disturbances
+    - Gingival hyperplasia and hirsutism if long-term use
+  - 2nd line anticonvulsant (after lorazepam) in treating status epilepticus
+  - Decreases repetitive firing of neuronal action potentials by slowing the rate of recovery of voltage gated sodium channels from inactivation
+  - SE: SJS
+- Salicylate Poisoning
+  - Treatment
+    - Gastric Lavage, Activated charcoal, alkalinization of the urine, diuresis, dialysis
+- Serotonin Discontinuation Syndrome
+  - RF: SSRIs with short half-life and no active metabolites
+    - MC with short half-life SSRIs (paroxetine ≥ venlafaxine)
+  - Onset within 3 days of discontinuation, resolution within 1-2 weeks
+    - Fatigue, insomnia, myalgias from abrupt discontinuation in 20%
+    - Headaches, anxiety, agitation
+    - "Weird" sensations along arms and legs, "electric-shock-like" sensations in head/neck, "rushing" sensations in the head
+    - Vertigo, tremor, ataxia
+  - Treatment
+    - Restart drug and taper gradually over several weeks (6-8 weeks)
+    - If persistent, switch to Fluoxetine
+- Serotonin Syndrome (SS)
+  - General
+    - Over stimulation of 5-HT receptors in the central grey nuclei and the medulla
+      - MC with stopping sertraline and fluvoxamine
+      - Fluoxetine has a long half-life, must be quit 5 weeks prior to MAOI, but doesn't need to be tapered
+        - Tramadol (Ultram)
+        - Serotonergic analgesic + SSRIs
+  - Symptoms
+    - Activity (hyperactivity, hyperreflexia, hypertonia, tremor, seizure)
+      - Myoclonus, Lower extremity rigidity, tremor
+    - Autonomic (hyperthermia, diaphoresis, diarrhea, mydriasis)
+      - Flushing, Tachycardia, hypertension
+    - Agitation (Need AMS)
+      - Anxiety, confusion, hypomania, coma
+    - Headaches, N/V/D, dizziness and fatigue when suddenly stopping
+  - Exam
+    - Hyperreflexia and myoclonus
+    - Diaphoresis, hypertension, tachycardia
+    - Fever/Hyperthermia, cardiovascular collapse
+  - Labs
+    - No CPK or liver enzyme changes
+  - Treatment
+    - Discontinue serotonergic meds, supportive, benzodiazepines, cyproheptadine
+    - Cyclobenzaprine
+    - Cyproheptadine (H1 receptor antagonist)
+      - Weakly cholinergic hypotension
+- Steroids
+  - Glucocorticoids/Prednisone (Asthma/Lupus)
+  - Delusions/hallucinations. Alert and cognitively intact
+  - Anxiety, depression, psychosis, mania rarely
+  - Usually occur during the first week but may occur at any time
+- Tardive Dyskinesia
+  - 98% get worse with acute cessation of antipsychotic
+    - D2 receptor upregulation and super sensitivity
+    - Chronic blockade of dopamine receptors causes this
+  - Treatment
+    - Switch from risperidone to clozapine (atypical antipsychotic)
+    - VMAT2 Inhibitors
+      - Blocks presynaptic dopamine release
+        - May cause depletion of dopamine in synaptic cleft causing depression
+      - Deutetrabenazine (Austedo)
+        - TD and Huntington's
+      - Valbenazine (Ingrezza)
+      - Reserpine
+- TCA (Tricarboxylic Acid) Overdose
+  - Features
+    - Antihistamine Effects
+      - Drowsiness, delirium, coma, seizures, respiratory depression
+    - Anticholinergic Effects
+      - Dry mouth, blurred vision, mydriasis, urinary retention
+      - Flushing, hyperthermia
+    - Hypotension, sinus tachycardia, prolonged PR/QRS/QT, Arrythmias
+      - QRS ≥ 100ms is MC EKG abnormality
+    - 1500mg for ≥4 hours = death
+  - Treatment
+    - O2 and intubation, EKG monitoring
+    - IV fluids
+    - Activated charcoal if within 2 hours of ingestion (unless ileus present)
+    - Seizures: Benzodiazepines
+    - QRS ≥100: IV Sodium Bicarbonate
+      - Therapy for QRS widening or ventricular arrythmia
+      - QRS ≥ 100msec is associated with increased risk of arrhythmias and/or seizures
+      - Cardioprotective and helps metabolic acidosis
+- Theophylline Toxicity
+  - Toxic form reduced clearance or decreased metabolism in the liver
+  - CNS Stimulation (headache, insomnia, seizures), GI (Nausea, vomiting), and cardiac toxicity (arrhythmia)
+  - Measure theophylline levels
+- tPA
+  - Treatment
+    - Aminocaproic Acid
+- Warfarin
+  - Treatment
+    - Vitamin K, FFP

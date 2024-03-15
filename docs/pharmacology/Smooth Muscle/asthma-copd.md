@@ -1,0 +1,102 @@
+---
+title: Asthma/COPD
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 20
+date: 2023-03-30
+---
+
+- Short-Acting Beta 2 Agonists (SABAs)
+  - Salbutamol (Albuterol)
+    - Can cause hypokalemia with muscle weakness, arrhythmias, and tremors
+    - EKG changes, palpitations, and HA may occur
+    - Albuterol
+      - Nebulizer: 2.5-5mg q20mins for 4 doses, then 2.5-10mg q1-4hrs
+      - MDI (Ventolin HFA, Proventil HFA, ProAir HFA): 4-8 puffs q30mins up to 4hrs, then every 1-4hrs PRN
+  - Levalbterol MDI (Xopenex, Xopenex HFA)
+  - Pirbuterol MDI (MaxAir autohaler)
+  - Terbutaline
+  - SEs: Tremor (7%), tachycardia, anxiety
+    - Hypokalemia, angina, tachyarrhythmia
+- Long-Acting Beta 2 Agonists (LABAs)
+
+    - Not recommended without ICS in asthma due to increased mortality
+  - Salmeterol DPI (Serevent Diskus, Aeromax)
+  - Formoterol DPI (Foradil Aerolizer)
+  - Oxis
+  - Serovent
+  - Onbrex
+  - SE: Headache (17%), Tremor (8%)
+    - Hypertension, Rash, dizziness, hyperglycemia
+- Inhaled Corticosteroid (ICSs)
+  - Beclomethasone MDI (QVAR)
+  - Budesonide DPI (Pulmicort Flexhaler)
+  - Flunisolide MDI (Aerospan)
+  - Fluticasone Propionate MDI (Flovent HFA)
+  - Fluticasone Furoate DPI (Arnuity Ellipta)
+  - Mometasone DPI (Asmanex Twisthaler)
+  - Triamcinolone
+- Oral Corticosteroid
+  - Methylprednisolone
+    - Asthma: 32-64 mg/day PO in 1-2 doses
+      - 40-80 mg/day IV in 1-2 doses
+      - Reserve IV for NPO or severe in the ICU
+      - Depo-Medrol 160mg IM at discharge equal to 8 days PO taper
+  - Prednisolone
+  - Prednisone
+    - Asthma: 40-80 mg/day PO in 1-2 doses
+      - Give until PEF is 70% predicted
+      - 7–10-day courses do not need to be tapered
+    - SE: Elevated Uric Acid, Increase or decrease INR w/Warfarin
+- Antimuscarinics (SAMA/LAMA)
+  - Short-Acting Anticholinergics (SAMAs)
+    - Ipratropium Bromide
+      - Nebulizer: Must use with albuterol
+      - MDI (Atrovent HFA): 4-8 puffs PRN every 2-4hrs
+      - Better tolerated than LAMAs
+    - SE: Bitter taste (20%), Xerostomia
+      - Urinary retention, mydriasis
+  - Long-Acting Anticholinergics (LAMAs)
+    - Tiotropium Bromide (Spiriva Handihaler)
+      - SE: Xerostomia (16%), Constipation
+        - Rash, myalgia, dysphonia
+    - Bretaris
+    - SEEbri
+    - Incruse Ellipta
+- Combos
+  - SAMA/SABA
+    - Ipratropium + Albuterol (Combivent Respimat)
+  - LAMA/LABA
+    - Vilanterol/umeclidinium (Anoro)
+  - LABA/ICS
+    - Budesonide/Formoterol MDI (Symbicort)
+    - Fluticasone Furoate/Umeclidinium Bromide/Vilanterol (Trelegy Ellipta)
+    - Fluticasone/Salmeterol MDI (Advair HFA)
+    - Fluticasone/Salmeterol DPO (Advair Diskus)
+    - Fluticasone Furoate/Vilanterol (Breo Ellipta)
+    - Ipratropium Bromide/Salbutamol (Combivent)
+    - Mometasone/formoterol (Durela hfa)
+  - LAMA/LABA/ICS
+    - Fluticasone/Umeclidinium/Vilanterol (Trelegy Ellipta)
+- Other
+  - Methylxanthines
+    - Theophylline
+      - SE: Caffeine-like, MAT
+        - Toxicity: vomiting, hypokalemia, hyperglycemia, seizures, tachycardia, ventricular arrhythmias
+  - Eicosanoid Inhibition
+    - Leukotriene Antagonists
+      - Montelukast (Singulair): 10 mg QD tablet
+    - Arachidonate 5-lipoxygenase Inhibitors
+      - Zileuton (Zyflo CR): 1200mg BID tablet
+    - Thromboxane Receptor Antagonists
+    - Non-xanthine PDE4 Inhibitors
+    - Zafirlukast (Accolate): 20mg BID tablet
+      - AST/ALT ≥3x normal in 3%, monitor monthly for 3 months when initiating
+  - Mast Cell Stabilizers
+    - Cromolyn Sodium Nebulizer solution
+  - IgE Inhibitor
+    - Omalizumab (Xolair): 150mg injection
+  - PDE-4 Inhibitors
+    - Roflumilast (Daliresp): 500 ug tablet QD

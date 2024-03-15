@@ -1,0 +1,161 @@
+---
+title: Anesthetics
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 1
+date: 2023-03-30
+---
+
+- Analgesics
+  - Bolus at induction and before surgical incision
+  - Opioid Withdrawal
+    - 6-12 hours: Morphine, oxycodone
+    - 24-48 hours: Methadone
+  - Fentanyl
+    - Metabolized by CYP3A4, High protein binding
+    - Safest long-acting in kidney and liver failure
+    - Increased bioavailability in liver failure, low dose patch
+    - Airway reflexes are blunted, may cause respiratory arrest
+  - Hydrocodone
+    - Metabolized by CYP2D6, low protein binding
+    - Increased time to analgesic onset in liver failure
+  - Hydromorphone
+    - Metabolized by liver glucuronidation, low protein binding
+      - Better use in kidney disease
+    - Reduced dose and frequency in liver failure/cirrhosis
+  - Loperamide
+    - SE: QRS prolongation, QT prolongation, Ventricular Tachycardia
+  - Meperidine
+    - Only opioid that does not cause miosis
+    - SE: Seizures, Serotonin syndrome
+  - Methadone
+    - SE: QT prolongation, Torsade de pointes, miosis, rash, pruritis, hypotension
+    - CI: naloxone concurrently
+  - Morphine sulfate
+    - Metabolized by liver glucuronidation
+      - Metabolites cleared by the kidney
+      - Avoid in liver failure and kidney failure
+        - Increased bioavailability vs toxic metabolites
+    - SE: May cause histamine release and mild hypotension
+  - Oxycodone
+    - Metabolized by CYP2D6/CYP3A4 (Unlike hydromorphone/morphine)
+  - Remifentanil (Ultiva)
+    - SE: Respiratory depression, bradycardia, hypotension, constipation, chest wall rigidity, pruritus, visual disturbances
+  - Tramadol Hydrochloride (Ultram)
+    - 50mg-100mg IR QID PO/IV/IM
+    - 50mg up to 300mg ER
+    - MOA: mu-opioid receptor agonist, inhibits 5-HT and NE reuptake
+      - Metabolized by CYP2D6/CYP3A4 (Unlike hydromorphone/morphine)
+    - Variable time to onset and efficacy in liver failure
+    - SE: Serotonin Syndrome, Seizures
+- Sedative-Hypnotics
+  - CNS depression
+    - Sedation
+    - Hypnosis
+    - Anesthesia
+    - Coma
+  - Benzodiazepines
+    - Anxiolysis, hypnosis, amnesia, no analgesic properties
+    - Midazolam commonly used
+    - Metabolized by the liver
+    - Flumazenil to treat OD
+  - Barbiturates
+    - Phenobarbital
+      - Can be used in Crigler-Najjar II to induce UDP-glucuronyl transferase
+  - Ketamine
+    - PCP analog
+    - Intense analgesia, amnesia, dissociative anesthesia
+    - Increases HR and BP, maintains spontaneous ventilation
+      - Excellent bronchodilator
+    - Pre-medicate with benzodiazepines to limit illusions and dysphoria
+    - Not respiratory depressant
+  - Thiopental (Pentothal)
+    - Barbiturate, unconsciousness in 30s
+    - No analgesic effects
+    - Decreases cerebral O2 demand, excellent anticonvulsant
+    - Requires repeated dosing
+    - Hypotension, HF, Beta-blockade
+  - Morphine
+    - 5mg IV
+  - Hydromorphone (Dilaudid)
+    - 75mg IV
+  - Fentanyl
+    - 50mcg IV (50-150mcg/hr)
+  - Propofol (Diprivan)
+    - CYP2B6 Substrate
+    - Antipyretic and antiemetic properties
+      - Mild analgesic effect
+      - Metabolized by the liver and plasma esterase
+    - SE: Severe hypotension due to myocardial depression (inhibits sympathetic drive)
+      - Avoid in patients with ventricular systolic dysfunction
+      - Prolonged sedation even after discontinuation
+  - Dexmedetomidine (Precedex)
+    - Alpha-2 Agonism
+  - Etomidate (Amidate)
+    - Inhibition of 11B-hydroxylase
+    - Adrenal insufficiency in elderly and critically ill
+    - May cause respiratory arrest
+    - No analgesic effects
+    - No change in BP
+    - Metabolized by the liver and plasma esterase
+  - Halothane (Fluothane)
+    - Acute Hepatic toxicity in Adult women
+  - Nitrous Oxide (N2O)
+    - Inhibition of methionine synthase, inactivates B12
+    - Neurotoxicity in pts with B12 deficiency
+    - SE: mild ICP, CBF, CMRO2, PONV, decreased hepatic/renal blood flow
+- Long time to induction
+  - Opioid Abuse
+- Long time coming out anesthesia
+  - Absence of pseudocholinesterase
+  - Lambert-Eaton Myasthenia
+    - Increased sensitivity to both depolarizing muscle relaxants (succinylcholine): takes more time to reaccumulate acetylcholine
+- Depolarizing NM blocking
+  - Used for endotracheal intubation usually
+  - Succinylcholine
+    - Depolarizing agent, Increases Serum potassium
+    - Fastest onset, shortest Duration
+    - Metabolized by pseudocholinesterase
+- Nondepolarizing NM blocking
+  - Rocuronium
+    - Fastest non-depolarizing agent
+    - Metabolized by the liver
+  - Cisatracurium
+    - Nonenzymatic breakdown
+    - Action not prolonged in renal or liver disease
+  - Pancuronium
+    - Non-Depolarizing
+    - Longest Acting
+- Upregulation of Acetylcholine Receptors (toup-regulation)
+  - Muscle trauma (burn/stroke), Guillain-Barre, polyneuropathy in critical illness
+    - Succinylcholine is a depolarizing neuromuscular blocker by binding to postsynaptic Acetylcholine receptors
+      - influx of Na, efflux of K+
+      - 45-60s for onset, 6-10minutes of action
+    - May cause cardiac arrhythmia 2ndary to hyperkalemia
+      - Check [K+]
+    - Use Non-depolarizing agents instead in pts with upregulated post-synaptic Ach receptors
+      - Vecuronium, rocuronium are competitive Acetylcholine receptor antagonists, do not affect postsynaptic ligand-gated ion channels
+        - Anticholinesterases are used to reverse
+- Cyclobenzaprine (Flexeril)
+  - Centrally acting antispasmodic
+  - Poorly understood, inhibition of muscle stretch reflex
+  - Hepatic metabolism, 4-6hr duration
+  - Use: acute spasm due to muscle injury/inflamamtion
+  - SE: Antimuscarinic effects
+- Methocarbamol (Robaxin)
+- Baclofen
+  - GABAb agonist, facilitates spinal inhibition of motor neurons
+  - Centrally acting spasmolytic
+  - Oral
+  - SE: Weakness, sedation, rebound spasticity on abrupt withdrawal
+- Tizanidine (Zanaflex)
+  - Alpha2 agonist in the spinal cord
+  - Oral, renal and hepatic elimination
+  - Lasts 3-6 hours
+  - Use: Spasm 2/2 MS, stroke, ALS
+  - SE: Weakness, sedation, hypotension, hepatotoxicity (rare), rebound hypertension on abrupt withdrawal
+- Dantrolene
+  - Blocks RyR1 Ca2+ release in the SR of skeletal muscle
+  - Direct acting muscle relaxant

@@ -1,0 +1,133 @@
+---
+title: Anxiolytics
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 19
+date: 2023-03-30
+---
+
+- Sedative-Hypnotics
+  - CNS depression
+    - Sedation
+    - Hypnosis
+    - Anesthesia
+    - Coma
+- Benzodiazepines
+  - MOA: Activate GABAa receptor binding sites
+    - Lorazepam, oxazepam, and temazepam are safe in hepatic dysfunction
+  - General
+    - Anxiolysis, hypnosis, amnesia, no analgesic properties
+    - Paradoxical agitation, confusion and aggression within 1 hour of use in elderly
+      - Increased cognitive impairment and falls in elderly
+    - Withdrawal
+      - Life-threatening
+        - Increased risk of seizures
+        - Anxious and irritable, insomnia, dysphoria, anxiety
+        - Begins typically 5-10 days after cessation if long acting, resolve in 2-4 weeks
+    - Use Longer half-life benzos to wean off shorter half-life drugs and alcohol
+
+        - "self-taper" by regenerating deficient brain receptors
+    - Overdose with alcohol (sedative-hypnotic overdose)
+      - Synergistic respiratory depression when combined with opiates
+      - Bradycardia, hypotension, respiratory depression, CNS depression, lethargy, somnolence, hyporeflexia
+      - Flumazenil to treat OD
+  - Short (half-life \<6h):
+    - Triazolam (Halcion)
+      - Insomnia
+    - Oxazepam (Serax)
+      - Limited first pass metabolism, "Outside The Liver"
+    - Midazolam (Versed)
+      - Used for sedation during medical procedures
+      - Flumazenil to reverse
+      - SE: Decreased RR, hypotension, somnolence, hiccups, bronchospasm
+    - Clorazepate (Tranxene)
+      - Adjunct in management of partial seizures
+  - Intermediate (half-life 6-24h):
+    - Alprazolam (Xanax)
+      - Tmax: 1-2 hours, Half-Life: 12-15 hours
+      - Depression, panic disorder, SAD
+      - Medium strength (~1mg of Xanax = 2mg Ativan)
+      - Sedation: 0.25-0.5mg BID-TID
+    - Lorazepam (Ativan)
+      - Tmax: 1-6 hours, Half-Life: 10-20 hours
+      - Psychotic agitation, alcohol withdrawal, acute control of seizures
+      - Only IM benzodiazepine
+      - Weakest
+      - Sedation: 1-2mg daily to BID
+      - Hypnosis: 2-4mg
+      - Limited first pass metabolism, "Outside The Liver"
+    - Temazepam (Restoril)
+      - Insomnia
+      - Alprazolam has more euphoria, less sedation
+      - Limited first pass metabolism, "Outside The Liver"
+  - Long (half-life ≥24h):
+    - Diazepam (Valium)
+      - Tmax: 1-2 hours, Half-Life: 20-80 hours
+      - Muscle relaxation, analgesia, seizures, alcoholic withdrawal (seizures)
+    - Clonazepam (Klonopin)`
+      - Seizures, mania, SAD, panic disorder, OCD
+      - Strongest strength (~1mg of Klonopin = 2-4mg Ativan)
+      - Used for sleep due to longer half life
+      - q4hrs prn for CIWA
+    - Chlordiazepoxide (Librium)
+      - Tmax: 2-4 hours, Half-Life: 15-40 hours
+      - Alcohol withdrawal (particularly for agitation)
+    - Flurazepam (Dalmane)
+      - Insomnia
+- Barbiturates
+  - Phenobarbital
+    - Can be used in Crigler-Najjar II to induce UDP-glucuronyl transferase
+    - Sedation: 15-30mg BID to TID
+- Promethazine (Phenegran)
+  - SE: Marked sedation, antiemetic
+- Diphenhydrinate (Dramamine)
+- Diphenhydramine (Benadryl)
+- Hydroxyzine Pamoate (Atarax, Vistaril)
+  - SE: Marked Sedation
+- Cyclizine (Marezine)
+- Meclizine (Bonine)
+- Doxylamine
+  - Nausea and vomiting in pregnancy
+- Ramelteon (Rozerem)
+  - MOA: MT1 agonist (promotes sleep onset), MT2 agonist (shift timing of circadian system) that improves sleep onset
+    - Selective melatonin agonist (MT1 and MT2 selective)
+  - Use: Insomnia
+    - Good for sleep maintenance
+    - DELIRIA-J (2014) – Substantial reduction in the risk of developing delirium in elderly inpatients (65-85) when given nightly for 7 days.
+  - No tolerance or dependence
+- Suvorexant (Belsomra)
+- Non-Benzo GABA-A Receptor Agonists
+  - Non-Benzo GABA-A Receptor Agonists
+
+      - Alpha 1 subunit selective
+    - Zaleplon (Sonata)
+      - Initial insomnia (non-benzo), 1hour action, sleep onset insomnia
+      - Short, insomnia
+      - Sleep Initiation
+      - Rapid onset, reduces hang-over effect
+      - SE: Dizziness and Somnolence
+    - Zolpidem (Ambien)
+      - Dsoe: Max 5mg females, 10mg males
+      - Use: Insomnia
+        - ER version good for sleep maintenance
+        - Reduces sleep latency, nocturnal awakenings
+          - Increases total sleep time
+          - 1-4.5 hours, sleep onset or maintenance
+      - SE: Anterograde amnesia
+        - Can't be used if patient has ever sleepwalked
+    - Eszopiclone (Lunsta)
+      - Intermediate (6 hours), onset or maintenance
+      - Intermediate, insomnia
+    - Buspirone (Buspar)
+      - Dose: 5mg TID to 20mg TID max
+      - MOA: 5HT1a partial agonist
+        - Takes 2 weeks to work
+        - Increased grapefruit increases buspar concentrations
+      - Use: Anxiety, GAD
+        - Non-sedating, no anticonvulsant or muscle relaxant properties
+        - Useful in alcoholics due to the lack of CNS potentiation
+        - Can be used in bruxism and Sexual side effects (inhibits 5HT2 and agonizes DA)
+      - SE: headache, nausea, dizziness
+        - Can't overdose, so safe

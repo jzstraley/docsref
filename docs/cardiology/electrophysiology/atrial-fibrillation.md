@@ -1,0 +1,11 @@
+- Atrial Fibrillation
+    - [General](https://www.ncbi.nlm.nih.gov/books/NBK526072/){:target="_blank"}
+    - Management
+        - [General](https://pubmed.ncbi.nlm.nih.gov/30144419/){:target="_blank"}
+        - [AFFIRM: Rate-control = Rhythm-control; Rate preferred due to Adverse events](https://pubmed.ncbi.nlm.nih.gov/12466506/){:target="_blank"}
+        - [RACE-II: Lenient non-inferior to strict rate-control in afib](https://pubmed.ncbi.nlm.nih.gov/20231232/){:target="_blank"}
+        - [RAAFT-2: RFA if AAD failed as 1st line for symptomatic PAF](https://pubmed.ncbi.nlm.nih.gov/24549549/){:target="_blank"}
+        - [AVERROES: Eliquis > Aspirin for Stroke/VTE](https://pubmed.ncbi.nlm.nih.gov/21309657/){:target="_blank"}
+        - [ARISTOTLE: Eliquis > Warfarin for stroke, less brain bleeding](https://pubmed.ncbi.nlm.nih.gov/21870978/){:target="_blank"}
+        - [ROCKET-AF: Xarelto is non-inferior to Warfarin](https://pubmed.ncbi.nlm.nih.gov/21830957/){:target="_blank"}
+        - [BRIDGE: Periprocedural bridging did not reduce ATE, increased bleeding](https://pubmed.ncbi.nlm.nih.gov/26095867/){:target="_blank"}

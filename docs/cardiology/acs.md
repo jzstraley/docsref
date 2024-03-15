@@ -1,0 +1,45 @@
+---
+tags:
+    - Chest Pain
+---
+
+- Chest Pain/Angina Pectoris
+    - [Chest Pain in the ED (M4s)](https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum/group-m4-approach-to/chest-pain){:target="_blank"}
+    - [HEART vs. TIMI vs. GRACE](https://www.internationaljournalofcardiology.com/article/S0167-5273(16)33282-X/fulltext){:target="_blank"}
+    - [Diagnosis](https://pubmed.ncbi.nlm.nih.gov/34756653/){:target="_blank"}
+        - [Update on Stress Testing](https://pubmed.ncbi.nlm.nih.gov/22469057/){:target="_blank"}
+            - Not interpretable for ischemia if:
+                - Old LBBB, unable to reach target HR, or baseline ST elevation or on Digoxin
+                - Get Stress Testing with Imaging (MPI, CMR, or Echo) if unable to do Exercise Stress Test
+                    - Indications
+                        - Unable to exercise
+                        - Baseline EKG abnormalities limiting interpretation
+                        - Indeterminate findings on Exercise Stress Test 
+                    - No adenosine in asthmatics, hypotension (stimulate A2A receptors on vascular smooth muscles, magnified from rest)
+            - Positive Findings (Findings associated with poor outcomes)
+                - Poor exercise capacity (<5 METs)
+                - Exercise-induced angina during minimal expenditure
+                - Inability to achieve 85% age-predicted maximum HR with exercise
+                - Fall in SBP below baseline during exercise
+                - ST elevation
+                - ≥ 2mm ST-depression during minimal expenditure
+                - Early onset or prolonged duration of ST depression during testing
+                - ST depression in multiple leads
+                - Ventricular couplets or tachycardia during minimal expenditure or recovery
+            - Balanced Ischemia
+                - High risk features on Exercise testing
+                - Coronary blood low is equally or nearly equally impaired
+                - ST depression in multiple leads during peak stress but no evidence of ischemia on radionuclide MPI
+- Myocardial Infarction
+    - [Definition](https://pubmed.ncbi.nlm.nih.gov/30153967/){:target="_blank"}
+    - Management
+        - P2Y12
+            - [PLATO: Ticagrelor > Clopidogrel in ACS including mortality](http://www.ncbi.nlm.nih.gov/pubmed/19717846){:target="_blank"}
+            - [DAPT: Continuing Thienopyridine after 12 months decreased risk of In-stent thrombosis and MI at 18 months, increased risk of bleeding](https://pubmed.ncbi.nlm.nih.gov/25399658/){:target="_blank"}
+            - [WOEST: Bleeding w/AC + Plavix < Triple Therapy w/o change in MI/Stroke/MACE](https://pubmed.ncbi.nlm.nih.gov/23415013/){:target="_blank"}
+            - [COGENT: PPI with DAPT reduces GIB 87%, no CV event change](https://pubmed.ncbi.nlm.nih.gov/20925534/){:target="_blank"}
+        - Statin
+            - [PROVE-IT: Significantly reduced CVD events following MI with High-dose Lipitor vs. Pravastatin](http://www.ncbi.nlm.nih.gov/pubmed/15007110){:target="_blank"}
+        - ACEI
+            - [SAVE: ACEI improve survival/morbidity/mortality in LV dysfunction after MI](https://pubmed.ncbi.nlm.nih.gov/1386652/){:target="_blank"}
+        - [MADIT-II: ICD improves survival in pts with prior MI and severe LV dysfunction](https://pubmed.ncbi.nlm.nih.gov/11907286/){:target="_blank"}
