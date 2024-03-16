@@ -1,10 +1,6 @@
 ---
 title: Patient Instructions
 author: J. Austin Straley, DO
-layout: post
-chapter: '06'
-section: 1
-lesson: 2
 date: 2022-11-20
 ---
 

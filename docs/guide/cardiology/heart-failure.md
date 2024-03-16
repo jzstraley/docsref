@@ -1,0 +1,44 @@
+---
+title: Heart Failure
+author: J. Austin Straley, DO
+date: 2024-03-16
+categories:
+    - Cardiology
+---
+- [Physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/cardiovascular-system){:target="_blank"}
+    - [Physiology of Diuretics in Acute Heart Failure](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}
+- [Updating the role of natriuretic peptide levels in cardiovascular disease](https://pubmed.ncbi.nlm.nih.gov/22104459/){:target="_blank"}
+    - [Impact of body mass and body composition on circulating levels of natriuretic peptides](https://pubmed.ncbi.nlm.nih.gov/16203929/){:target="_blank"}
+    - [The paradox of low BNP levels in obesity](https://pubmed.ncbi.nlm.nih.gov/21523383/){:target="_blank"}
+- [Risk Assessment](https://pubmed.ncbi.nlm.nih.gov/31526538/){:target="_blank"}
+- Management 
+    - [Correction to: Drugs That May Cause or Exacerbate Heart Failure: A Scientific Statement From the American Heart Association](https://doi.org/10.1161/CIR.0000000000000449){:target="_blank"}
+    - Acute
+        - [ED Management of Acute Heart Failure](https://emergencymedicinecases.com/acute-heart-failure-management-pocus-oxygenation-ppv-havoc-scape/){:target="_blank"}
+        - [Prognostic Biomarkers in the ED in HF](https://thoracickey.com/diagnostic-and-prognostic-biomarkers-in-emergency-department-heart-failure/){:target="_blank"}
+        - [University of Michigan Guide](https://www.ncbi.nlm.nih.gov/books/NBK589894/){:target="_blank"}
+        - [DOSE-AHF: High-dose loops > symptom improvement; intermittent = continuous](https://pubmed.ncbi.nlm.nih.gov/21366472/){:target="_blank"}
+        - [STRONG-HF: Rapid up-titration of GDMT and close f/u reduced risk of 180-day all-cause death or HF readmission in AECHF admits](https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf){:target="_blank"}  
+            - [European Heart Journal](https://academic.oup.com/eurheartj/article/44/31/2947/7175273){:target="_blank"}
+    - Chronic
+        - [2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure](https://pubmed.ncbi.nlm.nih.gov/35379504/){:target="_blank"}
+        - [Diuretic Therapy for HF (JACC State-of-the-Art Review)](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}
+            - [JACC Diuretic Therapy](https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059){:target="_blank"}
+        - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/){:target="_blank"}
+        - [Chronic Stable HF Optimization](https://pubmed.ncbi.nlm.nih.gov/29277252/){:target="_blank"}
+    - GDMT
+        - [ACEI in Asymptomatic LV dysfunction](https://pubmed.ncbi.nlm.nih.gov/1463530/){:target="_blank"}
+        - [REVERT: BBs Reverse LV remodeling in asymptomatic LV systolic dysfunction](https://pubmed.ncbi.nlm.nih.gov/17576868/){:target="_blank"}
+        - [PARADIGM-HF: Entresto reduced CV risk and Hospitalizations vs. ACEI](https://pubmed.ncbi.nlm.nih.gov/25176015/){:target="_blank"}
+        - MRAs
+            - [Eplerenone in patients with HF and mild symptoms](https://pubmed.ncbi.nlm.nih.gov/21073363/){:target="_blank"}
+            - [RALES: Spironolactone reduces morbidity/mortality in severe HFrEF](https://pubmed.ncbi.nlm.nih.gov/10471456/){:target="_blank"}
+        - [SGLT2 better than Sitagliptin (Primary outcome: 13.1% vs. 17.4%)](https://academic.oup.com/eurheartj/article/44/24/2216/7187574){:target="_blank"}
+        - [Persistent Severe HF symptoms on maximal GDMT](https://pubmed.ncbi.nlm.nih.gov/32216916/){:target="_blank"}
+    - Inotropes
+        - [Symptomatic improvement in patients treated with intermittent infusion of inotropes: a double-blind placebo controlled study](https://pubmed.ncbi.nlm.nih.gov/12939113/){:target="_blank"}
+        - [Short-term intravenous milrinone for acute exacerbation of chronic heart failure: a randomized controlled trial](https://pubmed.ncbi.nlm.nih.gov/11911756/){:target="_blank"}
+    - [FAIR-HF: Anemia (ferritin <100, or 100-300 w/Tsat <20%) + HFrEF (EF ≤45%) improved 6m walk, QOL and NYHA functional Class](https://pubmed.ncbi.nlm.nih.gov/19920054/){:target="_blank"}
+    - Exercise training/cardiac rehabilitation 
+        - [Improves functional capacity and overall quality of life](https://pubmed.ncbi.nlm.nih.gov/25605639/){:target="_blank"}
+        - [QOL](https://pubmed.ncbi.nlm.nih.gov/25399909/){:target="_blank"}

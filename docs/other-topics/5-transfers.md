@@ -1,12 +1,6 @@
 ---
 title: Transfers
 author: J. Austin Straley, DO
-layout: post
-header: true
-chapter: '05'
-section: 00
-weight: 50
-lesson: 00
 date: 2022-11-21
 ---
 

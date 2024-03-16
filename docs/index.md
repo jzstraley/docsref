@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: IMTechEd
 social:
   cards_layout_options:
-    title: Documentation that simply works
+    title: Information, quick.
 ---
 
-Welcome to Material for MkDocs.
+Welcome.

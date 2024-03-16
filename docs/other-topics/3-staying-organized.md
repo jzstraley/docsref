@@ -1,10 +1,6 @@
 ---
 title: Staying Organized
 author: J. Austin Straley, DO
-layout: post
-chapter: '03'
-section: 1
-lesson: 3
 date: 2022-11-21
 quote: '“Don’t play mind checkers with me, man, I’m not in the mood”'
 ---

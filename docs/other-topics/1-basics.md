@@ -1,12 +1,6 @@
 ---
 title: The Basics
 author: J. Austin Straley, DO
-layout: post
-header: true
-chapter: '01'
-section: 00
-weight: 10
-lesson: 00
 date: 2022-11-17
 quote: '"That sign can’t stop me because I can’t read"'
 ---

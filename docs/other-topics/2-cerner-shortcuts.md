@@ -1,10 +1,6 @@
 ---
 title: Cerner Shortcuts
 author: J. Austin Straley, DO
-layout: post
-chapter: '02'
-section: 01
-lesson: 02
 date: 2022-11-21
 ---
     
