@@ -19,7 +19,7 @@ theme:
   features:
     - announce.dismiss
     - content.action.edit
-    - content.action.view
+    # - content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
@@ -205,16 +205,16 @@ nav:
       - Renal Physiology: guide/nephrology/renal-physiology.md
       - Electrolytes: 
         - guide/nephrology/electrolytes/index.md
-        - Hypernatremia: guide/nephrology/hypernatremia.md
-        - Hyponatremia: guide/nephrology/hyponatremia.md
-        - Hypomagnesemia: guide/nephrology/hypomagnesemia.md
-        - Hyperkalemia: guide/nephrology/hyperkalemia.md
-        - Hypokalemia: guide/nephrology/hypokalemia.md
-        - Hypercalcemia: guide/nephrology/hypercalcemia.md
-        - Hypocalcemia: guide/nephrology/hypocalcemia.md
-        - Hyperphosphatemia: guide/nephrology/hyperphosphatemia.md
-        - Hypophosphatemia: guide/nephrology/hypophosphatemia.md
-        - Hypermagnesemia: guide/nephrology/hypermagnesemia.md
+        - Hypernatremia: guide/nephrology/electrolytes/hypernatremia.md
+        - Hyponatremia: guide/nephrology/electrolytes/hyponatremia.md
+        - Hypomagnesemia: guide/nephrology/electrolytes/hypomagnesemia.md
+        - Hyperkalemia: guide/nephrology/electrolytes/hyperkalemia.md
+        - Hypokalemia: guide/nephrology/electrolytes/hypokalemia.md
+        - Hypercalcemia: guide/nephrology/electrolytes/hypercalcemia.md
+        - Hypocalcemia: guide/nephrology/electrolytes/hypocalcemia.md
+        - Hyperphosphatemia: guide/nephrology/electrolytes/hyperphosphatemia.md
+        - Hypophosphatemia: guide/nephrology/electrolytes/hypophosphatemia.md
+        - Hypermagnesemia: guide/nephrology/electrolytes/hypermagnesemia.md
       - AKI: guide/nephrology/aki.md
       - CKD: guide/nephrology/ckd.md
     - Pharmacology: 
@@ -303,6 +303,7 @@ nav:
     - Important Websites: resources/important-websites.md
     - About: resources/about.md
     - Changelog: resources/changelog.md
+  - Tags: tags.md
   - Blog:
     - blog/index.md
   - License: license.md

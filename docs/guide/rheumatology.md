@@ -1,5 +1,6 @@
 ---
 title: Rheumatology
+icon: material/bone
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /rheum

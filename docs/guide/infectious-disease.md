@@ -1,5 +1,6 @@
 ---
 title: Infectious Disease
+icon: material/biohazard
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /id

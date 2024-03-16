@@ -9,7 +9,7 @@
   ],
   "homepage": "https://imteched.com",
   "bugs": {
-    "url": "https://imteched.com/404",
+    "url": "https://github.com/jzstraley/jzstraley.github.io/issues",
     "email": "imteched@gmail.com"
   },
   "license": "MIT",
@@ -21,7 +21,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jzstraley"
+    "url": "git+https://github.com/jzstraley/jzstraley.github.io.git"
   },
   "scripts": {
     "build": "rimraf material && ts-node -T tools/build --optimize",

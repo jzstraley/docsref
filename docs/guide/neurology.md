@@ -1,5 +1,6 @@
 ---
 title: Neurology
+icon: fontawesome/solid/brain
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /neuro
