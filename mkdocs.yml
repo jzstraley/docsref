@@ -67,8 +67,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.ico
-  icon:
-    logo: logo
+  logo: assets/logo3-copy.png
 
 # Plugins
 plugins:
@@ -106,6 +105,10 @@ extra:
       link: https://www.linkedin.com/in/jamesstraley
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/Straley/
+
+# Extra CSS
+extra_css:
+  - assets/stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
