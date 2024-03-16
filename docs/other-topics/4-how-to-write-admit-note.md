@@ -50,7 +50,7 @@ quote: '“Like that flag is red, but not like red red”'
 6. Assessment/Plan
 	1. Problems from your problem list auto-populate into your contextual view
         - See the examples linked below of how to generate your assessments/plans
-            - [PAST/PRESENT/FUTURE GAME][1]
+            - PAST/PRESENT/FUTURE GAME
     - Preventive Measure
         - Code Status: DNR/DNI, Full Code, DNR/Ok to intubate, DNI/CPR ok
         - Lines:
@@ -59,5 +59,3 @@ quote: '“Like that flag is red, but not like red red”'
         - Disposition:
 7. Signature
 8. Sign Note to Attending
-
-[1]: /internguidepages/1.3.1-how-to-progress-note/
