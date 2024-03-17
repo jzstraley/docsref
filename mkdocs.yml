@@ -319,3 +319,6 @@ validation:
 
 watch:
   - material
+
+exclude_docs:
+  draft/
