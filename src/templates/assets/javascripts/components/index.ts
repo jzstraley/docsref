@@ -21,6 +21,7 @@
  */
 
 export * from "./_"
+export * from "./announce"
 export * from "./consent"
 export * from "./content"
 export * from "./dialog"
@@ -30,6 +31,7 @@ export * from "./palette"
 export * from "./progress"
 export * from "./search"
 export * from "./sidebar"
+export * from "./source"
 export * from "./tabs"
 export * from "./toc"
 export * from "./tooltip"

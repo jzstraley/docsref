@@ -30,6 +30,7 @@ import { getElement, getElements } from "~/browser"
  * Component type
  */
 export type ComponentType =
+  | "announce"                         /* Announcement bar */
   | "container"                        /* Container */
   | "consent"                          /* Consent */
   | "content"                          /* Content */
@@ -48,6 +49,7 @@ export type ComponentType =
   | "search-suggest"                   /* Search suggestions */
   | "sidebar"                          /* Sidebar */
   | "skip"                             /* Skip link */
+  | "source"                           /* Repository information */
   | "tabs"                             /* Navigation tabs */
   | "toc"                              /* Table of contents */
   | "top"                              /* Back-to-top button */
@@ -74,6 +76,7 @@ export type Component<
  * Component type map
  */
 interface ComponentTypeMap {
+  "announce": HTMLElement              /* Announcement bar */
   "container": HTMLElement             /* Container */
   "consent": HTMLElement               /* Consent */
   "content": HTMLElement               /* Content */
@@ -92,6 +95,7 @@ interface ComponentTypeMap {
   "search-suggest": HTMLElement        /* Search suggestions */
   "sidebar": HTMLElement               /* Sidebar */
   "skip": HTMLAnchorElement            /* Skip link */
+  "source": HTMLAnchorElement          /* Repository information */
   "tabs": HTMLElement                  /* Navigation tabs */
   "toc": HTMLElement                   /* Table of contents */
   "top": HTMLAnchorElement             /* Back-to-top button */
