@@ -46,3 +46,9 @@ tmp
 # IDEs & Editors
 .idea
 *~
+.pyre/
+
+# IDE
+.idea/
+.vs/
+.vscode/

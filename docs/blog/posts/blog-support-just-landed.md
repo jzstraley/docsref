@@ -6,9 +6,6 @@ description: >
   a blog alongside your documentation or standalone
 categories:
   - Blog
-links:
-  - setup/setting-up-a-blog.md
-  - plugins/blog.md
 ---
 
 # Blog support just landed
@@ -21,7 +18,7 @@ Proper support for blogging, as requested by many users over the past few years,
 was something that was desperately missing from Material for MkDocs' feature set.
 While everybody agreed that blogging support was a blind spot, it was not
 obvious whether MkDocs could be extended in a way to allow for blogging as we
-know it from [Jekyll] and friends. The [built-in blog plugin] proves that it is,
+know it frods. The [built-in blog plugin] proves that it is,
 after all, possible to build a blogging engine on top of MkDocs, in order to
 create a technical blog alongside your documentation, or as the main thing.
 
@@ -29,10 +26,6 @@ create a technical blog alongside your documentation, or as the main thing.
 
 _This article explains how to build a standalone blog with Material for MkDocs.
 If you want to build a blog alongside your documentation, please refer to
-[the plugin's documentation][built-in blog plugin]._
-
-  [built-in blog plugin]: ../../plugins/blog.md
-  [Jekyll]: https://jekyllrb.com/
 
 ## Quick start
 
@@ -76,9 +69,8 @@ nav:
 
 1.  This is the important part – we're hosting the blog at the root of the
     project, and not in a subdirectory. For more information, see the
-    [`blog_dir`][blog_dir] configuration option.
+     configuration option.
 
-  [blog_dir]: ../../setup/setting-up-a-blog.md#+blog.blog_dir
 
 #### Blog setup
 
@@ -109,7 +101,7 @@ with a file called `hello-world.md`:
 ```
 
 1.  If you'd like to arrange posts differently, you're free to do so. The URLs
-    are built from the format specified in [`post_url_format`][post slugs] and
+    are built from the format specified in  and
     the titles and dates of posts, no matter how they are organized
     inside the `posts` directory.
 
@@ -149,16 +141,16 @@ In velit purus, dictum quis neque nec, molestie viverra risus. Nam pellentesque
 tellus id elit ultricies, vel finibus erat cursus.
 ```
 
-1.  If you mark a post as a [draft], a red marker appears next to the post date
+1.  If you mark a post as red marker appears next to the post date
     on index pages. When the site is built, drafts are not included in the
     output. [This behavior can be changed], e.g. for rendering drafts when
     building deploy previews.
 
 When you spin up the [live preview server], you should be greeted by your first
-post! You'll also realize, that [archive] and [category] indexes have been
+post! You'll also realizeindexes have been
 automatically generated for you:
 
-  ![Blog]
+
 
 However, this is just the start. The [built-in blog plugin] packs a lot of
 functionality needed in day-to-day blogging. Visit the documentation of the
@@ -177,29 +169,6 @@ plugin to learn about the following topics:
 
 </div>
 
-Additionally, the [built-in blog plugin] has dozens of [configuration options]
-which allow for fine-tuning the output. You can configure post slugs, general
-behavior and much more.
-
-  [exact same Markdown flavor]: ../../reference/index.md
-  [post slugs]: ../../setup/setting-up-a-blog.md#+blog.post_url_format
-  [draft]: ../../setup/setting-up-a-blog.md#drafts
-  [This behavior can be changed]: ../../setup/setting-up-a-blog.md#+blog.draft
-  [live preview server]: ../../creating-your-site.md#previewing-as-you-write
-  [archive]: ../../setup/setting-up-a-blog.md#archive
-  [category]: ../../setup/setting-up-a-blog.md#categories
-  [Blog]: blog-support-just-landed/blog.png
-  [Blog post]: blog-support-just-landed/blog-post.png
-  [Adding an excerpt]: ../../setup/setting-up-a-blog.md#adding-an-excerpt
-  [Adding authors]: ../../setup/setting-up-a-blog.md#adding-authors
-  [Adding categories]: ../../setup/setting-up-a-blog.md#adding-categories
-  [Adding tags]: ../../setup/setting-up-a-blog.md#adding-tags
-  [Adding related links]: ../../setup/setting-up-a-blog.md#adding-related-links
-  [Linking from and to posts]: ../../setup/setting-up-a-blog.md#linking-from-and-to-posts
-  [Setting the reading time]: ../../setup/setting-up-a-blog.md#setting-the-reading-time
-  [Setting defaults]: ../../setup/setting-up-a-blog.md#setting-defaults
-  [configuration options]: ../../setup/setting-up-a-blog.md#configuration
-
 ## What's next?
 
 Getting basic blogging support out the door was quite a challenge – the
@@ -214,7 +183,7 @@ Some ideas already proposed by users:
   part of a series, a list with links to all other posts should be included in
   the post's content.
 
-- __Author indexes__: Besides [archive] and [category] indexes, authors should
+- __Author indexes__: Bexes, authors should
   be able to create per-author indexes, which list all posts linked to an
   author. Additionally, a profile should be created for each author and linked
   from posts.
