@@ -316,3 +316,6 @@ nav:
 validation:
   links:
     absolute_links: ignore
+
+watch:
+  - material
