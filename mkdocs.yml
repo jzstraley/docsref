@@ -51,15 +51,15 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
-      accent: black
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: indigo
+      accent: blue
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -107,7 +107,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: !ENV G-DRP25XGTN2
+    property: G-DRP25XGTN2
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jzstraley
