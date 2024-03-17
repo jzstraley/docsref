@@ -47,6 +47,3 @@ Huge time saver if you know how to structure them<br>
 ## Signing Documents/Attending Names
 - If you can't find your physician's name (like how there are 2 David Adkins), you can select the "Recent" tab as shown below and their name should be there (See the blue check?). 
 <br>
-
-![Shortcut 1.7](../assets/images/internguidepages/1.2/cerner_shortcuts_7.png)
-        <br><br>

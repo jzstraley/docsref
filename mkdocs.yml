@@ -71,7 +71,8 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  - blog:
+      blog_dir: .
   - tags:
       tags_file: tags.md
   - minify:
@@ -311,3 +312,7 @@ nav:
     - blog/index.md
   - License: license.md
   - Disclaimer: disclaimer.md
+
+validation:
+  links:
+    absolute_links: ignore
