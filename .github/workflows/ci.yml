@@ -2,7 +2,7 @@ name: docsref
 on:
   push:
     branches:
-      - master 
+      - main 
 permissions:
   contents: write
 jobs:
