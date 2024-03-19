@@ -12,3 +12,6 @@ colorama~=0.4
 paginate~=0.5
 regex>=2022.4
 requests~=2.26
+htmlmin2>=0.1.13
+jsmin>=3.0.1
+csscompressor>=0.9.5
