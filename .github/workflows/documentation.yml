@@ -54,9 +54,6 @@ jobs:
           pip install .[recommended,git,imaging]
 
       - name: Build documentation
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
           mkdocs build --clean
           mkdocs --version
