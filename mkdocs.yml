@@ -14,7 +14,7 @@ copyright: Copyright &copy; 2022 - 2024 Austin
 
 # Configuration
 theme:
-  name: 'material'
+  name: material
   custom_dir: material/overrides
   features:
     - announce.dismiss
@@ -172,7 +172,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: 'index.md'
   - Guide:
     - guide/index.md
     - Student/Intern Readings: guide/student-intern-readings.md
