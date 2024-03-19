@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: IMTechEd
+title: DocsRef
 social:
   cards_layout_options:
     title: Information, quick.

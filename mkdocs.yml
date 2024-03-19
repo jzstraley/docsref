@@ -1,6 +1,6 @@
 # Project information
-site_name: IMTechEd
-site_url: https://www.imteched.com/
+site_name: Docsref
+site_url: https://www.docsref.com/
 site_author: Austin
 site_description: >-
   Information, fast
@@ -321,8 +321,9 @@ nav:
   - Tags: tags.md
   - Blog:
     - blog/index.md
-  - License: license.md
-  - Disclaimer: disclaimer.md
+  - Disclaimer: 
+    - disclaimer/index.md
+    - License: disclaimer/license.md
 
 validation:
   links:
