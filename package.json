@@ -7,13 +7,13 @@
     "documentation",
     "theme"
   ],
-  "homepage": "https://imteched.com",
+  "homepage": "https://docsref.com",
   "bugs": {
-    "url": "https://github.com/jzstraley/jzstraley.github.io/issues",
+    "url": "https://github.com/jzstraley/docsref/issues",
     "email": "imteched@gmail.com"
   },
   "license": "MIT",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Austin",
     "email": "imteched@gmail.com"
@@ -21,7 +21,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jzstraley/jzstraley.github.io.git"
+    "url": "git+https://github.com/jzstraley/docsref/"
   },
   "scripts": {
     "build": "rimraf material && ts-node -T tools/build --optimize",
