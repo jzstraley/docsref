@@ -6,7 +6,7 @@ permalink: /derm
 categories:
     - Dermatology
 ---
-- Actinic Keratosis
+- Actinic Keratosise
     - Mc benign lesion with malignant potential
         - Caused by chronic sun exposure
             - [Review of actinic keratosis. Part I: etiology, epidemiology and clinical presentation](https://pubmed.ncbi.nlm.nih.gov/20865846/){:target="_blank"}
