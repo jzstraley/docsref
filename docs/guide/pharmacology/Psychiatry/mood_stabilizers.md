@@ -1,0 +1,105 @@
+---
+title: Mood Stabilizers
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 32
+date: 2023-03-30
+---
+
+- Lithium
+  - Reduces suicide risk, takes 2-3 weeks to work
+    - Spas have a high content of lithium
+    - Works better in Euphoric Bipolar Disorder
+    - 9x higher risk for suicide when coming off of
+  - CI: CKD, HD, Hyponatremia, diuretics
+  - Baseline: BUN, Cr, Calcium, Urinalysis, TSH, EKG if coronary risk
+  - Therapeutic level: Lithium (0.6-1.2)
+  - SE:
+    - Hypothyroidism (add levothyroxine rather than stopping)
+    - Benign Leukocytosis
+    - Acute (GI)
+      - Tremor, ataxia, weakness, polyuria, vomiting, diarrhea
+      - AMS, Seizures, fasciculations, tremor
+    - Chronic (Neuro)
+      - Nephrogenic DI (MCC of), CKD, Thyroid dysfunction, Hyperparathyroidism: Polyuria in 50-70%
+      - Hypercalcemia (QT shortening)
+      - Treat with hemodialysis
+  - Lithium Toxicity
+    - ≥1.5 mEq/L: coarse tremor, tremulousness, confusion, arrhythmia, ataxia, nausea, diarrhea, nystagmus, hyperreflexia, dysarthria, dystonia
+      - Fine Tremor – treat with propranolol
+      - Hypothyroid – treat with levothyroxine
+      - Nephrogenic Diabetes Insipidus (hypernatremia)
+        - Amiloride \< stopping
+    - ≥2.5 mEq/L: Seizures, coma
+      - With signs of toxicity
+        - Direct nephrotoxicity – renal tubular acidosis
+      - Treat with hemodialysis
+    - ≥3 mEq/L: Death
+    - ≥4 and creatinine ≥2: AMS, Life-threatening
+      - Dialysis regardless
+  - Overdose
+    - Decreased renal perfusion with concurrent use of Thiazides, NSAIDS, ACEI, dehydration, tetracyclines, metronidazole
+    - Volume depletion (renal failure)
+- Valproic Acid (VPA)
+  - Dose:
+    - Valproic Acid (Depakene): Tablet, liquid (TID/BID)
+      - Trough after 3 days
+      - Therapeutic level: Valproate (50-200 for seizures, ≥100 = SE)
+    - Divalproex Sodium (Depakote): Tablet, sprinkle, ER, IV
+      - = 2 VPA + Na+
+
+  - MOA: increases sodium channel inactivation, increases GABA concentration by inhibiting GABA transaminase
+
+    - Adding w/alcohol, antipsychotics increase sedation
+    - Increases aspirin, carbamazepine, diazepam, amitriptyline, and phenobarbital
+      - Increases lamotrigine by double and increases SJS risk
+    - Decreases phenytoin and desipramine
+    - May augment anticoagulants
+    - Fluoxetine may increase VPA
+    - 10–16-hour half life
+  - Use: Acute mania, TBI, migraines, epilepsy
+    - Worse than lithium at depression/SI
+    - Better in bipolar symptoms from cognitive disorders and migraine prophylaxis
+    - Better in substance abuse, rapid cycling
+  - SE: GI distress and liver problems, alopecia, neural tube defects
+    - Liver Dysfunction (monitor LFTs and platelets)
+      - Elevated LFTs/Hepatic failure MC during 1st 6 months
+    - Sedation, teratogenesis, weight gain, hair loss, PCOS
+  - CI: Pregnancy
+  - Valproic Acid Toxicity
+    - Somnolence, hepatotoxicity, weight and appetite changes, alopecia, insomnia, thrombocytopenia, lethargy, comatose, hypotension, tremor
+- Carbamazepine (Tegretol)
+  - Dose: 200mg BID to target of 1200mg total per day
+  - Therapeutic level: Carbamazepine/CBZ (60-120)
+  - MOA: voltage gated sodium channel blocker
+    - Reduces antipsychotics, TCAs, benzos, seizure meds/mood stabilizers, warfarin, Tylenol, methadone, doxycycline, oral contraceptives
+      - Reduces lamotrigine
+    - Increased by fluoxetine, cimetidine, CCBs, gemfibrozil, grapefruit
+    - Decreased by ETOH and phenytoin
+    - Increased toxicity by VPA
+  - Use: Bipolar disorder, Anticonvulsant, anticholinergic, antineuralgic, antidiuretic
+    - Antiseizure, trigeminal neuralgia, bipolar
+    - 2nd line mood stabilizer
+      - Good for rapid cycling bipolar disorder (≥4 mood episodes/year)
+  - SE: Risk of aplastic anemia and agranulocytosis, SJS, neural tube, hyponatremia, cytochrome P450 induction, diplopia, vertigo, hepatotoxic
+    - Decreases T3/T4 (increased deiodination mainly), Decreases OCP efficacy, ataxia, blood dyscrasias
+    - CMP and B-HCG required
+    - 15% benign maculopapular rash within 3 weeks, may stop and retry
+    - Neutropenia often caused by drug-induced agranulocytosis, aplastic anemia (2%)
+    - CBCs monthly for 3-6m then at that interval
+      - If ANC \<2000, monitor with more frequent FBCs
+      - If ANC \<100, discontinue
+  - Overdose: hepatotoxicity and sedation
+    - 2-6 weeks after starting causative drug
+      - Phenytoin or carbamazepine
+    - SIADH (hyponatremia), cytochrome p450 induction
+    - Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)
+    - Rash, facial edema, lymphadenopathy, and fever
+- Oxcarbazepine (Trileptal)
+- Lamotrigine (Lamictal)
+- Levetiracetam (Keppra)
+- Topiramate (Topamax)
+- Lacosamide (Vimpat)
+- Gabapentin (Neurontin)

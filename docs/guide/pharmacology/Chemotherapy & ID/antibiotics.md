@@ -1,0 +1,97 @@
+---
+title: Antibiotics
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 6
+date: 2023-03-30
+---
+
+- General
+  - Above the diaphragm (Aspiration pneumonia, lung abscesses, oral infections)
+    - 1) Clindamycin
+  - Below the Diaphragm (Intra-abdominal anaerobic infections)
+    - 1) Metronidazole
+- Monitoring
+  - Aminoglycosides/Vancomycin
+    - If IV ≥3 days or ≥2 days in a renal patient
+  - Penicillin causing rash
+    - Not a contraindication for cephalosporins
+      - Breathing issues, edema are CIs
+- Amoxicillin/Clavulanic Acid (Augmentin)
+- Ampicillin/Sulbactam (Unasyn)
+- Ceftriaxone
+  - SE: Cholestasis
+- Cefazolin
+  - Prophylaxis for skin flora
+- Cefepime
+  - Coverage
+    - Pseudomonas, MSSA, Strep Pneumo, H. Influenzae
+  - Misses
+    - Enterococcus
+  - SE: Neutropenia, thrombocytopenia, Seizure, Delirium, C. Difficile, Transaminitis, Hemolytic anemia, interstitial nephritis
+- Ceftaroline
+  - 5th gen cephalosporin, only one that covers MRSA
+- Clindamycin
+  - MOA: Inhibits protein synthesis
+  - Effective against Bacteroides and c. perfringens
+- Chloramphenicol
+  - 50S static
+  - Associated w/ blood dyscrasias
+- Daptomycin (Cubicin)
+  - Can be considered for MRSA infections when the isolate's vancomycin MIC is ≥2 nanograms/mL or when the vancomycin MIC is close to 2 nanograms/mL and the clinical response is poor
+    - Test susceptibility first
+  - Coverage
+    - MRSA, VRE
+  - SE: LFT elevations, Acute eosinophilic pneumonia, peripheral neuropathy, Falsely elevated INR, Rhabdomyolysis (CK (DC if ≥2000 or ≥1000 w/myopathy), stop statins)
+- Meropenem (Merrem)
+  - Coverage
+    - Pseudomonas
+- Metronidazole
+  - MOA: Contains a nitro group that acts as an electron sink, capturing electrons and creating free radicals which disrupts DNA synthesis via a cytotoxic intermediate (Bactericidal)
+  - Effective against Bacteroides, prevotella, fusobacterium, clostridium
+  - SE:
+    - Disulfiram-like reaction (severe flushing, tachycardia, palpitations, nausea, vomiting, hypotension) with alcohol
+    - Metallic taste
+    - Headache
+- Piperacillin-Tazobactam (Zosyn)
+  - Coverage
+    - Pseudomonas, Proteus
+  - Misses
+    - C. Difficile
+  - SE: Rash, Drug fever, Prolonged PT, Leukopenia, Thrombocytopenia
+- Telavancin
+  - Lipoglycopeptide derivative of vancomycin and can be given once daily
+  - More side effects than Vancomycin, worse kidney injury
+- Tuberculosis Medications
+  - Rifampin
+    - Benign, red color to body secretions
+  - Isoniazid
+    - Peripheral Neuropathy
+    - Use pyridoxine to prevent
+  - Pyrazinamide
+    - Benign, Hyperuricemia (Gout)
+  - Ethambutol
+    - Optic neuritis/color vision changes
+    - Decrease dose in renal failure
+- TMP/SMX
+  - CI: Warfarin/Methotrexate use, allergy, elderly with renal insufficiency
+- Vancomycin
+  - Red Man Syndrome
+    - MC adverse event, hypersensitivity not reaction
+    - Usually 5-10 minutes after starting infusion
+    - Diffuse erythema, pruritus, and tenderness over the skin above the waist
+    - +/- hypotension, dyspnea if severe
+    - Treatment
+      - Stop infusion, give antihistamines, restart infusion at slower rate
+  - Dosing Guidelines
+
+      - Area under the curve, Mean inhibitory concentration
+      - Goal for AUC/MIC to be achieved in 24-48 hours
+    - Empiric Therapy
+      - AUC/MIC calculation for empiric therapy assumes MIC to be 1 nanogram/ml or less
+    - MRSA Native Tricuspid Valve Endocarditis
+      - AUC/MIC target of 400-600 mg\*hour/L of Vancomycin to maximize efficacy and minimize nephrotoxicity
+    - MRSA Prosthetic Valve Endocarditis
+      - Vancomycin, Gentamicin, and Rifampin

@@ -1,0 +1,67 @@
+---
+title: Hyperphosphatemia
+author: J. Austin Straley, DO
+date: 2022-11-26
+categories: 
+    - Nephrology
+---
+-	Definition: Phosphate >4.5mg/dL (1.45 mmol/L)
+-	Causes
+    -	Decreased Renal Excretion (MC)
+        -	Acute < Chronic Kidney Disease
+        -	Hypoparathyroidism
+    -	Transcellular Shift from ICF to ECF
+        -	Rhabdomyolysis
+        -	Tumor Lysis Syndrome
+        -	Massive Hemolysis
+        -	Metabolic Acidosis
+        -	Insulin Deficiency (DKA) > Lactic Acidosis
+        -	Fulminant Hepatitis
+        -	Severe Hyperthermia
+    -	Increased Intake
+        -	Vitamin D analog use
+        -	Bisphosphonates
+        -	Fosphenytoin
+        -	Phospho-soda Enemas (Fleet)
+    -	Pseudo
+        -	Hyperbilirubinemia
+        -	Hyperlipidemia
+        -	Hemodialysis
+        -	Hemolyzed sample
+        -	Liposomal Amphotericin B
+        -	Paraproteinemia (multiple myeloma)
+    -	Increased Reabsorption
+        -	Tumoral Calcinosis (FGF23 defect)
+-	Symptoms
+    -	Asymptomatic
+        -	Related to hypocalcemia
+        -	Binds calcium and precipitates it in the tissue
+    -	Metastatic calcifications may occur
+        -	Painful nodules, calcification of soft tissues, pruritis
+    -	Calciphylaxis
+-	Complications
+    -	Renal Osteodystrophy
+    -	Phosphate nephropathy
+-	W/U: Calcium-Phosphate Product
+    -	Predicts risk of calciphylaxis (>70 causes a risk of calciphylaxis)
+-	Treatment
+    -	Should correct within 12-24hr if normal kidney function
+    -	Acute
+        -	Phosphate restricted diet
+        -	Stop VitD
+        -	Increase Renal Excretion
+        -	Normal Saline (IVF) and Acetazolamide +/- Lasix
+        -	Hemodialysis
+            -	Increase frequency or duration
+    -	Renal Failure
+        -	Phosphate restricted diet + oral phosphate binders
+        -	Sevelamer (Renagel)
+            -	800mg TID w/meals, double dose PRN
+            -	Check med interactions (may absorb some drugs)
+            -	Preferable in dialysis, avoids mg/ca problems
+        -	Calcium acetate (PhosLo)
+            -	667mg (two tablets TID w/meals)
+            -	Pts with significant hypocalcemia and Ca-phos product <70
+            -	Avoid in hypercalcemia, product >66, vitD intoxication
+        -	Lanthanum
+        -	Calcium carbonate

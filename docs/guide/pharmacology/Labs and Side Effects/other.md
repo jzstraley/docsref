@@ -1,0 +1,100 @@
+---
+title: Other
+author: J. Austin Straley, DO
+layout: post
+chapter: 9
+section: 01
+lesson: 33
+date: 2023-03-30
+---
+
+- Erythropoietin (EPO)
+  - Worsening Hypertension (30%), less common in Subcutaneous route
+    - Prevention: Slow Hematocrit rise (goal 30-35%)
+    - Hypertensive encephalopathy
+    - Treatment
+      - Dialysis
+  - Headaches (15%), Flu-like symptoms (5%)
+  - Red Cell Aplasia
+- PDE-5 Inhibitors
+  - Sildenafil, Vardenafil, Tadalafil
+    - All used for ED and pulmonary hypertension
+    - Tadalafil can also be used for BPH
+  - SE: Cyanopsia (hypotension worse w/nitrates, alpha blockers), Blue color vision, non-arteritic anterior ischemic optic neuropathy, priapism, flushing, headache, heading loss
+    - Contraindicated in patients taking alpha blockers, nitrates due to hypotension
+- Cholinergic Receptors
+  - Found on the dome of the bladder, contraction of which facilities voiding
+- Phenazopyridine
+  - Analgesic for urinary tract mucosa frequently used to treat the dysuria of cystitis (after infection or instrumentation)
+  - May worsen stone formation
+- L-Methylfolate (Deplin)
+  - Stimulates WBC and platelet production in Folate Deficiency Anemia
+  - Improves antidepressants effect in people with BMI ≥35
+- Ofatumumab (Kesimpta)
+- Dimethyl Fumarate (Tecfidera)
+  - SE: Nausea, vomiting, upper abdominal pain, elevated LFTs
+- Other
+  - Permethrin
+    - Inhibits Na+ Channel Deactivation
+    - Causing membrane depolarization
+  - Malathion
+    - Acetylcholinesterase inhibitor
+    - Neurotoxicity
+  - Lindane
+    - Blocks GABA channels
+    - Neurotoxicity
+- BPH Meds
+  - Alpha 1 Adrenergic Antagonists
+    - First Line Therapy
+    - Tamsulosin, doxazosin, terazosin, alfuzosin, and prazosin
+      - Decrease systemic vascular resistance and resistance to urinary flow by relaxing the smooth muscle of the bladder neck and prostate gland, prostate capsule and urethra, reduce outlet obstruction
+    - SE: Orthostatic hypotension, dizziness, night sweats
+  - 5-alpha-reductase inhibitors
+    - Finasteride, dutasteride
+    - Use with Severe symptoms, ≥40g prostates, alpha-1s not working, hypotensive patient, taking sildenafil
+    - Inhibit conversion of testosterone to dihydrotestosterone
+      - Reduce prostate gland size, takes 6-12months
+    - SE: Decreased libido, erectile dysfunction
+  - Antimuscarinics
+    - Tolterodine
+    - Used to treat overactive bladder (urinary frequency, urgency and incontinence
+    - SE: Urine retention, dry mouth
+- Memantine
+  - NMDA receptor (glutaminergic) antagonist
+  - Useful if pt with dementia cannot tolerate other drugs 2/2 nausea or vomiting
+  - SE: hallucinations
+- Testosterone
+  - Topical (Fortesta, Vogelxo, Androgel, Testim)
+  - Subq (Androderm, Xyosted)
+  - Oral (Jantenzo)
+  - IM (Aveed)
+- Alcohol Cessation
+  - Combo of naltrexone and acamprosate preferred
+  - Naltrexone
+    - Mu-opioid receptor antagonist
+    - Can't be used on patients on opioids, liver disease (check lfts)
+    - Reduces 30-day readmission and ED visits when given
+    - SE: Nausea 10%, headache 7%, dizziness 4%, anxiety 2%
+  - Acamprosate
+    - NMDA/glutamate modulation
+    - Contraindicated in severe renal disease
+    - Usually used after withdrawal phase
+  - Discourage alcohol relapse
+    - Disulfiram (2nd line)
+      - Inhibits acetaldehyde dehydrogenase
+      - Monitor liver function (check flts)
+      - Can only be given to abstinent and highly motivated patients
+      - CI in severe cardiac disease, pregnancy, psychosis
+  - Topiramate
+- Smoking Cessation
+  - 1) Varenicline with nicotine replacement therapy
+    - Varenicline (Chantix)
+      - Alpha 4 beta 2 acetylcholine receptor partial agonist, diminish cravings
+      - Mood changes, suicidality, CV risk
+        - Not any more
+    - Nicotine Replacement Treatment
+  - Bupropion
+  - Topiramate (Topamax)
+- Nicotine Withdrawal
+  - Nicotinic acetylcholine receptors
+  - Irritability, fatigue, difficulty concentrating, headaches, constipation
