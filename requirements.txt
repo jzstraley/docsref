@@ -12,3 +12,9 @@ colorama~=0.4
 paginate~=0.5
 regex>=2022.4
 requests~=2.26
+
+mkdocs
+mkdocs-git-revision-date-localized-plugin
+mkdocs-material
+mkdocs-minify-plugin
+pymdown-extensions
