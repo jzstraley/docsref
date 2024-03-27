@@ -169,9 +169,9 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - IM Guide:
-    - Student/Intern Readings: guide/student-intern-readings.md
+    - Student/Intern Readings: im-guide/student-intern-readings.md
     - Cardiology:
-      - guide/cardiology/index.md
+      - im-guide/cardiology/index.md
       - ACS: guide/cardiology/acs.md
       - Cardiac Critical Care: guide/cardiology/cardiac-critical-care.md
       - Congenital Heart Disease: guide/cardiology/congenital-heart-disease.md
