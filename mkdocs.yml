@@ -172,143 +172,143 @@ nav:
     - Student/Intern Readings: im-guide/student-intern-readings.md
     - Cardiology:
       - im-guide/cardiology/index.md
-      - ACS: guide/cardiology/acs.md
-      - Cardiac Critical Care: guide/cardiology/cardiac-critical-care.md
-      - Congenital Heart Disease: guide/cardiology/congenital-heart-disease.md
-      - Consults: guide/cardiology/consults.md
+      - ACS: im-guide/cardiology/acs.md
+      - Cardiac Critical Care: im-guide/cardiology/cardiac-critical-care.md
+      - Congenital Heart Disease: im-guide/cardiology/congenital-heart-disease.md
+      - Consults: im-guide/cardiology/consults.md
       - Echo: 
-        - guide/cardiology/index.md
-      - EKG: guide/cardiology/ekg.md
+        - im-guide/cardiology/index.md
+      - EKG: im-guide/cardiology/ekg.md
       - Electrophysiology: 
-        - guide/cardiology/electrophysiology/index.md
-        - Atrial Fibrillation: guide/cardiology/electrophysiology/atrial-fibrillation.md
+        - im-guide/cardiology/electrophysiology/index.md
+        - Atrial Fibrillation: im-guide/cardiology/electrophysiology/atrial-fibrillation.md
       - Heart Failure: 
-        - guide/cardiology/index.md
-        - RV Failure: guide/cardiology/heart-failure/rvfailure.md
-      - Imaging: guide/cardiology/imaging.md
-      - Invasive Cardiology: guide/cardiology/invasive-cardiology.md
-      - Nuclear Cardiology: guide/cardiology/nuclear-cardiology.md
+        - im-guide/cardiology/index.md
+        - RV Failure: im-guide/cardiology/heart-failure/rvfailure.md
+      - Imaging: im-guide/cardiology/imaging.md
+      - Invasive Cardiology: im-guide/cardiology/invasive-cardiology.md
+      - Nuclear Cardiology: im-guide/cardiology/nuclear-cardiology.md
       - Other Topics: 
-        - guide/cardiology/other-topics/index.md
-        - Syncope: guide/cardiology/other-topics/syncope.md
-      - Pericardial Disease: guide/cardiology/pericardial-disease.md
-      - Pharmacology: guide/cardiology/pharmacology-cardiology.md
+        - im-guide/cardiology/other-topics/index.md
+        - Syncope: im-guide/cardiology/other-topics/syncope.md
+      - Pericardial Disease: im-guide/cardiology/pericardial-disease.md
+      - Pharmacology: im-guide/cardiology/pharmacology-cardiology.md
       - Prevention: 
-        - guide/cardiology/prevention/index.md
-        - Lipids: guide/cardiology/prevention/lipids.md
-      - Reasarch: guide/cardiology/research.md
-      - Stable Ischemic Disease: guide/cardiology/stable-ischemic-disease.md
+        - im-guide/cardiology/prevention/index.md
+        - Lipids: im-guide/cardiology/prevention/lipids.md
+      - Reasarch: im-guide/cardiology/research.md
+      - Stable Ischemic Disease: im-guide/cardiology/stable-ischemic-disease.md
       - Vascular Disease: 
-        - guide/cardiology/vascular-disease/index.md
-        - Hypertension: guide/cardiology/vascular-disease/hypertension.md
+        - im-guide/cardiology/vascular-disease/index.md
+        - Hypertension: im-guide/cardiology/vascular-disease/hypertension.md
       - Valvular Heart Disease: 
-        - guide/cardiology/valvular-heart-disease/index.md
-    - Dermatology: guide/dermatology.md
-    - Endocrinology: guide/endocrinology.md
-    - Gastroenterology: guide/gastroenterology.md
-    - General: guide/general.md
-    - Geriatrics: guide/geriatrics.md
-    - Hematology/Oncology: guide/hematology-oncology.md
-    - Infectious Disease: guide/infectious-disease.md
-    - Neurology: guide/neurology.md
+        - im-guide/cardiology/valvular-heart-disease/index.md
+    - Dermatology: im-guide/dermatology.md
+    - Endocrinology: im-guide/endocrinology.md
+    - Gastroenterology: im-guide/gastroenterology.md
+    - General: im-guide/general.md
+    - Geriatrics: im-guide/geriatrics.md
+    - Hematology/Oncology: im-guide/hematology-oncology.md
+    - Infectious Disease: im-guide/infectious-disease.md
+    - Neurology: im-guide/neurology.md
     - Nephrology: 
-      - guide/nephrology/index.md
-      - Renal Anatomy: guide/nephrology/renal-anatomy.md
-      - Renal Physiology: guide/nephrology/renal-physiology.md
+      - im-guide/nephrology/index.md
+      - Renal Anatomy: im-guide/nephrology/renal-anatomy.md
+      - Renal Physiology: im-guide/nephrology/renal-physiology.md
       - Electrolytes: 
-        - guide/nephrology/electrolytes/index.md
-        - Hypernatremia: guide/nephrology/electrolytes/hypernatremia.md
-        - Hyponatremia: guide/nephrology/electrolytes/hyponatremia.md
-        - Hypomagnesemia: guide/nephrology/electrolytes/hypomagnesemia.md
-        - Hyperkalemia: guide/nephrology/electrolytes/hyperkalemia.md
-        - Hypokalemia: guide/nephrology/electrolytes/hypokalemia.md
-        - Hypercalcemia: guide/nephrology/electrolytes/hypercalcemia.md
-        - Hypocalcemia: guide/nephrology/electrolytes/hypocalcemia.md
-        - Hyperphosphatemia: guide/nephrology/electrolytes/hyperphosphatemia.md
-        - Hypophosphatemia: guide/nephrology/electrolytes/hypophosphatemia.md
-        - Hypermagnesemia: guide/nephrology/electrolytes/hypermagnesemia.md
-      - AKI: guide/nephrology/aki.md
-      - CKD: guide/nephrology/ckd.md
+        - im-guide/nephrology/electrolytes/index.md
+        - Hypernatremia: im-guide/nephrology/electrolytes/hypernatremia.md
+        - Hyponatremia: im-guide/nephrology/electrolytes/hyponatremia.md
+        - Hypomagnesemia: im-guide/nephrology/electrolytes/hypomagnesemia.md
+        - Hyperkalemia: im-guide/nephrology/electrolytes/hyperkalemia.md
+        - Hypokalemia: im-guide/nephrology/electrolytes/hypokalemia.md
+        - Hypercalcemia: im-guide/nephrology/electrolytes/hypercalcemia.md
+        - Hypocalcemia: im-guide/nephrology/electrolytes/hypocalcemia.md
+        - Hyperphosphatemia: im-guide/nephrology/electrolytes/hyperphosphatemia.md
+        - Hypophosphatemia: im-guide/nephrology/electrolytes/hypophosphatemia.md
+        - Hypermagnesemia: im-guide/nephrology/electrolytes/hypermagnesemia.md
+      - AKI: im-guide/nephrology/aki.md
+      - CKD: im-guide/nephrology/ckd.md
     - Pharmacology: 
-      - guide/pharmacology/index.md
-      - Autonomics: guide/pharmacology/autonomics.md
+      - im-guide/pharmacology/index.md
+      - Autonomics: im-guide/pharmacology/autonomics.md
       - Chemotherapy & ID:
-        - guide/pharmacology/Chemotherapy & ID/index.md
-        - Antibiotics: guide/pharmacology/Chemotherapy & ID/antibiotics.md
-        - Antiemetics: guide/pharmacology/Chemotherapy & ID/antiemetics.md
-        - Antivirals: guide/pharmacology/Chemotherapy & ID/antivirals.md
-        - Oncologic Meds: guide/pharmacology/Chemotherapy & ID/oncologic_meds.md
+        - im-guide/pharmacology/Chemotherapy & ID/index.md
+        - Antibiotics: im-guide/pharmacology/Chemotherapy & ID/antibiotics.md
+        - Antiemetics: im-guide/pharmacology/Chemotherapy & ID/antiemetics.md
+        - Antivirals: im-guide/pharmacology/Chemotherapy & ID/antivirals.md
+        - Oncologic Meds: im-guide/pharmacology/Chemotherapy & ID/oncologic_meds.md
       - Endocrine:
-        - guide/pharmacology/Endocrine/index.md
-        - Anti-Obesity: guide/pharmacology/Endocrine/antiobesity.md
-        - Diabetes Management: guide/pharmacology/Endocrine/diabetes_management.md
-        - Osteoporosis: guide/pharmacology/Endocrine/osteoporosis.md
-        - Thyroid Meds: guide/pharmacology/Endocrine/thyroid_meds.md
+        - im-guide/pharmacology/Endocrine/index.md
+        - Anti-Obesity: im-guide/pharmacology/Endocrine/antiobesity.md
+        - Diabetes Management: im-guide/pharmacology/Endocrine/diabetes_management.md
+        - Osteoporosis: im-guide/pharmacology/Endocrine/osteoporosis.md
+        - Thyroid Meds: im-guide/pharmacology/Endocrine/thyroid_meds.md
       - Labs and Side Effects:
-        - guide/pharmacology/Labs and Side Effects/index.md
-        - General: guide/pharmacology/Labs and Side Effects/general.md
-        - Labs: guide/pharmacology/Labs and Side Effects/labs.md
-        - Other: guide/pharmacology/Labs and Side Effects/other.md
-        - Side Effects: guide/pharmacology/Labs and Side Effects/side_effects.md
+        - im-guide/pharmacology/Labs and Side Effects/index.md
+        - General: im-guide/pharmacology/Labs and Side Effects/general.md
+        - Labs: im-guide/pharmacology/Labs and Side Effects/labs.md
+        - Other: im-guide/pharmacology/Labs and Side Effects/other.md
+        - Side Effects: im-guide/pharmacology/Labs and Side Effects/side_effects.md
       - Nervous System:
-        - guide/pharmacology/Nervous System/index.md
-        - Anesthetics: guide/pharmacology/Nervous System/anesthetics.md
-        - Anticonvulsants: guide/pharmacology/Nervous System/anticonvulsants.md
-        - CNS Drugs: guide/pharmacology/Nervous System/cnsdrugs.md
-        - ICU: guide/pharmacology/Nervous System/icu.md
-        - Pain Management: guide/pharmacology/Nervous System/pain_management.md
-        - Sleep: guide/pharmacology/Nervous System/sleep.md
+        - im-guide/pharmacology/Nervous System/index.md
+        - Anesthetics: im-guide/pharmacology/Nervous System/anesthetics.md
+        - Anticonvulsants: im-guide/pharmacology/Nervous System/anticonvulsants.md
+        - CNS Drugs: im-guide/pharmacology/Nervous System/cnsdrugs.md
+        - ICU: im-guide/pharmacology/Nervous System/icu.md
+        - Pain Management: im-guide/pharmacology/Nervous System/pain_management.md
+        - Sleep: im-guide/pharmacology/Nervous System/sleep.md
       - Psychiatry:
-        - guide/pharmacology/Psychiatry/index.md
-        - Antidepressants: guide/pharmacology/Psychiatry/antidepressants.md
-        - Antipsychotics: guide/pharmacology/Psychiatry/antipsychotics.md
-        - Anxiolytics: guide/pharmacology/Psychiatry/anxiolytics.md
-        - Mood Stabilizers: guide/pharmacology/Psychiatry/mood_stabilizers.md
-        - Stimulants: guide/pharmacology/Psychiatry/stimulants.md
+        - im-guide/pharmacology/Psychiatry/index.md
+        - Antidepressants: im-guide/pharmacology/Psychiatry/antidepressants.md
+        - Antipsychotics: im-guide/pharmacology/Psychiatry/antipsychotics.md
+        - Anxiolytics: im-guide/pharmacology/Psychiatry/anxiolytics.md
+        - Mood Stabilizers: im-guide/pharmacology/Psychiatry/mood_stabilizers.md
+        - Stimulants: im-guide/pharmacology/Psychiatry/stimulants.md
       - Smooth Muscle:
-        - guide/pharmacology/Smooth Muscle/index.md
-        - Anaphylaxis: guide/pharmacology/Smooth Muscle/anaphylaxis.md
-        - Antihistamines: guide/pharmacology/Smooth Muscle/antihistamines.md
-        - Antipruritics: guide/pharmacology/Smooth Muscle/antipruritics.md
-        - Asthma/COPD: guide/pharmacology/Smooth Muscle/asthma-copd.md
-        - Decongestants: guide/pharmacology/Smooth Muscle/decongestants.md
+        - im-guide/pharmacology/Smooth Muscle/index.md
+        - Anaphylaxis: im-guide/pharmacology/Smooth Muscle/anaphylaxis.md
+        - Antihistamines: im-guide/pharmacology/Smooth Muscle/antihistamines.md
+        - Antipruritics: im-guide/pharmacology/Smooth Muscle/antipruritics.md
+        - Asthma/COPD: im-guide/pharmacology/Smooth Muscle/asthma-copd.md
+        - Decongestants: im-guide/pharmacology/Smooth Muscle/decongestants.md
       - Special Topics:
-        - guide/pharmacology/Special Topics/index.md
-        - Antidiarrheals: guide/pharmacology/Special Topics/antidiarrheals.md
-        - Contraceptives: guide/pharmacology/Special Topics/contraceptives.md
-        - Dermatology: guide/pharmacology/Special Topics/dermatology.md
-        - GERD: guide/pharmacology/Special Topics/gerd.md
-        - Laxatives: guide/pharmacology/Special Topics/laxatives.md
-        - Pregnancy: guide/pharmacology/Special Topics/pregnancy.md
-        - Prostate: guide/pharmacology/Special Topics/prostate.md
-        - Vitamins: guide/pharmacology/Special Topics/vitamins.md
-      - Toxicology: guide/pharmacology/Toxicology/index.md
+        - im-guide/pharmacology/Special Topics/index.md
+        - Antidiarrheals: im-guide/pharmacology/Special Topics/antidiarrheals.md
+        - Contraceptives: im-guide/pharmacology/Special Topics/contraceptives.md
+        - Dermatology: im-guide/pharmacology/Special Topics/dermatology.md
+        - GERD: im-guide/pharmacology/Special Topics/gerd.md
+        - Laxatives: im-guide/pharmacology/Special Topics/laxatives.md
+        - Pregnancy: im-guide/pharmacology/Special Topics/pregnancy.md
+        - Prostate: im-guide/pharmacology/Special Topics/prostate.md
+        - Vitamins: im-guide/pharmacology/Special Topics/vitamins.md
+      - Toxicology: im-guide/pharmacology/Toxicology/index.md
       - Blood & Anti-inflammatories:
-        - guide/pharmacology/blood&anti-inflammatories/index.md
-        - Antiplatelets: guide/pharmacology/blood&anti-inflammatories/antiplatelets.md
-        - Antithrombotics: guide/pharmacology/blood&anti-inflammatories/antithrombotics.md
-        - Fibrinolytics: guide/pharmacology/blood&anti-inflammatories/fibrinolytics.md
-        - Gout: guide/pharmacology/blood&anti-inflammatories/gout.md
-        - Steroids: guide/pharmacology/blood&anti-inflammatories/steroids.md
+        - im-guide/pharmacology/blood&anti-inflammatories/index.md
+        - Antiplatelets: im-guide/pharmacology/blood&anti-inflammatories/antiplatelets.md
+        - Antithrombotics: im-guide/pharmacology/blood&anti-inflammatories/antithrombotics.md
+        - Fibrinolytics: im-guide/pharmacology/blood&anti-inflammatories/fibrinolytics.md
+        - Gout: im-guide/pharmacology/blood&anti-inflammatories/gout.md
+        - Steroids: im-guide/pharmacology/blood&anti-inflammatories/steroids.md
       - Cardiovascular Renal:
-        - guide/pharmacology/cardiovascular-renal/index.md
-        - Antianginals: guide/pharmacology/cardiovascular-renal/antianginals.md
-        - Antiarrhythmics: guide/pharmacology/cardiovascular-renal/antiarrhythmics.md
-        - Antihypertensives: guide/pharmacology/cardiovascular-renal/antihypertensives.md
-        - Lipid Therapy: guide/pharmacology/cardiovascular-renal/lipidtherapy.md
+        - im-guide/pharmacology/cardiovascular-renal/index.md
+        - Antianginals: im-guide/pharmacology/cardiovascular-renal/antianginals.md
+        - Antiarrhythmics: im-guide/pharmacology/cardiovascular-renal/antiarrhythmics.md
+        - Antihypertensives: im-guide/pharmacology/cardiovascular-renal/antihypertensives.md
+        - Lipid Therapy: im-guide/pharmacology/cardiovascular-renal/lipidtherapy.md
     - Pulmonology/Critical Care: 
-        - guide/index.md
-        - FASTHUGSBID: guide/pccm/fasthugsbid.md
-    - Rheumatology: guide/rheumatology.md
+        - im-guide/index.md
+        - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
+    - Rheumatology: im-guide/rheumatology.md
   - Resident Guide:
-    - Basics: other-topics/1-basics.md
-    - Team Expectations: other-topics/2-team-expectations.md
-    - Staying Organized: other-topics/3-staying-organized.md
-    - How to Write an Admission Note: other-topics/4-how-to-write-admit-note.md
-    - Transfers: other-topics/5-transfers.md
-    - Discharge Summary: other-topics/6-discharge-summary.md
-    - Patient Instructions: other-topics/7-patient-instructions.md
-    - Common Inpatient Problems: other-topics/8-common-inpt-problems.md
+    - Basics: resident-guide/1-basics.md
+    - Team Expectations: resident-guide/2-team-expectations.md
+    - Staying Organized: resident-guide/3-staying-organized.md
+    - How to Write an Admission Note: resident-guide/4-how-to-write-admit-note.md
+    - Transfers: resident-guide/5-transfers.md
+    - Discharge Summary: resident-guide/6-discharge-summary.md
+    - Patient Instructions: resident-guide/7-patient-instructions.md
+    - Common Inpatient Problems: resident-guide/8-common-inpt-problems.md
   - Resources:
     - Cerner: resources/cernerhelp.md
     - Dotphrases: resources/dotphrases.md
@@ -316,7 +316,6 @@ nav:
     - Shortcuts: resources/shortcuts.md
     - Blog: 
       - resources/blog/index.md
-  - Quick Hits:
   - Tags: tags.md
   - Disclaimer: 
     - disclaimer/index.md
