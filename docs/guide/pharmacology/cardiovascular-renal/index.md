@@ -1,12 +1,13 @@
 ---
-title: Cardiovascular-Renal
+title: Cardiovascular and Renal Pharmacology
 author: J. Austin Straley, DO
 layout: post
 date: 2023-03-30
-published: true
 permalink: /cardiovascular-renal
-resource: true
-categories: [Medications]
+categories:
+    - Cardiology
+    - Nephrology
+    - Pharmacology
 ---
 
 <ul>

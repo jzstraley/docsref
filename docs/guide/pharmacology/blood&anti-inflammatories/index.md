@@ -3,10 +3,11 @@ title: Blood & Anti-Inflammatories
 author: J. Austin Straley, DO
 layout: post
 date: 2023-03-30
-published: true
 permalink: /blood&anti-inflammatories
-resource: true
-categories: [Medications]
+categories:
+    - Heme/Onc
+    - Rheumatology
+    - Pharmacology
 ---
 
 <ul>

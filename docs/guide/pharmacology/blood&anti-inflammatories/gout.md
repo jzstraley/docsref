@@ -3,10 +3,10 @@ title: Gout
 author: J. Austin Straley, DO
 layout: post
 date: 2023-03-30
-published: true
 permalink: /gout
-resource: true
-categories: [Blood & Anti-Inflammatories]
+categories:
+    - Rheumatology
+    - Pharmacology
 ---
 
 - NSAIDS

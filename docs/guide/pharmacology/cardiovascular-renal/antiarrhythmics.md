@@ -3,10 +3,12 @@ title: Antiarrhythmics
 author: J. Austin Straley, DO
 layout: post
 date: 2023-03-30
-published: true
-permalink: /antithrombotics
-resource: true
-categories: [Cardiovascular-Renal]
+permalink: /antiarrhythmics
+categories:
+    - Cardiology
+    - Pharmacology
+tags:
+    - Arrhythmics
 ---
 
 ## General
@@ -154,7 +156,9 @@ categories: [Cardiovascular-Renal]
       - [Initiation](https://www.wikidoc.org/index.php/Dofetilide){target="_blank"}
   - Highly selective for delayed rectifier potassium current
     - Goal K: >3.5 (correct before initiation)
-    - [IV Magnesium enhances the ability of dofetilide to cardiovert AF or AFL](https://pubmed.ncbi.nlm.nih.gov/19351630/){target="_blank"}
+    - IV Magnesium enhances the ability of dofetilide to cardiovert AF or AFL
+      - IV 4g magnesium sulfate
+      - [Increases odds of conversion by 107%](https://pubmed.ncbi.nlm.nih.gov/19351630/){target="_blank"}
   - Chronic Use: AF Prevention
   - SE: Headache (11%), Chest Pain (10%), Dizziness (8%), Nausea (5%), QT prolongation
     - CI: QTc >440ms prior to initiation, <60 BPM
@@ -168,6 +172,9 @@ categories: [Cardiovascular-Renal]
   - Acute Use: Terminate (cardiovert) AF/AFL
     - Within 7 days (CI in hypokalemic or QT prolong)
     - Check magnesium and potassium to minimize risk
+    - IV Magnesium enhances the ability of ibutilide to cardiovert AF or AFL
+      - IV 4g magnesium sulfate
+      - [Increases odds of conversion by 78%](https://pubmed.ncbi.nlm.nih.gov/17976094/){target="_blank"}
   - SE: Nausea, QT prolongation (8%), torsade de pointes
 - Sotalol (Betapace)
   - Also has BB properties

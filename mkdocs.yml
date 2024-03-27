@@ -177,12 +177,15 @@ nav:
       - Cardiac Critical Care: guide/cardiology/cardiac-critical-care.md
       - Congenital Heart Disease: guide/cardiology/congenital-heart-disease.md
       - Consults: guide/cardiology/consults.md
-      - Echo: guide/cardiology/echo.md
+      - Echo: 
+        - guide/cardiology/index.md
       - EKG: guide/cardiology/ekg.md
       - Electrophysiology: 
         - guide/cardiology/electrophysiology/index.md
         - Atrial Fibrillation: guide/cardiology/electrophysiology/atrial-fibrillation.md
-      - Heart Failure: guide/cardiology/heart-failure.md
+      - Heart Failure: 
+        - guide/cardiology/index.md
+        - RV Failure: guide/cardiology/heart-failure/rvfailure.md
       - Imaging: guide/cardiology/imaging.md
       - Invasive Cardiology: guide/cardiology/invasive-cardiology.md
       - Nuclear Cardiology: guide/cardiology/nuclear-cardiology.md
@@ -285,6 +288,7 @@ nav:
         - guide/pharmacology/blood&anti-inflammatories/index.md
         - Antiplatelets: guide/pharmacology/blood&anti-inflammatories/antiplatelets.md
         - Antithrombotics: guide/pharmacology/blood&anti-inflammatories/antithrombotics.md
+        - Fibrinolytics: guide/pharmacology/blood&anti-inflammatories/fibrinolytics.md
         - Gout: guide/pharmacology/blood&anti-inflammatories/gout.md
         - Steroids: guide/pharmacology/blood&anti-inflammatories/steroids.md
       - Cardiovascular Renal:
@@ -293,7 +297,7 @@ nav:
         - Antiarrhythmics: guide/pharmacology/cardiovascular-renal/antiarrhythmics.md
         - Antihypertensives: guide/pharmacology/cardiovascular-renal/antihypertensives.md
         - Lipid Therapy: guide/pharmacology/cardiovascular-renal/lipidtherapy.md
-    - Pulmonology/Critical Care: guide/pulmonology-critical-care.md
+    - Pulmonology/Critical Care: guide/pccm.md
     - Rheumatology: guide/rheumatology.md
   - Other Topics:
     - Basics: other-topics/1-basics.md
