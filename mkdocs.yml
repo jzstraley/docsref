@@ -177,13 +177,13 @@ nav:
       - Congenital Heart Disease: im-guide/cardiology/congenital-heart-disease.md
       - Consults: im-guide/cardiology/consults.md
       - Echo: 
-        - im-guide/cardiology/index.md
+        - im-guide/cardiology/echo/index.md
       - EKG: im-guide/cardiology/ekg.md
       - Electrophysiology: 
         - im-guide/cardiology/electrophysiology/index.md
         - Atrial Fibrillation: im-guide/cardiology/electrophysiology/atrial-fibrillation.md
       - Heart Failure: 
-        - im-guide/cardiology/index.md
+        - im-guide/cardiology/heart-failure/index.md
         - RV Failure: im-guide/cardiology/heart-failure/rvfailure.md
       - Imaging: im-guide/cardiology/imaging.md
       - Invasive Cardiology: im-guide/cardiology/invasive-cardiology.md
@@ -233,56 +233,56 @@ nav:
       - im-guide/pharmacology/index.md
       - Autonomics: im-guide/pharmacology/autonomics.md
       - Chemotherapy & ID:
-        - im-guide/pharmacology/Chemotherapy & ID/index.md
-        - Antibiotics: im-guide/pharmacology/Chemotherapy & ID/antibiotics.md
-        - Antiemetics: im-guide/pharmacology/Chemotherapy & ID/antiemetics.md
-        - Antivirals: im-guide/pharmacology/Chemotherapy & ID/antivirals.md
-        - Oncologic Meds: im-guide/pharmacology/Chemotherapy & ID/oncologic_meds.md
+        - im-guide/pharmacology/chemo-id/index.md
+        - Antibiotics: im-guide/pharmacology/chemo-id/antibiotics.md
+        - Antiemetics: im-guide/pharmacology/chemo-id/antiemetics.md
+        - Antivirals: im-guide/pharmacology/chemo-id/antivirals.md
+        - Oncologic Meds: im-guide/pharmacology/chemo-id/oncologic_meds.md
       - Endocrine:
-        - im-guide/pharmacology/Endocrine/index.md
-        - Anti-Obesity: im-guide/pharmacology/Endocrine/antiobesity.md
-        - Diabetes Management: im-guide/pharmacology/Endocrine/diabetes_management.md
-        - Osteoporosis: im-guide/pharmacology/Endocrine/osteoporosis.md
-        - Thyroid Meds: im-guide/pharmacology/Endocrine/thyroid_meds.md
+        - im-guide/pharmacology/endocrine/index.md
+        - Anti-Obesity: im-guide/pharmacology/endocrine/antiobesity.md
+        - Diabetes Management: im-guide/pharmacology/endocrine/diabetes_management.md
+        - Osteoporosis: im-guide/pharmacology/endocrine/osteoporosis.md
+        - Thyroid Meds: im-guide/pharmacology/endocrine/thyroid_meds.md
       - Labs and Side Effects:
-        - im-guide/pharmacology/Labs and Side Effects/index.md
-        - General: im-guide/pharmacology/Labs and Side Effects/general.md
-        - Labs: im-guide/pharmacology/Labs and Side Effects/labs.md
-        - Other: im-guide/pharmacology/Labs and Side Effects/other.md
-        - Side Effects: im-guide/pharmacology/Labs and Side Effects/side_effects.md
+        - im-guide/pharmacology/labs-and-se/index.md
+        - General: im-guide/pharmacology/labs-and-se/general.md
+        - Labs: im-guide/pharmacology/labs-and-se/labs.md
+        - Other: im-guide/pharmacology/labs-and-se/other.md
+        - Side Effects: im-guide/pharmacology/labs-and-se/side_effects.md
       - Nervous System:
-        - im-guide/pharmacology/Nervous System/index.md
-        - Anesthetics: im-guide/pharmacology/Nervous System/anesthetics.md
-        - Anticonvulsants: im-guide/pharmacology/Nervous System/anticonvulsants.md
-        - CNS Drugs: im-guide/pharmacology/Nervous System/cnsdrugs.md
-        - ICU: im-guide/pharmacology/Nervous System/icu.md
-        - Pain Management: im-guide/pharmacology/Nervous System/pain_management.md
-        - Sleep: im-guide/pharmacology/Nervous System/sleep.md
+        - im-guide/pharmacology/nervous-system/index.md
+        - Anesthetics: im-guide/pharmacology/nervous-system/anesthetics.md
+        - Anticonvulsants: im-guide/pharmacology/nervous-system/anticonvulsants.md
+        - CNS Drugs: im-guide/pharmacology/nervous-system/cnsdrugs.md
+        - ICU: im-guide/pharmacology/nervous-system/icu.md
+        - Pain Management: im-guide/pharmacology/nervous-system/pain_management.md
+        - Sleep: im-guide/pharmacology/nervous-system/sleep.md
       - Psychiatry:
-        - im-guide/pharmacology/Psychiatry/index.md
-        - Antidepressants: im-guide/pharmacology/Psychiatry/antidepressants.md
-        - Antipsychotics: im-guide/pharmacology/Psychiatry/antipsychotics.md
-        - Anxiolytics: im-guide/pharmacology/Psychiatry/anxiolytics.md
-        - Mood Stabilizers: im-guide/pharmacology/Psychiatry/mood_stabilizers.md
-        - Stimulants: im-guide/pharmacology/Psychiatry/stimulants.md
+        - im-guide/pharmacology/psychiatry/index.md
+        - Antidepressants: im-guide/pharmacology/psychiatry/antidepressants.md
+        - Antipsychotics: im-guide/pharmacology/psychiatry/antipsychotics.md
+        - Anxiolytics: im-guide/pharmacology/psychiatry/anxiolytics.md
+        - Mood Stabilizers: im-guide/pharmacology/psychiatry/mood_stabilizers.md
+        - Stimulants: im-guide/pharmacology/psychiatry/stimulants.md
       - Smooth Muscle:
-        - im-guide/pharmacology/Smooth Muscle/index.md
-        - Anaphylaxis: im-guide/pharmacology/Smooth Muscle/anaphylaxis.md
-        - Antihistamines: im-guide/pharmacology/Smooth Muscle/antihistamines.md
-        - Antipruritics: im-guide/pharmacology/Smooth Muscle/antipruritics.md
-        - Asthma/COPD: im-guide/pharmacology/Smooth Muscle/asthma-copd.md
-        - Decongestants: im-guide/pharmacology/Smooth Muscle/decongestants.md
+        - im-guide/pharmacology/smooth-muscle/index.md
+        - Anaphylaxis: im-guide/pharmacology/smooth-muscle/anaphylaxis.md
+        - Antihistamines: im-guide/pharmacology/smooth-muscle/antihistamines.md
+        - Antipruritics: im-guide/pharmacology/smooth-muscle/antipruritics.md
+        - Asthma/COPD: im-guide/pharmacology/smooth-muscle/asthma-copd.md
+        - Decongestants: im-guide/pharmacology/smooth-muscle/decongestants.md
       - Special Topics:
-        - im-guide/pharmacology/Special Topics/index.md
-        - Antidiarrheals: im-guide/pharmacology/Special Topics/antidiarrheals.md
-        - Contraceptives: im-guide/pharmacology/Special Topics/contraceptives.md
-        - Dermatology: im-guide/pharmacology/Special Topics/dermatology.md
-        - GERD: im-guide/pharmacology/Special Topics/gerd.md
-        - Laxatives: im-guide/pharmacology/Special Topics/laxatives.md
-        - Pregnancy: im-guide/pharmacology/Special Topics/pregnancy.md
-        - Prostate: im-guide/pharmacology/Special Topics/prostate.md
-        - Vitamins: im-guide/pharmacology/Special Topics/vitamins.md
-      - Toxicology: im-guide/pharmacology/Toxicology/index.md
+        - im-guide/pharmacology/special-topics/index.md
+        - Antidiarrheals: im-guide/pharmacology/special-topics/antidiarrheals.md
+        - Contraceptives: im-guide/pharmacology/special-topics/contraceptives.md
+        - Dermatology: im-guide/pharmacology/special-topics/dermatology.md
+        - GERD: im-guide/pharmacology/special-topics/gerd.md
+        - Laxatives: im-guide/pharmacology/special-topics/laxatives.md
+        - Pregnancy: im-guide/pharmacology/special-topics/pregnancy.md
+        - Prostate: im-guide/pharmacology/special-topics/prostate.md
+        - Vitamins: im-guide/pharmacology/special-topics/vitamins.md
+      - Toxicology: im-guide/pharmacology/tox/index.md
       - Blood & Anti-inflammatories:
         - im-guide/pharmacology/blood&anti-inflammatories/index.md
         - Antiplatelets: im-guide/pharmacology/blood&anti-inflammatories/antiplatelets.md
@@ -297,7 +297,7 @@ nav:
         - Antihypertensives: im-guide/pharmacology/cardiovascular-renal/antihypertensives.md
         - Lipid Therapy: im-guide/pharmacology/cardiovascular-renal/lipidtherapy.md
     - Pulmonology/Critical Care: 
-        - im-guide/index.md
+        - im-guide/pccm/index.md
         - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
     - Rheumatology: im-guide/rheumatology.md
   - Resident Guide:
