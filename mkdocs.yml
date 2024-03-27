@@ -168,8 +168,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: 'index.md'
-  - Guide:
-    - guide/index.md
+  - IM Guide:
     - Student/Intern Readings: guide/student-intern-readings.md
     - Cardiology:
       - guide/cardiology/index.md
@@ -297,32 +296,33 @@ nav:
         - Antiarrhythmics: guide/pharmacology/cardiovascular-renal/antiarrhythmics.md
         - Antihypertensives: guide/pharmacology/cardiovascular-renal/antihypertensives.md
         - Lipid Therapy: guide/pharmacology/cardiovascular-renal/lipidtherapy.md
-    - Pulmonology/Critical Care: guide/pccm.md
+    - Pulmonology/Critical Care: 
+        - guide/index.md
+        - FASTHUGSBID: guide/pccm/fasthugsbid.md
     - Rheumatology: guide/rheumatology.md
-  - Other Topics:
+  - Resident Guide:
     - Basics: other-topics/1-basics.md
-    - Dotphrases: other-topics/dotphrases.md
-    - Cerner: other-topics/2-cerner.md
-    - Shortcuts: other-topics/2-cerner-shortcuts.md
-    - FASTHUGSBID: other-topics/3-FASTHUGSBID.md
-    - Team Expectations: other-topics/5-team-expectations.md
+    - Team Expectations: other-topics/2-team-expectations.md
     - Staying Organized: other-topics/3-staying-organized.md
     - How to Write an Admission Note: other-topics/4-how-to-write-admit-note.md
     - Transfers: other-topics/5-transfers.md
+    - Discharge Summary: other-topics/6-discharge-summary.md
+    - Patient Instructions: other-topics/7-patient-instructions.md
     - Common Inpatient Problems: other-topics/8-common-inpt-problems.md
-    - Discharge Summary: other-topics/5-discharge-summary.md
-    - Patient Instructions: other-topics/2-patient-instructions.md
-  - Resources: 
-    - resources/index.md
+  - Resources:
+    - Cerner: resources/cernerhelp.md
+    - Dotphrases: resources/dotphrases.md
     - Important Websites: resources/important-websites.md
-    - About: resources/about.md
-    - Changelog: resources/changelog.md
+    - Shortcuts: resources/shortcuts.md
+    - Blog: 
+      - resources/blog/index.md
+  - Quick Hits:
   - Tags: tags.md
-  - Blog:
-    - blog/index.md
   - Disclaimer: 
     - disclaimer/index.md
     - License: disclaimer/license.md
+    - Changelog: disclaimer/changelog.md
+  - About: about.md
 
 validation:
   links:

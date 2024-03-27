@@ -5,6 +5,7 @@ date: 2023-03-29
 ---
 
 - General
+	- Mnemonic for remembering ICU quaility measures
 	- [Give your patient a fast hug (at least) once a day][1]
 - F - Feeding
 	- [Review][2]
