@@ -72,7 +72,7 @@ theme:
 # Plugins
 plugins:
   - blog:
-      blog_dir: .
+      blog_dir: resources/blog/
   - tags:
       tags_file: tags.md
   - minify:

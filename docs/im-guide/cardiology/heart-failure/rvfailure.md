@@ -89,7 +89,7 @@ tags:
         - IVC >2cm with lack of respirophasic variation suggests CVP is elevated
         - IVC <2cm with respirophasic variation suggests CVP is ~0-5mm (normal)
     - Pulmonary Artery Systolic Pressure (PASP) 
-        - PASP = CVP + 4(Max TR jet in m/s)^2 [2](Pulmonary Hypertension and Right Ventricular Failure in Emergency Medicine)
+        - PASP = CVP + 4(Max TR jet in m/s)^2 [2]
         - >35mm suggests PHTN
         - https://pubmed.ncbi.nlm.nih.gov/33853435/ 
 
