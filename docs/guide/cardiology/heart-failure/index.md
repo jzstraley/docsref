@@ -4,6 +4,8 @@ author: J. Austin Straley, DO
 date: 2024-03-16
 categories:
     - Cardiology
+tags:
+    - Heart Failure
 ---
 - [Physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/cardiovascular-system){:target="_blank"}
     - [Physiology of Diuretics in Acute Heart Failure](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}

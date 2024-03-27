@@ -117,6 +117,7 @@ date: 2023-03-30
         - 3) XO converts 6-MP to 6-TU
       - More commonly used for SLE and IBD
       - Test for TPMT (Thiopurine methyltransferase) prior to initiation of 6-mp or aza
+      - Safe in Pregnancy
       - SE: Cytopenias, hepatotoxicity, GI
         - Increases risk of bone marrow toxicity
         - Dose-dependent diarrhea, leukopenia, hepatotoxicity

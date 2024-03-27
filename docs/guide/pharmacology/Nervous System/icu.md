@@ -117,7 +117,9 @@ date: 2023-03-30
       - High effect on SVR, BP
     - Milrinone
       - Target: cAMP
+        - Decreases cAMP degradation
       - 375-0.75 mcg/kg/min
+      SE: Hypotension, increased risk of Arrhythmias
     - Isoproterenol
       - Target: BBBB
       - 0-10 mcg/min
@@ -129,7 +131,6 @@ date: 2023-03-30
       - Target: AAAA
       - 40-180 mcg/min
   - InoPressors
-
       - Low effect on HR/Inotropy/Ectopy
       - High effect on SVR, BP
     - Norepinephrine (Levophed)
