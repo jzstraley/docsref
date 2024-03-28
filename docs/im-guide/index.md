@@ -6,35 +6,26 @@ date: 2022-11-14
 
 <hr>
 
-1. [Cardiology][1]<br>
-2. [Dermatology][2]<br>
-3. [Endocrine][3]<br>
-4. [General IM][4]<br>
-5. [Geriatrics][5]<br>
-6. [Gastroenterology][6]<br>
-7. [Hematology/Oncology][7]<br>
-8. [Infectious Disease][8]<br>
-9. [Nephrology][9]<br>
-10. [Neurology][10]<br>
-11. [Pulmonary & Critical Care Medicine][11]<br>
-12. [Pharmacology][12]<br>
-13. [Rheumatology][13]<br>
-14. [Student/Intern Readings][14]<br>
-<hr>
+- Welcome to my guide for internal medicine. Please see the disclaimer above.
+- As a cardiology fellow, you will likely sense a **hint** of favoritism, but I've tried to include as much information as I've learn to make this as useful as possible for each level of training.
+- Feel free to suggest edits via Github. Most pages will have the ability to edit in the top right corner of the inner page text.
+  - These will require an approval process *please be patient*
+  - For topic suggestions, please email me at mailto:imteched@gmail.com
 
-Welcome.
+<div class="grid cards" markdown>
 
-[1]: /im-guide/cards/index.md
-[2]: /im-guide/derm/index.md
-[3]: /im-guide/endo/index.md
-[4]: /im-guide/general/index.md
-[5]: /im-guide/geri/index.md
-[6]: /im-guide/gi/index.md
-[7]: /im-guide/heme-onc/index.md
-[8]: /im-guide/id/index.md
-[9]: /im-guide/nephro/index.md
-[10]: /im-guide/neuro/index.md
-[11]: /im-guide/pccm/index.md
-[12]: /im-guide/pharm/index.md
-[13]: /im-guide/rheum/index.md
-[14]: /im-guide/student-intern-readings.md
+- __[Language]__ – Choose out of the 60+ supported languages or add a new one
+- __[Navigation]__ – Create a clear, concise, and comprehensive navigation structure
+- __[Header]__ – Customize the behavior of the header, add an announcement bar
+- __[Footer]__ – Add links to your social media profiles or websites in the footer
+- __[Search]__ – Set up and configure search, running entirely in the user's browser
+- __[Tags]__ – Categorize your pages with tags and group related pages
+
+</div>
+
+  [Language]: /docs/about/index.md
+  [Navigation]: /docs/about/index.md
+  [Header]: /docs/about/index.md
+  [Footer]: /docs/about/index.md
+  [Search]: /docs/about/index.md
+  [Tags]: /docs/tags.md
