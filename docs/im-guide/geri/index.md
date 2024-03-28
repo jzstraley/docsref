@@ -2,7 +2,7 @@
 title: Geriatrics
 author: J. Austin Straley, DO
 date: 2024-03-16
-permalink: /geriatrics
+permalink: /geri
 categories:
     - Geriatrics
 ---

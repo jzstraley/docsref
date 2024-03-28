@@ -3,7 +3,7 @@ title: Pharmacology
 icon: material/pill
 author: J. Austin Straley, DO
 date: 2024-03-16
-permalink: /pharmacology
+permalink: /pharm
 categories:
     - Pharmacology
 ---

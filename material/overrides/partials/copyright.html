@@ -7,4 +7,8 @@
       {{ config.copyright }}
     </div>
   {% endif %}
-</div>
+  {% if not config.extra.generator == false %}
+    <a href="https://docsref.com/disclaimer" target="_blank" rel="noopener">
+      Disclaimer
+    </a>
+  {% endif %}

@@ -1,3 +1,10 @@
+---
+title: Disclaimer
+author: J. Austin Straley, DO
+date: 2022-11-24
+permalink: /disclaimer
+---
+
 #### Terms of Use Agreement and Disclaimer:
 ##### Terms of Use Agreement:
 - This Terms of Use Agreement (this ‘Agreement') is entered into by and between the author and ‘you', the user of this website, also known as ‘IMTechEd' (the Site). Access to, use of and/or browsing of the Site is provided subject to the terms and conditions set forth herein. By accessing, using and/or browsing the Site, you hereby agree to these terms and conditions.
