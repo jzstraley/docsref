@@ -1,5 +1,6 @@
 ---
 title: Dermatology
+icon: fontawesome/solid/hand
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /derm

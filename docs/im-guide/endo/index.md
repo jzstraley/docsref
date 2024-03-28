@@ -1,11 +1,13 @@
 ---
 title: Endocrinology
+icon: fontawesome/solid/cubes-stacked
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /endo
 categories:
     - Endocrinology
 ---
+
 - Diabetes Mellitus
     - [Inpatient Management](https://www.ccjm.org/content/83/5_suppl_1/S34){:target="_blank"}
     - [ACCORD: A1c target <6.0% increased CV and all-cause mortality vs standard (7.0-7.9%)](https://www.nejm.org/doi/full/10.1056/nejmoa0802743){:target="_blank"}

@@ -304,9 +304,11 @@ nav:
         - Antiarrhythmics: im-guide/pharm/cardiovascular-renal/antiarrhythmics.md
         - Antihypertensives: im-guide/pharm/cardiovascular-renal/antihypertensives.md
         - Lipid Therapy: im-guide/pharm/cardiovascular-renal/lipidtherapy.md
+    - Psychiatry:
+      - im-guide/psych/index.md
     - Pulmonology/Critical Care: 
-        - im-guide/pccm/index.md
-        - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
+      - im-guide/pccm/index.md
+      - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
     - Rheumatology: 
       - im-guide/rheum/index.md
     - Student/Intern Readings: im-guide/student-intern-readings.md

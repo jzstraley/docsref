@@ -1,5 +1,6 @@
 ---
 title: Geriatrics
+icon: fontawesome/solid/wheelchair
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /geri
