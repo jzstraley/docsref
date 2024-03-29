@@ -9,7 +9,9 @@ categories:
     - Pharmacology
 tags:
     - Lipids
+    - Statins
 ---
+
 
 - Elevated LDL-C
   - Diet: Trans/Saturated Fats, Weight gain, Anorexia, Alcohol

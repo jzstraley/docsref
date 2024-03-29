@@ -9,6 +9,7 @@ categories:
     - Pharmacology
 tags:
     - Hypertension
+    - Diuretics
 ---
 
 ## Physiology

@@ -33,3 +33,8 @@ categories:
 - Nitroglycerin
   - IV: Use only for patients with ACS or Acute pulmonary edema
   - Avoid in patients with RV infarction and those on PDE-5 inhibitors
+
+## Non-Nitrates
+- Ranolazine
+  - Partially inhibits fatty acid oxidation and increases glucose oxidation
+  - No HR or BP reduction

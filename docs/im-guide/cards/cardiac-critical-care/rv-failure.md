@@ -8,6 +8,11 @@ tags:
     - Heart Failure
 ---
 
+## Physiology
+- Perfused in systole *and* diastole
+- RV dilation causes IV septum shifting/Functional TR
+- RV Systolic Perfusion Pressure = Systolic BP - Pulmonary Artery Systolic Pressure
+
 ## Etiology[3]
 1. Pulmonary Hypertension
     - Acute
@@ -39,11 +44,6 @@ tags:
     - Liver Dailure
     - Thiamine Deficiency
     - Adrenal Crisis/Thyroid Storm
-
-## Physiology
-- Perfused in systole *and* diastole
-- RV dilation causes IV septum shifting/Functional TR
-- RV Systolic Perfusion Pressure = Systolic BP - Pulmonary Artery Systolic Pressure
 
 ## Failure
 - Forward Failure

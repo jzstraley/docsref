@@ -12,7 +12,7 @@ status: new
 ## Chest Pain/Angina Pectoris
 - [Chest Pain in the ED (M4s)](https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum/group-m4-approach-to/chest-pain){:target="_blank"}
 - HEART vs. TIMI vs. GRACE[^2]
-- ^^Diagnosis^^[^3]
+- ^^[Diagnosis]^^[3]
     - Update on Stress Testing[^4]
         - {==Not interpretable for ischemia if:==}
             1. Old LBBB
@@ -41,7 +41,7 @@ status: new
             - ST depression in multiple leads during peak stress but no evidence of ischemia on radionuclide MPI
 
 ## Myocardial Infarction
-- Definition[^5]
+- [Definition][5]
 - Management
     - P2Y12
         - PLATO[^6]: Ticagrelor > Clopidogrel in ACS including mortality
@@ -54,10 +54,13 @@ status: new
         - SAVE[^11]: ACEI improve survival/morbidity/mortality in LV dysfunction after MI
     - MADIT-II[^12]: ICD improves survival in pts with prior MI and severe LV dysfunction
 
+## Other Resources
+- [PowerPoint: ACS Survival Guide - Seaberg CAMC/WVU 2022](https://www.dropbox.com/scl/fi/cd76rcwo7wxofonpiyth4/Cards-ACS-Survival-Guide-Seaberg-2022.pptx?rlkey=1n9dbr552d9rh0nxy3flvgcfv&dl=0){:target="_blank"}
+
 [^2]: https://www.internationaljournalofcardiology.com/article/S0167-5273(16)33282-X/fulltext
-[^3]: https://pubmed.ncbi.nlm.nih.gov/34756653/
+[3]: https://pubmed.ncbi.nlm.nih.gov/34756653/
 [^4]: https://pubmed.ncbi.nlm.nih.gov/22469057/
-[^5]: https://pubmed.ncbi.nlm.nih.gov/30153967/
+[5]: https://pubmed.ncbi.nlm.nih.gov/30153967/
 [^6]: http://www.ncbi.nlm.nih.gov/pubmed/19717846
 [^7]: https://pubmed.ncbi.nlm.nih.gov/25399658/
 [^8]: https://pubmed.ncbi.nlm.nih.gov/23415013/

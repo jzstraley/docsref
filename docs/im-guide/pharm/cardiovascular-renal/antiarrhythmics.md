@@ -8,7 +8,9 @@ categories:
     - Cardiology
     - Pharmacology
 tags:
-    - Arrhythmics
+    - Anti-Arrhythmics
+    - Beta-Blockers
+    - Calcium Channel Blockers
 ---
 
 ## General
@@ -267,6 +269,3 @@ tags:
 - Epinephrine
 - Norepinephrine
 - Isopro
-- Ranolazine
-  - Partially inhibits fatty acid oxidation and increases glucose oxidation
-  - No HR or BP reduction
