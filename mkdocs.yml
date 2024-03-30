@@ -173,7 +173,11 @@ nav:
     - Cardiology:
       - im-guide/cards/index.md
       - ACS: im-guide/cards/acs.md
-      - Cardiac Critical Care: im-guide/cards/cardiac-critical-care.md
+      - Cardiac Critical Care: 
+        - im-guide/cards/cardiac-critical-care/index.md
+        - Cardiogenic Shock: im-guide/cards/cardiac-critical-care/cardiogenic-shock.md
+        - LV Failure: im-guide/cards/cardiac-critical-care/lv-failure.md
+        - RV Failure: im-guide/cards/cardiac-critical-care/rv-failure.md
       - Congenital Heart Disease: im-guide/cards/congenital-heart-disease.md
       - Consults: im-guide/cards/consults.md
       - Echo: 
@@ -184,7 +188,13 @@ nav:
         - Atrial Fibrillation: im-guide/cards/electrophysiology/atrial-fibrillation.md
       - Heart Failure: 
         - im-guide/cards/heart-failure/index.md
-        - RV Failure: im-guide/cards/heart-failure/rvfailure.md
+        - Acute Heart Failure:
+          - im-guide/cards/heart-failure/acute-hf/index.md
+          - Acute Decompensated Heart Failure: im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf.md
+        - Chronic Heart Failure:
+          - im-guide/cards/heart-failure/chronic-hf/index.md
+          - Heart Failure with Preserved Ejection Fraction: im-guide/cards/heart-failure/chronic-hf/hfpef.md
+          - Heart Failure with Reduced Ejection Fraction: im-guide/cards/heart-failure/chronic-hf/hfref.md
       - Imaging: im-guide/cards/imaging.md
       - Invasive Cardiology: im-guide/cards/invasive-cardiology.md
       - Nuclear Cardiology: im-guide/cards/nuclear-cardiology.md
