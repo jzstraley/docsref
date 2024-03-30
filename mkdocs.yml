@@ -229,6 +229,33 @@ nav:
       - im-guide/id/index.md
     - Neurology: 
       - im-guide/neuro/index.md
+      - CNS Disease:
+        - im-guide/neuro/cns-disease/index.md
+        - Cortex: 
+          - im-guide/neuro/cns-disease/cortex/index.md
+          - Dementia: 
+            - im-guide/neuro/cns-disease/cortex/dementia/index.md
+            - Cortical Dementia: im-guide/neuro/cns-disease/cortex/dementia/cortical.md
+            - Mixed Dementia: im-guide/neuro/cns-disease/cortex/dementia/mixed.md
+          - Altered Mental Status (AMS): im-guide/neuro/cns-disease/cortex/ams.md
+          - Coma: im-guide/neuro/cns-disease/cortex/coma.md
+          - Seizure Disorders: im-guide/neuro/cns-disease/cortex/seizures.md
+        - Subcortex: 
+          - im-guide/neuro/cns-disease/subcortex/index.md
+        - Ventricles/CSF: 
+          - im-guide/neuro/cns-disease/ventricles-csf.md
+        - Global:
+          - index.md
+          - Trauma: im-guide/neuro/cns-disease/global/trauma.md
+        - Miscellaneous:
+          - Vertigo:
+            - im-guide/neuro/cns-disease/miscellaneous/vertigo/index.md
+        - Neoplasms & Tumors: 
+          - im-guide/neuro/cns-disease/neoplasms-tumors/index.md
+        - Neurocutaneous Disease: 
+          - im-guide/neuro/cns-disease/neurocutaneous/index.md
+        - Treatment Modalities: 
+          - im-guide/neuro/cns-disease/treatment-modalities.md
     - Nephrology: 
       - im-guide/nephro/index.md
       - Renal Anatomy: im-guide/nephro/renal-anatomy.md
