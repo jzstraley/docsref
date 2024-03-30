@@ -230,9 +230,7 @@ nav:
     - Neurology: 
       - im-guide/neuro/index.md
       - CNS Disease:
-        - im-guide/neuro/cns-disease/index.md
         - Cortex: 
-          - im-guide/neuro/cns-disease/cortex/index.md
           - Dementia: 
             - im-guide/neuro/cns-disease/cortex/dementia/index.md
             - Cortical Dementia: im-guide/neuro/cns-disease/cortex/dementia/cortical.md
@@ -243,7 +241,7 @@ nav:
         - Subcortex: 
           - im-guide/neuro/cns-disease/subcortex/index.md
         - Ventricles/CSF: 
-          - im-guide/neuro/cns-disease/ventricles-csf.md
+          - Headaches: im-guide/neuro/cns-disease/ventricles-csf/headaches.md
         - Global:
           - index.md
           - Trauma: im-guide/neuro/cns-disease/global/trauma.md
@@ -255,7 +253,7 @@ nav:
         - Neurocutaneous Disease: 
           - im-guide/neuro/cns-disease/neurocutaneous/index.md
         - Treatment Modalities: 
-          - im-guide/neuro/cns-disease/treatment-modalities.md
+          - im-guide/neuro/cns-disease/treatment-modalities/index.md
     - Nephrology: 
       - im-guide/nephro/index.md
       - Renal Anatomy: im-guide/nephro/renal-anatomy.md
