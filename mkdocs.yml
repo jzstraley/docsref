@@ -73,6 +73,9 @@ theme:
 plugins:
   - blog:
       blog_dir: resources/blog/
+      post_date_format: short
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "{date}/{slug}"
   - tags:
       tags_file: tags.md
   - minify:
@@ -361,6 +364,7 @@ nav:
     - Dotphrases: resources/dotphrases.md
     - Important Websites: resources/important-websites.md
     - Shortcuts: resources/shortcuts.md
+    - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
     - Blog: 
       - resources/blog/index.md
   - Tags: tags.md

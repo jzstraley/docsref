@@ -76,6 +76,29 @@
       </div>
     </div>
   </section>
+  <section>
+    <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+
+      <!-- Header -->
+      <header class="md-typeset">
+        {{ page.content }}
+      </header>
+
+      <!-- Posts -->
+      {% for post in posts %}
+        {% include "partials/post.html" %}
+      {% endfor %}
+
+      <!-- Pagination -->
+      {% if pagination %}
+        {% block pagination %}
+          {% include "partials/pagination.html" %}
+        {% endblock %}
+      {% endif %}
+    </div>
+  </div>
+  </section>
 {% endblock %}
 
 <!-- Content -->

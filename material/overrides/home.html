@@ -27,4 +27,14 @@
 {% endblock %}
 {% block content %}
 {% endblock %}
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        {{ page.content }}
+      </header>
+      {% include partials/homepostfeed.html %}
+    </div>
+  </div>
+{% endblock %}
 {% block footer %}{% endblock %}

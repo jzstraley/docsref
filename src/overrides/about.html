@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+
+{% block content %}
+<style>
+  a.md-content__button.md-icon{
+  visibility:hidden;}
+</style>
+
+<!-- ![Austin](../assets/images/aboutpage/profilepic.jpg) -->
+<div class="container-fluid" style="margin-bottom:5px">
+      <div id="boxer" class="row no-gutters mb-2">
+        <div id="hold_face" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img id="profpicbg" class="image-fluid" src="../assets/images/aboutpage/profilepic.jpg" alt="Avatar">
+          </div>
+        <div id="maincchold" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 overflow-hidden">
+              <div class="container">
+          <div id="maincc" class="column">
+              <h6 class="about">About</h6>
+              <p id="mainp"> Welcome to my webpage! My name is Austin and I'm a PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ super() }}
+{% endblock %}
