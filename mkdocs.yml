@@ -64,8 +64,8 @@ theme:
         icon: material/toggle-switch-off
         name: Switch to system preference
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: JetBrains Mono
+    code: JetBrains Mono
   favicon: assets/favicon.ico
   logo: assets/logo3-copy-invert.png
 

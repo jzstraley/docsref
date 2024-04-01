@@ -178,12 +178,12 @@
     }
   }
 
-  // Header title
+  // Header title [JAS] Edit (03/31/2024)
   &__title {
     flex-grow: 1;
     height: px2rem(48px);
     margin-inline: px2rem(20px) px2rem(8px);
-    font-size: px2rem(18px);
+    font-size: px2rem(22px);
     line-height: px2rem(48px);
 
     // Header title in active state, i.e. page title is visible

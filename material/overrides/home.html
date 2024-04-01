@@ -24,17 +24,24 @@
       </div>
     </div>
   </section>
-{% endblock %}
-{% block content %}
-{% endblock %}
-{% block container %}
-  <div class="md-content" data-md-component="content">
+  <section>
+    <div class="md-content" data-md-component="content">
     <div class="md-content__inner">
       <header class="md-typeset">
         {{ page.content }}
       </header>
-      {% include partials/homepostfeed.html %}
+      {% for post in posts %}
+        {% include "partials/post.html" %}
+      {% endfor %}
+      {% if pagination %}
+        {% block pagination %}
+          {% include "partials/pagination.html" %}
+        {% endblock %}
+      {% endif %}
     </div>
   </div>
+  </section>
+{% endblock %}
+{% block content %}
 {% endblock %}
 {% block footer %}{% endblock %}
