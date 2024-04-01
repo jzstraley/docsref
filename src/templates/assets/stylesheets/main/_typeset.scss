@@ -203,13 +203,14 @@ kbd {
     }
   }
 
-  // Inline code block
+  // Inline code block [JAS] - Edit (03/31/2024)
   code {
     padding: 0 px2em(4px, 13.6px);
     font-size: px2em(13.6px);
     word-break: break-word;
     background-color: var(--md-code-bg-color);
     border-radius: px2rem(2px);
+    -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 
     // Hide outline for pointer devices
@@ -235,6 +236,7 @@ kbd {
       touch-action: auto;
       outline-color: var(--md-accent-fg-color);
       box-shadow: none;
+      -webkit-box-decoration-break: slice;
       box-decoration-break: slice;
       scrollbar-width: thin;
       scrollbar-color: var(--md-default-fg-color--lighter) transparent;
@@ -283,6 +285,7 @@ kbd {
     color: inherit;
     word-break: break-word;
     background-color: var(--md-typeset-mark-color);
+    -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
 
@@ -516,8 +519,11 @@ kbd {
       vertical-align: text-bottom;
       content: "";
       transition: background-color 125ms;
+      -webkit-mask-image: var(--md-typeset-table-sort-icon);
       mask-image: var(--md-typeset-table-sort-icon);
+      -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
+      -webkit-mask-size: contain;
       mask-size: contain;
     }
 
@@ -529,12 +535,14 @@ kbd {
     // Sort ascending icon
     &[aria-sort="ascending"]::after {
       background-color: var(--md-default-fg-color--light);
+      -webkit-mask-image: var(--md-typeset-table-sort-icon--asc);
       mask-image: var(--md-typeset-table-sort-icon--asc);
     }
 
     // Sort descending icon
     &[aria-sort="descending"]::after {
       background-color: var(--md-default-fg-color--light);
+      -webkit-mask-image: var(--md-typeset-table-sort-icon--desc);
       mask-image: var(--md-typeset-table-sort-icon--desc);
     }
   }

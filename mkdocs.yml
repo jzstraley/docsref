@@ -64,7 +64,7 @@ theme:
         icon: material/toggle-switch-off
         name: Switch to system preference
   font:
-    text: JetBrains Mono
+    text: Noto Serif
     code: JetBrains Mono
   favicon: assets/favicon.ico
   logo: assets/logo3-copy-invert.png
