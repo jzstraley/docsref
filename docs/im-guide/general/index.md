@@ -1,6 +1,6 @@
 ---
 title: General Internal Medicine
-icon: fontawesome/solid/book
+icon: fontawesome/solid/globe
 author: J. Austin Straley, DO
 date: 2024-03-16
 permalink: /general

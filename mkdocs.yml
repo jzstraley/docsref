@@ -93,6 +93,12 @@ plugins:
       type: iso_datetime
       timezone: America/Detroit
       fallback_to_build_date: true
+  - rss:
+      match_path: docs/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
 
 strict: true
 
