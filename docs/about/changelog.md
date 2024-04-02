@@ -2,6 +2,27 @@
 
 ## Material for MkDocs
 
+### 9.5.17 <small>April 2, 2024</small> { id="9.5.17" }
+
+- Updated Serbian translations
+- Fixed #7003: Confusing keyboard interaction for palette toggle
+- Fixed #7001: Blog posts now show time by default (9.5.16 regression)
+- Fixed edge case in backport of social plugin font loading logic
+
+### 9.5.16 <small>March 31, 2024</small> { id="9.5.16" }
+
+- Updated Russian translations
+- Improved error handling and reporting in social plugin
+- Improved error handling and reporting in privacy plugin
+- Fixed blog plugin not allowing to use time in format strings
+- Fixed #6983: Social plugin crashes because of Google Fonts API change
+
+### 9.5.15 <small>March 23, 2024</small> { id="9.5.15" }
+
+- Reverted fix for transparent iframes (9.5.14)
+- Fixed #6929: Interference of social plugin and auto dark mode
+- Fixed #6938: Giscus shows dark background in light mode (9.5.14 regression)
+
 ### 9.5.14 <small>March 18, 2024</small> { id="9.5.14" }
 
 - Added support for hiding versions from selector when using mike
@@ -984,7 +1005,7 @@ __Fixes__
 - Removed deprecated prebuilt search index support
 - Removed deprecated web app manifest – use customization
 - Removed `extracopyright` variable – use new `copyright` partial
-- Removed Disqus integation – use customization
+- Removed Disqus integration – use customization
 - Switched to `:is()` selectors for simple selector lists
 - Switched autoprefixer from `last 4 years` to `last 2 years`
 - Improved CSS overall to match modern standards
