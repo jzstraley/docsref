@@ -7,133 +7,95 @@
 {% endblock %}
 {% block content %}
 <style>
+  /* Hidding content */
+  * {
+  box-sizing: border-box;
+  }
   a.md-content__button.md-icon{
-    visibility:hidden;
+    display:none;
   }
-  img#profpicbg.image-fluid {
-    justify-content: center !important;
-    max-height: 500px; 
-    max-width: 365px; 
-    width: 100%;
-    border-radius: 0px!important;
-    filter: brightness(0.85) contrast(1.15);
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
+  .md-source-file{
+    display:none;
   }
-  .container-fluid {
-    grid-template-columns: 1fr 1fr;
-    justify-content: center !important;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  article.md-content__inner.md-typeset h1{
+    display:none;
   }
-  .flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
-
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 50%;
-}
-
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 50%;
-}
-
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
   .md-content {
     display: flex !important;
   }
-  .md-source-file{display:none;
-  }
-  article.md-content__inner.md-typeset h1{
-  display:none;
-  }
-  <style>a.md-content__button.md-icon{visibility:hidden}
-img#profpicbg.image-fluid{justify-content:center!important;
-max-height:500px;
-max-width:365px;
-width:100%;
-filter:brightness(.85) contrast(1.15);
-box-shadow:12px 12px 2px 1px rgba(0,0,0,.744)}
-.container-fluid{
-      grid-template-columns: 1fr 5x 1fr;
-      justify-content:center!important;
-      -webkit-box-sizing:border-box;
-      box-sizing:border-box}.md-content{display:flex!important}
-.md-source-file{display:none}
-article.md-content__inner.md-typeset h1{display:none}
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-@media only screen and (min-width: 500px){
-  .wrapper {
+
+/* Image */
+  .container-fluid {
+    align-items: center;
+    box-sizing: border-box;
     display: flex;
-    flex: 2;
-  }
-}a.md-content__button.md-icon{visibility:hidden}
-img#profpicbg.image-fluid{justify-content:center!important;
-max-height:500px;
-max-width:365px;
-width:100%;
-filter:brightness(.85) contrast(1.15);
-box-shadow:12px 12px 2px 1px rgba(0,0,0,.744)}
-.container-fluid{
-      grid-template-columns: 1fr 5x 1fr;
-      justify-content:center!important;
-      -webkit-box-sizing:border-box;
-      box-sizing:border-box}.md-content{display:flex!important}
-.md-source-file{display:none}
-article.md-content__inner.md-typeset h1{display:none}
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-@media screen and (max-width: 600px) {
-  .column {
+    flex-flow: row wrap;
+    justify-content: center !important;
+    margin: 0 0 0 0px !important;
+    padding: 0px;
     width: 100%;
-    flex:0;
-  }
-}
+    -webkit-box-sizing: border-box;
+    }
+  .row {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 5px 10px 10px 20px;
+    justify-content: space-evenly;
+    }
+  .picture{
+    align-items: center;
+    border: 0px solid;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: center !important;
+    display: flex;
+    }
+  .about-box{
+    align-items: center;
+    display: flex;
+    border: 0px solid;
+    margin: 0px;
+    padding: 0px;
+    flex: 1 0px;
+    flex-direction: column;
+    justify-content: center !important;
+    text-align: center;
+    }
+  .about-box-container{
+    margin: 10px;
+    box-shadow:12px 12px 2px 1px rgba(0,0,0,.744);
+
+    }
+  .picture-container{
+    display: flex;
+    flex: 3 0px;
+    margin: 10px;
+    }
+  img#profpicbg.image-fluid {
+    justify-content: center !important;
+    max-height: 500px; 
+    max-width: 365px;
+    margin: 5px;
+    border-radius: 0px !important;
+    filter: brightness(0.85) contrast(1.15);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
+    }
 </style>
-<div class="wrapper" style="margin:5px">
-  <div class='row'>
-    <div class='.flex-fluid'>
-      <div class='.flex-item-right'>
-          <img id="profpicbg" class="image-fluid" src="../assets/images/aboutpage/profilepic.jpg" alt="Avatar">
+<div class="container-fluid">
+  <div class="row">
+    <div class="picture">
+      <div class="picture-container">
+        <img id="profpicbg" class="image-fluid" src="../assets/images/aboutpage/profilepic.jpg" alt="Avatar">
+        </div>
       </div>
-    </div>
-    <div class='column'>
-      <div class='.flex-item-left'>
-              <div class="column" style="text-align:center;justify-content:center!important;box-shadow:12px 12px 2px 1px rgba(0,0,0,.744);-webkit-box-sizing:border-box;box-sizing:border-box;">
-                  <h2 class="about" style="filter:brightness(.5)">About</h2>
-                  <p id="mainp"> Welcome to my webpage! My name is Austin and I'm a PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+    <div class="about-box">
+      <div class="about-box-container">
+        <h2 class="about" style="color:var(--md-primary-bg-color);margin-top:10px !important;">About</h2>
+        <p id="mainp"> Welcome to my webpage! My name is Austin and I'm a PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+        </div>
       </div>
     </div>
   </div>

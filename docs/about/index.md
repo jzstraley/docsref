@@ -9,3 +9,5 @@ social:
 ---
 
 <!-- Home -->
+
+## Education
