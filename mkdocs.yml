@@ -64,7 +64,7 @@ theme:
         icon: material/toggle-switch-off
         name: Switch to system preference
   font:
-    text: Noto Serif
+    text: IBM Plex Sans
     code: JetBrains Mono
   favicon: assets/favicon.ico
   logo: assets/logo3-copy-invert.png
