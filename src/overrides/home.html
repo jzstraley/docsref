@@ -17,10 +17,10 @@
       margin: 0;
     }
 
-    /* Hide main content for now
+    /* Hide main content for now */
     .md-content {
       display: none;
-    } */
+    }
 
     /* Hide table of contents */
     @media screen and (min-width: 60em) {
@@ -103,12 +103,7 @@
 {% endblock %}
 
 <!-- Content -->
-{% block container %}
-    <article class="md-content__inner md-typeset">
-  {% block content %}
-    {% include "partials/content.html" %}
-  {% endblock %}
-    </article>
+{% block content %}
 {% endblock %}
 
 <!-- Application footer -->
