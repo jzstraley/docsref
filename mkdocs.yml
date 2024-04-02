@@ -106,7 +106,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: G-DRP25XGTN2
+    property: G-WNN51ZP6S1
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jzstraley
