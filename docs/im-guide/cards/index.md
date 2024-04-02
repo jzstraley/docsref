@@ -10,5 +10,4 @@ status: new
 ---
 
 # Updated
-
-[TOC]
+- See recent chapters.
