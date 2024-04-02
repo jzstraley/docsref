@@ -9,6 +9,29 @@ tags:
     - ACS
 status: new
 ---
+
+
+
+## Background
+-   Completely or partially occluding thrombus on a disrupted
+    atherothrombotic coronary plaque leading to myocardial
+    ischemia/infarction
+-   STEMI: Elevated troponin & elevation in ST segment or new LBBB with
+    symptoms
+    - \> 0.1 mV in at least 2 contiguous leads
+    - Exception, in V2-V3:
+      - \> 0.2 mV in men older than 40 y/o
+      - \> 0.25 in men younger than 40 y/o
+      - \> 0.15 mV in women
+-   NSTEMI: Evidence of myocardial necrosis (elevated troponin) w/o ST
+    segment elevation
+-   Unstable Angina: Angina without evidence of myocardial necrosis
+    (normal troponin)
+-   Other causes of myocardial injury: coronary spasm, embolism,
+    imbalance of oxygen demand and supply 2/2 fever, tachycardia,
+    hypo-/hypertension
+
+
 ## Chest Pain/Angina Pectoris
 - [Chest Pain in the ED (M4s)](https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum/group-m4-approach-to/chest-pain){:target="_blank"}
 - HEART vs. TIMI vs. GRACE[^2]

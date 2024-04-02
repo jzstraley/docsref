@@ -10,3 +10,8 @@ date: 2024-03-28
 - [Image Magick](https://imagemagick.org/)
 - [JetBrains](https://www.jetbrains.com/lp/mono/)
 
+# Flex-Box
+- [Css-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+# UI Colors
+- [MaterialUi](https://materialui.co/metrocolors)

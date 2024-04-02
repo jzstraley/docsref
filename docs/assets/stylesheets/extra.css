@@ -1,0 +1,22 @@
+[data-md-color-scheme="docsref"] {
+  --md-primary-fg-color:        #ECF0F1; /* Nav */
+  --md-primary-fg-color--light: red;
+  --md-primary-fg-color--lighter:      hsla(0, 0%, 0%, 0.32);
+  --md-primary-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+  --md-primary-fg-color--dark:  green;
+  --md-primary-bg-color:        #2C3E50;  /* Title, Nav links, buttons */
+  --md-primary-bg-color--light: #34495e; /* Search word */
+  --md-primary-bg-color--lighter:      orange;
+  --md-primary-bg-color--lightest:     #f5f5f5;
+  --md-accent-fg-color:         #C0392B; /* hover words, outside of hover buttons */
+  --md-accent-fg-color--transparent:   red;
+  --md-accent-bg-color:         #2C3E50; /* inside of hover buttons */
+  --md-accent-bg-color--light:  #E74C3C;
+  --md-footer-fg-color:                #e74c3c; /* Home/Next/Previous in Footer */
+  --md-footer-fg-color--light:         hsla(0, 0%, 100%, 0.7);
+  --md-footer-fg-color--lighter:       hsla(0, 0%, 100%, 0.45);
+  --md-footer-bg-color:                hsla(0, 0%, 0%, 0.87); /* Footer background */
+  --md-footer-bg-color--dark:          hsla(0, 0%, 0%, 0.32);
+  --md-typeset-a-color:         #3498DB; /* link color */
+  --md-primary-wave-color:      var(--md-primary-fg-color) 50%; /*wave color */
+}

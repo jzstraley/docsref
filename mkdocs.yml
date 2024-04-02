@@ -50,9 +50,7 @@ theme:
         icon: material/link
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue grey
-      accent: blue grey
+      scheme: docsref
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
@@ -215,7 +213,6 @@ nav:
       - Prevention: 
         - im-guide/cards/prevention/index.md
         - Lipids: im-guide/cards/prevention/lipids.md
-      - Reasarch: im-guide/cards/research.md
       - Stable Ischemic Disease: im-guide/cards/stable-ischemic-disease.md
       - Vascular Disease: 
         - im-guide/cards/vascular-disease/index.md
@@ -252,7 +249,6 @@ nav:
         - Ventricles/CSF: 
           - Headaches: im-guide/neuro/cns-disease/ventricles-csf/headaches.md
         - Global:
-          - index.md
           - Trauma: im-guide/neuro/cns-disease/global/trauma.md
         - Miscellaneous:
           - Vertigo:
