@@ -1,110 +1,44 @@
 {% extends "main.html" %}
 
+{% block styles %}
+{{ super()}}
+  <link
+    rel="stylesheet"
+    href="{{ 'assets/stylesheets/home.css' | url }}"
+  />
+{% endblock %}
+
 <!-- Render hero under tabs -->
 {% block tabs %}
   {{ super() }}
-
-  <!-- Additional styles for landing page -->
-  <style>
-
-    /* Application header should be static for the landing page */
-    .md-header {
-      position: initial;
-    }
-
-    /* Remove spacing, as we cannot hide it completely */
-    .md-main__inner {
-      margin: 0;
-    }
-
-    /* Hide main content for now */
-    .md-content {
-      display: none;
-    }
-
-    /* Hide table of contents */
-    @media screen and (min-width: 60em) {
-      .md-sidebar--secondary {
-        display: none;
-      }
-    }
-
-    /* Hide navigation */
-    @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary {
-        display: none;
-      }
-    }
-  </style>
-
-  <!-- Main for landing page -->
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-    <!-- Hero for landing page -->
-      <div class="mdx-hero">
-
-        <!-- Hero image -->
-        <div class="mdx-hero__image">
-          <img
-            src="assets/images/illustration.png"
-            alt=""
-            width="1659"
-            height="1200"
-            draggable="false"
-          >
-        </div>
-
-        <!-- Hero content -->
-        <div class="mdx-hero__content">
-          <h1>IM Technical Documentation</h1>
-          <p>{{ config.site_description }}.</p>
-          <a
-            href="{{ page.next_page.url | url }}"
-            title="{{ page.next_page.title | e }}"
-            class="md-button md-button--primary"
-          >
-            Quick start
-          </a>
-          <a
-            href="{{ 'about/' | url }}"
-            title="About"
-            class="md-button"
-          >
-            About
-          </a>
-        </div>
-      </div>
-    
-    </div>
-  </section>
-  <section>
-    <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-
-      <!-- Header -->
-      <header class="md-typeset">
-        {{ page.content }}
-      </header>
-
-      <!-- Posts -->
-      {% for post in posts %}
-        {% include "partials/post.html" %}
-      {% endfor %}
-
-      <!-- Pagination -->
-      {% if pagination %}
-        {% block pagination %}
-          {% include "partials/pagination.html" %}
-        {% endblock %}
-      {% endif %}
-    </div>
-  </div>
+    {% include "partials/home/hero.html" %}
+  <section class="mdx-section">
+    {% include "partials/home/section1.html" %}
   </section>
 {% endblock %}
 
-<!-- Content -->
+<!-- Content kill -->
 {% block content %}
 {% endblock %}
 
 <!-- Application footer -->
-{% block footer %}{% endblock %}
+{% block footer %}
+
+<!-- Footer -->
+<footer class="md-footer" style="position:relative !important">
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      {% include "partials/copyright.html" %}
+
+      <!-- Social links -->
+      {% if config.extra.social %}
+        {% include "partials/social.html" %}
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+
+{% endblock %}

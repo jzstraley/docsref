@@ -16,7 +16,7 @@ date: 2022-11-14
 
 - __[Language]__ – Choose out of the 60+ supported languages
 - __[Navigation]__ – Clear, concise, and comprehensive navigation structure
-- __[Header]__ – Customize the behavior of the header, add an announcement bar
+- __[Blog]__ – Access the newest pages, quick
 - __[PowerPoint]__ – Download PowerPoints of related topics
 - __[Search]__ – Utilize search running entirely in your browser
 - __[Tags]__ – Search tags and groups of related pages
@@ -25,7 +25,7 @@ date: 2022-11-14
 
   [Language]: /docs/about/index.md
   [Navigation]: /docs/about/index.md
-  [Header]: /docs/about/index.md
+  [Blog]: /docs/about/index.md
   [PowerPoint]: /docs/about/index.md
   [Search]: /docs/about/index.md
   [Tags]: /docs/tags.md

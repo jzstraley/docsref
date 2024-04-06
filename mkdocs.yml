@@ -65,7 +65,7 @@ theme:
     text: IBM Plex Sans
     code: JetBrains Mono
   favicon: assets/favicon.ico
-  logo: assets/logo3-copy-invert.png
+  logo: assets/drawing.svg
 
 # Plugins
 plugins:

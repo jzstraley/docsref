@@ -8,6 +8,7 @@ social:
   cards_layout: default
 ---
 
+<div style="view-transition-name: one;"></div>
 <!-- Home -->
 <!-- ![Austin](../assets/images/aboutpage/profilepic.jpg) -->
 

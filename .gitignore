@@ -11,6 +11,7 @@ venv
 # Build files
 build
 site
+drafts
 
 # Distribution files
 dist
