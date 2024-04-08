@@ -2,6 +2,8 @@
 title: Dotphrases
 author: J. Austin Straley, DO
 date: 2022-11-21
+tags:
+    - Efficiency
 ---
 
 - Dotphrases are autotext commands you can use to quickly insert text or data.

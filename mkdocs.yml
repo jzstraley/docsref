@@ -92,7 +92,7 @@ plugins:
       timezone: America/Detroit
       fallback_to_build_date: true
 
-strict: true
+strict: False
 
 # Hooks
 hooks:
@@ -120,7 +120,7 @@ extra:
 # Extra CSS
 extra_css:
   - assets/stylesheets/extra.css
-
+ 
 # Extensions
 markdown_extensions:
   - abbr
@@ -356,11 +356,14 @@ nav:
     - Patient Instructions: resident-guide/7-patient-instructions.md
     - Common Inpatient Problems: resident-guide/8-common-inpt-problems.md
   - Resources:
+    - Concepts: resources/concepts.md
     - Cerner: resources/cernerhelp.md
     - Dotphrases: resources/dotphrases.md
     - Important Websites: resources/important-websites.md
     - Shortcuts: resources/shortcuts.md
     - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
+    - Workload Management: resources/workload-management.md
+    - Interesting: resources/interesting.md
     - Blog: 
       - resources/blog/index.md
   - Tags: tags.md
@@ -370,6 +373,7 @@ nav:
     - License: about/license.md
     - Site Development: about/site-development.md
     - Changelog: about/changelog.md
+    - Contact: about/contact.md
 
 validation:
   links:
@@ -380,3 +384,4 @@ watch:
 
 exclude_docs:
   draft/
+  drafts/

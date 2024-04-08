@@ -18,7 +18,7 @@
     --md-footer-bg-color:                hsla(0, 0%, 0%, 0.87); /* Footer background */
     --md-footer-bg-color--dark:          hsla(0, 0%, 0%, 0.32);
     --md-typeset-a-color:         #3498DB; /* link color */
-    --md-primary-wave-color:      var(--md-primary-fg-color) 50%;
+    --md-primary-wave-color:      var(--md-primary-fg-color);
   
     .md-nav__title .md-nav__button.md-logo img {
       -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */

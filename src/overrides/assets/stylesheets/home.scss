@@ -1,20 +1,17 @@
 
 /* Application header should be static for the landing page */
 
-@import "custom/layout/section1";
+@import "custom/layout/sections";
 
 /* Header */
 .md-header {
     position: sticky;
-    background: transparent;
 }
 .md-header--shadow {
     transition: background-color .25s,transform .25s cubic-bezier(.1,.7,.1,1),box-shadow .25s;
-    background: transparent;
 }
 .md-header:not(.md-header--shadow) {
-    background-color: initial;
-    transition: background-color 125ms,transform 125ms cubic-bezier(.1,.7,.1,1),box-shadow 0ms
+    transition: background-color 125ms,transform 125ms cubic-bezier(.1,.7,.1,1),box-shadow 0ms;
 }
 
 /* Remove spacing, as we cannot hide it completely */
@@ -23,7 +20,7 @@ margin: 0;
 }
 
 /* Hide main content for now */
-.md-content, .md-main {
+.md-content {
 display: none;
 }
 
@@ -41,92 +38,25 @@ display: none;
 }
 }
 
-/* front-book, dark, light */
-.dark{
-    width:100%;
-    height: 30vh;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: black;
-    overflow-y: visible;
-}
-.front-book, #fb{
-    float: left;
-    background: transparent;
-}
-.dark-light{
-    height: 60dvh;
-    background: white;
-}
-
-.md-typeset {
-    color: var(--md-typeset-color)
-}
-
-.md-typeset h2 {
-    font-weight: 700;
-    margin-top: .175em
-}
-
-.md-typeset h2+h3 {
-    font-size: 1em;
-    margin-top: -.8em
-}
-
-.md-typeset :target {
-    --md-scroll-margin: 5.2rem
-}
-
-.md-main__inner {
-    margin: 0
-}
-
-.md-main__inner>.md-content,.md-main__inner>.md-sidebar--secondary {
-    display: none
-}
-
-.md-content__inner {
-    margin-bottom: 0;
-    padding: 5.2rem 0
-}
-
-.md-content__inner:before {
-    display: none
-}
-
-.md-content header {
-    display: block;
-    transition: opacity .75s
-}
-
-.js .md-content header[hidden] {
-    opacity: 0
-}
-/* Parallax 
 .md-typeset .md-button--secondary {
     background-color: initial
-} */
-
-:root {
-    --md-parallax-perspective: 2.5rem
 }
 
-
-/* Parallax */
-.mdx-parallax2 {
-    /* The image used */
-    background-image: url("../images/aboutpage/snowy-exit.jpg");
+/* Parallax
+.mdx-parallax2 {*/
+    /* The image used
+    background-image: url("../images/aboutpage/snowy-exit.jpg"); */
   
-    /* Set a specific height */
-    min-height: 500px;
+    /* Set a specific height
+    min-height: 500px;*/
   
-    /* Create the parallax scrolling effect */
+    /* Create the parallax scrolling effect
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+    background-size: cover;}
+  */
+  /*
 .mdx-parallax {
     height: 100vh;
     margin-top: -2.4rem;
@@ -137,68 +67,16 @@ display: none;
     width: 100vw
 }
 
+:root {
+    --md-parallax-perspective: 2.5rem
+}
+
 .mdx-parallax__group {
     background-color: var(--md-default-bg-color);
     color: var(--md-typeset-color);
     display: block;
     position: relative;
     transform-style: preserve-3d
-}
-
-.mdx-parallax__group:first-child {
-    background-color: initial;
-    contain: strict;
-    height: 140vh
-}
-
-.safari .mdx-parallax__group:first-child {
-    contain: none
-}
-
-@media (min-width: 125vh) {
-    .mdx-parallax__group:first-child {
-        height:120vw
-    }
-}
-
-@media (min-width: 137.5vh) {
-    .mdx-parallax__group:first-child {
-        height:125vw
-    }
-}
-
-@media (min-width: 150vh) {
-    .mdx-parallax__group:first-child {
-        height:130vw
-    }
-}
-
-@media (min-width: 162.5vh) {
-    .mdx-parallax__group:first-child {
-        height:135vw
-    }
-}
-
-@media (min-width: 175vh) {
-    .mdx-parallax__group:first-child {
-        height:140vw
-    }
-}
-
-@media (min-width: 187.5vh) {
-    .mdx-parallax__group:first-child {
-        height:145vw
-    }
-}
-
-@media (min-width: 200vh) {
-    .mdx-parallax__group:first-child {
-        height:150vw
-    }
-}
-
-.mdx-parallax__group:last-child {
-    background-color: var(--md-default-bg-color)
 }
 
 .mdx-parallax__layer {
@@ -228,64 +106,4 @@ display: none;
     height: min(100vh,100vw);
     top: auto
 }
-
-@media screen and (min-width: 60em) {
-    .mdx-content__inner {
-        display:flex;
-        flex-wrap: nowrap;
-        gap: 6.4rem
-    }
-
-    .mdx-content__column {
-        margin-top: 0
-    }
-
-    .mdx-content__column:first-child {
-        flex: 2 0
-    }
-
-    .mdx-content__column:last-child {
-        flex: 1 0;
-        margin-top: 0
-    }
-}
-
-@media screen and (max-width: 76.234375em) {
-    .mdx-expect__description>:last-child {
-        margin-left:-2.8rem
-    }
-}
-
-.js .mdx-hero[hidden]>* {
-    opacity: 0;
-    transform: translateY(16px);
-    transition: transform 0ms .1s,opacity .1s
-}
-
-.mdx-hero__scrollwrap {
-    height: 100vh;
-    margin-bottom: -100vh;
-    position: sticky;
-    top: 0;
-    z-index: 9
-}
-
-.mdx-hero__inner {
-    bottom: 3.2rem;
-    display: block;
-    position: absolute;
-    transition: transform .4s cubic-bezier(.1,.7,.1,1),opacity .25s;
-    width: 100%
-}
-
-@media screen and (max-width: 44.984375em) {
-    .mdx-hero__inner {
-        bottom:6.4rem
-    }
-}
-
-.mdx-hero__more svg {
-    fill: #fff;
-    height: 1.2rem;
-    width: 1.2rem
-}
+*/
