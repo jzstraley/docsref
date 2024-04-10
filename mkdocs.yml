@@ -64,7 +64,7 @@ theme:
   font:
     text: IBM Plex Sans
     code: JetBrains Mono
-  favicon: assets/icon-2/favicon.ico
+  favicon: assets/icon-logo/favicon.ico
   logo: assets/icon-logo/drawing.svg
 
 # Plugins
@@ -172,7 +172,6 @@ nav:
   - IM Guide:
     - im-guide/index.md
     - Cardiology:
-      - im-guide/cards/index.md
       - ACS: im-guide/cards/acs.md
       - Cardiac Critical Care: 
         - im-guide/cards/cardiac-critical-care/index.md
@@ -228,7 +227,6 @@ nav:
     - Infectious Disease: 
       - im-guide/id/index.md
     - Neurology: 
-      - im-guide/neuro/index.md
       - CNS Disease:
         - Cortex: 
           - Dementia: 
@@ -254,7 +252,6 @@ nav:
         - Treatment Modalities: 
           - im-guide/neuro/cns-disease/treatment-modalities/index.md
     - Nephrology: 
-      - im-guide/nephro/index.md
       - Renal Anatomy: im-guide/nephro/renal-anatomy.md
       - Renal Physiology: im-guide/nephro/renal-physiology.md
       - Electrolytes: 
@@ -271,8 +268,7 @@ nav:
         - Hypermagnesemia: im-guide/nephro/electrolytes/hypermagnesemia.md
       - AKI: im-guide/nephro/aki.md
       - CKD: im-guide/nephro/ckd.md
-    - Pharmacology: 
-      - im-guide/pharm/index.md
+    - Pharmacology:
       - Autonomics: im-guide/pharm/autonomics.md
       - Chemotherapy & ID:
         - im-guide/pharm/chemo-id/index.md

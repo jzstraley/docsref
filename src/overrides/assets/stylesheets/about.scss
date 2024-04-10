@@ -67,13 +67,15 @@
     padding: 5px;
     }
   .picture {
-  margin: 5px;max-width: 100%;
+  margin: 5px;
+  max-width: 100%;
   max-height: 100%
   }
   #profpicbg{
   justify-content: center !important;
   max-height:45dvh;
     width: 100%;
+    max-width: 365px;
     margin: 5px;
     filter: brightness(0.85) contrast(1.15);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
