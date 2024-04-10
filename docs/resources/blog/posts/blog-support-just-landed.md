@@ -6,6 +6,9 @@ description: >
   a blog alongside your documentation or standalone
 categories:
   - Blog
+tags:
+  - News
+status: new
 ---
 
 # Blog support just landed

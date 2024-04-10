@@ -15,3 +15,11 @@ date: 2024-03-28
 
 # UI Colors
 - [MaterialUi](https://materialui.co/metrocolors)
+
+<div class="grid cards" markdown>
+
+- __[Mermaid]__ - Flowcharts
+
+</div>
+
+[Mermaid]: https://mermaid.js.org/syntax/mindmap.html
