@@ -13,14 +13,6 @@
   {{ super() }}
     {% include "partials/home/hero.html" %}
   <section class="mdx-section">
-    {% include "partials/home/section2.html" %}
-    {% for post in posts %}
-      {% if post.status == "new" %}
-        {% include "partials/home/iterate.html" %}
-      {% endif %}
-    {% endfor %}
-  </section>
-  <section class="mdx-section">
     {% include "partials/home/section1.html" %}
   </section>
 {% endblock %}

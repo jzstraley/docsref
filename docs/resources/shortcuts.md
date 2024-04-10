@@ -2,8 +2,6 @@
 title: Cerner Shortcuts
 author: J. Austin Straley, DO
 date: 2022-11-21
-tags:
-    - Efficiency
 ---
     
 <br>

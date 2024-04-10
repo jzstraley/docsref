@@ -2,8 +2,6 @@
 title: Cerner
 author: J. Austin Straley, DO
 date: 2022-11-14
-tags:
-    - Efficiency
 quote: '“I’ll take things that make no sense for 500, Alex”'
 ---
 
@@ -22,5 +20,5 @@ quote: '“I’ll take things that make no sense for 500, Alex”'
             - Don't be like computers, be smart and use dictation, dotphrases, and favorites
 - This being said, Cerner is extra stupid. I've attached a few modules on how to make Cerner "smarter" and work more efficiently for YOU
 
-[1]: /resources/dotphrases.md
-[2]: /resources/shortcuts.md
+[1]: /internguidepages/chapter02/1-dotphrases.html
+[2]: /internguidepages/chapter02/2-cerner-shortcuts.html
