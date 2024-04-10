@@ -1,0 +1,99 @@
+.mdx-section{
+    position:relative;
+    display:block;
+    width:100%;
+}
+
+.mdx-section-1-background{
+    position:absolute;
+    display:block;
+    height: calc(45dvh + 120px);
+    width:100%;
+    background-color: var(--md-primary-fg-color);
+    /*background:#9FA392;*/
+}
+
+.mdx-section-1-content{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    margin-left:60px;
+    margin-right:60px;
+    column-gap:0px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+
+}
+
+.mdx-section-1-words{
+    flex: 579 1 0%; 
+    position:relative;
+    display:block;
+    margin-top:60px;
+    margin-bottom:60px;
+    background-color: var(--md-primary-bg-color);
+   /* background:#AE6D4D;*/
+}
+
+.mdx-section-1-pic{
+    flex: 281 1 0%;
+    position:relative;
+    display:block;
+    margin-top:60px;
+    margin-bottom:60px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mdx-section-1-words, .mdx-section-1-pic {
+    max-height: 45dvh;
+}
+
+.section-margins, .section-margins-bottom {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.section-1-button {
+    border-color: var(--md-accent-fg-color);
+    color: var(--md-primary-bg-color);
+    font-size: .8rem;
+    line-height: 1.6;
+    margin-right: .5rem;
+    margin-top: .5rem;
+    border-width: 0;
+    border: .1rem solid;
+    border-radius: .1rem;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    word-break: break-word;
+    font-weight: 700;
+    padding: .625em 2em;
+    transition: color 125ms, background-color 125ms, border-color 125ms;
+}
+.section-1-button:hover{
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 640px){
+    .mdx-section-1-pic {
+        margin-top: 0 !important;
+        justify-content: center;
+    }
+    .section-margins-bottom {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 60px;
+    }
+    #prodpicbg {
+        justify-content: center;
+    }
+    .mdx-section-1-words {
+        margin-bottom:0px !important;
+}
+}
