@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.docsref.com/about/contact/</loc>
+         <lastmod>2024-04-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.docsref.com/about/disclaimer/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
@@ -42,11 +47,6 @@
     </url>
     <url>
          <loc>https://www.docsref.com/im-guide/student-intern-readings/</loc>
-         <lastmod>2024-04-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.docsref.com/im-guide/cards/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -236,11 +236,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docsref.com/im-guide/nephro/</loc>
-         <lastmod>2024-04-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://www.docsref.com/im-guide/nephro/aki/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
@@ -316,11 +311,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docsref.com/im-guide/neuro/</loc>
-         <lastmod>2024-04-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://www.docsref.com/im-guide/neuro/cns-disease/cortex/ams/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
@@ -392,11 +382,6 @@
     </url>
     <url>
          <loc>https://www.docsref.com/im-guide/pccm/fasthugsbid/</loc>
-         <lastmod>2024-04-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.docsref.com/im-guide/pharm/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -736,6 +721,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.docsref.com/resources/concepts/</loc>
+         <lastmod>2024-04-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.docsref.com/resources/dotphrases/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
@@ -751,7 +741,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.docsref.com/resources/interesting/</loc>
+         <lastmod>2024-04-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.docsref.com/resources/shortcuts/</loc>
+         <lastmod>2024-04-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docsref.com/resources/workload-management/</loc>
          <lastmod>2024-04-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
