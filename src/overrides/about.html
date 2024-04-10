@@ -12,7 +12,12 @@
 <!-- Adding Face/About-Box -->
   <div class="row">
     <div class="picture">
-        <img id="profpicbg" src="../assets/images/aboutpage/profilepic.jpg" alt="Avatar">
+          <img id="profpicbg" 
+                srcset="../assets/images/aboutpage/profilepic/profilepic-large.jpg  535w, 
+                    ../assets/images/aboutpage/profilepic/profilepic-medium.jpg  400w,
+                    ../assets/images/aboutpage/profilepic/profilepic-small.jpg  250w"
+                    sizes="(min-width: 41.25em) 41.25em, calc(100vw - 2.5em)"
+                    src="../assets/images/aboutpage/profilepic-medium.jpg" alt="Avatar">
       </div>
     <div class="about-box">
       <div class="about-box-container">
