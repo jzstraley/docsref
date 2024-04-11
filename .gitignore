@@ -46,3 +46,4 @@ tmp
 # IDEs & Editors
 .idea
 *~
+.htaccess
