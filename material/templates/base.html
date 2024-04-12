@@ -6,6 +6,7 @@
 <html lang="{{ lang.t('language') }}" class="no-js">
   <head>
     {% block site_meta %}
+      <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       {% if page.meta and page.meta.description %}
