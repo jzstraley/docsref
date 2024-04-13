@@ -76,6 +76,10 @@
     margin: 0 auto;
     content: "";
     background-color: currentcolor;
+    -webkit-mask-image: var(--md-clipboard-icon);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
     mask-image: var(--md-clipboard-icon);
     mask-position: center;
     mask-repeat: no-repeat;
