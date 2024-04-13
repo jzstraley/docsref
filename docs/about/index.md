@@ -65,7 +65,7 @@ social:
     - Evaluated and gave feedback regarding presentation skills
     - June 2022
 
-<center><img src="../assets/images/aboutpage/IMG_1669.png" width="450" height="250"></center>
+<center><img src="../assets/images/aboutpage/IMG_1669.webp"></center>
 
 ## Research Experience
 - CAMC Research Day Oral Presentation – Clinical Research/QI Abstract
@@ -150,7 +150,7 @@ social:
     - PI: Dr. R. Scott Morehead, MD, Pulmonology and Critical Care
     - April 19, 2022
 
-<center><img src="../assets/images/aboutpage/Poster1.jpeg" width="450" height="250"></center>
+<center><img src="../assets/images/aboutpage/Poster1.webp"></center>
 
 ## Work Experience
 - Internal Moonlighting
@@ -168,7 +168,7 @@ social:
     - Graded assignments, assisted class activities, and served as an in-class liaison
     - Fall 2013, 2014, and 2015	
 
-<center><img src="../assets/images/aboutpage/IMG_1748.png" width="450" height="250"></center>
+<center><img src="../assets/images/aboutpage/IMG_1748.webp"></center>
 
 ## Volunteer Experience and Community Activities
 - Project CHASM (Charleston Homeless and Street Medicine)
@@ -219,6 +219,8 @@ social:
 - Python, HTML, CSS- Intermediate
 - Javascript - Working
 
+<center><img src="../assets/images/aboutpage/IMG_1685.webp"></center>
+
 ## Honors and Awards
 - 1st Place Clinical Research/QI Resident Abstract Poster Competition
     - 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
@@ -237,4 +239,4 @@ social:
     - Single year college scholarship for my position as a team captain and my academic record.
     - Fall 2012 – Spring 2013
 
-![Snowboarding](../assets/images/aboutpage/IMG_1940.png)
+![Snowboarding](../assets/images/aboutpage/IMG_1940.webp)

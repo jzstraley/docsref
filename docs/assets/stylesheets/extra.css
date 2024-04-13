@@ -28,9 +28,9 @@
       -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
     /*  filter: invert(100%);
    } }*/
-     /* .md-nav__title .md-nav__button.md-logo img {
+      .md-nav__title .md-nav__button.md-logo img {
       -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-    /*  filter: invert(100%);*/
+      filter: invert(100%);
       }
 
 .md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg {
