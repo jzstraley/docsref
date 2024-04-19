@@ -11,7 +11,12 @@
 <!-- Render hero under tabs -->
 {% block tabs %}
   {{ super() }}
+
+    <!-- Render Hero -->
     {% include "partials/home/hero.html" %}
+
+    <!-- Render Cards -->
+    {% include "partials/home/cards.html" %
 {% endblock %}
 
 <!-- Content kill -->

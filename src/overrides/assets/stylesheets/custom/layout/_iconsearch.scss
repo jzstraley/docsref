@@ -95,13 +95,13 @@
         margin-right: px2rem(12px);
       }
 
-      // Set icon dimensions to fit
+      // Set icon dimensions to fit 
       img {
         width: px2rem(18px);
         height: px2rem(18px);
 
         // Slate theme, i.e. dark mode
-        [data-md-color-scheme="slate"] &[src*="squidfunk"] {
+        [data-md-color-scheme="slate"] &[src*="profpicbg"] {
           filter: invert(1); /* stylelint-disable-line */
         }
       }

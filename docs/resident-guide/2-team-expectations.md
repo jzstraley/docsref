@@ -6,7 +6,7 @@ date: 2022-12-04
 
 *<center><mark>"You're throwing fastballs at a catcher with no mitt"</mark></center>*
 
-### Use of ABCD:
+### [Use of ABCD][^1]:
 - A: Pts who are acutely ill or worsening quickly, “watcher” status, or never seen together as a team
 - B: Pts responding to therapies but still require updates to care and ongoing hospitalization
 - C: Pts pending discharge that are not able to be discharged for some defined reason (i.e., EOT for antibiotics, HD chair, placement)
@@ -85,7 +85,7 @@ date: 2022-12-04
         	- Check Morning Labs as well as any follow up items from the day prior
         		- Start “Lab” & ”Box” System if desired; See Staying Organized
         	- Replace relevant electrolytes/start new meds as needed
-        		- See "[Electrolyte Replacement Guidelines][1]" if needed
+        		- See "[Electrolyte Replacement Guidelines][2]" if needed
 				- Discuss with senior!
 	2. Pre-Rounds
 	3. Morning Report
@@ -97,8 +97,5 @@ date: 2022-12-04
 		1. Please try your hardest to update hospital courses
 			I. This is especially important for discharges, end of the rotation handoff, and patients in the hospital longer than one week
 
-- References
-	- [http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf][2]
-
-[1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf
-[2]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf
+[^1]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf
+[2]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf
