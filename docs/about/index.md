@@ -219,7 +219,7 @@ social:
 - Python, HTML, CSS- Intermediate
 - Javascript - Working
 
-<center><img src="../assets/images/aboutpage/IMG_1685.webp"></center>
+<center><img src="../assets/images/aboutpage/IMG_1856.webp"></center>
 
 ## Honors and Awards
 - 1st Place Clinical Research/QI Resident Abstract Poster Competition

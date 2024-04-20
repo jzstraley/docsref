@@ -20,10 +20,3 @@
     --md-typeset-a-color:         #3498DB; /* link color */
     --md-primary-wave-color:      var(--md-primary-fg-color) 50%;
     }
-
-.md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg {
-    fill: currentcolor;
-    display: block;
-    height: 2rem;
-    width: auto
-}

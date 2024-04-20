@@ -1,10 +1,8 @@
 ---
-title: Cerner Shortcuts
+title: Shortcuts
 author: J. Austin Straley, DO
 date: 2022-11-21
 ---
-    
-<br>
 
 ## Keyboard Shortcuts (for windows)
 - Copy: <kbd><kbd>ctrl</kbd>+<kbd>c</kbd></kbd>

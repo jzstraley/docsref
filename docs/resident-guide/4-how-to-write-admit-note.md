@@ -13,7 +13,7 @@ quote: '“Like that flag is red, but not like red red”'
 	2. History of Present Illness (HPI)
         - Utilize OLDCARTS
             - Asking "When did you last feel normal", "Are you better, worse, or the same?", "What made you come in today?", and "What do you think this could be?" can often be helpful in eliciting an HPI<br>
-        - <span style ="color:green;">Ex. Today, he c/o cough, wheezing, and sob that started a week ago that he says has been quickly worsening. He says feels he feels persistent chest tightness when trying to breath that hasn’t improved with his home albuterol inhaler. He states he has had some clear sputum production but not much. He denies aggravating factors, which includes exertion and laying flat.</span>
+        - <span style ="color:green;">Ex. Today, he complained of cough, wheezing, and sob that started a week ago that he says has been quickly worsening. He says feels he feels persistent chest tightness when trying to breath that hasn’t improved with his home albuterol inhaler. He states he has had some clear sputum production but not much. He denies aggravating factors, which includes exertion and laying flat.</span>
 	3. Meds/Allergies/FH/SH/Other relevant history/Code Status
         - You don't need to list every medication they have, but the important ones/ones relevant to the complaint need to be here
             - Call the spouse/SNF/Pharmacy if you must<br>

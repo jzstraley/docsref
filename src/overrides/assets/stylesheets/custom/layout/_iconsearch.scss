@@ -108,3 +108,20 @@
     }
   }
 }
+
+[data-md-color-scheme="slate"]{ 
+
+  .md-nav--primary .md-nav__title .md-logo .md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg
+  {
+    filter:invert(100%);
+  }
+  &[src*="profpicbg"] {
+  filter: invert(1); /* stylelint-disable-line */
+}}
+
+.md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg {
+  /* fill: currentcolor; */
+  display: block;
+  height: 2rem;
+  width: auto
+}
