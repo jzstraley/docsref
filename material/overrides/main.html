@@ -3,10 +3,10 @@
 -#}
 {% extends "base.html" %}
 {% block extrahead %}
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.a1f1787b.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.3148320f.min.css' | url }}">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="shortcut icon" href="../assets/images/icon-logo/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ config.theme.favicon | url }}" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="256x256" href="../assets/images/icon-logo/apple-touch-icon.png">
 {% endblock %}
 {% block scripts %}

@@ -182,6 +182,8 @@ nav:
       - Consults: im-guide/cards/consults.md
       - Echo: 
         - im-guide/cards/echo/index.md
+        - Aortic Valve: im-guide/cards/echo/aorticvalve.md
+        - Echo Chapter 1: im-guide/cards/echo/chapter1.md
       - EKG: im-guide/cards/ekg.md
       - Electrophysiology: 
         - im-guide/cards/electrophysiology/index.md
@@ -254,6 +256,7 @@ nav:
     - Nephrology: 
       - Renal Anatomy: im-guide/nephro/renal-anatomy.md
       - Renal Physiology: im-guide/nephro/renal-physiology.md
+      - Urinalysis: im-guide/nephro/urinalysis.md
       - Electrolytes: 
         - im-guide/nephro/electrolytes/index.md
         - Hypernatremia: im-guide/nephro/electrolytes/hypernatremia.md
