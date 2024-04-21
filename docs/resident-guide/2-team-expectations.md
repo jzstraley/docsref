@@ -2,6 +2,7 @@
 title: Medicine Service Expectations
 author: J. Austin Straley, DO
 date: 2022-12-04
+revised: 2024-04-21
 ---
 
 *<center><mark>"You're throwing fastballs at a catcher with no mitt"</mark></center>*
@@ -14,15 +15,16 @@ date: 2022-12-04
 
 ### Team responsibilities
 - A/B/C/D should be set prior to rounds by intern/resident and determines presentation: 
-    - A/B: team dependent (full, focused problem, etc.)
-    - C: brief update
-    - D: DDEMAP
+    * A/B: team dependent (full, problem focused, etc.)
+    * C: brief update
+    * D: DDEMAP
 - Attending rounds typically run from 9-11:30a on weekdays, team responsibility to troubleshoot difficulties with this
-- See all A (including new to team) and definitive D patients in person (non-primary intern can be excused if busy). Primary presenter for patient should lead patient discussion.
+- See all *A* (including new to team) and definitive *D* patients in person (non-primary intern can be excused if busy). 
+	* Primary presenter for patient should lead patient discussion.
 - Interns can be split for rounds to get work done
 - All team members should be prepared for rounds
 - Use of AIDET, communication with patients or surrogate decision makers and appropriate use of
-- interpreter services (as well as correct documentation where appropriate)
+- Interpreter services (as well as correct documentation where appropriate)
 - A note should be completed each day (H&P – overnight team H&P counts if completed after midnight, progress or transfer note, or discharge/transfer summary). Team should be clear about who is responsible for note (i.e. typically student, intern, or resident)
 
 ### Attending responsibilities
@@ -55,28 +57,9 @@ date: 2022-12-04
 - Be prepared to present on all own patients, review main plan with resident prior to rounds
 - Prepare DDEMAP on discharges prior to rounds including medication reconciliation with knowledge of home medications
 - Write notes on all patients or attest student notes
-- Update cache daily
-- Split up between the two interns: pager/tiger connect duties during rounds, afternoon/evening pager duty (the resident and other intern, if not off that day, should be available for support and to answer questions), perform sign out on non-long call days
-- Pager coverage is not expected to be in-house but the intern on pager duty is expected to return to the hospital if acute issues arise and to know the other intern’s patients well enough to respond and appropriately cross cover until 7 and to give sign out to night cross cover resident.
-
-### Phase II Medical student responsibilities
-- See patients you are assigned and prepare presentations for them, review main plan with resident prior to rounds
-- Up to 3 notes/day with resident/intern verification/attestation
-- Should be present for all of rounds
-- Help with patient care duties on their patients (i.e., calling consults, helping with follow-ups, depart summary, patient education, family updates, cache updates)
-- Place basic medical orders on patients if they can be co-signed by physician at appropriate intervals
-- Predominantly see and present patients with A/B/D status. For C patients, if the student still follows, the intern/resident may present for efficiency.
-
-### Phase III (Sub-intern) Medical student responsibilities
-- See patients you are assigned and prepare presentations for them, review main plan with resident prior to rounds
-- Write H&P, progress note, and discharge summaries on all patents you see
-- Attending attestation/verification for progress notes/discharge summaries
-- Resident attestation/verification for H&P
-- Should be present for all of rounds
-- Perform all patient care duties on their patients (i.e., calling consults, requesting follow-ups, depart summary, patient education, family updates, cache updates)
-- Place basic medical orders on patients and requesting co-signature at appropriate interval
-
-
+- Update Excel daily
+- Split up between the two interns: pager connect duties during rounds, perform sign out on non-long call days
+- Intern on pager duty is expected to return to the hospital if acute issues arise and to know the other intern’s patients well enough to respond and appropriately cross cover until sign out to night cross-cover resident.
 - Day-to-Day for Interns:
 	1. Checkout from Night Team
         - Senior to determine each intern’s patients for the day
@@ -97,5 +80,28 @@ date: 2022-12-04
 		1. Please try your hardest to update hospital courses
 			I. This is especially important for discharges, end of the rotation handoff, and patients in the hospital longer than one week
 
-[^1]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf
-[2]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf
+### Phase II Medical student responsibilities
+
+*Supporting the vibes of the entire team should be your #1 priority*
+
+- See patients you are assigned and prepare presentations for them, review main plan with resident prior to rounds
+- Up to 3 notes/day with resident/intern verification/attestation
+- Should be present for all of rounds
+- Help with patient care duties on their patients (i.e., calling consults, helping with follow-ups, depart summary, patient education, family updates, cache updates)
+- Place basic medical orders on patients if they can be co-signed by physician at appropriate intervals
+- Predominantly see and present patients with A/B/D status. For C patients, if the student still follows, the intern/resident may present for efficiency.
+
+### Phase III (Sub-intern) Medical student responsibilities
+
+__*Supporting the vibes of the entire team should be your #1 priority*__
+
+- See patients you are assigned and prepare presentations for them, review main plan with resident prior to rounds
+- Write H&P, progress note, and discharge summaries on all patents you see
+- Attending attestation/verification for progress notes/discharge summaries
+- Resident attestation/verification for H&P
+- Should be present for all of rounds
+- Perform all patient care duties on their patients (i.e., calling consults, requesting follow-ups, depart summary, patient education, family updates, cache updates)
+- Place basic medical orders on patients and requesting co-signature at appropriate interval
+
+[^1]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf{:target="_blank"}
+[2]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf{:target="_blank"}
