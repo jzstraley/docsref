@@ -64,8 +64,8 @@ theme:
   font:
     text: IBM Plex Sans
     code: JetBrains Mono
-  favicon: assets/images/icon-logo/favicon.ico
-  logo: assets/images/icon-logo/drawing.svg
+  favicon: favicon.ico
+  logo: D2.svg
 
 # Plugins
 plugins:
@@ -201,7 +201,11 @@ nav:
         - Syncope: im-guide/cards/other-topics/syncope.md
         - Hypertension: im-guide/cards/other-topics/hypertension.md
       - Pericardial Disease: im-guide/cards/pericardial-disease.md
-      - Pharmacology: im-guide/cards/pharmacology-cardiology.md
+      - Pharmacology: 
+        - Antianginals: im-guide/pharm/cardiac-pharm/antianginals.md
+        - Antiarrhythmics: im-guide/pharm/cardiac-pharm/antiarrhythmics.md
+        - Antihypertensives: im-guide/pharm/cardiac-pharm/antihypertensives.md
+        - Lipid Therapy: im-guide/pharm/cardiac-pharm/lipidtherapy.md
       - Prevention:
         - Lipids: im-guide/cards/prevention/lipids.md
       - Stable Ischemic Disease: im-guide/cards/stable-ischemic-disease.md
@@ -320,12 +324,6 @@ nav:
         - Fibrinolytics: im-guide/pharm/blood&anti-inflammatories/fibrinolytics.md
         - Gout: im-guide/pharm/blood&anti-inflammatories/gout.md
         - Steroids: im-guide/pharm/blood&anti-inflammatories/steroids.md
-      - Cardiovascular Renal:
-        - im-guide/pharm/cardiovascular-renal/index.md
-        - Antianginals: im-guide/pharm/cardiovascular-renal/antianginals.md
-        - Antiarrhythmics: im-guide/pharm/cardiovascular-renal/antiarrhythmics.md
-        - Antihypertensives: im-guide/pharm/cardiovascular-renal/antihypertensives.md
-        - Lipid Therapy: im-guide/pharm/cardiovascular-renal/lipidtherapy.md
     - Psychiatry:
       - im-guide/psych/index.md
     - Pulmonology/Critical Care: 

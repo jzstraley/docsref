@@ -115,8 +115,8 @@
   {
     filter:invert(100%);
   }
-  &[src*="profpicbg"] {
-  filter: invert(1); /* stylelint-disable-line */
+  &[src*="drawing"] {
+  filter: invert(100%) !important;
 }}
 
 .md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg {
