@@ -25,7 +25,7 @@ categories:
 - [In life expectancy <1, discontinuation of statin did not increase 60-day mortality](https://pubmed.ncbi.nlm.nih.gov/20818875/){:target="_blank"}
 
 
-![Courtesy of Riordan M, Schuetze K.](../assets/images/im-guide/cards/stable-ischemic-disease/Vascular-EA-Schuetze-Riordan-Fig1.webp)
+![Courtesy of Riordan M, Schuetze K.](./assets/images/im-guide/cards/stable-ischemic-disease/Vascular-EA-Schuetze-Riordan-Fig1.webp)
 
 
 ## Revascularization (CABG)

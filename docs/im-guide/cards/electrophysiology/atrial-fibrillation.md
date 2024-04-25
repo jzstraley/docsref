@@ -102,7 +102,7 @@ tags:
 
 ### Acute Afib w/RVR
 
-![ACC 2023 Guideline - Acute Afib](../assets/images/im-guide/cards/electrophysiology/gr17.webp)
+![ACC 2023 Guideline - Acute Afib](/assets/images/im-guide/cards/electrophysiology/gr17.webp)
 
 * Unstable Afib w/RVR
     * Cardioversion

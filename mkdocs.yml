@@ -199,13 +199,12 @@ nav:
       - Nuclear Cardiology: im-guide/cards/nuclear-cardiology.md
       - Other Topics: 
         - Syncope: im-guide/cards/other-topics/syncope.md
-        - Hypertension: im-guide/cards/other-topics/hypertension.md
       - Pericardial Disease: im-guide/cards/pericardial-disease.md
       - Pharmacology: 
-        - Antianginals: im-guide/pharm/cardiac-pharm/antianginals.md
-        - Antiarrhythmics: im-guide/pharm/cardiac-pharm/antiarrhythmics.md
-        - Antihypertensives: im-guide/pharm/cardiac-pharm/antihypertensives.md
-        - Lipid Therapy: im-guide/pharm/cardiac-pharm/lipidtherapy.md
+        - Antianginals: im-guide/cards/cardiac-pharm/antianginals.md
+        - Antiarrhythmics: im-guide/cards/cardiac-pharm/antiarrhythmics.md
+        - Antihypertensives: im-guide/cards/cardiac-pharm/antihypertensives.md
+        - Lipid Therapy: im-guide/cards/cardiac-pharm/lipidtherapy.md
       - Prevention:
         - Lipids: im-guide/cards/prevention/lipids.md
       - Stable Ischemic Disease: im-guide/cards/stable-ischemic-disease.md
@@ -307,7 +306,6 @@ nav:
         - Antihistamines: im-guide/pharm/smooth-muscle/antihistamines.md
         - Antipruritics: im-guide/pharm/smooth-muscle/antipruritics.md
         - Asthma/COPD: im-guide/pharm/smooth-muscle/asthma-copd.md
-        - Decongestants: im-guide/pharm/smooth-muscle/decongestants.md
       - Special Topics:
         - Antidiarrheals: im-guide/pharm/special-topics/antidiarrheals.md
         - Contraceptives: im-guide/pharm/special-topics/contraceptives.md
