@@ -276,6 +276,7 @@ nav:
       - CKD: im-guide/nephro/ckd.md
       - Consults: im-guide/nephro/consults.md
     - Pharmacology:
+      - im-guide/pharm/index.md
       - Autonomics: im-guide/pharm/autonomics.md
       - Chemotherapy & ID:
         - Antibiotics: im-guide/pharm/chemo-id/antibiotics.md

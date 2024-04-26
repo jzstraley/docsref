@@ -13,6 +13,8 @@ tags:
 ## Resources
 * [EKG-Maven][1]
 * [Killer ECG Patterns: Part 1][2]
+* [Unbound Medicine EKGs][3]
 
 [1]: https://ecg.bidmc.harvard.edu/maven/mavenmain.asp
 [2]: https://litfl.com/killer-ecg-patterns-part-1/
+[3]: https://emergency.unboundmedicine.com/emergency/view/GDT/619449/all/BASIC_ELECTROCARDIOGRAPHY

@@ -196,6 +196,7 @@ tags:
       - No QRS prolongation (doesn't work on phase 0)
 - Diltiazem (Cardizem)
   - [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/39186){target="_blank"}
+  - [David Drug Guide][1]
   - Weight based
   - Acute Use: SVT, AF/AFL Rate Control
     - Acute Afib: 0.25mg/kg/IV over 2 mins
@@ -269,3 +270,5 @@ tags:
 - Epinephrine
 - Norepinephrine
 - Isopro
+
+[1]: https://emergency.unboundmedicine.com/emergency/view/Davis-Drug-Guide/51221/all/dilTIAZem

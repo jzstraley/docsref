@@ -10,6 +10,7 @@ categories:
 tags:
     - Hypertension
     - Diuretics
+    - CCBs
 ---
 
 ## Physiology
@@ -94,7 +95,7 @@ tags:
 - 2 groups:
 
 ### Non-Dihydropyridine (NDHP) CCBs
-- Does not have the same peripheral vasodilatory properties
+- Do not have the same peripheral vasodilatory properties
 - Verapamil
 - Diltiazem
 

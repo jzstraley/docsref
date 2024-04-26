@@ -14,7 +14,6 @@ date: 2022-11-14
 
  ## Resources
  * [Vanderbilt's IM Resident Guide][1] 
- * [Tulane's PharmWiki][2]
  * [ACP Journal Club][3]
  * [WikiDoc][4]
  * [UCSF Hospitalist Handbook][5]
@@ -46,7 +45,7 @@ date: 2022-11-14
   [Tags]: /docs/tags.md
 
   [1]: https://www.vim-book.org/
-  [2]: https://tmedweb.tulane.edu/pharmwiki/doku.php/start
+
   [3]: https://www.acpjournals.org/topic/category/journal-club?_ga=2.229906524.1739076985.1691463051-1539549077.1685141287&_gac=1.187693530.1689654904.Cj0KCQjwzdOlBhCNARIsAPMwjbw3o6jFrtB3r5G9NTP_tC3QhDIYQGm7Me6Lb9HN3vNJxc1viNRKiDQaAg9hEALw_wcB&_gl=1*hcte7n*_ga*NjY3MDgxMzg5LjE2ODg5Mzk5OTU.*_ga_PM4F5HBGFQ*MTY5MTQ2MzA1MS4xMi4wLjE2OTE0NjMwNTEuNjAuMC4w
   [4]: https://www.wikidoc.org/index.php/Main_Page 
   [5]: https://hospitalhandbook.ucsf.edu/
