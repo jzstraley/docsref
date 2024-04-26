@@ -255,7 +255,13 @@ categories:
     * CKD before Surgery
         * Dialyze 24 hours prior
 
-[^1]: https://pubmed.ncbi.nlm.nih.gov/26927735/{:target="_blank"}
+## Resources
+* [Guide to Perioperative Evaluation][1]
+
+
+[^1]: https://pubmed.ncbi.nlm.nih.gov/26927735/
+
+[1]: https://www.preopevalguide.com/copy-of-home{:target="_blank"}
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8339074/{:target="_blank"}
 [3]: https://pubs.asahq.org/anesthesiology/article/139/1/91/138261/Preoperative-Evaluation-in-the-21st-Century{:target="_blank"}
 [4]: https://www.merckmanuals.com/professional/special-subjects/care-of-the-surgical-patient/preoperative-evaluation{:target="_blank"}

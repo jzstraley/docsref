@@ -255,6 +255,7 @@ nav:
           - im-guide/neuro/cns-disease/neurocutaneous/index.md
         - Treatment Modalities: 
           - im-guide/neuro/cns-disease/treatment-modalities/index.md
+      - Consults: im-guide/neuro/consults.md
     - Nephrology: 
       - Renal Anatomy: im-guide/nephro/renal-anatomy.md
       - Renal Physiology: im-guide/nephro/renal-physiology.md
@@ -273,6 +274,7 @@ nav:
         - Hypermagnesemia: im-guide/nephro/electrolytes/hypermagnesemia.md
       - AKI: im-guide/nephro/aki.md
       - CKD: im-guide/nephro/ckd.md
+      - Consults: im-guide/nephro/consults.md
     - Pharmacology:
       - Autonomics: im-guide/pharm/autonomics.md
       - Chemotherapy & ID:

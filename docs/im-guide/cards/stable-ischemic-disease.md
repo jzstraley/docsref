@@ -2,6 +2,7 @@
 title: Stable Ischemic Disease
 author: J. Austin Straley, DO
 date: 2024-03-16
+updated: 2024-04-25
 categories:
     - Cardiology
 ---
@@ -77,15 +78,15 @@ categories:
 * 50-70% develop cognitive dysfunction
 * Delirium in 73%
 
+[^1]: https://www.nejm.org/doi/full/10.1056/NEJMoa1915922
+[^2]: https://pubmed.ncbi.nlm.nih.gov/20733102/
+[^3]: https://pubmed.ncbi.nlm.nih.gov/25176289/
+[^4]: https://www.cmaj.ca/content/193/19/E689/tab-related-content/
 
 [1]: https://www.acc.org/Latest-in-Cardiology/Articles/2022/10/31/13/02/Key-Takeaways-From-the-2021-Coronary-Revascularization-Guidelines{:target="_blank"}
-[^1]: https://www.nejm.org/doi/full/10.1056/NEJMoa1915922{:target="_blank"}
-[^2]: https://pubmed.ncbi.nlm.nih.gov/20733102/{:target="_blank"}
-[^3]: https://pubmed.ncbi.nlm.nih.gov/25176289/{:target="_blank"}
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8157999/{:target="_blank"}
 [3]: https://www.wikijournalclub.org/wiki/SYNTAX{:target="_blank"}
 [4]: https://pubmed.ncbi.nlm.nih.gov/24700706/{:target="_blank"}
 [5]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4348991/{:target="_blank"}
 [6]: https://syntaxscore.org/calculator/start.htm/{:target="_blank"}
-[^4]: https://www.cmaj.ca/content/193/19/E689/tab-related-content/{:target="_blank"}
 [7]: https://www.cmaj.ca/content/cmaj/suppl/2021/05/04/193.19.E689.DC1/191108-view-2-at.pdf{:target="_blank"}

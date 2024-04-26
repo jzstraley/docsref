@@ -51,7 +51,7 @@ tags:
         - High-Risk Features: Low pulse pressure, cool extremities, cardiorenal syndrome, hepatic congestion
         - Hypertensive: Vasodilators
         - Normotensive: Inotropic Therapy
-    - 4) [Cardiogenic Shock][6]
+    - 4) [Cardiogenic Shock][1]
         - Hypotension, low cardiac output, and end organ failure
         - High-Risk Features: Extreme distress, pulmonary congestion, Renal failure
         - Inotropic Therapy/Mechanical Circulatory Support
@@ -83,6 +83,7 @@ tags:
     - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/){:target="_blank"}
     - [DOSE-AHF: High-dose loops > Low-dose for symptom management, fewer inpatient days; continuous = Intermittent dosing](https://pubmed.ncbi.nlm.nih.gov/21366472/){:target="_blank"}
         - Diuretic Optimization Strategies Evaluation (DOSE) Trial
+    - [Michigan Medicine Inpatient Diuretic Guideline for Patients with Acute Decompensated Heart Failure][2]
 - Hypotension
     - IV Vasopressor (norepinephrine) 
         - Useful in Pulmonary congestion for rapid dyspnea relief if preserved Blood pressure
@@ -94,9 +95,13 @@ tags:
     - If due to contractile failure
         - Dobutamine + Norepinephrine to get MAP ≥65 w/ Mechanical circulatory support
             - Intra-aortic Balloon Counter pulsation
-- [STRONG-HF: Rapid up-titration of GDMT and close f/u reduced risk of 180-day all-cause death or HF readmission in AECHF admits](https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf){:target="_blank"}  
-    - [European Heart Journal](https://academic.oup.com/eurheartj/article/44/31/2947/7175273){:target="_blank"}
-- [Short-term intravenous milrinone for acute exacerbation of chronic heart failure: a randomized controlled trial](https://pubmed.ncbi.nlm.nih.gov/11911756/){:target="_blank"}
+- [STRONG-HF: Rapid up-titration of GDMT and close f/u reduced risk of 180-day all-cause death or HF readmission in AECHF admits][3] 
+    - [European Heart Journal][4]
+- [Short-term intravenous milrinone for acute exacerbation of chronic heart failure: a randomized controlled trial][5]
 
 
-[6]: /docs/im-guide/cards/cardiac-critical-care/cardiogenic-shock.md
+[1]: /im-guide/cards/cardiac-critical-care/cardiogenic-shock
+[2]: https://www.ncbi.nlm.nih.gov/books/NBK589894/{:target="_blank"}
+[3]: https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf{:target="_blank"}
+[4]: https://academic.oup.com/eurheartj/article/44/31/2947/7175273{:target="_blank"}
+[5]: https://pubmed.ncbi.nlm.nih.gov/11911756/{:target="_blank"}

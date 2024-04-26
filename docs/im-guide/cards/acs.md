@@ -9,9 +9,6 @@ tags:
     - ACS
 status: new
 ---
-
-
-
 ## Background
 -   Completely or partially occluding thrombus on a disrupted
     atherothrombotic coronary plaque leading to myocardial

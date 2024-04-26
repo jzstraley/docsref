@@ -49,3 +49,10 @@ categories:
         - [Malignant Pleural Effusions](https://pubmed.ncbi.nlm.nih.gov/30272503/){:target="_blank"}
 - Sleep Apnea
     - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/){:target="_blank"}
+
+## Resources
+* [EMCrit IBCC][1]
+* [CXR Atlas][2]
+
+[1]: https://emcrit.org/ibcc/toc/ 
+[2]: https://www.meddean.luc.edu/lumen/meded/medicine/pulmonar/cxr/atlas/cxratlas_f.htm 

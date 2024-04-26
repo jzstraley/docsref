@@ -30,3 +30,8 @@ categories:
     - [Common questions about wound care](https://pubmed.ncbi.nlm.nih.gov/25591209/){:target="_blank"}
     - [Management of Pressure Ulcers](https://pubmed.ncbi.nlm.nih.gov/15487879/){:target="_blank"}
     - [Evaluation and treatment](https://pubmed.ncbi.nlm.nih.gov/28027261/){:target="_blank"}
+
+## Resources
+* [Bugs and Drugs (Pharmacology)][1]
+
+[1]: https://www.bugsanddrugs.org/ 
