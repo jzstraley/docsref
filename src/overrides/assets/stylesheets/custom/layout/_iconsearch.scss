@@ -109,15 +109,6 @@
   }
 }
 
-[data-md-color-scheme="slate"]{ 
-
-  .md-nav--primary .md-nav__title .md-logo .md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg
-  {
-    filter:invert(100%);
-  }
-  &[src*="drawing"] {
-  filter: invert(100%) !important;
-}}
 
 .md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg {
   /* fill: currentcolor; */
