@@ -2,7 +2,6 @@
 title: Disclaimer
 author: J. Austin Straley, DO
 date: 2022-11-24
-permalink: /disclaimer
 ---
 
 #### Terms of Use Agreement and Disclaimer:

@@ -31,87 +31,10 @@
     color: #897ff8;
   }
 
-  // Insiders video
-  .mdx-video {
-    width: auto;
-
-    // Insiders video container
-    &__inner {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-bottom: 56.138%;
-    }
-
-    // Insiders video iframe
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      border: none;
-    }
-  }
-
   // Pumping heart
   .mdx-heart {
     animation: heart 1000ms infinite;
   }
-
-  // Insiders color (for links, etc.) // remove
-  .mdx-insiders {
-    color: $clr-pink-500;
-  }
-
-  // BETA #####################################################################
-
-  // Badge
-  .mdx-badge {
-    font-size: 0.85em;
-
-    // Badge with heart
-    &--heart {
-      --md-typeset-a-color:              hsla(#{hex2hsl($clr-pink-500)}, 1);
-      --md-accent-fg-color:              hsla(#{hex2hsl($clr-pink-a200)}, 1);
-      --md-accent-fg-color--transparent: hsla(#{hex2hsl($clr-pink-500)}, 0.1);
-
-      // Animate icon
-      .twemoji {
-        animation: heart 1000ms infinite;
-      }
-    }
-
-    // Badge moved to the right
-    &--right {
-      float: right;
-      margin-left: 0.35em;
-    }
-
-    // Badge icon
-    &__icon {
-      padding: px2rem(4px);
-      background: var(--md-accent-fg-color--transparent);
-      border-start-start-radius: px2rem(2px);
-      border-end-start-radius: px2rem(2px);
-
-      // If icon is alone, round corners
-      &:last-child {
-        border-radius: px2rem(2px);
-      }
-    }
-
-    // Badge text
-    &__text {
-      padding: px2rem(4px) px2rem(6px);
-      border-start-end-radius: px2rem(2px);
-      border-end-end-radius: px2rem(2px);
-      box-shadow: 0 0 0 1px inset var(--md-accent-fg-color--transparent);
-    }
-  }
-
-  // BETA #####################################################################
 
   // Switch buttons
   .mdx-switch button {

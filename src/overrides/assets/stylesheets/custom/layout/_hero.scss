@@ -93,5 +93,11 @@
       background-color: var(--md-primary-bg-color);
       border-color: var(--md-primary-bg-color);
     }
+    // Secondary button
+    &--secondary {
+      color: var(--md-typeset-color);
+      background-color: var(--md-default-bg-color);
+      border-color: var(--md-accent-fg-color);
+    }
   }
 }
