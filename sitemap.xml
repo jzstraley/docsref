@@ -411,6 +411,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docsref.com/im-guide/pharm/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docsref.com/im-guide/pharm/autonomics/</loc>
          <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
