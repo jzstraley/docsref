@@ -8,6 +8,7 @@ categories:
 ---
 
 ## Resources
+
 * [Reducing Unprofessional Interactions Between Consulting Physicians and Emergency Physicians][1]
 * [The Washington Manual Cardiology Subspecialty Consult][2]
 * [Cardiology Trials][3]

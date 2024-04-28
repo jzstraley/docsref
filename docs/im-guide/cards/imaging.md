@@ -10,6 +10,7 @@ tags:
 ---
 
 ## Resources
+
 [Multimodality imaging in cardiology: a statement on behalf of the Task Force on Multimodality Imaging of the European Association of Cardiovascular Imaging][1]
 
 [1]: https://academic.oup.com/eurheartj/article/40/6/553/5149797?login=false{:target="_blank"}

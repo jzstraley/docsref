@@ -7,20 +7,22 @@ revised: 2024-04-21
 
 *<center><mark>"You're throwing fastballs at a catcher with no mitt"</mark></center>*
 
-### [Use of ABCD][^1]:
+### [Use of ABCD][^1]
+
 - A: Pts who are acutely ill or worsening quickly, “watcher” status, or never seen together as a team
 - B: Pts responding to therapies but still require updates to care and ongoing hospitalization
 - C: Pts pending discharge that are not able to be discharged for some defined reason (i.e., EOT for antibiotics, HD chair, placement)
 - D: Pts anticipated for discharge
 
 ### Team responsibilities
-- A/B/C/D should be set prior to rounds by intern/resident and determines presentation: 
-    * A/B: team dependent (full, problem focused, etc.)
-    * C: brief update
-    * D: DDEMAP
+
+- A/B/C/D should be set prior to rounds by intern/resident and determines presentation:
+  - A/B: team dependent (full, problem focused, etc.)
+  - C: brief update
+  - D: DDEMAP
 - Attending rounds typically run from 9-11:30a on weekdays, team responsibility to troubleshoot difficulties with this
-- See all *A* (including new to team) and definitive *D* patients in person (non-primary intern can be excused if busy). 
-	* Primary presenter for patient should lead patient discussion.
+- See all *A* (including new to team) and definitive *D* patients in person (non-primary intern can be excused if busy).
+  - Primary presenter for patient should lead patient discussion.
 - Interns can be split for rounds to get work done
 - All team members should be prepared for rounds
 - Use of AIDET, communication with patients or surrogate decision makers and appropriate use of
@@ -28,6 +30,7 @@ revised: 2024-04-21
 - A note should be completed each day (H&P – overnight team H&P counts if completed after midnight, progress or transfer note, or discharge/transfer summary). Team should be clear about who is responsible for note (i.e. typically student, intern, or resident)
 
 ### Attending responsibilities
+
 - See all patients every day. D patients should be seen prior to 12:30 to allow for discharges.
 - Coordinate teaching
 - Ensure CM rounds are running appropriately (providing resident and CM team with feedback)
@@ -41,6 +44,7 @@ revised: 2024-04-21
 - See all A and D patients prior to attending rounds, prioritize active B patients and patients with new overnight issues
 
 ### Senior responsibilities
+
 - Ensure days off are scheduled for the team and that patients are distributed appropriately each day, including who will see new admissions, who will see patients when people on the team have days off, and a reasonable distribution of the work
 - Supervise and run team rounds and CM rounds with attending support
 - Run list and ensure orders, consults, and discharges mostly done by 1pm
@@ -52,6 +56,7 @@ revised: 2024-04-21
 - Ensure patients that need to be admitted are assigned and seen within 2 hours
 
 ### Intern responsibilities
+
 - Be the primary intern for up to 8 patients at a time and perform admissions with the team
 - See all OWN patients every day, prior to rounds
 - Be prepared to present on all own patients, review main plan with resident prior to rounds
@@ -61,24 +66,24 @@ revised: 2024-04-21
 - Split up between the two interns: pager connect duties during rounds, perform sign out on non-long call days
 - Intern on pager duty is expected to return to the hospital if acute issues arise and to know the other intern’s patients well enough to respond and appropriately cross cover until sign out to night cross-cover resident.
 - Day-to-Day for Interns:
-	1. Checkout from Night Team
-        - Senior to determine each intern’s patients for the day
-        	- Let your senior know if you have afternoon clinic
-        - Morning Labs/Follow-up items
-        	- Check Morning Labs as well as any follow up items from the day prior
-        		- Start “Lab” & ”Box” System if desired; See Staying Organized
-        	- Replace relevant electrolytes/start new meds as needed
-        		- See "[Electrolyte Replacement Guidelines][2]" if needed
-				- Discuss with senior!
-	2. Pre-Rounds
-	3. Morning Report
-	4. Rounds
-	5. Lunch
-	6. Didactics
-	7. Post-Didactics
-	8. Handoffs
-		1. Please try your hardest to update hospital courses
-			I. This is especially important for discharges, end of the rotation handoff, and patients in the hospital longer than one week
+  1. Checkout from Night Team
+  - Senior to determine each intern’s patients for the day
+    - Let your senior know if you have afternoon clinic
+  - Morning Labs/Follow-up items
+    - Check Morning Labs as well as any follow up items from the day prior
+      - Start “Lab” & ”Box” System if desired; See Staying Organized
+    - Replace relevant electrolytes/start new medications as needed
+      - See [Electrolyte Replacement Guidelines][1] if needed
+- Discuss with senior!
+  1. Pre-Rounds
+  2. Morning Report
+  3. Rounds
+  4. Lunch
+  5. Didactics
+  6. Post-Didactics
+  7. Handoffs
+  8. Please try your hardest to update hospital courses
+     - This is especially important for discharges, end of the rotation handoff, and patients in the hospital longer than one week
 
 ### Phase II Medical student responsibilities
 
@@ -104,4 +109,5 @@ __*Supporting the vibes of the entire team should be your #1 priority*__
 - Place basic medical orders on patients and requesting co-signature at appropriate interval
 
 [^1]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf{:target="_blank"}
-[2]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf{:target="_blank"}
+
+[1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf{:target="_blank"}
