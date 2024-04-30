@@ -346,6 +346,8 @@ nav:
     - Patient Instructions: resident-guide/7-patient-instructions.md
     - Common Inpatient Problems: resident-guide/8-common-inpt-problems.md
     - Licensing: resident-guide/9-licensing.md
+    - How To:
+      - Fellowship Excel Guide: resident-guide/how-to-series/fellowship-excel-guide.md
   - Resources:
     - Concepts: resources/concepts.md
     - Cerner: resources/cernerhelp.md
@@ -363,6 +365,7 @@ nav:
     - Disclaimer: about/disclaimer.md
     - License: about/license.md
     - Site Development: about/site-development.md
+    - Style Cheatsheet: about/style-cheatsheet.md
     - Changelog: about/changelog.md
     - Contact: about/contact.md
 
