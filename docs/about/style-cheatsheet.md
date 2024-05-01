@@ -191,14 +191,13 @@ graph LR
 </div>
 </div>
 
-  [mkdocs-material]: https://pypistats.org/packages/mkdocs-material
-  [pip]: ../getting-started.md#with-pip
-  [getting started]: ../getting-started.md
-  [reference]: ../reference/index.md
-  [customization]: ../customization.md
-  [license]: ../license.md
-  [GitHub]: https://github.com/squidfunk/mkdocs-material
-  [hiding both sidebars]: ../setup/setting-up-navigation.md#hiding-the-sidebars
+  [mkdocs-material]: /about/contact.md
+  [pip]: /about/contact.md
+  [getting started]: /about/contact.md
+  [reference]: /about/contact.md
+  [customization]: /about/contact.md
+  [license]: /about/contact.md
+  [GitHub]: /about/contact.md
 
 ## Definition list
 
