@@ -10,6 +10,7 @@ categories:
 ---
 
 ## Nitrates
+
 - General
   - Used to relieve chest pain in patients with stable angina pectoris and acute coronary syndrome
   - Primarily vasodilators and dilate, veins, arterioles, and coronary arteries by relaxing vascular smooth muscle cells, venodilators
@@ -35,6 +36,7 @@ categories:
   - Avoid in patients with RV infarction and those on PDE-5 inhibitors
 
 ## Non-Nitrates
+
 - Ranolazine
   - Partially inhibits fatty acid oxidation and increases glucose oxidation
   - No HR or BP reduction

@@ -43,7 +43,7 @@ status: new
       - Indications
           1. Unable to exercise
           2. Baseline EKG abnormalities limiting interpretation
-          3. Indeterminate findings on Exercise Stress Test 
+          3. Indeterminate findings on Exercise Stress Test
         - No adenosine in asthmatics, hypotension (stimulate A2A receptors on vascular smooth muscles, magnified from rest)
     - {==Positive Findings==} (Findings associated with poor outcomes)
       - Poor exercise capacity (<5 METs)

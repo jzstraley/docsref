@@ -10,6 +10,7 @@ categories:
 ---
 
 ## Glucocorticoids
+
 - Natural
   - Cortisone Acetate
   - Hydrocortisone
@@ -52,7 +53,7 @@ categories:
 - Anesthetic Induction Agents
   - Propofol, Midazolam, Sodium Thiopental
 - Steroids
-    - Cushings, Sodium retention/K+ wasting (hypertension), osteopenia, ischemic bone necrosis, myopathy
+  - Cushings, Sodium retention/K+ wasting (hypertension), osteopenia, ischemic bone necrosis, myopathy
 - Cancer Drugs
   - Calcineurin Inhibitors
     - block T cell activation by preventing IL-2 Transcription
@@ -62,6 +63,7 @@ categories:
       - Not nephrotoxic
 
 ## Glucocorticoid Cessation
+
 - Indications
   - Therapeutic benefit achieved
   - Uncontrolled SE (hypertension)

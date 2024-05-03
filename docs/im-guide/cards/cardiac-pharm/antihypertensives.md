@@ -14,8 +14,9 @@ tags:
 ---
 
 ## Physiology
+
 - RAAS disturbances can play a large role in hypertension development
-    - Beta1 blockers inhibit sympathetic activation of kidney
+  - Beta1 blockers inhibit sympathetic activation of kidney
   - Renin is produced in the JG cells of the kidney in response to hypoperfusion, B1 stimulation, renal artery stenosis, diuretic use
     - Direct Renin inhibitors stop renin
   - Renin leaves the kidney to cleave angiotensinogen (made in the liver) into angiotensin I
@@ -30,6 +31,7 @@ tags:
   - The end result of RAAS activation is increased blood pressure, total body sodium and water, and blood volume
   
 ## Angiotensin Converting Enzyme Inhibitors (ACEIs)
+
 - MOA: Inhibit the conversion of Angiotensin I to Angiotensin II
   - ATII (vasoconstrictor, stimulates aldosterone release)
   - Systemic arteriolar dilation, urine sodium loss, intravascular volume loss
@@ -52,6 +54,7 @@ tags:
   - CI: Pregnancy, acute MI, bilateral renal artery stenosis
 
 ## Alpha-Adrenergic Blockers
+
 - General
   - Direct vasodilators used to treat hypertension, but do not affect angiotensin II or aldosterone concentrations or induce natriuresis
   - Alpha receptors are found on the distal ureter, base of the detrusor, bladder neck, and urethra
@@ -60,12 +63,14 @@ tags:
 - Phentolamine
 
 ## Angiotensin II Receptor Blocker (ARBs)
+
 - General
   - Bind zona glomerulosa receptors in the kidney to prevent angiotensin II from inducing expression of aldosterone on angiotensin receptors
   - Do not decrease Angiotensin II levels, but do cause natriuresis and decreased aldosterone production
 - Valsartan
 
 ## Beta-Adrenergic Receptor Blockers (BBs, Beta Blockers)
+
 - MOA:
   - Beta1 blockers block sympathetic stimulation of the JG apparatus in the kidney
   - Reduce BP by decreasing sympathetic stimulation of the heart
@@ -87,19 +92,23 @@ tags:
     - IV Calcium, epinephrine or norepinephrine, IV lipid emulsion all can be used in conjunction
 
 ## Direct Renin Inhibitors
+
 - Aliskiren
   - Increases natriuresis and decreases serum angiotensin II, decreasing aldosterone production
 
 ## Calcium Channel Blockers (CCBs)
+
 - Vasodilation occurs as a result
 - 2 groups:
 
 ### Non-Dihydropyridine (NDHP) CCBs
+
 - Do not have the same peripheral vasodilatory properties
 - Verapamil
 - Diltiazem
 
 ### Dihydropyridine (DHP) CCBs
+
 - Peripherally in arteries to decrease BP
   - No effect on heart, may cause reflex HR increase
   - Peripheral Vasodilation
@@ -119,9 +128,11 @@ tags:
     - No AMS (unlike BB Toxicity)
     - Treatment
       - IV Glucagon
-    
+
 ## Sulfonamide Diuretics
+
 ### Carbonic Anhydrase Inhibitors
+
 - Acetazolamide (Diamox)
   - Works on proximal tubule of the kidney
     - Inhibits the production and reabsorption of filtered bicarbonate
@@ -130,6 +141,7 @@ tags:
     - Ammonia Toxicity, Neuropathy
 
 ### Loop Diuretics
+
 - MOA: Blocks Na+-K+-2Cl- symporter in the thick ascending loop of Henle
   - Induce natriuresis, but decreased blood volume stimulates renin release that increases angiotensin II and aldosterone
   - Decrease urate excretion by increasing net urate reabsorption
@@ -149,6 +161,7 @@ tags:
 - Torsemide (Demadex)
 
 ### Thiazide Diuretics
+
 - MOA: Inhibit the reabsorption of Na+ and Cl- from the distal convoluted tubule, blocks Na-Cl symporter
   - Intravascular volume depletion via diuresis reduces peripheral vascular resistance
   - Indirectly increases the basolateral Na+/Ca2+ antiporter
@@ -160,6 +173,7 @@ tags:
 - Chlorothiazide (Diuril)
 
 ### Thiazide Like Diuretics
+
   - MOA: Primarily work on the DCT
 - Clopamide
   - Selectively binds chloride binding site of Na-Cl symporter in the PCT on the luminal side
@@ -170,13 +184,18 @@ tags:
   - Remains active even when GFR ≤30-40
 
 ### Potassium-Sparing Diuretics
+
 - General
   - Work on the Collecting Tubule of the nephron
+
 #### Epithelial Sodium Channel Blockers (ENaC Channel)
+
 - Amiloride
 - Triamterene
 - Benzamil
+
 #### Mineralocorticoid (Aldosterone) Receptor Antagonists
+
 - MOA: Renal Cortical Collecting Duct aldosterone receptor blocker
   - Competitive inhibitors of aldosterone receptors, only active in the presence of aldosterone
   - Therefore aldosterone, renin, angiotensin I and II will be elevated
@@ -191,6 +210,7 @@ tags:
   - Fewer side effects, less effective
 
 ### Osmotic diuretics
+
 - Mannitol
   - Increases tubular fluid osmolarity (increasing urine flow)
   - Use: Intracranial pressure
@@ -199,10 +219,12 @@ tags:
 - Urea
 
 ### Vasopressin Receptor Inhibitors
+
 - Vaptans
 - Demeclocycline
 
 ### Direct Arterial Vasodilators
+
 - Hydralazine
   - May increase myocardial contractility
   - SE: Hypotension, reflex tachycardia, palpitations, dyspnea, hemolytic anemia, diaphoresis, lupus-like reaction, Drug associated autoimmune vasculitis
@@ -210,5 +232,6 @@ tags:
 - Minoxidil
 
 ### Peripheral Selective Alpha 1- blockers
+
 - Doxazosin (Cardura)
 - Prazosin

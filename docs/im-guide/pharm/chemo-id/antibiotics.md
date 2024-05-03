@@ -86,12 +86,11 @@ date: 2023-03-30
     - Treatment
       - Stop infusion, give antihistamines, restart infusion at slower rate
   - Dosing Guidelines
-
-      - Area under the curve, Mean inhibitory concentration
-      - Goal for AUC/MIC to be achieved in 24-48 hours
-    - Empiric Therapy
-      - AUC/MIC calculation for empiric therapy assumes MIC to be 1 nanogram/ml or less
-    - MRSA Native Tricuspid Valve Endocarditis
-      - AUC/MIC target of 400-600 mg\*hour/L of Vancomycin to maximize efficacy and minimize nephrotoxicity
-    - MRSA Prosthetic Valve Endocarditis
-      - Vancomycin, Gentamicin, and Rifampin
+    - Area under the curve, Mean inhibitory concentration
+    - Goal for AUC/MIC to be achieved in 24-48 hours
+  - Empiric Therapy
+    - AUC/MIC calculation for empiric therapy assumes MIC to be 1 nanogram/ml or less
+  - MRSA Native Tricuspid Valve Endocarditis
+    - AUC/MIC target of 400-600 mg\*hour/L of Vancomycin to maximize efficacy and minimize nephrotoxicity
+  - MRSA Prosthetic Valve Endocarditis
+    - Vancomycin, Gentamicin, and Rifampin

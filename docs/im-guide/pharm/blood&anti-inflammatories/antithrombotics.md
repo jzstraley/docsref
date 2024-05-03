@@ -10,6 +10,7 @@ categories:
 ---
 
 ## A) Vitamin K Antagonists
+
 - Warfarin (Coumadin)
   - MOA: Vitamin K epoxide reductase inhibitor
     - Inhibits Prothrombin (II), VII, IX, X, C, S
@@ -18,7 +19,7 @@ categories:
   - Monitored via INR ≥ PT, 97% bound to albumin
   - Can be used in breastfeeding
   - Reversal: INR ≥ 10 = oral vit k
-    - + bleeding = 4F-PCC (works in minutes), IV vitamin K (12-24hrs, risk of anaphylaxis) ≥ FFP
+    - Increased bleeding = 4F-PCC (works in minutes), IV vitamin K (12-24hrs, risk of anaphylaxis) ≥ FFP
       - Four-Factor Prothrombin Complex (4F-PCC)
         - Contains Factors II, VII, IX, and X as a lyophilized powder
       - Indicated in brain hemorrhage
@@ -51,8 +52,11 @@ categories:
       - Hold warfarin, five 10mg IV Vitk, FFP, recombinant factor VIIa, or PCC
 
 ## B) Factor Xa Inhibitors
+
 ### I) Heparins/Glycosaminoglycans/Binds Antithrombin
+
 #### A) Unfractionated Heparin (UFH) (Parenteral)
+
 - Must monitor using aPTT
 - Dose dependent, saturable, weaker binding to endothelial, macrophage, hbpps
 - Activates Antithrombin (III) ≥ binds fibrin
@@ -65,7 +69,9 @@ categories:
 - Heparin Inducted Thrombocytopenia (HIT)
 - Protamine sulfate (1mg to 100U) to reverse
 - SE: Osteoporosis, increase bilirubin
+
 #### B) Low-Molecular-Weight Heparin (LMWH) (Parenteral)
+
 - Enoxaparin (Lovenox)
   - Made from Unfractionated Heparin
   - Greater capacity to potentiate factor Xa inhibition than thrombin due to being a short chain (2:1 – 4:1 Xa to iia)
@@ -74,11 +80,15 @@ categories:
 - Little aPTT affect, measure anti-Xa to monitor (Heparin-Xa)
   - Every 4 hours
   - Obesity, renal insufficiency, pregnant, valves
+
 #### C) Antithrombin III Inhibitors (Indirect Factor Xa inhibitors) (Parenteral)
+
 - Fondaparinux (Arixtra)
   - (smallest heparin chains) AT3
 - Can be used in surgical, ortho, VTE patients, only binds AT3, no thrombin rate inhibition, Xa only, renal cleared, can use in HIT, no antidote, no need to monitor
+
 ### II) Direct Factor Xa Inhibitors
+
 - Factor Xa for monitoring
   - Stroke prevent, long term anticoagulation in nonvalvular afib
   - VTE treatment w/o cancer
@@ -93,7 +103,8 @@ categories:
   - 60mg PO daily
   
 ## C) Direct Thrombin Inhibitors (DTIs) (Parenteral)
-      - Inhibit Thrombin (IIa)
+
+    - Inhibit Thrombin (IIa)
     - Bivalent
       - Lepirudin/Desirudin (Revasc): Renal clearance, no metab
       - Bivalirudin (Angiomax)

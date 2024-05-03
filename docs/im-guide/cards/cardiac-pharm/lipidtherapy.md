@@ -31,6 +31,7 @@ tags:
     - Age ≥65 years, prior MI or non-hemorrhagic stroke, current daily cigarette smoking, symptomatic PVD with prior MI or stroke, history of non-MI related coronary revascularization, residual coronary artery disease with ≥40% stenosis in ≥2 large vessels, HDL \<40 mg/dL for men and \<50 mg/dL for women, hs-CRP ≥2 mg/L, or metabolic syndrome
 
 ## Liver
+
 - Statins (HMG-CoA reductase inhibitors, LDL)
   - MOA: RLS in intracellular biosynthesis of cholesterol (competitive inhibition)
     - Increases LDL receptors on liver cell membranes
@@ -129,6 +130,7 @@ tags:
   - MTTP Inhibitors (VLDL)
 
 ## GI Tract
+
 - Ezetimibe (Zetia)
   - Cholesterol Absorption Inhibitor at Intestinal Border, NPC1L1
   - Moderate LDL Decrease (15-20%, 2nd line)
@@ -144,6 +146,7 @@ tags:
   - Triglycerides Unchanged-Increased
 
 ## Blood Vessels
+
 - Fibrates (Lipoprotein lipolysis Induction, PPAR)
   - Drugs: Fenofibrate (Tricor), Gemfibrozil (Lopid)
     - Not as favorable CV effects as statins or niacin

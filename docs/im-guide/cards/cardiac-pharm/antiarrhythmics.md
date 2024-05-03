@@ -14,16 +14,18 @@ tags:
 ---
 
 ## General
+
 - Classified via the Vaughan Williams system
   - All are pro-arrhythmic
 - Ischemic or dysfunctional heart tissue is depolarized
-- All used to control arrythmias by decreasing conduction:
+- All used to control arrhythmias by decreasing conduction:
   - Class I and III work on Arial/Ventricular myocytes
   - Class II and IV work on the AV node
 - Alcohol
-  - Promostes SNS stimulation, shortens atrial effective refractory period, increased interatrial electromechanical delays, acts via vagal pathways
+  - Promotes SNS stimulation, shortens atrial effective refractory period, increased interatrial electromechanical delays, acts via vagal pathways
 
 ## Class I (Na+ Channel Blockers)
+
 - General
   - Inhibit phase 0 of the AP (initial depolarization)
   - Prolonged QRS at faster HR (use dependence)
@@ -32,6 +34,7 @@ tags:
   - Use dependence (enhanced effect at faster heart rates due to tighter drug binding), seen most frequently with IC ≥ IA and rarely IB, this is why they're so good in SVTs
 
 ### Class Ia
+
 - General
   - Slow conduction throughout the His-Purkinje system, atria, and ventricles and prolong the refractory state
   - Lengthens the action potential: Right shift
@@ -59,6 +62,7 @@ tags:
     - Prolonged QT, QRS, Torsades de pointes
 
 ### Class Ib
+
 - Phenytoin, Mexiletine, Tocainide
 - General
   - Preferentially binds sodium after initial depolarization
@@ -73,6 +77,7 @@ tags:
   - SE: Seizures, Dizziness, confusion, delirium, slow VT in patients with HD
 
 ### Class Ic
+
 - General
   - Used in AFib w/ normal hearts
   - Slowest rate of drug binding and slowest dissociation from Na channel receptor (works better when heart rates are high)
@@ -93,11 +98,12 @@ tags:
 - Moricizine (Ethmozine)
 
 ## Class II (Beta-Adrenergic Blockers)
+
 - General
   - Work purely by blocking Beta-Adrenergic stimulation of the cardiac myocytes
     - Decreases Sinus and AV nodal conduction
     - Reduces intracellular cAMP, reducing Ca2+ influx
-  - Anti-anginal effects mediated by reducing myocardial contractility (negative ionotropic) and HR (negative chronotropic), decreasing myocardial oxygen demand
+  - Anti-anginal effects mediated by reducing myocardial contractility (negative inotropic) and HR (negative chronotropic), decreasing myocardial oxygen demand
   - Membrane stabilizers: Carvedilol, propranolol ≥ labetalol, metoprolol
   - SE: taper slowly, decreased libido, impotence
 - Non-Selective (B1 = B2 blockers)
@@ -134,9 +140,10 @@ tags:
     - CI: Sinus bradycardia, 1st degree AV block (PR ≥0.24), cardiogenic shock, SSS, WPW
 
 ## Class III (K+ Channel Blockers)
+
 - General
   - Inhibit potassium channels and prolong the refractory state of cardiac tissue (decreasing automaticity)
-  - All prolong QT and can cause Torsade de pointes
+  - All prolong QT and can cause Torsades de pointes
 - Amiodarone
   - MOA: Inhibits alpha receptors, beta receptors, sodium channels, and calcium channels in addition to potassium channels
     - Has partial action of all classes
@@ -177,23 +184,25 @@ tags:
     - IV Magnesium enhances the ability of ibutilide to cardiovert AF or AFL
       - IV 4g magnesium sulfate
       - [Increases odds of conversion by 78%](https://pubmed.ncbi.nlm.nih.gov/17976094/){target="_blank"}
-  - SE: Nausea, QT prolongation (8%), torsade de pointes
+  - SE: Nausea, QT prolongation (8%), torsades de pointes
 - Sotalol (Betapace)
   - Also has BB properties
   - Chronic Use: AF/VT Prevention
-  - SE: Hypotension, bronchospasm, long QT, Torsade de Pointes
+  - SE: Hypotension, bronchospasm, long QT, Torsades de Pointes
 
 ## Class IV (Calcium Channel Blockers (CCBs))
+
 - General
   - Delay conduction in the SA and AV nodes
 
 ### Non-Dihydropyridine CCBs (Non-DHP)
-  - General
-    - Block non-DHP L type channels at SA/AV node
-      - Prolonged PR interval at faster HR (use dependence)
-      - Use dependence with an increase in CCB with increasing ventricular activation.
-      - Prolongation of the refractory period of the av node, leading to an increased PR
-      - No QRS prolongation (doesn't work on phase 0)
+
+- General
+  - Block non-DHP L type channels at SA/AV node
+    - Prolonged PR interval at faster HR (use dependence)
+    - Use dependence with an increase in CCB with increasing ventricular activation.
+    - Prolongation of the refractory period of the av node, leading to an increased PR
+    - No QRS prolongation (doesn't work on phase 0)
 - Diltiazem (Cardizem)
   - [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/39186){target="_blank"}
   - [David Drug Guide][1]
@@ -209,6 +218,7 @@ tags:
   - Can use in: Afib/Flutter w/RVR, SVT(2nd to amio), MAT, symptomatic HHCM. Severe/concentric LVH, hypertension
 
 ### Dihydropyridine CCBs (DHP)
+
 - General
   - Increase myocardial oxygen supply via Coronary artery vasodilation
   - Decreases afterload via systemic vasodilation, reducing myocardial oxygen demand
@@ -220,6 +230,7 @@ tags:
   - May worsen angina by decreasing coronary perfusion pressure
 
 ## Class V (Adenosine, Digoxin, Magnesium Sulfate)
+
 - Adenosine (Adenocard)
   - Alpha1 agonist
     - Decreases conduction through the AV and SA node
@@ -244,6 +255,7 @@ tags:
   - Antidote: Slowly normalize K+, cardiac pacer, anti-digoxin FAB, Mg2+
 
 ## Other Antiarrhythmic Agents
+
 - Digitalis
   - Can increase ectopy in the arteria or ventricles
   - Can be used to increase vagal tone and sometimes to treat atrial fibrillation if BBs or CCBs have not been effective

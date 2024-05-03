@@ -183,10 +183,13 @@ nav:
       - Consults: im-guide/cards/consults.md
       - Echo: 
         - Aortic Valve: im-guide/cards/echo/aorticvalve.md
-        - Echo Chapter 1: im-guide/cards/echo/chapter1.md
+        - Indications: im-guide/cards/echo/indications.md
+        - Left Atrium: im-guide/cards/echo/leftatrium.md
+        - Resources: im-guide/cards/echo/resources.md
       - EKG: im-guide/cards/ekg.md
       - Electrophysiology: 
         - Atrial Fibrillation: im-guide/cards/electrophysiology/atrial-fibrillation.md
+        - QTc Disorders: im-guide/cards/electrophysiology/qtc.md
       - Heart Failure: 
         - im-guide/cards/heart-failure/index.md
         - Acute Heart Failure:
@@ -215,6 +218,7 @@ nav:
         - Hypertension: im-guide/cards/vascular-disease/hypertension.md
       - Valvular Heart Disease: 
         - im-guide/cards/valvular-heart-disease/index.md
+        - Mitral Regurgitation: im-guide/cards/valvular-heart-disease/mr.md
     - Dermatology: 
       - im-guide/derm/index.md
     - Endocrinology: 
@@ -348,6 +352,8 @@ nav:
     - Licensing: resident-guide/9-licensing.md
     - How To:
       - Fellowship Excel Guide: resident-guide/how-to-series/fellowship-excel-guide.md
+  - Fellowship Guide:
+    - Competency Requirements: fellowship-guide/cardsfellowshipreqs.md
   - Resources:
     - Concepts: resources/concepts.md
     - Cerner: resources/cernerhelp.md
