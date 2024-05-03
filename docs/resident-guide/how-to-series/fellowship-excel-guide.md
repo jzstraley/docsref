@@ -25,7 +25,6 @@ date: 2024-04-29
 
 * Delete Column C and E
 * Change Column A and B width to 20
-  * Screen Shot 2024-04-29 at 8.59.57 PM
 * Center align everything
 
 ## Creating Headings and a Reference
@@ -107,7 +106,7 @@ date: 2024-04-29
 
 !["Yes" Formatting](/assets/images/resident-guide/how-to-series/fellowship-excel-guide/formatting.png)
 
-3. Next, we'll be doing the same thing for <p style="color:yellow">"Maybe"</p> and <p style="color:red">"No"</p> but with the appropriate colors as below
+3. Next, we'll be doing the same thing for <p style="background-color:yellow">"Maybe"</p> and <p style="color:red">"No"</p> but with the appropriate colors as below
 
 ![Colorful Example](/assets/images/resident-guide/how-to-series/fellowship-excel-guide/colors.png)
 
@@ -127,7 +126,7 @@ date: 2024-04-29
 
 ## Example Excel File
 
-* [Excel - Cards-Excel-Fellowship Example](https://www.dropbox.com/scl/fi/v7yzi8nm0go07rz5zq2db/Cards-Excel-Fellowship.xlsx?rlkey=hpy5ymz61zcsypa23vimul5o5&st=8dwhi15q&dl=0){:target="_blank"}
+* [Excel: Cards-Fellowship Example](https://www.dropbox.com/scl/fi/6ct8vbm5p4uc2k6e47xig/Cards-Excel-Fellowship.xlsx?rlkey=sgufbm68y13vc4li47w4rke8g&st=tzqwutvx&dl=0){:target="_blank"}
 
 [1]: https://theexceltrainer.co.uk/calculate-distance-and-plot-on-a-map/
 [2]: https://systems.aamc.org/eras/erasstats/par/index.cfm
