@@ -12,7 +12,7 @@ date:
   updated: 2024-03-31T20:14:33+01:00
 ---
 
-# How to Search Efficiently Online
+## How to Search Efficiently Online
 
 Here's a guide that showcase many usefull search operators that you can use to search things online more efficiently.
 
@@ -94,4 +94,4 @@ Want to get rid of sites that flood the results? → `-site:`pinterest.*
 -site:pinterest.*
 ```
 
-No results should have pinterest in the domain name. Does not exclude sites that include pintrest in the their name.
+No results should have pinterest in the domain name. Does not exclude sites that include pinterest in the their name

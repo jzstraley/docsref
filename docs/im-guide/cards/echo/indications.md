@@ -68,7 +68,7 @@ categories:
   * Pericardial Disease [Table 36][1]
     * Patients with suspected pericardial disease, including effusion, constriction, or effusive-constrictive process
     * To follow resolution
-  * ![Echocardiography in Thoracic Disease](../assets/images/im-guide/cards/echo/echo_aortic_dissection.png)
+  * ![Echocardiography in Thoracic Disease](/assets/images/im-guide/cards/echo/echo_aortic_dissection.png)
   * Pulmonary Disease [Table 39][1]
     * Suspected pulmonary hypertension
     * Pulmonary emboli and suspected clots in the right atrium or ventricle or main pulmonary artery branches

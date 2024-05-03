@@ -4,6 +4,8 @@ author: J. Austin Straley, DO
 date: 2022-11-19
 ---
 
+## PGY-2s
+
 - Doctors of Osteopathic Medicine (DO)s
   - Yearly educational licensing is required through the [WV DO Board][1] unless you obtain your full WV license
     - Full licensure is renewed every two years
@@ -17,6 +19,11 @@ date: 2022-11-19
   - COMLEX Board Scores
     - Are sent electronically (even though it says by mail on the NBOME website)
     - Call WVDO Board once they have been sent and tell them to search for the PDF on their end
+
+## PGY-3s
+
+- Your license will expire. You will need to renew this
+  - Make sure to get your 32 CME hours prior to June
 
 [1]: https://www.wvbdosteo.org/
 [2]: https://www.wvbdosteo.org/licensing/do/app/index.asp

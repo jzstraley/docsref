@@ -2,8 +2,9 @@
 title: Staying Organized
 author: J. Austin Straley, DO
 date: 2022-11-21
-quote: '“Don’t play mind checkers with me, man, I’m not in the mood”'
 ---
+
+*<center><mark>'“Don’t play mind checkers with me, man, I’m not in the mood”'</mark></center>*
 
 - This section isn't required, just ways I try to keep myself organized
   - Always write down the Vitals in addition to any pertinent other labs such as BNP

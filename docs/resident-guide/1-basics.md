@@ -3,7 +3,8 @@ title: The Basics
 authors: [austinstraley]
 date: 2022-11-17
 ---
-<center>"That sign can’t stop me because I can’t read"</center>
+
+*<center><mark>"That sign can’t stop me because I can’t read"</mark></center>*
 
 ## General (Important)
 

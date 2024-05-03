@@ -5,15 +5,15 @@ date: 2022-11-21
 ---
 
 - Transfers (Accepting team)
-	1. Like admitting a patient, but slightly less work as the patient has already been on another service, such as the ICU, but not always the case * cough cough * *surgery* * cough cough *
-		* __*Do not*__ make the type "Transfer Note" you are unable to see this note when you do this
-	2. Transfer Note (To Med Service)
-		* Type: Internal Medicine Progress Note
-		* Note Template: Progress/SOAP Note - Brief
-		* Title: "CAMC IM Transfer Note"
-	3. Update Excel List Online
-- Transfers (Releasing team)
-	1. If you are on the ICU and you are transferring a patient to the medicine service, contact the medicine service senior or MAO to transfer the patient
-	2. Other than a standard progress note, no extra note needs to be written if you are the "discharging" team
-	3. If you are on the medicine service and transferring to the ICU, a short progress note about the patient's decompensation should be written.
-        - The ICU team will write an ICU Admission note rather than transfer note because it's special
+  1. Like admitting a patient, but slightly less work as the patient has already been on another service, such as the ICU, but not always the case
+     - __*Do not*__ make the type "Transfer Note" you are *unable* to see this note when you go to search for it
+  2. Transfer Note (To Med Service)
+     - Type: Internal Medicine Progress Note
+     - Note Template: Progress/SOAP Note - Brief or Transfer Note
+     - Title: "CAMC IM Transfer Note"
+  3. Update Excel List Online
+     - Transfers (Releasing team)
+  4. If you are on the ICU and you are transferring a patient to the medicine service, contact the medicine service senior or MAO to transfer the patient
+  5. Other than a standard progress note, no extra note needs to be written if you are the "discharging" team
+  6. If you are on the medicine service and transferring to the ICU, a short progress note about the patient's decompensation should be written.
+      - The ICU team will write an ICU Admission note rather than transfer note because it's special

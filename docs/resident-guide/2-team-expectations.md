@@ -7,7 +7,7 @@ revised: 2024-04-21
 
 *<center><mark>"You're throwing fastballs at a catcher with no mitt"</mark></center>*
 
-### [Use of ABCD][^1]
+### [Use of ABCD][2]
 
 - A: Pts who are acutely ill or worsening quickly, “watcher” status, or never seen together as a team
 - B: Pts responding to therapies but still require updates to care and ongoing hospitalization
@@ -108,6 +108,5 @@ __*Supporting the vibes of the entire team should be your #1 priority*__
 - Perform all patient care duties on their patients (i.e., calling consults, requesting follow-ups, depart summary, patient education, family updates, cache updates)
 - Place basic medical orders on patients and requesting co-signature at appropriate interval
 
-[^1]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf{:target="_blank"}
-
 [1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf{:target="_blank"}
+[2]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf{:target="_blank"}

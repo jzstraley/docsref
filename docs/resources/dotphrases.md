@@ -5,15 +5,15 @@ date: 2022-11-21
 ---
 
 - Dotphrases are autotext commands you can use to quickly insert text or data.
-    - Data can be imported from the chart in the form of "Tokens" or "Smart Templates"
-		- I will denote these with { } in this guide. Typing the text between these will not work. You must select the appropriate token
-	- If used correctly, they can literally save your life (and maybe your patient's)
-	- In the menu bar, find the "Auto Text Copy Utility"
-	- Search "Straley, James" on the left hand side
-	- Copy the following dotphrases but rename them with your own initials
-		- Ex. For Dr. Alex Ball, he could name them any one of the following ways:
-            - .abappointment
-            - ..abappointment
+- Data can be imported from the chart in the form of "Tokens" or "Smart Templates"
+  - I will denote these with { } in this guide. Typing the text between these will not work. You must select the appropriate token
+- If used correctly, they can literally save your life (and maybe your patient's)
+  - In the menu bar, find the "Auto Text Copy Utility"
+  - Search "Straley, James" on the left hand side
+  - Copy the following dotphrases but rename them with your own initials
+    - Ex. For Dr. Alex Ball, he could name them any one of the following ways:
+      - .abappointment
+      - ..abappointment
 
 ![Shortcut 1.1](../assets/images/internguidepages/1.2/1.2.2-picture1.png)
 
