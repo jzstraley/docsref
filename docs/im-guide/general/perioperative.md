@@ -17,66 +17,65 @@ categories:
 * Merck Manual (09/2022) – [Preoperative Evaluation][4]
 * Annals of Internal Medicine – In the clinic (11/2022) – [Preoperative Evaluation for Non-cardiac Surgery][5]
 
-## Preoperative Screening
+## Perioperative Risk Assessment
 
-* Perioperative Risk Assessment
-  * 1) Stabilize acutely active cardiac disease prior to non-emergent non-cardiac surgery
-    * General
-      * Increase risk, require further evaluation before non-emergent non-cardiac surgery
-      * Unstable Angina or recent MI
-      * Decompensated HF
-      * Significant Arrhythmia (Symptomatic bradycardia, high grade AV block, SVT, New or recent onset VT)
-      * Severe Valvular Disease (Severe AS, Symptomatic MS)
-  * 2) Assess Procedural Risk
-    * Pts undergoing low risk surgeries have <1% risk of MACE
-      * No further cardiac workup is needed regardless of underlying comorbidities
-    * Cardiac Risk of Non-cardiac Surgical Procedures
-      * Risk of cardiac death, nonfatal cardiac arrest, nonfatal MI
-    * Low-Risk
-      * Breast (lumpectomy, mastectomy)
-      * Skin Surgery
-      * Simple Dental Work
-      * Endoscopic Procedure
-      * Cataract Extraction
-    * Intermediate-Risk
-      * Head and Neck (Thyroidectomy)
-      * Orthopedic (Knee Arthroplasty)
-      * Prostate
-    * High-Risk
-      * Aortic or other major vascular
-      * Intrathoracic
-      * Open Intraperitoneal
-  * 2) Cardiac Risk Stratification
-    * Revised Cardiac Risk Index (RCRI)
-      * Predictors of major cardiac complications with noncardiac surgery
-        * 6 Risk Predictors
-          * High-risk surgery (vascular)
-          * History of IHD
-          * History of CHF
-          * History of Stroke or TIA
-          * T2DM w/Insulin
-          * Pre-op Creatinine >2
-        * Rate of Cardiac Death, nonfatal cardiac arrest, or nonfatal MI
-          * No RF: 0.4% (low risk)
-          * 1 RF: 1.0% (low risk)
-          * 2 RF: 2.4% (moderate risk)
-          * ≥3 RF: 5.4% (high risk)
-      * RCRI ≤1% (low risk) can proceed directly to surgery
-        * Otherwise assess functional status
-  * 3) Assess Functional Status
-    * If able to achieve ≥4 METS, generally do not require additional evaluation
-    * MET = volume of O2 consumed at rest (3.5mL O2 uptake/kg/min)
-      * <4 METs:
-        * Eat, dress, use toilet
-        * Walk indoors in the house
-        * Do light work (Vacuuming)
-      * ≥4 METs
-        * Climb a flight of stairs
-        * Run a short Distance
-        * Do yardwork (Raking leaves)
-        * Participate in golf, tennis, or dancing
-    * Otherwise needs cardiac eval w/TTE or Preop Stress Testing
-      * [Usefulness of transthoracic echocardiography as a tool for risk stratification of patients undergoing major noncardiac surgery][7]
+1) Stabilize acutely active cardiac disease prior to non-emergent non-cardiac surgery
+   * General
+     * Increase risk, require further evaluation before non-emergent non-cardiac surgery
+       * Unstable Angina or recent MI
+       * Decompensated HF
+       * Significant Arrhythmia (Symptomatic bradycardia, high grade AV block, SVT, New or recent onset VT)
+       * Severe Valvular Disease (Severe AS, Symptomatic MS)
+2) Assess Procedural Risk
+   * Pts undergoing low risk surgeries have <1% risk of MACE
+     * No further cardiac workup is needed regardless of underlying comorbidities
+   * 1) Cardiac Risk of Non-cardiac Surgical Procedures
+     * Risk of cardiac death, nonfatal cardiac arrest, nonfatal MI
+     * Low-Risk
+       * Breast (lumpectomy, mastectomy)
+       * Skin Surgery
+       * Simple Dental Work
+       * Endoscopic Procedure
+       * Cataract Extraction
+     * Intermediate-Risk
+       * Head and Neck (Thyroidectomy)
+       * Orthopedic (Knee Arthroplasty)
+       * Prostate
+     * High-Risk
+       * Aortic or other major vascular
+       * Intrathoracic
+       * Open Intraperitoneal
+   * 2) Cardiac Risk Stratification
+     * Revised Cardiac Risk Index (RCRI)
+       * Predictors of major cardiac complications with noncardiac surgery
+       * 6 Risk Predictors
+         * High-risk surgery (vascular)
+         * History of IHD
+         * History of CHF
+         * History of Stroke or TIA
+         * T2DM w/Insulin
+         * Pre-op Creatinine >2
+         * Rate of Cardiac Death, nonfatal cardiac arrest, or nonfatal MI
+           * No RF: 0.4% (low risk)
+           * 1 RF: 1.0% (low risk)
+           * 2 RF: 2.4% (moderate risk)
+           * ≥3 RF: 5.4% (high risk)
+       * RCRI ≤1% (low risk) can proceed directly to surgery
+         * Otherwise assess functional status
+   * 3) Assess Functional Status
+     * If able to achieve ≥4 METS, generally do not require additional evaluation
+     * MET = volume of O2 consumed at rest (3.5mL O2 uptake/kg/min)
+       * <4 METs:
+         * Eat, dress, use toilet
+         * Walk indoors in the house
+         * Do light work (Vacuuming)
+       * ≥4 METs
+         * Climb a flight of stairs
+         * Run a short Distance
+         * Do yardwork (Raking leaves)
+         * Participate in golf, tennis, or dancing
+       * Otherwise needs cardiac eval w/TTE or Preop Stress Testing
+         * [Usefulness of transthoracic echocardiography as a tool for risk stratification of patients undergoing major noncardiac surgery][7]
 
 ## Pre-Op Complication Prevention Strategies
 
