@@ -7,29 +7,30 @@ categories:
 ---
 
 ## Asymptomatic Hypertension
+
 * [Article][1]
 * [Asymptomatic Inpatient Hypertension][3]
 * [Things We Do For No Reason: Antihypertensives Inpatient][4]
 
-
-
 ## [Management][2]
-- [DASH: Small but significant BP reductions from diet control](http://www.ncbi.nlm.nih.gov/pubmed/9099655){:target="_blank"}
-- [LIFE: Losartan > Atenolol for same BP Reduction](https://pubmed.ncbi.nlm.nih.gov/11937179/){:target="_blank"}
-- [ALLHAT: Thiazide = CCB = ACEI in High-risk HTN, Thiazides may be better](https://pubmed.ncbi.nlm.nih.gov/12479763/){:target="_blank"}
-- [ACCOMPLISH: CCBs > Diuretics when added to ACEI in High-risk HTN](https://pubmed.ncbi.nlm.nih.gov/19052124/){:target="_blank"}
-- [Thiazides less effective in obese, CCBs equal across weight](https://pubmed.ncbi.nlm.nih.gov/23219284/){:target="_blank"}
-- [HOPE: ACEI significantly reduces rate of HF in High-risk patients](https://pubmed.ncbi.nlm.nih.gov/12628949/){:target="_blank"}
-- Inpatient
-    - [Hydralazine vs. Labetalol Inpatient](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8673377/){:target="_blank"}
+
+* [DASH: Small but significant BP reductions from diet control](http://www.ncbi.nlm.nih.gov/pubmed/9099655){:target="_blank"}
+* [LIFE: Losartan > Atenolol for same BP Reduction](https://pubmed.ncbi.nlm.nih.gov/11937179/){:target="_blank"}
+* [ALLHAT: Thiazide = CCB = ACEI in High-risk HTN, Thiazides may be better](https://pubmed.ncbi.nlm.nih.gov/12479763/){:target="_blank"}
+* [ACCOMPLISH: CCBs > Diuretics when added to ACEI in High-risk HTN](https://pubmed.ncbi.nlm.nih.gov/19052124/){:target="_blank"}
+* [Thiazides less effective in obese, CCBs equal across weight](https://pubmed.ncbi.nlm.nih.gov/23219284/){:target="_blank"}
+* [HOPE: ACEI significantly reduces rate of HF in High-risk patients](https://pubmed.ncbi.nlm.nih.gov/12628949/){:target="_blank"}
+* Inpatient
+    * [Hydralazine vs. Labetalol Inpatient](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8673377/){:target="_blank"}
 
 ## [Resistant Hypertension](https://pubmed.ncbi.nlm.nih.gov/27895136/){:target="_blank"}
 
-
 ## Hypertensive Disease in Pregnancy
+
 * [Diagnosis, Evaluation, and Management of the Hypertensive Disorders of Pregnancy: Executive Summary][5]
 
 ### Chronic Hypertension
+
 * Aka Pre-existing Hypertension
 * >140/90 diagnosed prior to pregnancy or within the first 20 weeks of gestation
 * Increased risk of preeclampsia and eclampsia during antepartum, intrapartum, and immediate postpartum stages
@@ -39,7 +40,7 @@ categories:
     * Begin treatment once ≥140/90
         * Improves pregnancy outcomes without increasing risk of small-for-gestational-age birth weight
         * [CHAP Study][8]
-        * Labetalol 
+        * Labetalol
             * Starting dose 100-200mg BID, can be used TID if needed
             * Max 2400mg/day (1200mg BID or 800mg TID)
         * Nifedipine ER
@@ -50,6 +51,7 @@ categories:
             * Monitor for proteinuria, headache, upper abdominal pain, visual changes, acute renal or liver failure or intrauterine growth restriction (fetal growth deceleration)
 
 ### Gestational Hypertension
+
 * BP >140/90 first found ≥ 20 weeks in a previously normotensive patient
     * 2 measurements 4 or more hours apart
     * Returns to baseline after pregnancy
@@ -62,7 +64,7 @@ categories:
     * Delivery if >37 weeks should be discussed
     * <160/110
         * Outpatient
-            * Goal: 
+            * Goal:
                 * <155/105 if healthy
                 * <140/90 if comorbid conditions
                 * <130/90 if Gestational DM
@@ -79,6 +81,7 @@ categories:
         * Avoid ACEI and ARBs, Atenolol, Prazosin
 
 ### Postpartum Hypertension
+
 * Physiology
     * BP peaks 3-6 days postpartum in both normotensive and hypertensive women
         * Avoid NSAIDs
@@ -124,6 +127,7 @@ categories:
             * Methyldopa 250-500mg BID, 500mg QID
 
 ### Preeclampsia
+
 * Disorder of the Placenta
     * Extravillious trophoblast fails to penetrate myometrium
     * Abnormal remodeling of the spiral arteries (don’t expand) causing hypoperfusion and ischemia
@@ -161,6 +165,7 @@ categories:
     * Postpartum Thrombophylaxis should be considered
 
 ### Severe Preeclampsia
+
 * Preeclampsia + hypertension >160/110 +/- end-organ damage
     * Pick one:
         * Pulmonary edema, cerebral or visual symptoms, thrombocytopenia, renal insufficiency (>1.1 or 2x baseline), impaired liver function(2x normal), BP ≥160/110
@@ -171,10 +176,11 @@ categories:
 * Treatment
     * IV labetalol, IV hydralazine, of IR nifedipine
     * IV Magnesium Sulfate prophylaxis
-    * Severe Preeclampsia + ≥34 weeks: 
+    * Severe Preeclampsia + ≥34 weeks:
         * Delivery to reduce risk of maternal death
 
 ### Eclampsia
+
 * Preeclampsia plus new onset tonic-clonic seizures, generalized, brief
     * Grand mal Seizures
 * RF: untreated preeclampsia
@@ -188,12 +194,14 @@ categories:
             * 25% of seizures occur within 24hrs
         * +/- diazepam, phenytoin
         * +/- labetalol, hydralazine
-        * Decreased DTRs: 
+        * Decreased DTRs:
             * Mag Toxicity: Give Calcium Gluconate
     * Acute: Airway, IV Magnesium Sulfate, Betamethasone, Induction
         * Betamethasone if <34 weeks only
     * Delivery is only cure
+
 ### HELLP Syndrome
+
 * Thrombotic microangiopathy involving the liver
 * Symptoms
     * Manifestation of severe preeclampsia
@@ -204,14 +212,13 @@ categories:
     * Moderately elevated liver enzymes
     * Low platelets (thrombocytopenia)
     * Low AT3
-* Complications: 
+* Complications:
     * Increased risk of acute hepatic and/or renal failure, abruptio placentae
     * Encephalopathy, renal insufficiency, DIC
 * Treatment
     * <30-32w + unfavorable cervix: C/S
     * <34w + Stable: Steroids + delivery
     * >34w: Prompt delivery of the neonate
-
 
 [1]: https://www.annemergmed.com/article/S0196-0644(13)00445-9/fulltext{:target="_blank"}
 [2]: https://pubmed.ncbi.nlm.nih.gov/29146535/{:target="_blank"}
@@ -220,4 +227,4 @@ categories:
 [5]: https://www.jogc.com/article/S1701-2163(15)30588-0/fulltext#t0010
 [6]: ttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC9207847/
 [7]: https://pubmed.ncbi.nlm.nih.gov/31678759/
-[8]: https://www.nejm.org/doi/full/10.1056/NEJMoa2201295 
+[8]: https://www.nejm.org/doi/full/10.1056/NEJMoa2201295

@@ -8,28 +8,28 @@ categories:
     - Infectious Disease
 ---
 - AIDS
-  - [INSIGHT-START: Early initiation of anti-retroviral therapy for HIV][2]
+    - [INSIGHT-START: Early initiation of anti-retroviral therapy for HIV][2]
 - Bronchitis
 - Cellulitis
-  - [Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America][3]
+    - [Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America][3]
 - Necrotizing Soft Tissue Infections
-  - [Review][4]
+    - [Review][4]
 - Pneumonia
-  - CURB-65 Score
-  - [CAP-START: B-Lactam was noninferior to quinolone or combo B-Lactam + Macrolide][5]
-  - [Diagnosis and Management][6]
+    - CURB-65 Score
+        - [CAP-START: B-Lactam was noninferior to quinolone or combo B-Lactam + Macrolide][5]
+        - [Diagnosis and Management][6]
 - Procalcitonin
-  - [FDA approved for initiating or discontinuing ABX in LRTIs and for discontinuing antibiotics in patients with sepsis][7]
-  - [Cost effectiveness ($2704 more per patient than those who didn’t, not good)][8]
-  - [Cutoffs for specific diseases][9]
+    - [FDA approved for initiating or discontinuing ABX in LRTIs and for discontinuing antibiotics in patients with sepsis][7]
+    - [Cost effectiveness ($2704 more per patient than those who didn’t, not good)][8]
+    - [Cutoffs for specific diseases][9]
 - UTI
-  - [Uncomplicated Cystitis][10]
-  - [NEJM][11]
-  - [American Urologic Society][12]
+    - [Uncomplicated Cystitis][10]
+    - [NEJM][11]
+    - [American Urologic Society][12]
 - Wound Care
-  - [Common questions about wound care][13]
-  - [Management of Pressure Ulcers][14]
-  - [Evaluation and treatment][15]
+    - [Common questions about wound care][13]
+    - [Management of Pressure Ulcers][14]
+    - [Evaluation and treatment][15]
 
 ## Resources
 

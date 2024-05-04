@@ -11,8 +11,7 @@ status: new
 ---
 ## Background
 
-- Completely or partially occluding thrombus on a disrupted
-    atherothrombotic coronary plaque leading to myocardial ischemia
+- Completely or partially occluding thrombus on a disrupted atherothrombotic coronary plaque leading to myocardial ischemia
 - STEMI: Elevated troponin & elevation in ST segment or new LBBB with
     symptoms
   - \> 0.1 mV in at least 2 contiguous leads

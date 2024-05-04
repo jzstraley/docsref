@@ -9,7 +9,7 @@ categories:
     - Critical Care
 ---
 - Acute Respiratory Failure
-    - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf 
+    - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf){:target="_blank"}
 - ARDS
     - [Mechanical Ventilation in ARDS](https://pubmed.ncbi.nlm.nih.gov/28459336/){:target="_blank"}
     - [ACURASYS: Neuromuscular blockade in 1st 48hrs reduced 28- and 90-day mortality](https://pubmed.ncbi.nlm.nih.gov/20843245/){:target="_blank"}
@@ -36,7 +36,7 @@ categories:
     - [SOAP-II: Dopamine = NE for 1st line; Dopamine has increased risk of arrhythmias](https://pubmed.ncbi.nlm.nih.gov/20200382/){:target="_blank"}
     - Septic Shock
         - [Surviving Sepsis Campaign](https://pubmed.ncbi.nlm.nih.gov/18158437/){:target="_blank"}
-- Interstitial Lung Disease (ILD) 
+- Interstitial Lung Disease (ILD)
     - [IPF](https://pubmed.ncbi.nlm.nih.gov/30168753/){:target="_blank"}
     - [Sarcoidosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159433/){:target="_blank"}
 - Lung Cancer
@@ -51,8 +51,9 @@ categories:
     - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/){:target="_blank"}
 
 ## Resources
-* [EMCrit IBCC][1]
-* [CXR Atlas][2]
 
-[1]: https://emcrit.org/ibcc/toc/ 
-[2]: https://www.meddean.luc.edu/lumen/meded/medicine/pulmonar/cxr/atlas/cxratlas_f.htm 
+- [EMCrit IBCC][1]
+- [CXR Atlas][2]
+
+[1]: https://emcrit.org/ibcc/toc/
+[2]: https://www.meddean.luc.edu/lumen/meded/medicine/pulmonar/cxr/atlas/cxratlas_f.htm

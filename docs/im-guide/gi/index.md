@@ -8,21 +8,21 @@ categories:
     - Gastroenterology
 ---
 - Cirrhosis
-  - [Ceftriaxone reduces bacterial infection 67% in GIB, no survival benefit vs. norfloxacin][1]
-  - [SBP on IV ABX, IV Albumin reduces renal impairment and mortality (1.5g/kg at diagnosis and 1 g/kg on day 3)][2]
+    - [Ceftriaxone reduces bacterial infection 67% in GIB, no survival benefit vs. norfloxacin][1]
+    - [SBP on IV ABX, IV Albumin reduces renal impairment and mortality (1.5g/kg at diagnosis and 1 g/kg on day 3)][2]
 - GERD
 - PUD
-  - [PPI Potency][3]
+    - [PPI Potency][3]
 - Cholelithiasis
 - Jaundice
 - GI Bleeding
-  - [Endoscopy timing for UGIB][4]
-  - [Transfusion strategies for acute UGIB (≥7 better mortality benefits than ≥10)][5]
-  - [Transfusion strategies][6]
+    - [Endoscopy timing for UGIB][4]
+    - [Transfusion strategies for acute UGIB (≥7 better mortality benefits than ≥10)][5]
+    - [Transfusion strategies][6]
 - Transaminitis
-  - [Mildly Elevated Liver Transaminase Levels: Causes and Evaluation][7]
+    - [Mildly Elevated Liver Transaminase Levels: Causes and Evaluation][7]
 - Viral Hepatitis
-  - [VALENCE: Sofosbuvir-ribavirin for HCV genotypes 2 or 3][8]
+    - [VALENCE: Sofosbuvir-ribavirin for HCV genotypes 2 or 3][8]
 
 [1]: https://pubmed.ncbi.nlm.nih.gov/17030175/{:target="_blank"}
 [2]: https://pubmed.ncbi.nlm.nih.gov/10432325/{:target="_blank"}

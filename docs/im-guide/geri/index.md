@@ -8,14 +8,14 @@ categories:
     - Geriatrics
 ---
 - Delirium/Dementia
-  - [MIND-USA: Haldol/Ziprasidone no improvement in days alive without delirium/coma][1]
-  - [DELIRIA-J: Ramelteon reduced delirium][2]
-  - [Dementia][3]
+    - [MIND-USA: Haldol/Ziprasidone no improvement in days alive without delirium/coma][1]
+    - [DELIRIA-J: Ramelteon reduced delirium][2]
+    - [Dementia][3]
 - Depression
-  - [Depression and cognition in the elderly][4]
-  - [Diagnosis and treatment of depression and cognitive impairment in late life][5]
-  - [Mirtazapine: May be better than Sertraline in Geriatric Depression][6]
-  - [Review of the use of mirtazapine in the treatment of depression][7]
+    - [Depression and cognition in the elderly][4]
+    - [Diagnosis and treatment of depression and cognitive impairment in late life][5]
+    - [Mirtazapine: May be better than Sertraline in Geriatric Depression][6]
+    - [Review of the use of mirtazapine in the treatment of depression][7]
 - [HYVET: ≥80, treatment w/diuretic w/ or w/o ACEI trends toward reduced death/stroke][8]
 
 [1]: https://pubmed.ncbi.nlm.nih.gov/30346242/{:target="_blank"}

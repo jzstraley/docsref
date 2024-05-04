@@ -7,6 +7,7 @@ categories:
 ---
 
 ## Resources
+
 * [TCAR][1]
 
-[1]: https://www.jlgh.org/Past-Issues/Volume-14-Issue-2/TCAR.aspx 
+[1]: https://www.jlgh.org/Past-Issues/Volume-14-Issue-2/TCAR.aspx

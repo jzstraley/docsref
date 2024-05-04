@@ -22,15 +22,16 @@ date: 2024-04-21
     * sPESI (Pulmonary Embolism Severity Index)
     * PSI
 * ICU Delirium
-    * Mobilize pt, remove catheters, provide visual and hearing aids 
+    * Mobilize pt, remove catheters, provide visual and hearing aids
 * [ICU Toxicology][2]
-* [Oncologic Emergencies in the ICU][3] 
+* [Oncologic Emergencies in the ICU][3]
 * Palliative Care in the ICU
     * https://pubmed.ncbi.nlm.nih.gov/22202706/
     * https://pubmed.ncbi.nlm.nih.gov/25644909/
-    * https://pubmed.ncbi.nlm.nih.gov/25167087/ 
+    * https://pubmed.ncbi.nlm.nih.gov/25167087/
 
-## ICU-Acquired Weakness 
+## ICU-Acquired Weakness
+
     * Medical Research Council Muscle Scale (MRCMS) is a bedside tool used to evaluate weakness 
     * Critical Illness Myopathy
         * RF: Steroids, Neuromuscular blocking agents, Sepsis
@@ -68,6 +69,7 @@ date: 2024-04-21
         * Normal CK
 
 ## Hypothermia
+
     * Symptoms
         * Shivering, but as hypothermia progresses, shivering stops
         * Moderate: Bradycardia, hypoventilation, lethargy, atrial arrythmias, decreased shivering
@@ -89,6 +91,7 @@ date: 2024-04-21
         * Other (Acid-Base Disturbances): HD
 
 ## Heat Stroke
+
     * Strenuous activity during hot and humid weather
         * Dehydration, poor acclimatization, lack of fitness
     * Hyperthermia
@@ -105,7 +108,6 @@ date: 2024-04-21
         * Exertional: Ice water immersion
         * Non-Exertional: Evaporative cooling (lukewarm water with fans), high-flow cool water dousing, ice/wet towel rotation, cold shower
             * Ice Water immersion has increased mortality in elderly w/Non-Exertional Heat Stroke
-
 
 [1]: https://pubmed.ncbi.nlm.nih.gov/27686346/{:target:"_blank"}
 [2]: https://pubmed.ncbi.nlm.nih.gov/21896525/

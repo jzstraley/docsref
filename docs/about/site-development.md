@@ -2,10 +2,10 @@
 title: Site Development
 author: J. Austin Straley, DO
 date: 2024-03-28
-updated: 2024-04-26
 ---
 
-## UX 
+## UX
+
 * [Ideas](https://twitter.com/vponamariov)
 * [Design (Colors)](https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php)
 * [Color Matters Example Contrast](https://medium.com/@marcintreder/design-system-sprint-6-the-fastest-icons-on-earth-bf91c0a47ef9)
@@ -13,16 +13,17 @@ updated: 2024-04-26
 * [Responsive images](https://alistapart.com/article/responsive-images-in-practice/)
 * [Keyword expansion](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Keyword-Expansion)
 * [Markdown Syntax](https://www.markdownguide.org/extended-syntax/)
-    - [Katex](https://katex.org/docs/api)
+    * [Katex](https://katex.org/docs/api)
 * [Word to Markdown](https://word2md.com)
     * [//ben balter, markdown to PDF](https://github.com/benbalter/markdown-to-pdf)
-* [Jetbrains Mono Font ](https://www.jetbrains.com/lp/mono/)
+* [Jetbrains Mono Font](https://www.jetbrains.com/lp/mono/)
 * [Bootstrap icons](https://icons.getbootstrap.com/)
 * [Animation](https://animate.style/)
 * [Keylogger](https://espanso.org/docs/get-started/)
 * [Flex-Box Css-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## SVG/Favicon
+
 * [*SVG favicon generator and preview](https://realfavicongenerator.net/svg-favicon/)
     * [Ico Builder](https://cthedot.de/icongen/)
 * [Pottrace](https://kilobtye.github.io/potrace/)
@@ -37,12 +38,13 @@ updated: 2024-04-26
 * [Scour](https://www.codedread.com/scour/)
     * [SVG for Scale](https://alistapart.com/article/using-svg-for-flexible-scalable-and-fun-backgrounds-part-ii/)
 * [Scaler](https://css-tricks.com/scale-svg/)
-    - [W3](https://www.w3.org/Graphics/SVG/)
+    * [W3](https://www.w3.org/Graphics/SVG/)
 * [WebP converter](https://cloudconvert.com/png-to-webp)
 * [Base64/Efficiency](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
 
 ## Color
-* [[MaterialUi](https://materialui.co/metrocolors)
+
+* [MaterialUi](https://materialui.co/metrocolors)
 * [Happy Hues](https://www.happyhues.co/)
 * [Color Palette Application](http://colormind.io/bootstrap/)
 * [Examples](https://hookagency.com/blog/color-schemes/)
@@ -54,8 +56,8 @@ updated: 2024-04-26
     * [Contast](https://dev.to/finnhvman/which-colors-look-good-on-black-and-white-2pe6)
 * [Palette Visualizer](https://reallybigshoe.co.uk/visualiser/index.html)
 
-
 ## Security
+
 * [Security Guidelines](https://infosec.mozilla.org/guidelines/web_security#content-security-policy)
 * [Site Check](https://sitecheck.sucuri.net/results/www.docsref.com)
 * [HSTS Preload](https://hstspreload.org/?domain=docsref.com)
@@ -75,6 +77,7 @@ updated: 2024-04-26
 * [Experte Security](https://www.experte.com/security-check?d=google.com)
 
 ## Page Speed
+
 * [Page Speed Analysis](https://pagespeed.web.dev/analysis/https-docsref-com/by8lowbtxl?utm_source=psi&utm_medium=redirect&form_factor=mobile)
 * [Experte Page Speed](https://www.experte.com/pagespeed)
 * [Image to Data URI Converter](https://websemantics.uk/tools/image-to-data-uri-converter/)
@@ -85,8 +88,8 @@ updated: 2024-04-26
 * [HSTS Preload Checker](https://hstspreload.org/?domain=docsref.com)
     * [HT Acess when using subdomain](https://webmasters.stackexchange.com/questions/115125/hsts-implementation-in-htaccess-when-using-www-subdomain)
 
-
 ## Examples of Good Websites
+
 * [Colors](https://abpcomputing.web.cern.ch/)
 * [Examples](https://github.com/mkdocs-material/examples/tree/master/examples/page-status)
     * [Modern CSS](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)

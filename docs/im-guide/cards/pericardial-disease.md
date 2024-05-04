@@ -13,15 +13,15 @@ tags:
 ## Pericarditis
 
 * Pericarditis, or inflammation of the pericardium, has typical ECG findings
-  * These findings occur in progressive stages, all of which are seen in about 50% of cases of pericarditis:
-    * __Stage I (acute phase)__: Diffuse concave upward ST segment elevation in most leads, PR depression in most leads (may be subtle) and sometimes notching at the end of the QRS complex.
-    * __Stage II__: ST segment elevation and PR depression have resolved and T waves may be normal or flattened.
-    * __Stage III__: T waves are inverted, and the ECG is otherwise normal.
-    * __Stage IV__: T waves return to the upright position, and thus the ECG is back to normal.
-  * Note: The ECG changes with pericarditis must be distinguished from those of early repolarization. The ST segment elevation seen in early repolarization is very similar ― diffuse and concave upward. However, three things may help to distinguish pericarditis from early repolarization:
-    * The ratio of the T wave amplitude to the ST elevation should be greater than 4 if early repolarization is present, meaning the T wave in early repolarization is usually 4 times the amplitude of the ST segment elevation. Another way to describe this would be that the ST segment elevation is less than 25% of the T wave amplitude in early repolarization.
-    * The ST segment elevation in early repolarization resolves when the person exercises.
-    * Early repolarization, unlike pericarditis, is a benign ECG finding that should not be associated with any symptoms.
+    * These findings occur in progressive stages, all of which are seen in about 50% of cases of pericarditis:
+        * __Stage I (acute phase)__: Diffuse concave upward ST segment elevation in most leads, PR depression in most leads (may be subtle) and sometimes notching at the end of the QRS complex.
+        * __Stage II__: ST segment elevation and PR depression have resolved and T waves may be normal or flattened.
+        * __Stage III__: T waves are inverted, and the ECG is otherwise normal.
+        * __Stage IV__: T waves return to the upright position, and thus the ECG is back to normal.
+    * Note: The ECG changes with pericarditis must be distinguished from those of early repolarization. The ST segment elevation seen in early repolarization is very similar ― diffuse and concave upward. However, three things may help to distinguish pericarditis from early repolarization:
+        * The ratio of the T wave amplitude to the ST elevation should be greater than 4 if early repolarization is present, meaning the T wave in early repolarization is usually 4 times the amplitude of the ST segment elevation. Another way to describe this would be that the ST segment elevation is less than 25% of the T wave amplitude in early repolarization.
+        * The ST segment elevation in early repolarization resolves when the person exercises.
+        * Early repolarization, unlike pericarditis, is a benign ECG finding that should not be associated with any symptoms.
 
 ## EKG-Maven Examples
 
