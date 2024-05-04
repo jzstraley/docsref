@@ -189,6 +189,7 @@ nav:
       - EKG: im-guide/cards/ekg.md
       - Electrophysiology: 
         - Atrial Fibrillation: im-guide/cards/electrophysiology/atrial-fibrillation.md
+        - Cardioversion: im-guide/cards/electrophysiology/cardioversion.md
         - QTc Disorders: im-guide/cards/electrophysiology/qtc.md
       - Heart Failure: 
         - im-guide/cards/heart-failure/index.md
@@ -213,6 +214,7 @@ nav:
       - Prevention:
         - Lipids: im-guide/cards/prevention/lipids.md
       - Stable Ischemic Disease: im-guide/cards/stable-ischemic-disease.md
+      - Stress Testing: im-guide/cards/stress-testing.md
       - Vascular Disease: 
         - im-guide/cards/vascular-disease/index.md
         - Hypertension: im-guide/cards/vascular-disease/hypertension.md

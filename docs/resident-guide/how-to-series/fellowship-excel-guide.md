@@ -127,6 +127,7 @@ date: 2024-04-29
 ## Example Excel File
 
 * [Excel: Cards-Fellowship Example](https://www.dropbox.com/scl/fi/6ct8vbm5p4uc2k6e47xig/Cards-Excel-Fellowship.xlsx?rlkey=sgufbm68y13vc4li47w4rke8g&st=tzqwutvx&dl=0){:target="_blank"}
+* <a href="https://github.com/jzstraley/docsref/blob/4c0b0f40a4d2651807e4699987db23c08a675196/docs/assets/images/resident-guide/how-to-series/fellowship-excel-guide/Cards-Excel-Fellowship.xlsx" download="Fellowship-Excel-Example">Download Location</a>
 
 [1]: https://theexceltrainer.co.uk/calculate-distance-and-plot-on-a-map/
 [2]: https://systems.aamc.org/eras/erasstats/par/index.cfm

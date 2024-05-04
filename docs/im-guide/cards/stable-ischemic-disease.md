@@ -4,9 +4,8 @@ author: J. Austin Straley, DO
 date: 2024-03-16
 updated: 2024-04-25
 categories:
-  * Cardiology
+  - Cardiology
 ---
-
 ## Management
 
 * [4S: Statins reduce Death, MI, Revasc in Angina/MI patients](https://pubmed.ncbi.nlm.nih.gov/7968073/){:target="_blank"}

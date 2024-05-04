@@ -34,26 +34,33 @@ tags:
 
 ## Definitions
 
-* A) Paroxysmal AFib (≥2 episodes that terminate spontaneously or with intervention within 7 days of onset)
-  * 70% at one year to 90% at 4 years of recurrence
-  * Triggers: Ectopic Foci (Pulmonary Ventricular sites)
-  * Treatment:
-    * Amiodarone, Flecainide, sometimes Ablation (works better): Pulmonary vein potentials in the LA
-* B) Persistent AFib (≥2 episodes, each lasts >7 days)
-  * Triggers: Electrophysiologic remodeling fibrosis
-    * SVC or coronary sinus most commonly
-    * Non-Pulmonary Ventricle sites
-  * Treatment
-    * Cardioversion if unstable
-    * Medical therapy
-    * Ablation usually doesn’t work, try after medicine
-* C) Long-standing Persistent or Permanent AFib (>6-12 months)
-  * Triggers: Chronic Substrate Fibrosis
-* D) AFib w/ Rapid Ventricular Response (RVR)
-  * HOCM, HFpEF, Impaired cardiac function
-  * Causes Symptoms
-    * Exercise intolerance, fatigue, palpitations, chest pain, light headedness, hemodynamic instability
-    * Tachycardia-mediated cardiomyopathy
+### Paroxysmal AFib (≥2 episodes that terminate spontaneously or with intervention within 7 days of onset)
+
+* 70% at one year to 90% at 4 years of recurrence
+* Triggers: Ectopic Foci (Pulmonary Ventricular sites)
+* Treatment:
+  * Amiodarone, Flecainide, sometimes Ablation (works better): Pulmonary vein potentials in the LA
+
+### Persistent AFib (≥2 episodes, each lasts >7 days)
+
+* Triggers: Electrophysiologic remodeling fibrosis
+  * SVC or coronary sinus most commonly
+  * Non-Pulmonary Ventricle sites
+* Treatment
+  * Cardioversion if unstable
+  * Medical therapy
+  * Ablation usually doesn’t work, try after medicine
+
+### Long-standing Persistent or Permanent AFib (>6-12 months)
+
+* Triggers: Chronic Substrate Fibrosis
+
+### AFib w/ Rapid Ventricular Response (RVR)
+
+* HOCM, HFpEF, Impaired cardiac function
+* Symptoms
+  * Exercise intolerance, fatigue, palpitations, chest pain, light headedness, hemodynamic instability
+  * Tachycardia-mediated cardiomyopathy
 
 ## Features
 
@@ -100,28 +107,32 @@ tags:
     * EAST-AFNET 4*
       * Improved clinical outcomes if early rhythm control in all patients diagnosed within the past 12 months w/coexisting CVD
       * Aggressive rhythm control via Ablation or Amiodarone
-* [RACE-II: Lenient non-inferior to strict rate-control in afib](https://pubmed.ncbi.nlm.nih.gov/20231232/){:target="_blank"}
-* [RAAFT-2: RFA if AAD failed as 1st line for symptomatic PAF](https://pubmed.ncbi.nlm.nih.gov/24549549/){:target="_blank"}
+* [RACE-II: Lenient non-inferior to strict rate-control in afib][21]
+* [RAAFT-2: RFA if AAD failed as 1st line for symptomatic PAF][22]
   * RFA recommended in patients with symptomatic PAF who have failed treatment with at least 1 Class I or Class III AAD
 
 ### Acute Afib w/RVR
 
-![ACC 2023 Guideline - Acute Afib](/assets/images/im-guide/cards/electrophysiology/gr17.webp)
+![ACC 2023 Guideline - Acute Afib](/assets/images/im-guide/cards/electrophysiology/gr17.webp)<br>
 
-* Unstable Afib w/RVR
-  * Cardioversion
-* Stable Afib w/RVR
-  * 1b: Non-dihydropyridine CCBs or BBs
-    * Severe COPD: CCBs (Cardizem)
-    * CAD: BBs (Metoprolol Tartrate)
-  * 2a: IV Magnesium
-  * 2a: Digoxin if can't use BBs or CCBs
-    * [Total IV loading dose][20]:
-      * Normal renal function: 8-12 mcg/kg ideal body weight (usually ~600-1,000 mcg).
-      * Renal insufficiency: 6-10 mcg/kg ideal body weight.
-      * Typically, 50% of the total loading dose is given initially, followed by 25% given twice, every six hours.
-        * The first IV dose (typically ~400-600 mcg) takes effect within roughly 1-4 hours. Monitor for effect. If an adequate heart rate is achieved, then subsequent doses may be omitted. If bradycardia occurs, further administration should be held
-  * 2b: Amiodarone
+#### Unstable Afib w/RVR
+
+* Immediate Cardioversion
+
+#### Stable Afib w/RVR
+
+* 1B: Non-dihydropyridine CCBs or BBs
+  * Severe COPD: CCBs (Cardizem)
+  * CAD: BBs (Metoprolol Tartrate)
+
+* 2A: [IV Magnesium][18]
+* 2A: Digoxin if can't use BBs or CCBs
+  * [Total IV loading dose][20]:
+    * Normal renal function: 8-12 mcg/kg ideal body weight (usually ~600-1,000 mcg).
+    * Renal insufficiency: 6-10 mcg/kg ideal body weight.
+    * Typically, 50% of the total loading dose is given initially, followed by 25% given twice, every six hours.
+      * The first IV dose (typically ~400-600 mcg) takes effect within roughly 1-4 hours. Monitor for effect. If an adequate heart rate is achieved, then subsequent doses may be omitted. If bradycardia occurs, further administration should be held
+* 2B: Amiodarone
 * Radiofrequency Ablation (RFA)
   * 1 year success rates approach 70-80%
   * Afib recurrence after RFA in 20-40% of patients
@@ -141,10 +152,10 @@ tags:
 
 * Trials
   * [Antithrombotic Therapy for Atrial Fibrillation: CHEST Guideline and Expert Panel Report][6]
-  * [AVERROES: Eliquis > Aspirin alone for Stroke/VTE](https://pubmed.ncbi.nlm.nih.gov/21309657/){:target="_blank"}
-  * [ARISTOTLE: Eliquis > Warfarin for stroke, less brain bleeding](https://pubmed.ncbi.nlm.nih.gov/21870978/){:target="_blank"}
-  * [ROCKET-AF: Xarelto is non-inferior to Warfarin](https://pubmed.ncbi.nlm.nih.gov/21830957/){:target="_blank"}
-  * [BRIDGE: Periprocedural bridging did not reduce ATE, increased bleeding](https://pubmed.ncbi.nlm.nih.gov/26095867/){:target="_blank"}
+  * [AVERROES: Eliquis > Aspirin alone for Stroke/VTE][23]
+  * [ARISTOTLE: Eliquis > Warfarin for stroke, less brain bleeding][24]
+  * [ROCKET-AF: Xarelto is non-inferior to Warfarin][25]
+  * [BRIDGE: Periprocedural bridging did not reduce ATE, increased bleeding][26]
 * Non-Valvular Afib
   * CHA2DS2-VASc Score (stroke risk, max is 9)
     * Anticoagulation in Non-valvular Atrial Fibrillation
@@ -152,7 +163,7 @@ tags:
     * Age ≥75, Stroke/TIA/Thromboembolism (all 2)
       * 0 (Low Risk): None
       * 1 in males (Moderate) or 2 in females: None or aspirin or oral anticoagulants
-      * ≥2 in males (High) or ≥3 in females: Oral Anticoagulants
+      * ≥2 in males high) or ≥3 in females: Oral Anticoagulants
   * Use warfarin at INR 2-3 or non-vitamin K antagonist oral anticoagulants to prevent thromboembolism
   * Risk
     * 0: 0.2% annual stroke risk
@@ -217,3 +228,9 @@ tags:
 [18]: https://www.sciencedirect.com/science/article/pii/S0914508721001519{:target="_blank"}
 [19]: https://emcrit.org/ibcc/af/{:target="_blank"}
 [20]: https://pubmed.ncbi.nlm.nih.gov/23616674/{:target="_blank"}
+[21]: https://pubmed.ncbi.nlm.nih.gov/20231232/*{:target="_blank"}
+[22]: https://pubmed.ncbi.nlm.nih.gov/24549549/*{:target="_blank"}
+[23]: https://pubmed.ncbi.nlm.nih.gov/21309657/*{:target="_blank"}
+[24]: https://pubmed.ncbi.nlm.nih.gov/21870978/*{:target="_blank"}
+[25]: https://pubmed.ncbi.nlm.nih.gov/21830957/*{:target="_blank"}
+[26]: https://pubmed.ncbi.nlm.nih.gov/26095867/*{:target="_blank"}
