@@ -1,10 +1,6 @@
 ---
 title: Antibiotics
 author: J. Austin Straley, DO
-layout: post
-chapter: 9
-section: 01
-lesson: 6
 date: 2023-03-30
 ---
 

@@ -50,9 +50,9 @@ theme:
         icon: material/link
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: docsref
-      primary: custom
-      accent: custom
+      scheme: default
+      primary: black
+      accent: deep orange
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
