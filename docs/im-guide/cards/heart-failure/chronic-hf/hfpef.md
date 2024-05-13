@@ -102,5 +102,5 @@ tags:
 * Exercise training/cardiac rehabilitation
     * Improves functional capacity and overall quality of life
 
-[1]: https://pubmed.ncbi.nlm.nih.gov/24958077/{}
+[1]: https://pubmed.ncbi.nlm.nih.gov/24958077/
 [2]: https://pubmed.ncbi.nlm.nih.gov/29792299/

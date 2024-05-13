@@ -103,8 +103,7 @@ tags:
 - [Short-term intravenous milrinone for acute exacerbation of chronic heart failure: a randomized controlled trial][5]
 
 [1]: /im-guide/cards/cardiac-critical-care/cardiogenic-shock
-[2]: https://www.ncbi.nlm.nih.gov/books/NBK589894/{:target="_blank"}
-[3]: https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf{:target="_blank"}
-[4]: https://academic.oup.com/eurheartj/article/44/31/2947/7175273{:target="_blank"}
+[2]: https://www.ncbi.nlm.nih.gov/books/NBK589894/
+[3]: https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf
+[4]: https://academic.oup.com/eurheartj/article/44/31/2947/7175273
 [5]: https://pubmed.ncbi.nlm.nih.gov/11911756/{:target="_blank"}
-

@@ -77,16 +77,16 @@ tags:
 
 ## Treatment to improve long-term survival
 
-- [Initial Optimized Therapy](https://pubmed.ncbi.nlm.nih.gov/33446410/){:target="_blank"}
+- [Initial Optimized Therapy][1]
     - ARNI/ARB/ACEI
         - NHYA I-IV with LVEF ≤40%
-            - [ACEI in Asymptomatic LV dysfunction](https://pubmed.ncbi.nlm.nih.gov/1463530/){:target="_blank"}
+            - [ACEI in Asymptomatic LV dysfunction][2]
                 - Slows disease progress and improves mortality
         - Either Entresto _*OR*_ ACEI/ARBs
-            - [PARADIGM-HF: Entresto reduced CV risk and Hospitalizations vs. ACEI](https://pubmed.ncbi.nlm.nih.gov/25176015/){:target="_blank"}
+            - [PARADIGM-HF: Entresto reduced CV risk and Hospitalizations vs. ACEI][3]
     - BB (3 specific ones)
         - NHYA I-IV with LVEF ≤40%
-        - [REVERT: BBs Reverse LV remodeling in asymptomatic LV systolic dysfunction](https://pubmed.ncbi.nlm.nih.gov/17576868/){:target="_blank"}
+        - [REVERT: BBs Reverse LV remodeling in asymptomatic LV systolic dysfunction][4]
             - Metoprolol Succinate, Carvedilol, Bisoprolol
             - Reduces hospitalization and improves mortality
                 - Strongest evidence in history of MI
@@ -94,29 +94,29 @@ tags:
         - NYHA II-IV with Volume Overload
         - +/- Metolazone
         - Improves symptoms and reduces hospitalization
-        - [Diuretic Therapy for HF (JACC State-of-the-Art Review)](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}
-            - [JACC Diuretic Therapy](https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059){:target="_blank"}
-        - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/){:target="_blank"}
+        - [Diuretic Therapy for HF (JACC State-of-the-Art Review)][5]
+            - [JACC Diuretic Therapy][6]
+        - [Optimal Diuretic Strategies in HF][7]
     - Entresto
         - Either Entresto _*OR*_ ACEI/ARBs
-        - [PARADIGM-HF: Entresto reduced CV risk and Hospitalizations vs. ACEI](https://pubmed.ncbi.nlm.nih.gov/25176015/){:target="_blank"}
+        - [PARADIGM-HF: Entresto reduced CV risk and Hospitalizations vs. ACEI][8]
     - Step 2 of Optimized Therapy
         - Aldosterone antagonist
         - NYHA II-IV with LVEF ≤35%
         - Reduces hospitalization and improves mortality
-            - [RALES: Spironolactone reduces morbidity/mortality in severe HFrEF](https://pubmed.ncbi.nlm.nih.gov/10471456/){:target="_blank"}
-            - [Eplerenone in patients with HF and mild symptoms](https://pubmed.ncbi.nlm.nih.gov/21073363/){:target="_blank"}
+            - [RALES: Spironolactone reduces morbidity/mortality in severe HFrEF][9]
+            - [Eplerenone in patients with HF and mild symptoms][10]
                 - Eplerenone doesn’t cause gynecomastia
         - Effect of spironolactone on morbidity and mortality in severe HF
             - 35% decrease in hospitalizations
             - 30% reduction in the risk of death
             - Significant symptom improvement
-            - [Gynecomastia or mastalgia in 10%](https://pubmed.ncbi.nlm.nih.gov/10471456/){:target="_blank"}
+            - [Gynecomastia or mastalgia in 10%][11]
     - Step 3 of Optimized Therapy
         - SGLT-2 Inhibitors
             - NYHA II-IV
             - Reduces symptoms and improves mortality
-                - [SGLT2 better than Sitagliptin (Primary outcome: 13.1% vs. 17.4)](https://academic.oup.com/eurheartj/article/44/24/2216/7187574){:target="_blank"}
+                - [SGLT2 better than Sitagliptin (Primary outcome: 13.1% vs. 17.4)][12]
     - Supplementary Agents
         - Isosorbide Dinitrate + Hydralazine (Bidil)
             - Additional therapy if asymptomatic or RAS Blocker Intolerance
@@ -131,8 +131,8 @@ tags:
         - 40% complicated by Afib
             - Aggressive rhythm control
             - Catheter ablation of AF (improves morbidity and mortality)
-    - [Persistent Severe HF symptoms on maximal GDMT](https://pubmed.ncbi.nlm.nih.gov/32216916/){:target="_blank"}
-        - [Symptomatic improvement in patients treated with intermittent infusion of inotropes: a double-blind placebo controlled study](https://pubmed.ncbi.nlm.nih.gov/12939113/){:target="_blank"}
+    - [Persistent Severe HF symptoms on maximal GDMT][13]
+        - [Symptomatic improvement in patients treated with intermittent infusion of inotropes: a double-blind placebo controlled study][14]
     - Heart Transplant Evaluation
         - 1 year survival is near 90%, 12 year median survival
         - Generally 65-70 w/o T2DM w/End organ damage, Cancer in the past 5 years, GFR >30, No other survival decreasing illnesses, good social support and adherence
@@ -141,7 +141,25 @@ tags:
 
 ## Other Management
 
-- [FAIR-HF: Anemia (ferritin <100, or 100-300 w/Tsat <20%) + HFrEF (EF ≤45%) improved 6m walk, QOL and NYHA functional Class](https://pubmed.ncbi.nlm.nih.gov/19920054/){:target="_blank"}
+- [FAIR-HF: Anemia (ferritin <100, or 100-300 w/Tsat <20%) + HFrEF (EF ≤45%) improved 6m walk, QOL and NYHA functional Class][15]
 - Exercise training/cardiac rehabilitation
-    - [Improves functional capacity and overall quality of life](https://pubmed.ncbi.nlm.nih.gov/25605639/){:target="_blank"}
-    - [QOL](https://pubmed.ncbi.nlm.nih.gov/25399909/){:target="_blank"}
+    - [Improves functional capacity and overall quality of life][16]
+    - [QOL][17]
+
+[1]: https://pubmed.ncbi.nlm.nih.gov/33446410/{:target="_blank"}
+[2]: https://pubmed.ncbi.nlm.nih.gov/1463530/{:target="_blank"}
+[3]: https://pubmed.ncbi.nlm.nih.gov/25176015/{:target="_blank"}
+[4]: https://pubmed.ncbi.nlm.nih.gov/17576868/{:target="_blank"}
+[5]: https://pubmed.ncbi.nlm.nih.gov/32164892/{:target="_blank"}
+[6]: https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059
+[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/
+[8]: https://pubmed.ncbi.nlm.nih.gov/25176015/{:target="_blank"}
+[9]: https://pubmed.ncbi.nlm.nih.gov/10471456/{:target="_blank"}
+[10]: https://pubmed.ncbi.nlm.nih.gov/21073363/{:target="_blank"}
+[11]: https://pubmed.ncbi.nlm.nih.gov/10471456/{:target="_blank"}
+[12]: https://academic.oup.com/eurheartj/article/44/24/2216/7187574
+[13]: https://pubmed.ncbi.nlm.nih.gov/32216916/{:target="_blank"}
+[14]: https://pubmed.ncbi.nlm.nih.gov/12939113/{:target="_blank"}
+[15]: https://pubmed.ncbi.nlm.nih.gov/19920054/{:target="_blank"}
+[16]: https://pubmed.ncbi.nlm.nih.gov/25605639/{:target="_blank"}
+[17]: https://pubmed.ncbi.nlm.nih.gov/25399909/{:target="_blank"}

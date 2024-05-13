@@ -45,7 +45,7 @@ categories:
 
 [^1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10062296/
 
-[1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10062296/#euad009-B23/{:target="_blank"}
+[1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10062296/#euad009-B23/
 [2]: https://pubmed.ncbi.nlm.nih.gov/24854873/{:target="_blank"}
-[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10103559/{:target="_blank"}
+[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10103559/
 [4]: https://pubmed.ncbi.nlm.nih.gov/18678217/{:target="_blank"}

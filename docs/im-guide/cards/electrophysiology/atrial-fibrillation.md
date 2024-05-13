@@ -209,13 +209,13 @@ tags:
 * [EMCrit Afib/Aflutter][19]
 
 [^1]: https://www.ncbi.nlm.nih.gov/books/NBK526072/
-[^2]: https://pubmed.ncbi.nlm.nih.gov/30144419/
-[^3]: https://pubmed.ncbi.nlm.nih.gov/12466506/
-[^4]: https://pubmed.ncbi.nlm.nih.gov/22894575/
-[^5]: https://pubmed.ncbi.nlm.nih.gov/23210695/
+[^2]: https://pubmed.ncbi.nlm.nih.gov/30144419/{:target="_blank"}
+[^3]: https://pubmed.ncbi.nlm.nih.gov/12466506/{:target="_blank"}
+[^4]: https://pubmed.ncbi.nlm.nih.gov/22894575/{:target="_blank"}
+[^5]: https://pubmed.ncbi.nlm.nih.gov/23210695/{:target="_blank"}
 
 [1]: https://www.jacc.org/doi/10.1016/j.jacc.2023.08.017?_ga=2.45022564.1154516009.1714005509-1652560432.1713342738{:target="_blank"}
-[2]: https://www.ncbi.nlm.nih.gov/books/NBK526072/{:target="_blank"}
+[2]: https://www.ncbi.nlm.nih.gov/books/NBK526072/
 [3]: https://pubmed.ncbi.nlm.nih.gov/11685172/{:target="_blank"}
 [4]: https://pubmed.ncbi.nlm.nih.gov/20537138/{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/17597421/{:target="_blank"}
@@ -228,14 +228,14 @@ tags:
 [13]: https://pubmed.ncbi.nlm.nih.gov/19717844/{:target="_blank"}
 [14]: https://pubmed.ncbi.nlm.nih.gov/12466507/{:target="_blank"}
 [15]: https://pubmed.ncbi.nlm.nih.gov/32865375/{:target="_blank"}
-[16]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9207724/{:target="_blank"}
-[17]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5089515/{:target="_blank"}
-[18]: https://www.sciencedirect.com/science/article/pii/S0914508721001519{:target="_blank"}
-[19]: https://emcrit.org/ibcc/af/{:target="_blank"}
+[16]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9207724/
+[17]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5089515/
+[18]: https://www.sciencedirect.com/science/article/pii/S0914508721001519/
+[19]: https://emcrit.org/ibcc/af/
 [20]: https://pubmed.ncbi.nlm.nih.gov/23616674/{:target="_blank"}
-[21]: https://pubmed.ncbi.nlm.nih.gov/20231232/*{:target="_blank"}
-[22]: https://pubmed.ncbi.nlm.nih.gov/24549549/*{:target="_blank"}
-[23]: https://pubmed.ncbi.nlm.nih.gov/21309657/*{:target="_blank"}
-[24]: https://pubmed.ncbi.nlm.nih.gov/21870978/*{:target="_blank"}
-[25]: https://pubmed.ncbi.nlm.nih.gov/21830957/*{:target="_blank"}
-[26]: https://pubmed.ncbi.nlm.nih.gov/26095867/*{:target="_blank"}
+[21]: https://pubmed.ncbi.nlm.nih.gov/20231232/{:target="_blank"}
+[22]: https://pubmed.ncbi.nlm.nih.gov/24549549/{:target="_blank"}
+[23]: https://pubmed.ncbi.nlm.nih.gov/21309657/{:target="_blank"}
+[24]: https://pubmed.ncbi.nlm.nih.gov/21870978/{:target="_blank"}
+[25]: https://pubmed.ncbi.nlm.nih.gov/21830957/{:target="_blank"}
+[26]: https://pubmed.ncbi.nlm.nih.gov/26095867/{:target="_blank"}
