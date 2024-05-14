@@ -2,8 +2,6 @@
 title: Cerner
 author: J. Austin Straley, DO
 date: 2022-11-14
-tags:
-    - Efficiency
 quote: '“I’ll take things that make no sense for 500, Alex”'
 ---
 
