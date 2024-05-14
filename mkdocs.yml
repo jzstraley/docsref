@@ -363,8 +363,6 @@ nav:
     - Important Websites: resources/important-websites.md
     - Shortcuts: resources/shortcuts.md
     - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
-    - Workload Management: resources/workload-management.md
-    - Interesting: resources/interesting.md
     - Blog: 
       - resources/blog/index.md
   - Tags: tags.md
@@ -375,7 +373,6 @@ nav:
     - Site Development: about/site-development.md
     - Style Cheatsheet: about/style-cheatsheet.md
     - Changelog: about/changelog.md
-    - Contact: about/contact.md
 
 validation:
   links:
