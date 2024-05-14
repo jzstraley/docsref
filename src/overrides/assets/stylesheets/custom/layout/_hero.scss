@@ -13,7 +13,7 @@
   // Adjust background for slate theme
   [data-md-color-scheme="slate"] & {
     background:
-      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(230, 15%, 14%, 1)' /></svg>") no-repeat bottom,
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 0%, 1)' /></svg>") no-repeat bottom,
       linear-gradient(
         to bottom,
         var(--md-primary-fg-color),
@@ -26,13 +26,13 @@
 // Landing page hero
 .mdx-hero {
   margin: 0 px2rem(16px);
-  color: var(--md-accent-bg-color);
+  color: var(--md-default-fg-color);
 
   // Hero headline
   h1 {
     margin-bottom: px2rem(20px);
     font-weight: 700;
-    color: var(--md-accent-bg-color);
+    color: currentColor;
 
     // [mobile portrait -]: Larger hero headline
     @include break-to-device(mobile portrait) {
@@ -77,22 +77,20 @@
   .md-button {
     margin-top: px2rem(10px);
     margin-right: px2rem(10px);
-    color: var(--md-accent-bg-color); // 2nd //white/white
+    color: var(--md-default-fg-color); // font button 2
 
     // Button on focus/hover
     &:is(:focus, :hover) {
-      color: var(--md-accent-bg-color); //1st //white/white
+      color: var(--md-admonition-fg-color); //1st //white/white
       background-color: var(--md-accent-fg-color); //blue/orange
-      border-color: var(--md-accent-fg-color); //blue/orange
+      border-color: var(--md-admonition-fg-color); //blue/orange
     }
 
     // Primary button
     &--primary {
-      color: var(--md-primary-fg-color); //black/deep orange
-      background-color: var(--md-primary-bg-color); //white/orange
-      border-color: var(--md-primary-bg-color); //white/orange
+      color: var(--md-admonition-bg-color); //font button 1
+      background-color: var(--md-admonition-fg-color); //background button 1
+      border-color: var(--md-admonition-bg-color); //white/orange
     }
-
-
   }
 }
