@@ -11,4 +11,4 @@ tags:
 
 [Nuclear Cardiology: Understanding the Basics (John J. Mahmarian, MD) October 16, 2018][1]
 
-[1]: https://www.youtube.com/watch?app=desktop&v=C5dzDRqUrGA{:target="_blank"}
+[1]: https://www.youtube.com/watch?app=desktop&v=C5dzDRqUrGA

@@ -11,8 +11,8 @@ tags:
 ---
 
 * Arrhythmia Databases
-  * [Physionet](https://physionet.org/content/mitdb/1.0.0/){:target="_blank"}
-  * [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm){:target="_blank"}
+  * [Physionet](https://physionet.org/content/mitdb/1.0.0/)
+  * [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm)
 
 ## General[^1]
 
@@ -214,7 +214,7 @@ tags:
 [^4]: https://pubmed.ncbi.nlm.nih.gov/22894575/{:target="_blank"}
 [^5]: https://pubmed.ncbi.nlm.nih.gov/23210695/{:target="_blank"}
 
-[1]: https://www.jacc.org/doi/10.1016/j.jacc.2023.08.017?_ga=2.45022564.1154516009.1714005509-1652560432.1713342738{:target="_blank"}
+[1]: https://www.jacc.org/doi/10.1016/j.jacc.2023.08.017?_ga=2.45022564.1154516009.1714005509-1652560432.1713342738
 [2]: https://www.ncbi.nlm.nih.gov/books/NBK526072/
 [3]: https://pubmed.ncbi.nlm.nih.gov/11685172/{:target="_blank"}
 [4]: https://pubmed.ncbi.nlm.nih.gov/20537138/{:target="_blank"}

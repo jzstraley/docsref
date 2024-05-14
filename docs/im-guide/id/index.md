@@ -36,17 +36,17 @@ categories:
 - [Bugs and Drugs (Pharmacology)][1]
 
 [1]: https://www.bugsanddrugs.org/
-[2]: https://www.nejm.org/doi/full/10.1056/NEJMoa1506816/{:target="_blank"}
-[3]: https://academic.oup.com/cid/article/59/2/147/442347?login=false{:target="_blank"}
+[2]: https://www.nejm.org/doi/full/10.1056/NEJMoa1506816/
+[3]: https://academic.oup.com/cid/article/59/2/147/442347?login=false
 [4]: https://pubmed.ncbi.nlm.nih.gov/17599015/{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/25830421/{:target="_blank"}
-[6]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6812437/{:target="_blank"}
-[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6885331/{:target="_blank"}
-[8]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234639/{:target="_blank"}
-[9]: https://www.ncbi.nlm.nih.gov/books/NBK539794/{:target="_blank"}
-[10]: https://uroweb.org/guidelines/urological-infections/related-content/{:target="_blank"}
-[11]: https://www.nejm.org/doi/full/10.1056/NEJMcp1104429/{:target="_blank"}
-[12]: https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti/{:target="_blank"}
+[6]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6812437/
+[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6885331/
+[8]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6234639/
+[9]: https://www.ncbi.nlm.nih.gov/books/NBK539794/
+[10]: https://uroweb.org/guidelines/urological-infections/related-content/
+[11]: https://www.nejm.org/doi/full/10.1056/NEJMcp1104429/
+[12]: https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti/
 [13]: https://pubmed.ncbi.nlm.nih.gov/25591209/{:target="_blank"}
 [14]: https://pubmed.ncbi.nlm.nih.gov/15487879/{:target="_blank"}
 [15]: https://pubmed.ncbi.nlm.nih.gov/28027261/{:target="_blank"}

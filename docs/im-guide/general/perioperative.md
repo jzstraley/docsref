@@ -260,15 +260,15 @@ categories:
 [^1]: https://pubmed.ncbi.nlm.nih.gov/26927735/{:target="_blank"}
 [^2]: https://pubmed.ncbi.nlm.nih.gov/20131614/{:target="_blank"}
 
-[1]: https://www.preopevalguide.com/{:target="_blank"}
-[2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8339074/{:target="_blank"}
-[3]: https://pubs.asahq.org/anesthesiology/article/139/1/91/138261/Preoperative-Evaluation-in-the-21st-Century{:target="_blank"}
-[4]: https://www.merckmanuals.com/professional/special-subjects/care-of-the-surgical-patient/preoperative-evaluation{:target="_blank"}
-[5]: https://www.acpjournals.org/doi/full/10.7326/AITC202211150{:target="_blank"}
+[1]: https://www.preopevalguide.com/
+[2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8339074/
+[3]: https://pubs.asahq.org/anesthesiology/article/139/1/91/138261/Preoperative-Evaluation-in-the-21st-Century
+[4]: https://www.merckmanuals.com/professional/special-subjects/care-of-the-surgical-patient/preoperative-evaluation
+[5]: https://www.acpjournals.org/doi/full/10.7326/AITC202211150
 [7]: https://pubmed.ncbi.nlm.nih.gov/11230829/{:target="_blank"}
 [8]: https://pubmed.ncbi.nlm.nih.gov/19474688/{:target="_blank"}
 [9]: https://pubmed.ncbi.nlm.nih.gov/27026020/{:target="_blank"}
-[10]: https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13773{:target="_blank"}
+[10]: https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13773
 [11]: https://pubmed.ncbi.nlm.nih.gov/12719198/{:target="_blank"}
 [12]: https://pubmed.ncbi.nlm.nih.gov/18574269/{:target="_blank"}
 [13]: https://pubmed.ncbi.nlm.nih.gov/19889407/{:target="_blank"}

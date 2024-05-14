@@ -9,7 +9,7 @@ categories:
     - Critical Care
 ---
 - Acute Respiratory Failure
-    - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf){:target="_blank"}
+    - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf)
 - ARDS
     - [Mechanical Ventilation in ARDS](https://pubmed.ncbi.nlm.nih.gov/28459336/){:target="_blank"}
     - [ACURASYS: Neuromuscular blockade in 1st 48hrs reduced 28- and 90-day mortality](https://pubmed.ncbi.nlm.nih.gov/20843245/){:target="_blank"}
@@ -21,12 +21,12 @@ categories:
     - Treatment
         - Antibiotics
         - [AECOPD](https://pubmed.ncbi.nlm.nih.gov/18321904/){:target="_blank"}
-            - [REDUCE: 5d is non-inferior to 14d for prevention of re-AECOPD](http://www.ncbi.nlm.nih.gov/pubmed/23695200/){:target="_blank"}
-        - [Pharmacotherapy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7193862/){:target="_blank"}
-            - [FLAME: LABA + LAMA > LABA + ICS if mMRC ≥2 for exacerbations](http://www.ncbi.nlm.nih.gov/pubmed/27181606/){:target="_blank"}
-            - [UPLIFT: Tiotropium associated with improvements in lung function, QOL, and exacerbations during 4-year period; did not reduce rate of FEV1 decline](https://www.nejm.org/doi/full/10.1056/nejmoa0805800){:target="_blank"}
+            - [REDUCE: 5d is non-inferior to 14d for prevention of re-AECOPD](http://www.ncbi.nlm.nih.gov/pubmed/23695200/)
+        - [Pharmacotherapy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7193862/)
+            - [FLAME: LABA + LAMA > LABA + ICS if mMRC ≥2 for exacerbations](http://www.ncbi.nlm.nih.gov/pubmed/27181606/)
+            - [UPLIFT: Tiotropium associated with improvements in lung function, QOL, and exacerbations during 4-year period; did not reduce rate of FEV1 decline](https://www.nejm.org/doi/full/10.1056/nejmoa0805800)
 - ICU
-    - [EMCRIT: Fluids/Electrolytes](https://emcrit.org/ibcc/toc/#nephrology/){:target="_blank"}
+    - [EMCRIT: Fluids/Electrolytes](https://emcrit.org/ibcc/toc/#nephrology/)
     - [3SITES: Subclavian less CLABSIs and DVTs than jugular/femoral, more PTX](https://pubmed.ncbi.nlm.nih.gov/26398070/){:target="_blank"}
     - [65: MAP target 60-65 in pts ≥65 did not have mortality difference in vasodilatory shock](https://pubmed.ncbi.nlm.nih.gov/32049269/){:target="_blank"}
     - [Routine vs. On-Demand CXR in MV pts in the ICU increases use 34%, no benefit](https://pubmed.ncbi.nlm.nih.gov/19896184/){:target="_blank"}
@@ -38,17 +38,17 @@ categories:
         - [Surviving Sepsis Campaign](https://pubmed.ncbi.nlm.nih.gov/18158437/){:target="_blank"}
 - Interstitial Lung Disease (ILD)
     - [IPF](https://pubmed.ncbi.nlm.nih.gov/30168753/){:target="_blank"}
-    - [Sarcoidosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159433/){:target="_blank"}
+    - [Sarcoidosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159433/)
 - Lung Cancer
-    - [National Lung Cancer Screening Trial](https://www.nejm.org/doi/full/10.1056/NEJMoa1102873){:target="_blank"}
+    - [National Lung Cancer Screening Trial](https://www.nejm.org/doi/full/10.1056/NEJMoa1102873)
     - [Early Palliative care in metastatic NSCLC improves QOL and improved survival](https://pubmed.ncbi.nlm.nih.gov/20818875/){:target="_blank"}
 - Pleural Effusion
-    - [Lights Criteria for Pleural Effusions](https://www.acpjournals.org/doi/10.7326/0003-4819-77-4-507){:target="_blank"}
+    - [Lights Criteria for Pleural Effusions](https://www.acpjournals.org/doi/10.7326/0003-4819-77-4-507)
     - Management
         - [Management of infectious processes of the pleural space: a review](https://pubmed.ncbi.nlm.nih.gov/22536502/){:target="_blank"}
         - [Malignant Pleural Effusions](https://pubmed.ncbi.nlm.nih.gov/30272503/){:target="_blank"}
 - Sleep Apnea
-    - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/){:target="_blank"}
+    - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/)
 
 ## Resources
 

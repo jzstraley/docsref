@@ -352,12 +352,12 @@ nav:
     - Patient Instructions: resident-guide/7-patient-instructions.md
     - Common Inpatient Problems: resident-guide/8-common-inpt-problems.md
     - Licensing: resident-guide/9-licensing.md
-    - How To:
-      - Fellowship Excel Guide: resident-guide/how-to-series/fellowship-excel-guide.md
   - Fellowship Guide:
+    - fellowship-guide/index.md
     - Competency Requirements: fellowship-guide/cardsfellowshipreqs.md
+    - Fellowship Excel Guide: fellowship-guide/fellowship-excel-guide.md
   - Resources:
-    - Concepts: resources/concepts.md
+    - General Concepts: resources/concepts.md
     - Cerner: resources/cernerhelp.md
     - Dotphrases: resources/dotphrases.md
     - Important Websites: resources/important-websites.md

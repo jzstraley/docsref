@@ -26,9 +26,9 @@ categories:
 
 [1]: https://pubmed.ncbi.nlm.nih.gov/17030175/{:target="_blank"}
 [2]: https://pubmed.ncbi.nlm.nih.gov/10432325/{:target="_blank"}
-[3]: https://www.cghjournal.org/article/S1542-3565(17)31168-0/pdf{:target="_blank"}
-[4]: https://www.nejm.org/doi/full/10.1056/NEJMoa1912484{:target="_blank"}
-[5]: https://www.nejm.org/doi/full/10.1056/nejmoa1211801{:target="_blank"}
+[3]: https://www.cghjournal.org/article/S1542-3565(17)31168-0/pdf
+[4]: https://www.nejm.org/doi/full/10.1056/NEJMoa1912484
+[5]: https://www.nejm.org/doi/full/10.1056/nejmoa1211801
 [6]: https://pubmed.ncbi.nlm.nih.gov/23281973/{:target="_blank"}
 [7]: https://pubmed.ncbi.nlm.nih.gov/29431403/{:target="_blank"}
 [8]: https://pubmed.ncbi.nlm.nih.gov/24795201/{:target="_blank"}

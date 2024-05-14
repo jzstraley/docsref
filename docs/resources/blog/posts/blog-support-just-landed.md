@@ -33,7 +33,7 @@ If you want to build a blog alongside your documentation, please refer to
 
 You can bootstrap a new project using the `mkdocs` executable:
 
-```
+``` markdown
 mkdocs new .
 ```
 
@@ -67,10 +67,9 @@ nav:
   - index.md
 ```
 
-1.  This is the important part – we're hosting the blog at the root of the
+1. This is the important part – we're hosting the blog at the root of the
     project, and not in a subdirectory. For more information, see the
      configuration option.
-
 
 #### Blog setup
 
@@ -100,7 +99,7 @@ with a file called `hello-world.md`:
 └─ mkdocs.yml
 ```
 
-1.  If you'd like to arrange posts differently, you're free to do so. The URLs
+1. If you'd like to arrange posts differently, you're free to do so. The URLs
     are built from the format specified in  and
     the titles and dates of posts, no matter how they are organized
     inside the `posts` directory.
@@ -141,7 +140,7 @@ In velit purus, dictum quis neque nec, molestie viverra risus. Nam pellentesque
 tellus id elit ultricies, vel finibus erat cursus.
 ```
 
-1.  If you mark a post as red marker appears next to the post date
+1. If you mark a post as red marker appears next to the post date
     on index pages. When the site is built, drafts are not included in the
     output. [This behavior can be changed], e.g. for rendering drafts when
     building deploy previews.
@@ -149,8 +148,6 @@ tellus id elit ultricies, vel finibus erat cursus.
 When you spin up the [live preview server], you should be greeted by your first
 post! You'll also realizeindexes have been
 automatically generated for you:
-
-
 
 However, this is just the start. The [built-in blog plugin] packs a lot of
 functionality needed in day-to-day blogging. Visit the documentation of the

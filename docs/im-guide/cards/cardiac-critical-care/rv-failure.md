@@ -135,7 +135,7 @@ tags:
 
 [1]: https://pubmed.ncbi.nlm.nih.gov/33853435/{:target="_blank"}
 [2]: https://pubmed.ncbi.nlm.nih.gov/26342901/{:target="_blank"}
-[3]: https://emcrit.org/ibcc/rv/{:target="_blank"}
+[3]: https://emcrit.org/ibcc/rv/
 [4]: https://pubmed.ncbi.nlm.nih.gov/33541609/{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/32740380/{:target="_blank"}
 [6]: https://pubmed.ncbi.nlm.nih.gov/33853435/{:target="_blank"}

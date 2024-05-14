@@ -132,7 +132,7 @@ categories:
     * Widening of the mediastinum, postinjury suspected aortic injury (TEE)
     * Potential catheter, guidewire, pacer electrode, or pericardiocentesis needle injury with or without signs of tamponade
 
-[1]: https://www.ahajournals.org/doi/full/10.1161/01.cir.95.6.1686{:target="_blank"}
+[1]: https://www.ahajournals.org/doi/full/10.1161/01.cir.95.6.1686
 
 [^1]: https://doi.org/10.1161%2Fcirc.65.2.7053890
 [^2]: https://linkinghub.elsevier.com/retrieve/pii/000291499090143O

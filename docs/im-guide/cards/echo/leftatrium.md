@@ -22,4 +22,4 @@ categories:
     * Dilated, unable to characterize further
     * Unknown
 
-[1]: https://www.ahajournals.org/doi/10.1161/HCI.0000000000000027/{:target="_blank"}
+[1]: https://www.ahajournals.org/doi/10.1161/HCI.0000000000000027/

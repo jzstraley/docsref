@@ -44,10 +44,10 @@ tags:
     * Rule out postrenal w/sonogram (KUB US)
         * May also be negative in postrenal
     * Get U/A
-    * If negative 
+    * If negative
         * Biopsy
-  * [Finding the cause of acute kidney injury: which index of fractional excretion is better?][2]
 * Testing
+  * [Finding the cause of acute kidney injury: which index of fractional excretion is better?][2]
   * Dipstick UA for blood, protein, WBC, nitrites, glucose
   * [Uric Acid as a Prognostic factor for in-hospital mortality in AKI][6]
   * Consider Acute Nephritis and consult when a pt with AKI and no cause has urine dipstick showing protein or blood in the absence of UTI, menses, or trauma due to catheterization
@@ -71,17 +71,20 @@ tags:
   * Correct electrolyte imbalance
   * Refer for immediate Dialysis if AKI is not responding to medical management plus: hyperkalemia, metabolic acidosis, uremic symptoms, fluid overload, pulmonary edema
     * [RRT in AKI w/Sepsis in the ICU][3]
-    * [IDEAL-ICU: AKI w/Sepsis in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/30304656/){:target="_blank"}
-        * [NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa1803213/){:target="_blank"}
-    * [AKIKI: Early vs. Late in Severe AKI in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/27181456/){:target="_blank"}
+    * [IDEAL-ICU: AKI w/Sepsis in the ICU; No difference in mortality][7]
+        * [NEJM][9]
+    * [AKIKI: Early vs. Late in Severe AKI in the ICU; No difference in mortality][8]
   * [Consider sodium bicarb if acidotic and mild AKI][4]
   * Anemia
     * [No consequence of IV Iron to treat anemia][5]
-  * Right jugular > Femoral vein for access with uncuffed non-tunneled cath
+  * Right jugular > Femoral vein for access with un-cuffed non-tunneled cath
 
-[1]: https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf{:target="_blank"}
-[2]: https://pubmed.ncbi.nlm.nih.gov/22301562/
+[1]: https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf
+[2]: https://pubmed.ncbi.nlm.nih.gov/22301562/{:target="_blank"}
 [3]: https://www.nejm.org/doi/full/10.1056/NEJMoa1803213
 [4]: https://www.ajkd.org/article/S0272-6386(12)01501-6/fulltext#:~:text=In%20patients%20with%20less%20severe,in%20many%20major%20nephrology%20textbooks
-[5]: https://pubmed.ncbi.nlm.nih.gov/26801821/
+[5]: https://pubmed.ncbi.nlm.nih.gov/26801821/{:target="_blank"}
 [6]: https://pubmed.ncbi.nlm.nih.gov/37073630/{:target="_blank"}
+[7]: https://pubmed.ncbi.nlm.nih.gov/30304656/{:target="_blank"}
+[8]: https://pubmed.ncbi.nlm.nih.gov/27181456/{:target="_blank"}
+[9]: https://www.nejm.org/doi/full/10.1056/NEJMoa1803213/

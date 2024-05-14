@@ -38,11 +38,11 @@ tags:
 * Great [EMCrit article][1]
 * [Journal Feed][4]
 
-[1]: https://emcrit.org/emcrit/cardiogenic-shock-2-mcs/{:target="_blank"}
+[1]: https://emcrit.org/emcrit/cardiogenic-shock-2-mcs/
 [2]: https://pubmed.ncbi.nlm.nih.gov/34347952/{:target="_blank"}
-[3]: https://annalsofintensivecare.springeropen.com/articles/10.1186/s13613-015-0052-1{:target="_blank"}
-[4]: https://journalfeed.org/article-a-day/2017/aha-cardiogenic-shock-spoon-feed/{:target="_blank"}
+[3]: https://annalsofintensivecare.springeropen.com/articles/10.1186/s13613-015-0052-1
+[4]: https://journalfeed.org/article-a-day/2017/aha-cardiogenic-shock-spoon-feed/
 [5]: https://pubmed.ncbi.nlm.nih.gov/31104355/{:target="_blank"}
-[6]: https://www.ahajournals.org/doi/full/10.1161/cir.0000000000000525{:target="_blank"}
-[7]: https://www.sciencedirect.com/science/article/pii/S0735109718369407?via%3Dihub{:target="_blank"}
+[6]: https://www.ahajournals.org/doi/full/10.1161/cir.0000000000000525
+[7]: https://www.sciencedirect.com/science/article/pii/S0735109718369407?via%3Dihub
 [8]: https://pubmed.ncbi.nlm.nih.gov/38587239/{:target="_blank"}

@@ -20,7 +20,7 @@ categories:
 
 [1]: https://pubmed.ncbi.nlm.nih.gov/30346242/{:target="_blank"}
 [2]: https://pubmed.ncbi.nlm.nih.gov/24554232/{:target="_blank"}
-[3]: https://www.vim-book.org/geriatrics/geriatrics-dementia/{:target="_blank"}
+[3]: https://www.vim-book.org/geriatrics/geriatrics-dementia/
 [4]: https://pubmed.ncbi.nlm.nih.gov/25581234/{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/25655026/{:target="_blank"}
 [6]: https://pubmed.ncbi.nlm.nih.gov/23995195/{:target="_blank"}

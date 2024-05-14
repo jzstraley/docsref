@@ -1,7 +1,7 @@
 ---
 title: How to Search More Effectively Online
 aliases: 
-description: Here's a guide that showcase many usefull search operators that you can use to search things online more efficiently.
+description: Here's a guide that showcase many useful search operators that you can use to search things online more efficiently.
 authors: J. Austin Straley, DO
 categories:
   - Guides
@@ -14,13 +14,13 @@ date:
 
 ## How to Search Efficiently Online
 
-Here's a guide that showcase many usefull search operators that you can use to search things online more efficiently.
+Here's a guide that showcase many useful search operators that you can use to search things online more efficiently.
 
 ## Exclude a Term From Your Search
 
 Add a `-` before the word to exclude.
 
-```
+``` markdown
 dolphins -football
 ```
 
@@ -30,7 +30,7 @@ You'll get animals, not a football team.
 
 Add a `~` before the word if you want synonyms.
 
-```
+``` markdown
 music ~classes
 ```
 
@@ -40,7 +40,7 @@ Here you'll get music classes, lessons, coaching, etc.
 
 How to search inside a specific website → `site:`reddit.com
 
-```
+``` markdown
 How to do that site:reddit.com
 ```
 
@@ -48,7 +48,7 @@ How to do that site:reddit.com
 
 How to use **OR** while searching ? → `OR` or `|`
 
-```
+``` markdown
 Netflix | Prime <=> Netflix OR Prime
 ```
 
@@ -56,7 +56,7 @@ Netflix | Prime <=> Netflix OR Prime
 
 How to search within a range ? → `1993..2000`
 
-```
+``` markdown
 Movies 1993..2000
 ```
 
@@ -64,7 +64,7 @@ Movies 1993..2000
 
 How to search inside a specific location only ? → `location:`Charleston
 
-```
+``` markdown
 Weather alert location:Charleston
 ```
 
@@ -72,7 +72,7 @@ Weather alert location:Charleston
 
 How to search for a specific filetype ? → `filetype:`pdf
 
-```
+``` markdown
 ACC Heart Failure Guidelines filetype:pdf
 ```
 
@@ -80,7 +80,7 @@ ACC Heart Failure Guidelines filetype:pdf
 
 How to search for instances of a word? → `"word"`
 
-```
+``` markdown
 "Tom Brady" football player
 ```
 
@@ -90,7 +90,7 @@ Gives you the results with the full name exactly as is, not just the first or la
 
 Want to get rid of sites that flood the results? → `-site:`pinterest.*
 
-```
+``` markdown
 -site:pinterest.*
 ```
 

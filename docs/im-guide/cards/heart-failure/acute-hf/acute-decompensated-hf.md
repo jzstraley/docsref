@@ -82,9 +82,9 @@ tags:
         - Failure again indicates diuretic resistance
             - Add metolazone (2.5-10mg)
             - Continuous infusion to get urine output ≥100cc/hr
-    - [Diuretic Therapy for HF (JACC State-of-the-Art Review)](https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059){:target="_blank"}
-    - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/){:target="_blank"}
-    - [DOSE-AHF: High-dose loops > Low-dose for symptom management, fewer inpatient days; continuous = Intermittent dosing](https://pubmed.ncbi.nlm.nih.gov/21366472/){:target="_blank"}
+    - [Diuretic Therapy for HF (JACC State-of-the-Art Review)](https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059)
+    - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/)
+    - [DOSE-AHF: High-dose loops > Low-dose for symptom management, fewer inpatient days; continuous = Intermittent dosing](https://pubmed.ncbi.nlm.nih.gov/21366472/)
         - Diuretic Optimization Strategies Evaluation (DOSE) Trial
     - [Michigan Medicine Inpatient Diuretic Guideline for Patients with Acute Decompensated Heart Failure][2]
 - Hypotension

@@ -74,25 +74,25 @@ categories:
         - R-CHOP
             - Rituximab, Cyclophosphamide, Hydroxy-doxorubicin, Oncovorin/Vincristine, Prednisone
 
-[1]: https://pubmed.ncbi.nlm.nih.gov/20618092/{:target="_blank"}
-[2]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(12)60815-0/fulltext/{:target="_blank"}
+[1]: https://pubmed.ncbi.nlm.nih.gov/20618092/
+[2]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(12)60815-0/fulltext/
 [3]: https://pubmed.ncbi.nlm.nih.gov/9971864/{:target="_blank"}
 [4]: https://pubmed.ncbi.nlm.nih.gov/25270275/{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/23219286/{:target="_blank"}
 [6]: https://pubmed.ncbi.nlm.nih.gov/31365801/{:target="_blank"}
 [7]: https://pubmed.ncbi.nlm.nih.gov/12637609/{:target="_blank"}
-[8]: https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13773/{:target="_blank"}
+[8]: https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13773/
 [9]: https://pubmed.ncbi.nlm.nih.gov/27686346/{:target="_blank"}
 [10]: https://pubmed.ncbi.nlm.nih.gov/22868791/{:target="_blank"}
 [11]: https://pubmed.ncbi.nlm.nih.gov/20008194/{:target="_blank"}
-[12]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4413903/{:target="_blank"}
-[13]: https://www.nejm.org/doi/full/10.1056/NEJMoa1506623/{:target="_blank"}
-[14]: https://www.nejm.org/doi/full/10.1056/NEJMoa1302507/{:target="_blank"}
-[15]: https://www.njmonline.nl/article_ft.php?a=1790&d=1189&i=201{:target="_blank"}
+[12]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4413903/
+[13]: https://www.nejm.org/doi/full/10.1056/NEJMoa1506623/
+[14]: https://www.nejm.org/doi/full/10.1056/NEJMoa1302507/
+[15]: https://www.njmonline.nl/article_ft.php?a=1790&d=1189&i=201
 [16]: https://pubmed.ncbi.nlm.nih.gov/24643601/{:target="_blank"}
 [17]: https://pubmed.ncbi.nlm.nih.gov/18318689/{:target="_blank"}
 [18]: https://pubmed.ncbi.nlm.nih.gov/16738268/{:target="_blank"}
-[19]: https://www.nejm.org/doi/full/10.1056/NEJMoa023153/{:target="_blank"}
+[19]: https://www.nejm.org/doi/full/10.1056/NEJMoa023153/
 [20]: https://pubmed.ncbi.nlm.nih.gov/29450523/{:target="_blank"}
 [21]: https://pubmed.ncbi.nlm.nih.gov/17060659/{:target="_blank"}
 [22]: https://pubmed.ncbi.nlm.nih.gov/18692692/{:target="_blank"}

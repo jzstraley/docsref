@@ -108,5 +108,5 @@ __*Supporting the vibes of the entire team should be your #1 priority*__
 - Perform all patient care duties on their patients (i.e., calling consults, requesting follow-ups, depart summary, patient education, family updates, cache updates)
 - Place basic medical orders on patients and requesting co-signature at appropriate interval
 
-[1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf{:target="_blank"}
-[2]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf{:target="_blank"}
+[1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf
+[2]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf

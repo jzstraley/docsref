@@ -283,4 +283,4 @@ tags:
 - Norepinephrine
 - Isopro
 
-[1]: https://emergency.unboundmedicine.com/emergency/view/Davis-Drug-Guide/51221/all/dilTIAZem/{:target="_blank"}
+[1]: https://emergency.unboundmedicine.com/emergency/view/Davis-Drug-Guide/51221/all/dilTIAZem/

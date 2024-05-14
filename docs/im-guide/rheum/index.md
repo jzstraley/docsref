@@ -21,6 +21,6 @@ categories:
 - *Pseudogout
     - [RF](https://pubmed.ncbi.nlm.nih.gov/22886340/){:target="_blank"}
 - RA
-    - [TICORA: Intensive > standard therapy in improving disease control at 18 months](http://www.ncbi.nlm.nih.gov/pubmed/15262104/){:target="_blank"}
+    - [TICORA: Intensive > standard therapy in improving disease control at 18 months](http://www.ncbi.nlm.nih.gov/pubmed/15262104/)
 - Septic Arthritis
     - [Sensitivity of ESR and CRP in ruling out Septic Arthritis](https://pubmed.ncbi.nlm.nih.gov/20655163/){:target="_blank"}
