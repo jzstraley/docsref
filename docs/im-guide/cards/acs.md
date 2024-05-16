@@ -54,12 +54,12 @@ status: new
 
 [^2]: https://www.internationaljournalofcardiology.com/article/S0167-5273(16)33282-X/fulltext
 [^6]: http://www.ncbi.nlm.nih.gov/pubmed/19717846
-[^7]: https://pubmed.ncbi.nlm.nih.gov/25399658/{:target="_blank"}
-[^8]: https://pubmed.ncbi.nlm.nih.gov/23415013/{:target="_blank"}
+[^7]: https://pubmed.ncbi.nlm.nih.gov/25399658/
+[^8]: https://pubmed.ncbi.nlm.nih.gov/23415013/
 [^9]: http://www.ncbi.nlm.nih.gov/pubmed/15007110
-[^10]: https://pubmed.ncbi.nlm.nih.gov/20925534/{:target="_blank"}
-[^11]: https://pubmed.ncbi.nlm.nih.gov/1386652/{:target="_blank"}
-[^12]: https://pubmed.ncbi.nlm.nih.gov/11907286/{:target="_blank"}
+[^10]: https://pubmed.ncbi.nlm.nih.gov/20925534/
+[^11]: https://pubmed.ncbi.nlm.nih.gov/1386652/
+[^12]: https://pubmed.ncbi.nlm.nih.gov/11907286/
 
 [1]: https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum/group-m4-approach-to/chest-pain
 [2]: https://pubmed.ncbi.nlm.nih.gov/34756653/{:target="_blank"}
