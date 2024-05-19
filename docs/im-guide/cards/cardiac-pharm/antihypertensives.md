@@ -16,14 +16,15 @@ tags:
 ## Physiology
 
 - RAAS disturbances can play a large role in hypertension development
-    - Beta1 blockers inhibit sympathetic activation of kidney
-    - Renin is produced in the JG cells of the kidney in response to hypoperfusion, B1 stimulation, renal artery stenosis, diuretic use
+    - Beta-1 blockers inhibit sympathetic activation of kidney
+    - Renin is produced in the JG cells of the kidney in response to hypoperfusion, B1 stimulation, renal artery stenosis, and diuretic use
         - Direct Renin inhibitors stop renin
     - Renin leaves the kidney to cleave angiotensinogen (made in the liver) into angiotensin I
-    - Angiotensin Converting Enzyme in the pulmonary capillary endothelium converts angiotensin I into angiotensin II and inactivates Bradykinin
-        - ACE Inhibitors
+    - Angiotensin Converting Enzyme (ACE) in the pulmonary capillary endothelium converts angiotensin I into angiotensin II and inactivates Bradykinin
+        - Site of ACE Inhibitor action
     - Angiotensin II is a potent vasoconstrictor, also promotes aldosterone production in the adrenal cortex
-        - Angiotensin II blockers inhibit Angiotensin II from working on the type 1 receptor on the vascular bed and the adrenal cortex. This prevents aldosterone production and vasoconstriction
+        - Angiotensin II blockers inhibit Angiotensin II from working on the type 1 receptor on the vascular bed and the adrenal cortex
+        - This prevents aldosterone production and vasoconstriction
     - Aldosterone acts on the principle cells of collecting ducts in the nephron to increase renal sodium and water absorption
         - Mineralocorticoid Receptor Antagonists prevent this
     - Therefore, any drug that blocks angiotensin II or aldosterone promotes natriuresis
@@ -67,12 +68,13 @@ tags:
 - General
     - Bind zona glomerulosa receptors in the kidney to prevent angiotensin II from inducing expression of aldosterone on angiotensin receptors
     - Do not decrease Angiotensin II levels, but do cause natriuresis and decreased aldosterone production
-- Valsartan
+- Valsartan (Diovan)
+    - [PubChem][1]
 
 ## Beta-Adrenergic Receptor Blockers (BBs, Beta Blockers)
 
 - MOA:
-    - Beta1 blockers block sympathetic stimulation of the JG apparatus in the kidney
+    - Beta-1 blockers block sympathetic stimulation of the JG apparatus in the kidney
     - Reduce BP by decreasing sympathetic stimulation of the heart
         - Decreases HR, lowers SV, reduces arterial pressures
 - Use: Should be given to all patients who have had an MI or who have HF
@@ -235,3 +237,5 @@ tags:
 
 - Doxazosin (Cardura)
 - Prazosin
+
+[1]: https://pubchem.ncbi.nlm.nih.gov/compound/Valsartan#section=ATR-IR-Spectra

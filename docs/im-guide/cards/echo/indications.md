@@ -7,6 +7,13 @@ categories:
     - Echo
 ---
 
+## Echocardiography Types
+
+* Bicycle Stress Echo
+* Dobutamine Stress Echo
+* Transthoracic Echo (TTE)
+* Thransesophageal Echo (TEE)
+
 ## [Echocardiography Indications][1]
 
 * Class I (Useful)

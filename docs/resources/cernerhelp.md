@@ -3,6 +3,8 @@ title: Cerner
 author: J. Austin Straley, DO
 date: 2022-11-14
 quote: '“I’ll take things that make no sense for 500, Alex”'
+catagories:
+    - Cerner
 ---
 
 <hr>

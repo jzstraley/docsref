@@ -1,91 +1,354 @@
 ---
 title: Student/Resident Reading Topics
 author: J. Austin Straley, DO
-date: 2024-03-16
+date: 2024-05-19
 categories:
   - Suggested Reading
+  - Medical Students
+  - Residents
+  - Resources
 ---
 
-## Resources
+The best thing you can do for the IM Shelf is UWorld. There really is no replacement for it. Anki can be used to supplement but shouldn't be your primary source of information.
 
-- M3/M4 Suggested Articles
-    - [SIU Reading List](https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf)
-    - [UNC Suggested Reading](https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/)
-- [M4 ED Curriculum](https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum)
-    - [Incomplete ER Journal Club Articles](https://wikem.org/wiki/Category:Incomplete_Journal_Club_Articles)
+## Ward Resources
+
+- Internal Medicine Clerkship Guides
+    - [Primer to the Internal Medicine Clerkship - 2008][1]
+    - [NBME Medicine Subject Exam - Content Outline][12]
+    - [UNC Suggested Reading][2]
+    - [M4 ED Curriculum][4]
+    - [SIU Reading List - 2006][3]
+- Other Clerkship Resources
+    - [Books by Ben White][13]
 - Trial Pages
-    - [Wiki Journal Club](https://www.wikijournalclub.org/wiki/Main_Page)
-    - [2 Minute Medicine - The Classics - Summaries](https://www.2minutemedicine.com/the-classics-in-medicine-summaries-of-the-landmark-trials/)
-    - [2 Minute Medicine - The Classics - Directory](https://www.2minutemedicine.com/the-classics-directory/)
+    - [Wiki Journal Club][6]
+    - [2 Minute Medicine - The Classics - Summaries][7]
+    - [2 Minute Medicine - The Classics - Directory][8]
 - ICU Guides
-    - [UOC](http://chicago.medicine.uic.edu/wp-content/uploads/sites/6/2017/09/icuguidebook.pdf)
+    - [University of Chicago ICU Guide][9]
 - Drug Interaction Books
-    - [Louisville Interactions - Adults](https://kdpnet.kdp.louisville.edu/drugbook/adult/?node=4547)
-    - [Louisville Interactions](https://kdpnet.kdp.louisville.edu/)
+    - [Louisville Interactions - Adults][10]
+    - [Louisville Interactions][11]
+- Other
+    - [Incomplete ER Journal Club Articles][5]
 
-## Topics List
+## Ward Topics List
+
+Largely modeled after SIU's Reading list, but with topics I've commonly encountered sorted by the relative frequency I've encountered them.
 
 ???+ note "Cardiology"
     ???+ success "Highest Yield"
-    - Coronary Artery Disease
-    - Angina Pectoris
-    - Myocardial Infarction
-    - Hypertension
-    - Congestive Heart Failure
-    - Cor Pulmonale
-    - Left Heart Failure
-
+        - [Coronary Artery Disease](/im-guide/cards/stable-ischemic-disease)
+        - [Atrial Fibrillation](/im-guide/cards/electrophysiology/atrial-fibrillation)
+        - Angina Pectoris
+        - Myocardial Infarction
+        - Hypertension
+        - Congestive Heart Failure
+        - Atrial Fibrillation
+        - Cor Pulmonale
+        - Left Heart Failure
+        - Pulmonary embolus/Pulmonary embolism (PE)
     ??? warning "Medium Yield"
-    - Aortic Stenosis
-    - Mitral regurgitation
-    - Atrial Fibrillation
-    - Premature ventricular contractions
-    - Ventricular tachycardia
-    - Pulmonary embolus
-    - Acute pericarditis
-    - Prinzmetal’s angina
-    - Mitral stenosis
-    - Aortic regurgitation
-    - AV blocks
-    - Bundle branch block
-    - Cardiomyopathy
-    - Multifocal atrial tachycardia
-    - Atrial flutter
+        - Aortic Stenosis
+        - Mitral regurgitation
+        - Premature ventricular contractions
+        - Ventricular tachycardia
+        - Acute pericarditis
+        - Prinzmetal’s angina
+        - Mitral stenosis
+        - Aortic regurgitation
+        - AV blocks
+        - Bundle branch block
+        - Cardiomyopathy
+        - Multifocal atrial tachycardia
+        - Atrial flutter
+    ??? danger "Lower Yield"
+        - Congenital heart disease
+        - Pericarditis
+        - Restrictive cardiac tamponade
+        - Wolf-Parkinson White
+        - Junctional rhythms
+        - Atrial septal defect
 
-    ??? danger "Low Yield"
-    - Congenital heart disease
-    - Pericarditis
-    - Restrictive cardiac tamponade
-    - Wolf-Parkinson White
-    - Junctional rhythms
-    - Atrial septal defect
+??? note "Endocrinology"
+    ???+ success "Highest Yield"
+        - Diabetes Mellitus
+            - hypoglycemia
+            - ketoacidosis
+            - hyperosmolar state
+            - neuropathy
+            - retinopathy
+        - Hypothyroidism
+        - Hyperthyroidism
+        - Hypercalcemia
+    ??? warning "Medium Yield"
+        - Cushing’s disease
+        - Addison’s disease
+        - Corticosteroid drug therapy
+        - Syndrome of inappropriate ADH secretion
+        - Thyroid Nodules
+        - Hashimoto’s Thyroiditis
+        - Osteoporosis
+        - Multiple endocrine neoplasia syndromes
+        - Pheochromocytoma
+        - Galactorrhea
+        - Hypogonadism
+        - Thyroid cancer
+    ??? danger "Lower Yield"
+        - Primary hyperaldosteronism
+        - Acromegaly
+        - Diabetes insipidus
+        - Ectopic hormone production
+        - Conn’s Syndrome
+        - Gastrinoma
 
-### Cardiology
+??? note "Hematology/Oncology"
+    ???+ success "Highest Yield"
+        - Iron Deficiency Anemia
+        - Anemia of chronic disease
+        - Lymphomas
+        - DIC
+        - Thrombocytopenia
+        - Chronic Leukemia
+        - Breast Cancer
+    ??? warning "Medium Yield"
+        - Macrocytic anemia
+        - Transfusions
+        - Myelofibrosis/Myelodysplasia
+        - Deep venous thrombosis
+        - Gammopathy
+        - Pancytopenia
+        - Hemoglobinopathies
+        - Von Willebrand's Disease
+        - Acute Leukemia
+        - Skin cancer/melanoma
+        - Principles of chemotherapy
+        - Pain management
+        - Prostate cancer
+        - Paraneoplastic Syndromes
+        - Monoclonal Antibody Therapy
+    ??? danger "Lower Yield"
+        - Leukopenia
+        - Aplastic anemia
+        - Hemophilia
+        - Chromosomes
+        - Flow Cytometry
 
-- Coronary Artery Disease
-- Angina Pectoris
-- Myocardial Infarction
-- Hypertension
-- Congestive Heart Failure
-- Cor Pulmonale
-- Left Heart Failure
+??? note "Infectious Disease"
+    ???+ success "Highest Yield"
+        - Pneumonia/bronchitis
+        - UTI’s
+        - AIDS
+        - Septic Shock
+    ??? warning "Medium Yield"
+        - Endocarditis
+        - Meningitis
+        - Lyme disease
+        - URI/influenza
+        - Immunizations
+        - TB
+        - Histo/Other fungal diseases
+        - Encephalitis
+        - Rheumatic fever
+        - Lung abscess
+        - Sinusitis
+        - Herpes Zoster/Simplex
+        - Vaginal Discharges (STD’S)
+    ??? danger "Lower Yield"
+        - Rocky Mountain Fever
+        - Staph Syndrome (toxic shock)
+        - Osteomyelitis
+        - Septic arthritis
+        - Liver abscess
+        - Brain abscess
 
-### Endocrinology
+??? note "Nephrology & Urology"
+    ???+ success "Highest Yield"
+        - Acute Renal Failure
+        - Fluid/Electrolytes
+    ??? warning "Medium Yield"
+        - Chronic Renal Failure
+        - Glomerulonephritis
+        - Acid Base balance
+        - Nephrotic Syndrome
+        - Renal Calculi
+        - Drug Therapy in renal disease
+        - Renal carcinoma
+    ??? danger "Lower Yield"
+        - Renal tubular acidoses
+        - Goodpasture’s
+        - Polycystic kidneys
+        - Henoch-Schoenlein purpura
 
-### Hematology/Oncology
+??? note "Pulmonology"
+    ???+ success "Highest Yield"
+        - COPD/Asthma/Bronchiectasis
+        - Lung Cancer
+        - Acute Respiratory Failure
+        - Pulmonary Emboli/DVT
+        - Respiratory Tract Infections
+        - IgE mediated disease
+        - Sleep Apnea/Respiratory Control
+    ??? warning "Medium Yield"
+        - Pleural effusion/pneumothorax
+        - Sarcoidosis
+        - Pneumoconiosis
+        - Restrictive Lung disease
+        - Influenza
+        - Diffuse pulmonary fibrosis
+        - Pulmonary Function Tests
+        - Aspergillosis
+        - Tuberculosis
+        - Histoplasmosis
+        - Pneumothorax
+        - Cystic Fibrosis
+        - Hypersensitivity pneumonitis
+    ??? danger "Lower Yield"
+        - Mesothelioma
+        - CO poisoning
 
-### Infectious Disease
+??? note "Rheumatology, Immunology and MSK"
+    ???+ success "Highest Yield"
+        - Septic Arthritis
+        - Rheumatoid Arthritis
+        - Osteoarthritis
+        - Systemic Lupus Erythematosus
+        - Gout
+        - Ankylosing Spondylitis
+        - Polymyalgia Rheumatica
+    ??? warning "Medium Yield"
+        - Giant Cell Vasculitis
+        - Vasculitis (Wegener’s, PAN, HSP, etc.)
+        - Reactive Arthritis (Reiter’s Syndrome)
+        - Regional Rheumatic Problems (LBP, Tendonitis, Bursitis)
+        - Fibromyalgia
+        - Calcium Pyrophosphate Deposition Disease (CPPD)
+        - Sjogren’s Syndrome
+        - Polymyositis
+        - Scleroderma
+        - Psoriatic Arthritis
+        - Antiphospholipid Antibody Syndrome
+        - Lyme Disease
+        - Raynaud’s Phenomenon
+        - Entrapment Neuropathies (Carpal Tunnel Syndrome)
+    ??? danger "Lower Yield"
+        - Neuropathic Arthritis
+        - Relapsing Polychondritis
+        - Rheumatic Fever
+        - Amyloidosis
+        - Hypermobility Syndrome
+        - Osteonecrosis
+        - Hypertophic Pulmonary
+        - Osteoarthropathy
 
-### Nephrology
+??? note "Gastroenterology"
+    ???+ success "Highest Yield"
+        - Gastroesophageal reflux disease
+        - Peptic ulcer disease
+        - Choleithiasis
+        - Viral hepatitis
+        - Colon polyps/cancer
+        - Jaundice
+        - Gastrointestinal bleeding
+    ??? warning "Medium Yield"
+        - Alcoholic hepatitis
+        - Cirrhosis
+        - Complicaitons of portal hypertension
+        - Pancreatitis
+        - Inflammatory Bowel disease
+        - Gastroenteritis – bacterial/parasitic
+        - Irritable Bowel Syndrome
+        - Diverticular disease
+        - Ascites
+        - Esophageal stricture
+        - Carcinoma of the stomach
+        - Chronic hepatitis
+        - Hemorrhoids
+        - Rectal fissure
+        - Ischemic colitis
+        - AV malformations
+        - Malabsorption syndromes
+        - Hepatoma
+        - Primary biliary cirrhosis
+        - Pancreatic Carcinoma
+        - AIDS-related gastrointestinal disease
+    ??? danger "Lower Yield"
+        - Achalasia
+        - Esophageal webs
+        - Meckel’s diverticulum
+        - Mesenteric vascular insufficiency
+        - Wilson’s disease
+        - Hemochromatosis
+        - Zollinger-Ellison Syndrome
+        - Drug-induced liver disease
 
-### Pulmonology
+??? note "General"
+    ???+ success "Highest Yield"
+        - Hyperlipidemia
+        - Alcohol/drug abuse
+        - Preventive health care
+    ??? warning "Medium Yield"
+        - Nutrition/obesity
+        - Geriatrics
+        - Depression
+        - Principles of clinical decision making
+        - Acute anxiety
+        - Chronic anxiety
+    ??? danger "Lower Yield"
+        - Fatigue
 
-### Rheumatology
+??? note "Geriatrics"
+    ???+ success "Highest Yield"
+        - Normal aging changes
+        - Geriatric Syndromes
+        - Delirium/Dementia
+        - Aging simulation to promote awareness
+        - Adaptations to promote functioning
+    ??? warning "Medium Yield"
+        - Falls
+        - Incontinence
+        - Restraints
+        - Enhancing communication for vision and hearing losses
+        - Exercise
+        - Iatrogenesis
+        - Nursing Home regulations about restraints
+        - Changes in taste & smell
+        - Improving nutrition
+    ??? danger "Lower Yield"
+        - Fall prevention
+        - Appropriate catheter usage
+        - Restraint alternatives
+        - Advance directives in relation to dementia an enteral feeding
 
-### Gastroenterology
+??? note "Dermatology"
+    ???+ success "Highest Yield"
+        - Cutaneous Tumors
+            - benign
+            - malignant
+        - Cutaneous Infections
+            - viral
+            - bacterial
+    ??? warning "Medium Yield"
+        - Contact dermatitis
+        - Psoriasis
+        - Acne
+        - Cutaneous manifestations of Systemic disease
+        - Collagen vascular disease
+    ??? danger "Lower Yield"
+        - Pemphigus vulgaris
+        - Bullous pemphigoid
 
-### General
-
-### Geriatrics
-
-### Dermatology
+[1]: https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/Primer2ndEd.pdf
+[2]: https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/
+[3]: https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf
+[4]: https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum
+[5]: https://wikem.org/wiki/Category:Incomplete_Journal_Club_Articles
+[6]: https://www.wikijournalclub.org/wiki/Main_Page
+[7]: https://www.2minutemedicine.com/the-classics-in-medicine-summaries-of-the-landmark-trials/
+[8]: https://www.2minutemedicine.com/the-classics-directory/
+[9]: http://chicago.medicine.uic.edu/wp-content/uploads/sites/6/2017/09/icuguidebook.pdf
+[10]: https://kdpnet.kdp.louisville.edu/drugbook/adult/?node=4547
+[11]: https://kdpnet.kdp.louisville.edu/
+[12]: https://www.nbme.org/subject-exams/clinical-science/medicine
+[13]: https://www.benwhite.com/medicine/best-books-for-elective-rotations-and-sub-internships/

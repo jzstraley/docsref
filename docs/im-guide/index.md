@@ -27,6 +27,7 @@ date: 2022-11-14
 
 - [Ben White][10]
 - [Autohotkey][11]
+- [Nephrology Journal Club][14]
 
 <div class="grid cards" markdown>
 
@@ -58,3 +59,4 @@ date: 2022-11-14
   [11]: https://github.com/AutoHotkey/AutoHotkey?tab=GPL-2.0-1-ov-file
   [12]: https://www.openevidence.com/
   [13]: https://www.bugsanddrugs.org/
+  [14]: https://www.nephjc.com/news
