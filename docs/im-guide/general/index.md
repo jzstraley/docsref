@@ -7,11 +7,6 @@ permalink: /general
 categories:
     - General IM
 ---
-- Alcohol Use/Drug Use
-    - [Symptom-triggered > Fixed Benzodiazepine treatment for alcohol withdrawal][1]
-- Depression
-    - [STAR*D I: Adding bupropion or buspirone achieves remission in 30%][2]
-    - STAR*D II: When citalopram fails, remission induced in 25% when switched to ER bupropion, sertraline, or ER venlafaxine
 - Lab Errors
     - A1c
         - [Pitfalls in hemoglobin A1c measurement: when results may be misleading][3]
@@ -32,8 +27,6 @@ categories:
     - [Overview][8]
     - [Treatment][9]
 
-[1]: https://pubmed.ncbi.nlm.nih.gov/12020181/{:target="_blank"}
-[2]: https://pubmed.ncbi.nlm.nih.gov/17074942/{:target="_blank"}
 [3]: https://pubmed.ncbi.nlm.nih.gov/24002631/{:target="_blank"}
 [4]: https://pubmed.ncbi.nlm.nih.gov/26192936/{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/23035144/{:target="_blank"}

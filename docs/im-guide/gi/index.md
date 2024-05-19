@@ -7,18 +7,20 @@ permalink: /gi
 categories:
     - Gastroenterology
 ---
+- Cholelithiasis
 - Cirrhosis
     - [Ceftriaxone reduces bacterial infection 67% in GIB, no survival benefit vs. norfloxacin][1]
     - [SBP on IV ABX, IV Albumin reduces renal impairment and mortality (1.5g/kg at diagnosis and 1 g/kg on day 3)][2]
 - GERD
-- PUD
-    - [PPI Potency][3]
-- Cholelithiasis
-- Jaundice
 - GI Bleeding
     - [Endoscopy timing for UGIB][4]
     - [Transfusion strategies for acute UGIB (≥7 better mortality benefits than ≥10)][5]
     - [Transfusion strategies][6]
+- Jaundice
+- PUD
+    - [PPI Potency][3]
+- [Portal Hypertension][9]
+    - [Clinical Pharmacology][10]
 - Transaminitis
     - [Mildly Elevated Liver Transaminase Levels: Causes and Evaluation][7]
 - Viral Hepatitis
@@ -32,3 +34,5 @@ categories:
 [6]: https://pubmed.ncbi.nlm.nih.gov/23281973/{:target="_blank"}
 [7]: https://pubmed.ncbi.nlm.nih.gov/29431403/{:target="_blank"}
 [8]: https://pubmed.ncbi.nlm.nih.gov/24795201/{:target="_blank"}
+[9]: https://pubmed.ncbi.nlm.nih.gov/20951924/{:target="_blank"}
+[10]: https://pubmed.ncbi.nlm.nih.gov/20951924/{:target="_blank"}

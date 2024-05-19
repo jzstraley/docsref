@@ -365,14 +365,15 @@ nav:
     - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
     - Blog: 
       - resources/blog/index.md
+    - Website:
+      - Changelog: resources/website/changelog.md
+      - Site Development: resources/website/site-development.md
+      - Style Cheatsheet: resources/website/style-cheatsheet.md
   - Tags: tags.md
   - About: 
     - about/index.md
     - Disclaimer: about/disclaimer.md
     - License: about/license.md
-    - Site Development: about/site-development.md
-    - Style Cheatsheet: about/style-cheatsheet.md
-    - Changelog: about/changelog.md
 
 validation:
   links:

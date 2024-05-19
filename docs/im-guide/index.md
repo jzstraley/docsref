@@ -6,14 +6,13 @@ date: 2022-11-14
 
 <hr>
 
-- Welcome to my guide for internal medicine. Please see the disclaimer above.
-- As a cardiology fellow, you will likely sense a **hint** of favoritism, but I've tried to include as much information as I've learn to make this as useful as possible for each level of training.
+- Welcome to my guide for internal medicine. Please see the disclaimer at the bottom left of the page.
 - Feel free to suggest edits via Github. Most pages will have the ability to edit in the top right corner of the inner page text.
-  - These will require an approval process *please be patient*
-  - For topic suggestions, please email me at imteched@gmail.com
+  - These will require an approval process *please be patient.*
 
 ## Resources
 
+- [OpenEvidence AI][12]
 - [Vanderbilt's IM Resident Guide][1]
 - [ACP Journal Club][3]
 - [WikiDoc][4]
@@ -22,6 +21,7 @@ date: 2022-11-14
 - [UC San Diego - Practical Guide to Clinical Medicine][7]
 - [ddxof][8]
 - [Wiki Journal Club][9]
+- [Bugs & Drugs][13]
 
 ## Blogs
 
@@ -56,3 +56,5 @@ date: 2022-11-14
   [9]: https://www.wikijournalclub.org/wiki/Main_Page
   [10]: https://www.benwhite.com/
   [11]: https://github.com/AutoHotkey/AutoHotkey?tab=GPL-2.0-1-ov-file
+  [12]: https://www.openevidence.com/
+  [13]: https://www.bugsanddrugs.org/
