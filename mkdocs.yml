@@ -364,6 +364,7 @@ nav:
     - Important Websites: resources/important-websites.md
     - Shortcuts: resources/shortcuts.md
     - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
+    - Interesting: resources/interesting.md
     - Blog: 
       - resources/blog/index.md
     - Website:
@@ -373,6 +374,7 @@ nav:
   - Tags: tags.md
   - About: 
     - about/index.md
+    - Contact: about/contact.md
     - Disclaimer: about/disclaimer.md
     - License: about/license.md
 

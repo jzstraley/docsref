@@ -321,8 +321,9 @@ body {
   
       // List element - Austin
       li {
-        margin-inline-start: px2em(20px);
-        margin-bottom: 0;
+        margin-left: 1.25em;
+        margin-right: 1.25em;
+        margin-bottom: 0 !important;
   
         // Adjust spacing - Austin
         p,
