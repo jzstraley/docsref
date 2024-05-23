@@ -1,0 +1,16 @@
+/* Editing height between lines */
+
+.md-typeset {
+    font-size: .9rem !important;
+    line-height: 1.4 !important;
+}
+
+.md-typeset ol li ol,.md-typeset ol li ul,.md-typeset ul li ol,.md-typeset ul li ul {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+
+.md-typeset ol li,.md-typeset ul li {
+    margin-bottom: 0 !important;
+}
