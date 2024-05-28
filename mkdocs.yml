@@ -174,7 +174,6 @@ nav:
   - IM Guide:
     - im-guide/index.md
     - Cardiology:
-      - ACS: im-guide/cards/acs.md
       - Cardiac Critical Care: 
         - Cardiogenic Shock: im-guide/cards/cardiac-critical-care/cardiogenic-shock.md
         - LV Failure: im-guide/cards/cardiac-critical-care/lv-failure.md
@@ -189,9 +188,9 @@ nav:
         - Resources: im-guide/cards/echo/resources.md
       - EKG: im-guide/cards/ekg.md
       - Electrophysiology: 
-        - Atrial Fibrillation: im-guide/cards/electrophysiology/atrial-fibrillation.md
-        - Cardioversion: im-guide/cards/electrophysiology/cardioversion.md
-        - QTc Disorders: im-guide/cards/electrophysiology/qtc.md
+        - Atrial Fibrillation: im-guide/cards/ep/atrial-fibrillation.md
+        - Cardioversion: im-guide/cards/ep/cardioversion.md
+        - QTc Disorders: im-guide/cards/ep/qtc.md
       - Heart Failure: 
         - im-guide/cards/heart-failure/index.md
         - Acute Heart Failure:
@@ -199,12 +198,22 @@ nav:
           - Acute Decompensated Heart Failure: im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf.md
         - Chronic Heart Failure:
           - im-guide/cards/heart-failure/chronic-hf/index.md
-          - Heart Failure with Preserved Ejection Fraction: im-guide/cards/heart-failure/chronic-hf/hfpef.md
-          - Heart Failure with Reduced Ejection Fraction: im-guide/cards/heart-failure/chronic-hf/hfref.md
+          - HFpEF: im-guide/cards/heart-failure/chronic-hf/hfpef.md
+          - HFrEF: im-guide/cards/heart-failure/chronic-hf/hfref.md
+      - Hypertension: im-guide/cards/hypertension.md
+      - Ischemic Heart Disease:
+        - ACS: im-guide/cards/ihd/acs.md
+        - Stable Ischemic Disease: im-guide/cards/ihd/stable-ischemic-disease.md
       - Imaging: im-guide/cards/imaging.md
       - Invasive Cardiology: im-guide/cards/invasive-cardiology.md
+      - Non-Ischemic Cardiomyopathies:
+        - Hypertrophic Cardiomyopathy: im-guide/cards/nicm/hcm.md
+        - Restrictive Cardiomyopathy: im-guide/cards/nicm/rcm.md
+        - Dilated Cardiomyopathy: im-guide/cards/nicm/dcm.md
+        - Other Cardiomyopathies: im-guide/cards/nicm/other.md
       - Nuclear Cardiology: im-guide/cards/nuclear-cardiology.md
       - Other Topics: 
+        - Palpitations: im-guide/cards/other-topics/palpitations.md
         - Syncope: im-guide/cards/other-topics/syncope.md
       - Pericardial Disease: im-guide/cards/pericardial-disease.md
       - Pharmacology: 
@@ -214,14 +223,13 @@ nav:
         - Lipid Therapy: im-guide/cards/cardiac-pharm/lipidtherapy.md
       - Prevention:
         - Lipids: im-guide/cards/prevention/lipids.md
-      - Stable Ischemic Disease: im-guide/cards/stable-ischemic-disease.md
       - Stress Testing: im-guide/cards/stress-testing.md
       - Vascular Disease: 
         - im-guide/cards/vascular-disease/index.md
-        - Hypertension: im-guide/cards/vascular-disease/hypertension.md
       - Valvular Heart Disease: 
-        - im-guide/cards/valvular-heart-disease/index.md
-        - Mitral Regurgitation: im-guide/cards/valvular-heart-disease/mr.md
+        - im-guide/cards/vhd/index.md
+        - Aortic Stenosis: im-guide/cards/vhd/as.md
+        - Mitral Regurgitation: im-guide/cards/vhd/mr.md
     - Dermatology: 
       - im-guide/derm/index.md
     - Endocrinology: 

@@ -9,10 +9,12 @@ tags:
     - Heart Failure
 ---
 
-## Causes
+## Etiology
 
 - 80-85% are Chronic HF exacerbations due to:
-    - Noncompliance, uncontrolled hypertension, rapid Afib
+    - Noncompliance
+    - Uncontrolled hypertension
+    - Rapid Afib
 - 15-20% are new onset Acute Coronary Syndrome (ACS)
     - +/- MI, arrhythmias, Acute severe MR/AR
 - <1% but Increasing Incidence
@@ -26,16 +28,19 @@ tags:
     - Low-Output Heart Failure
         - Decompensated heart failure resulting from left ventricular dysfunction
         - Increased afterload and preload with decreased CO
-- HFpEF is the most common cause
-    - 50% of patients hospitalized with CHF
-    - Exertional dyspnea, orthopnea, lower extremity edema, but normal or near normal LVEF with objective evidence of diastolic dysfunction (abnormal LV filling pressures) by echo
+- [Correction to: Drugs That May Cause or Exacerbate Heart Failure: A Scientific Statement From the American Heart Association][9]
 
 ## Labs
 
 - ABG shows hypoxia, hypocapnia, and respiratory alkalosis
     - Less specific than proBNP and PCWP
     - Respiratory alkalosis (hyperventilation) often seen in contrast with COPD which has respiratory acidosis
-- Elevated BNP has high sensitivity for AHFD, BNP > 100 is indicative
+- [Risk Assessment][14]
+- [Prognostic Biomarkers in the ED in HF][13]
+    - Elevated BNP has high sensitivity for AHFD, BNP > 100 is indicative
+        - [Updating the role of natriuretic peptide levels in cardiovascular disease][10]
+        - [Impact of body mass and body composition on circulating levels of natriuretic peptides][11]
+        - [The paradox of low BNP levels in obesity][12]
 
 ## Management
 
@@ -82,9 +87,9 @@ tags:
         - Failure again indicates diuretic resistance
             - Add metolazone (2.5-10mg)
             - Continuous infusion to get urine output ≥100cc/hr
-    - [Diuretic Therapy for HF (JACC State-of-the-Art Review)](https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059)
-    - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/)
-    - [DOSE-AHF: High-dose loops > Low-dose for symptom management, fewer inpatient days; continuous = Intermittent dosing](https://pubmed.ncbi.nlm.nih.gov/21366472/)
+    - [Diuretic Therapy for HF (JACC State-of-the-Art Review)][8]
+    - [Optimal Diuretic Strategies in HF][7]
+    - [DOSE-AHF][6]: High-dose loops > Low-dose for symptom management, fewer inpatient days; continuous = Intermittent dosing
         - Diuretic Optimization Strategies Evaluation (DOSE) Trial
     - [Michigan Medicine Inpatient Diuretic Guideline for Patients with Acute Decompensated Heart Failure][2]
 - Hypotension
@@ -98,7 +103,7 @@ tags:
     - If due to contractile failure
         - Dobutamine + Norepinephrine to get MAP ≥65 w/ Mechanical circulatory support
             - Intra-aortic Balloon Counter pulsation
-- [STRONG-HF: Rapid up-titration of GDMT and close f/u reduced risk of 180-day all-cause death or HF readmission in AECHF admits][3]1
+- [STRONG-HF][3]: Rapid up-titration of GDMT and close f/u reduced risk of 180-day all-cause death or HF readmission in AECHF admits
     - [European Heart Journal][4]
 - [Short-term intravenous milrinone for acute exacerbation of chronic heart failure: a randomized controlled trial][5]
 
@@ -107,3 +112,12 @@ tags:
 [3]: https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf
 [4]: https://academic.oup.com/eurheartj/article/44/31/2947/7175273
 [5]: https://pubmed.ncbi.nlm.nih.gov/11911756/{:target="_blank"}
+[6]: https://pubmed.ncbi.nlm.nih.gov/21366472/
+[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/
+[8]: https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059
+[9]: https://doi.org/10.1161/CIR.0000000000000449
+[10]: https://pubmed.ncbi.nlm.nih.gov/22104459/{:target="_blank"}
+[11]: https://pubmed.ncbi.nlm.nih.gov/16203929/{:target="_blank"}
+[12]: https://pubmed.ncbi.nlm.nih.gov/21523383/{:target="_blank"}
+[13]: https://thoracickey.com/diagnostic-and-prognostic-biomarkers-in-emergency-department-heart-failure/
+[14]: https://pubmed.ncbi.nlm.nih.gov/31526538/{:target="_blank"}

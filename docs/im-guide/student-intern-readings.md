@@ -3,10 +3,10 @@ title: Student/Resident Reading Topics
 author: J. Austin Straley, DO
 date: 2024-05-19
 categories:
+  - Resources
   - Suggested Reading
   - Medical Students
   - Residents
-  - Resources
 ---
 
 The best thing you can do for the IM Shelf is UWorld. There really is no replacement for it. Anki can be used to supplement but shouldn't be your primary source of information.
@@ -39,33 +39,29 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
 
 ???+ note "Cardiology"
     ???+ success "Highest Yield"
-        - [Coronary Artery Disease](/im-guide/cards/stable-ischemic-disease)
-        - [Atrial Fibrillation](/im-guide/cards/electrophysiology/atrial-fibrillation)
-        - Angina Pectoris
-        - Myocardial Infarction
-        - Hypertension
-        - Congestive Heart Failure
-        - Atrial Fibrillation
+        - [Coronary Artery Disease](/im-guide/cards/ihd/stable-ischemic-disease)
+        - [Atrial Fibrillation](/im-guide/cards/ep/atrial-fibrillation)
+        - [Angina Pectoris & ACS](/im-guide/cards/chest-pain)
+        - [Hypertension](/im-guide/cards/hypertension)
+        - [Heart Failure](/im-guide/cards/heart-failure/index)
         - Cor Pulmonale
-        - Left Heart Failure
         - Pulmonary embolus/Pulmonary embolism (PE)
     ??? warning "Medium Yield"
-        - Aortic Stenosis
-        - Mitral regurgitation
+        - [Aortic Stenosis](/im-guide/cards/vhd/as)
+        - Aortic regurgitation
+        - Mitral stenosis
+        - [Mitral regurgitation](/im-guide/cards/vhd/mr)
         - Premature ventricular contractions
-        - Ventricular tachycardia
+        - Ventricular Tachycardia
         - Acute pericarditis
         - Prinzmetal’s angina
-        - Mitral stenosis
-        - Aortic regurgitation
         - AV blocks
-        - Bundle branch block
         - Cardiomyopathy
         - Multifocal atrial tachycardia
         - Atrial flutter
     ??? danger "Lower Yield"
-        - Congenital heart disease
-        - Pericarditis
+        - [Congenital Heart Disease](/im-guide/cards/congenital-heart-disease)
+        - [Pericarditis](/im-guide/cards/pericardial-disease)
         - Restrictive cardiac tamponade
         - Wolf-Parkinson White
         - Junctional rhythms
@@ -74,11 +70,11 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
 ??? note "Endocrinology"
     ???+ success "Highest Yield"
         - Diabetes Mellitus
-            - hypoglycemia
-            - ketoacidosis
-            - hyperosmolar state
-            - neuropathy
-            - retinopathy
+            - Hypoglycemia
+            - Ketoacidosis
+            - HHS
+            - Neuropathy
+            - Retinopathy
         - Hypothyroidism
         - Hyperthyroidism
         - Hypercalcemia

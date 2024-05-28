@@ -1,5 +1,5 @@
 ---
-title: HFrEF
+title: Heart Failure with Reduced Ejection Fraction
 author: J. Austin Straley, DO
 date: 2024-03-29
 categories:
@@ -52,6 +52,9 @@ tags:
 ## Poor Prognostic Factors for HFrEF
 
 - 30-40% die within 1 year of diagnosis and 60-70% die within 5 years
+    - [On GDMT of ARNI/BB/MRA/SGLT2i][18]
+        - Estimated 7.9, actual 4.9 years gained for a 50 y/o with HFrEF
+        - Estimated 5.0, actual 3.3 years gained for a 70 y/o with HFrEF
 - Higher NYHA functional Class
 - Exam
     - Resting Tachycardia
@@ -163,3 +166,4 @@ tags:
 [15]: https://pubmed.ncbi.nlm.nih.gov/19920054/{:target="_blank"}
 [16]: https://pubmed.ncbi.nlm.nih.gov/25605639/{:target="_blank"}
 [17]: https://pubmed.ncbi.nlm.nih.gov/25399909/{:target="_blank"}
+[18]: https://themedicalxchange.com/en/2022/05/05/3025_guideline-directed-therapies-in-heart-failure-for-optimal-survival-a-systematic-analysis/#

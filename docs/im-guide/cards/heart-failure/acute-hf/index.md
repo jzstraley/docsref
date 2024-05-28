@@ -34,6 +34,6 @@ tags:
     - Systolic <90: Inotropes, Vasopressors, Diuretics, Circulatory support
     - Systolic >90: Vasodilators, Diuretics, Inotropes
 
-[1]: /docs/im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf.md
-[5]: /docs/im-guide/cards/cardiac-critical-care/rv-failure.md
-[6]: /docs/im-guide/cards/cardiac-critical-care/cardiogenic-shock.md
+[1]: /docs/im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf
+[5]: /docs/im-guide/cards/cardiac-critical-care/rv-failure
+[6]: /docs/im-guide/cards/cardiac-critical-care/cardiogenic-shock

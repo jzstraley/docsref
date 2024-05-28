@@ -9,6 +9,11 @@ tags:
     - Heart Failure
     - GDMT
 ---
+## General
+
+- HFpEF is the most common cause
+    - 50% of patients hospitalized with CHF
+    - Exertional dyspnea, orthopnea, lower extremity edema, but normal or near normal LVEF with objective evidence of diastolic dysfunction (abnormal LV filling pressures) by echo
 
 ## Basics
 
