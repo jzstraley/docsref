@@ -10,8 +10,8 @@ date: 2022-11-20
 
 - Navigate to the Med Rec as seen in “How to Admit a Patient”<br>
 - With your Senior, complete the Med Rec for discharge
-  - This is the main opportunity to stop or change medications for the patient after discharge
-    - Once this step is completed, you will see the "check" beside Home Medications as below.
+    - This is the main opportunity to stop or change medications for the patient after discharge
+        - Once this step is completed, you will see the "check" beside Home Medications as below.
 
 ![Green Check](../assets/images/internguidepages/1.5/1.5.1-check.png)
 
@@ -26,19 +26,19 @@ date: 2022-11-20
 <br>
 
 - The instructions can be done multiple ways and as long as you communicate to the patient what needs to be done, you can do this as you like. I utilize the Uptodate method to break it down into simple easy to digest steps. I then saved it as a dotphrase .jsdischargeinstructions
-  - Just make sure to save this field as it will autopopulate into your Discharge summary
-  - Anywhere within the Instructions field, press Ctrl + A, then Ctrl + C<br>
+    - Just make sure to save this field as it will autopopulate into your Discharge summary
+    - Anywhere within the Instructions field, press Ctrl + A, then Ctrl + C<br>
 
 ![Picture 3](../assets/images/internguidepages/1.5/1.5.2-picture3.png)
 <br>
 
 - Make sure to complete the Follow-ups and Patient education on the same page as you go
-  - Follow-ups are typically with the patient’s PCP, generally I have them follow up within a few days to 10 days depending on the condition.
-    - Option 1) Patient’s PCP is a random person somewhere else
-      - It is not required, but encouraged to notify them about their patient needing a follow up
-    - Option 2) Patient is established with Dr. Aman, Dr. Hadley, Dr. John, Dr. Durden, or Dr. Griffith
-      - You will need to Select “Communicate and Message” at the top of the page to create a new message for their clinic
-      - To do so:<br>
+    - Follow-ups are typically with the patient’s PCP, generally I have them follow up within a few days to 10 days depending on the condition.
+        - Option 1) Patient’s PCP is a random person somewhere else
+            - It is not required, but encouraged to notify them about their patient needing a follow up
+        - Option 2) Patient is established with Dr. Aman, Dr. Hadley, Dr. John, Dr. Durden, or Dr. Griffith
+            - You will need to Select “Communicate and Message” at the top of the page to create a new message for their clinic
+        - To do so:<br>
 
     ![Picture 4](../assets/images/internguidepages/1.5/1.5.2-picture4.png)
     <br>
@@ -50,19 +50,19 @@ date: 2022-11-20
     <br>
 
     - Send this message
-      - Option 3) Patient is OPCC Resident’s patient
-        - Same process as above but will select “MEM Outpatient Care Center – TCM” as the message recipient
-      - NOTE: Do not schedule TCM visits if the patient is going to a SNF
-  - Patient Education is to be selected based on relevance to their condition
-    - Ex. Pt admitted for AECOPD could be given information on signs and symptoms of COPD exacerbation or the ALA’s information on grading their COPD exacerbation severity
+        - Option 3) Patient is OPCC Resident’s patient
+            - Same process as above but will select “MEM Outpatient Care Center – TCM” as the message recipient
+        - NOTE: Do not schedule TCM visits if the patient is going to a SNF
+    - Patient Education is to be selected based on relevance to their condition
+        - Ex. Pt admitted for AECOPD could be given information on signs and symptoms of COPD exacerbation or the ALA’s information on grading their COPD exacerbation severity
 
 ## Discharge Instructions
 
 - Prior to generating the Discharge Instructions, make sure the Home Medications, Follow-Up, and Patient Education tabs have the green check mark beside them in the Inpatient Discharge MPage. The Order Profile should still have the red star.
 - Now it is time to create the patient’s discharge instructions
-  - Type: Discharge Instructions
-  - Note Template: Free Text Note
-  - Title: “CAMC IM Discharge Instructions”<br>
+    - Type: Discharge Instructions
+    - Note Template: Free Text Note
+    - Title: “CAMC IM Discharge Instructions”<br>
 
     ![Picture 1](../assets/images/internguidepages/1.5/1.5.3-picture1.png)
     <br>
@@ -78,7 +78,7 @@ date: 2022-11-20
 
 - “Discharge summaries are to be done within 36 hours of discharge or prior to transferring a patient to another facility”
 - A discharge summary can replace a progress note for the day
-  - Ex. Discharge Mr. Hill at 2pm and complete discharge summary = no need for progress note that day
+    - Ex. Discharge Mr. Hill at 2pm and complete discharge summary = no need for progress note that day
 - Type: Discharge Summary
 - Note Template: Inpatient Discharge Summary
 - Title: “CAMC IM Discharge Summary”

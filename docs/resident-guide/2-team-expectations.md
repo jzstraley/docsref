@@ -17,12 +17,12 @@ revised: 2024-04-21
 ### Team responsibilities
 
 - A/B/C/D should be set prior to rounds by intern/resident and determines presentation:
-  - A/B: team dependent (full, problem focused, etc.)
-  - C: brief update
-  - D: DDEMAP
+    - A/B: team dependent (full, problem focused, etc.)
+    - C: brief update
+    - D: DDEMAP
 - Attending rounds typically run from 9-11:30a on weekdays, team responsibility to troubleshoot difficulties with this
 - See all *A* (including new to team) and definitive *D* patients in person (non-primary intern can be excused if busy).
-  - Primary presenter for patient should lead patient discussion.
+    - Primary presenter for patient should lead patient discussion.
 - Interns can be split for rounds to get work done
 - All team members should be prepared for rounds
 - Use of AIDET, communication with patients or surrogate decision makers and appropriate use of
@@ -66,14 +66,14 @@ revised: 2024-04-21
 - Split up between the two interns: pager connect duties during rounds, perform sign out on non-long call days
 - Intern on pager duty is expected to return to the hospital if acute issues arise and to know the other intern’s patients well enough to respond and appropriately cross cover until sign out to night cross-cover resident.
 - Day-to-Day for Interns:
-  1. Checkout from Night Team
-  - Senior to determine each intern’s patients for the day
-    - Let your senior know if you have afternoon clinic
-  - Morning Labs/Follow-up items
-    - Check Morning Labs as well as any follow up items from the day prior
-      - Start “Lab” & ”Box” System if desired; See Staying Organized
+    - Checkout from Night Team
+        - Senior to determine each intern’s patients for the day
+        - Let your senior know if you have afternoon clinic
+    - Morning Labs/Follow-up items
+        - Check Morning Labs as well as any follow up items from the day prior
+        - Start “Lab” & ”Box” System if desired; See [Staying Organized][3]
     - Replace relevant electrolytes/start new medications as needed
-      - See [Electrolyte Replacement Guidelines][1] if needed
+        - See [Electrolyte Replacement Guidelines][1] if needed
 - Discuss with senior!
   1. Pre-Rounds
   2. Morning Report
@@ -98,7 +98,7 @@ revised: 2024-04-21
 
 ### Phase III (Sub-intern) Medical student responsibilities
 
-__*Supporting the vibes of the entire team should be your #1 priority*__
+__*Again: Supporting the vibes of the entire team should be your #1 priority*__
 
 - See patients you are assigned and prepare presentations for them, review main plan with resident prior to rounds
 - Write H&P, progress note, and discharge summaries on all patents you see
@@ -110,3 +110,4 @@ __*Supporting the vibes of the entire team should be your #1 priority*__
 
 [1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf
 [2]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf
+[3]: /resident-guide/3-staying-organized/

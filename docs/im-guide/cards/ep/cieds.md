@@ -7,7 +7,7 @@ categories:
     - Electrophysiology
 ---
 
-## 1) Pacemaker (PPM)
+## Pacemakers (PPM)
 
 - Used to maintain heart rate
 - [Indications][1]
@@ -26,7 +26,7 @@ categories:
 - PG is implanted in infraclavicular region
 - Malfunction or lead movement: High pacemaker lead thresholds
 
-## 2) Implantable Cardioverter-Defibrillator (ICD)
+## Implantable Cardioverter-Defibrillator (ICD)
 
 - Primary or Secondary prevention of [SCD from VT/VF][2]
     - [Indicated for prevention of sudden cardiac death (SCD)][3]
@@ -55,7 +55,7 @@ categories:
         - Survivors of cardiac arrest
         - Sustained spontaneous ventricular Arrhythmias
 
-## 3) Cardiac Resynchronization Therapy (CRT)
+## Cardiac Resynchronization Therapy (CRT)
 
 - [Cardiac resynchronization therapy and QRS duration: systematic review, meta-analysis, and meta-regression][4]
 - Extra wire (3rd wire) in the coronary sinus for synchronizing RV/LV
@@ -71,12 +71,12 @@ categories:
 - CRT-P: No ICD, aka BiV
 - CRT-D: ICD, aka BiV-ICD or Combo device
 
-## 4) Implantable Loop Recorder (ILR)
+## Implantable Loop Recorder (ILR)
 
 - Continuous heart rhythm monitoring
 - Use: Very rare events (>30 days apart)
 
-## 5) Implantable Cardiovascular Monitor (ICM)
+## Implantable Cardiovascular Monitor (ICM)
 
 - Intravascular hemodynamic monitoring
     - Pulmonary Artery Pressure Sensors
