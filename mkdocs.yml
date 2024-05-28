@@ -116,8 +116,6 @@ extra:
       link: https://www.instagram.com/austinthefamilyguy/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jamesstraley
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/Straley/
 
 # Extra CSS
 extra_css:

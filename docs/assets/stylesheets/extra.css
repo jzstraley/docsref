@@ -19,3 +19,10 @@
     font-size: px2rem(16px) !important;
     opacity: 0.8 !important;
 }
+
+.md-copyright {
+    font-size: px2rem(16px) !important;
+}
+
+.md-social__link svg {
+    max-height: 1rem !important
