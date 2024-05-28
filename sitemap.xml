@@ -56,47 +56,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docsref.com/im-guide/cards/congenital-heart-disease/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/consults/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docsref.com/im-guide/cards/ekg/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docsref.com/im-guide/cards/hypertension/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/imaging/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/invasive-cardiology/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/nuclear-cardiology/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/pericardial-disease/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/stress-testing/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -166,6 +131,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docsref.com/im-guide/cards/ep/cieds/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docsref.com/im-guide/cards/ep/qtc/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
@@ -206,7 +176,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docsref.com/im-guide/cards/ihd/invasive-cardiology/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docsref.com/im-guide/cards/ihd/nuclear-cardiology/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docsref.com/im-guide/cards/ihd/stable-ischemic-disease/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docsref.com/im-guide/cards/ihd/stress-testing/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -231,7 +216,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docsref.com/im-guide/cards/other-topics/congenital-heart-disease/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docsref.com/im-guide/cards/other-topics/consults/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docsref.com/im-guide/cards/other-topics/imaging/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docsref.com/im-guide/cards/other-topics/palpitations/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docsref.com/im-guide/cards/other-topics/pericardial-disease/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -241,12 +246,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docsref.com/im-guide/cards/prevention/lipids/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/cards/vascular-disease/</loc>
+         <loc>https://docsref.com/im-guide/cards/other-topics/vascular-disease/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -472,11 +472,6 @@
     </url>
     <url>
          <loc>https://docsref.com/im-guide/pccm/general/</loc>
-         <lastmod>2024-05-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docsref.com/im-guide/pharm/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
