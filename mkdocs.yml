@@ -3,7 +3,7 @@ site_name: DocsRef
 site_url: https://docsref.com
 site_author: Austin
 site_description: >-
-  Accessible medical information, fast. DocsRef aka "Doctor's Reference" is your comprehensive online resource for all things medical. Whether you're a seasoned healthcare professional, in residency, or a curious medical student, we've got you covered. This platform offers access to a vast array of reliable and up-to-date medical information, making it easier than ever to stay informed.
+  DocsRef aka "Doctor's Reference" is your comprehensive online resource for all things medical. Whether you're a seasoned healthcare professional, in residency, or a curious medical student, we've got you covered. This platform offers access to a vast array of reliable and up-to-date medical information, making it easier than ever to stay informed.
 
 # Repository
 repo_name: jzstraley/docsref

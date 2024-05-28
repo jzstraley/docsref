@@ -12,11 +12,50 @@ categories:
 
 - 33% improve, 33% remain the same, 33% LV function deteriorates
 
-### [Takotsubo Cardiomyopathy][1]
+### Myocardial Infarction with Nonobstructive Coronary Arteries (MINOCA)
 
-- Normal coronaries
-- Chest pain, sudden onset with ECG showing ST elevations
-- Apical ballooning with akinesis
+- [Defined as acute myocardial infarction (MI) with angiographically no obstructive coronary artery disease or stenosis ≤ 50%][7]
+- CMR: Edema in coronary regional distribution pattern
+    - Late gadolinium enhancement
+
+### Takotsubo Cardiomyopathy (TTS)
+
+- [Takotsubo cardiomyopathy: state-of-the-art review][1]
+- [Update of Takotsubo cardiomyopathy: Present experience and outlook for the future][6]
+- Etiology
+    - Primary
+        - Idiopathic
+        - Psych Stress
+    - Secondary
+        - Physical Stress
+            - Asthma, Surgery, Severe Trauma
+        - Drug-Induced
+            - Catecholamine Stimulation (68.2% of drug-induced TTS cases)
+                - Antiarrhythmics (Flecainide, Sotalol, Amiodarone, Lidocaine, Xylocaine)
+            - Antidepressants
+            - Chemotherapy (8.9%)
+- Symptoms
+    - Chest pain, sudden onset
+- Labs
+    - Troponin elevation mimicking acute MI
+    - Check CRP/ESR
+    - Check TSH/BNP
+    - Consider r/o pheochromocytoma
+- Diagnosis
+    - ECG showing ST elevations
+    - TTE: Apical ballooning with akinesis
+    - LHC: Normal coronaries, needed to r/o CAD
+    - CMR if no culprit lesion (gold-standard for determining myocardial status)
+        - LV dysfunction in a noncoronary regional distribution pattern w/ + w/o RV involvement
+        - Edema in NCRDP
+        - Abscence of significant necrosis or fibrosis
+        - Lack of any late gadolinium enhancement
+    - InterTAK Diagnostic Score
+        - >70 is high probability
+    - Recovery of wMA on CMR within 2-6 months
+        - Confirms Diagnosis
+- Treatment
+    - ACEI + BBs
 
 ### [Peripartum Cardiomyopathy (PPCM)][2]
 
@@ -67,3 +106,5 @@ categories:
 [3]: https://pubmed.ncbi.nlm.nih.gov/21461112/
 [4]: https://pubmed.ncbi.nlm.nih.gov/1598871/
 [5]: https://pubmed.ncbi.nlm.nih.gov/11372007/
+[6]: https://www.sciencedirect.com/science/article/pii/S2352906722000392
+[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10188585/
