@@ -86,6 +86,11 @@ categories:
 - Dyspnea is common post-operatively
     - Once discharged, new-onset dyspnea should be evaluated for (Most to Least likely):
         - [Pleural effusion (50%), atelectasis, congestive heart failure (13%), pneumonia (2.4%) and pulmonary embolism][24]
+        - Diaphragmatic Paralysis
+            - Dyspnea at rest or with exertion and supine hypoxemia
+            - FVC dropped in the supine position
+            - Elevated hemidiaphragm
+            - Diagnosis: Confirmed via the “sniff test” under fluroscopy
 - 30% develop Atrial Fibrillation
     - Usually self-limiting if new-onset
     - Return to NSR by 6-12 weeks out

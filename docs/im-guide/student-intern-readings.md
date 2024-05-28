@@ -4,6 +4,7 @@ author: J. Austin Straley, DO
 date: 2024-05-19
 categories:
   - Resources
+tags:
   - Suggested Reading
   - Medical Students
   - Residents
@@ -15,21 +16,12 @@ The best thing you can do for the IM Shelf is UWorld. There really is no replace
 
 - Internal Medicine Clerkship Guides
     - [Primer to the Internal Medicine Clerkship - 2008][1]
-    - [NBME Medicine Subject Exam - Content Outline][12]
+    - [NBME Medicine Subject Exam - Content Outline][6]
     - [UNC Suggested Reading][2]
     - [M4 ED Curriculum][4]
     - [SIU Reading List - 2006][3]
 - Other Clerkship Resources
-    - [Books by Ben White][13]
-- Trial Pages
-    - [Wiki Journal Club][6]
-    - [2 Minute Medicine - The Classics - Summaries][7]
-    - [2 Minute Medicine - The Classics - Directory][8]
-- ICU Guides
-    - [University of Chicago ICU Guide][9]
-- Drug Interaction Books
-    - [Louisville Interactions - Adults][10]
-    - [Louisville Interactions][11]
+    - [Books by Ben White][7]
 - Other
     - [Incomplete ER Journal Club Articles][5]
 
@@ -60,12 +52,12 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Multifocal atrial tachycardia
         - Atrial flutter
     ??? danger "Lower Yield"
-        - [Congenital Heart Disease](/im-guide/cards/congenital-heart-disease)
-        - [Pericarditis](/im-guide/cards/pericardial-disease)
-        - Restrictive cardiac tamponade
+        - [Congenital Heart Disease](/im-guide/cards/other-topics/congenital-heart-disease)
+        - [Pericarditis](/im-guide/cards/other-topics/pericardial-disease)
+        - Restrictive Cardiac Tamponade
         - Wolf-Parkinson White
         - Junctional rhythms
-        - Atrial septal defect
+        - Atrial Septal Defect
 
 ??? note "Endocrinology"
     ???+ success "Highest Yield"
@@ -340,11 +332,5 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
 [3]: https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf
 [4]: https://www.saem.org/about-saem/academies-interest-groups-affiliates2/cdem/for-students/online-education/m4-curriculum
 [5]: https://wikem.org/wiki/Category:Incomplete_Journal_Club_Articles
-[6]: https://www.wikijournalclub.org/wiki/Main_Page
-[7]: https://www.2minutemedicine.com/the-classics-in-medicine-summaries-of-the-landmark-trials/
-[8]: https://www.2minutemedicine.com/the-classics-directory/
-[9]: http://chicago.medicine.uic.edu/wp-content/uploads/sites/6/2017/09/icuguidebook.pdf
-[10]: https://kdpnet.kdp.louisville.edu/drugbook/adult/?node=4547
-[11]: https://kdpnet.kdp.louisville.edu/
-[12]: https://www.nbme.org/subject-exams/clinical-science/medicine
-[13]: https://www.benwhite.com/medicine/best-books-for-elective-rotations-and-sub-internships/
+[6]: https://www.nbme.org/subject-exams/clinical-science/medicine
+[7]: https://www.benwhite.com/medicine/best-books-for-elective-rotations-and-sub-internships/

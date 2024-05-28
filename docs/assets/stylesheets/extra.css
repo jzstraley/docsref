@@ -14,3 +14,8 @@
 .md-typeset ol li,.md-typeset ul li {
     margin-bottom: 0 !important;
 }
+
+.md-tabs__link {
+    font-size: px2rem(16px) !important;
+    opacity: 0.8 !important;
+}

@@ -12,17 +12,20 @@ date: 2022-11-21
 
 ## Subjective (Includes all the sections below)
 
-1. Identifying statement (Name, Age, Sex, PMH/PSH, CC)<br>
-   - <span style ="color:red;">Ex. Mr. Hill is a 25 y/o M w/PMH of Interstitial Lung Disease who presented to the ED on 09/04/2022 w/CC of shortness of breath. Relevantly, Mr. Hill follows w/PAC and was seen in their clinic yesterday where he was instructed to come to the ED.</span>
-2. History of Present Illness (HPI)
+- Identifying statement (Name, Age, Sex, PMH/PSH, CC)<br>
+    - <span style ="color:red;">Ex. Mr. Hill is a 25 y/o M w/PMH of Interstitial Lung Disease who presented to the ED on 09/04/2022 w/CC of shortness of breath. Relevantly, Mr. Hill follows w/PAC and was seen in their clinic yesterday where he was instructed to come to the ED.</span>
+
+- History of Present Illness (HPI)
    - Utilize OLDCARTS
      - Asking "When did you last feel normal", "Are you better, worse, or the same?", "What made you come in today?", and "What do you think this could be?" can often be helpful in eliciting an HPI<br>
    - <span style ="color:green;">Ex. Today, he complained of cough, wheezing, and sob that started a week ago that he says has been quickly worsening. He says feels he feels persistent chest tightness when trying to breath that hasn’t improved with his home albuterol inhaler. He states he has had some clear sputum production but not much. He denies aggravating factors, which includes exertion and laying flat.</span>
-3. Meds/Allergies/FH/SH/Other relevant history/Code Status
+
+- Meds/Allergies/FH/SH/Other relevant history/Code Status
    - You don't need to list every medication they have, but the important ones/ones relevant to the complaint need to be here
      - Call the spouse/SNF/Pharmacy if you must<br>
    - <span style ="color:blue;">Ex. He states he has been taking nitroglycerin at home daily as well as lasix 40mg QID for "his heart." He denies known allergies and states he has smoked for 20 years, 1 pack per day, but denies drinking alcohol or using illicit drugs. He states his dad had ILD and that he and his father used to work in a coal mine together until last month when his dad was sent to jail. Before this, he completed his ADLs without difficulty or assistance. He denies working currently and is a full code. His wife is his MPOA.</span>
-4. ER Course
+
+- ER Course
    - Vitals then PE, relevant or abnormal labs, diagnostic tests, ER assessment, ER interventions, and then "The medicine service was called to see the patient" or something like that.<br>
    - <span style ="color:purple;">Ex. In the ER, he was found to be afebrile, BP 120/70, HR 85, RR 18 w/SpO2 92% on room air. He was found to be mildly dyspneic by the ER staff with intermittent use of respiratory accessory muscles. Labs were relevant for a WBC of 16.0 and Glucose of 180. CXR was without focal consolidation. EKG showed normal sinus rhythm. PNA PCR was positive for H. Influenzae. He was given 80mg IV Lasix for presumed CHF, 2L Normal Saline for Sepsis, and Remdesivir for presumed COVID in the ER. The medicine service was then called for admission.</span>
 

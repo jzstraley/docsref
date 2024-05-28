@@ -1,9 +1,7 @@
 ---
 title: Lipid Therapy
 author: J. Austin Straley, DO
-layout: post
 date: 2023-03-30
-permalink: /lipidtherapy
 categories:
     - Cardiology
     - Pharmacology
@@ -12,6 +10,10 @@ tags:
     - Statins
 ---
 
+
+- [2018 Guideline on the Managment of Blood Cholesterol](https://pubmed.ncbi.nlm.nih.gov/30586774/){:target="_blank"}
+- Hypertriglyceridemia
+    - [2021 ACC Guideline for the Management of ASCVD Risk Reduction in Patients With Persistent Hypertriglyceridemia](https://pubmed.ncbi.nlm.nih.gov/34332805/){:target="_blank"}
 
 - Elevated LDL-C
     - Diet: Trans/Saturated Fats, Weight gain, Anorexia, Alcohol
