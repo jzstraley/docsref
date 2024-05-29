@@ -1,14 +1,14 @@
 ---
 title: Infectious Disease
-icon: fontawesome/solid/disease
 author: J. Austin Straley, DO
 date: 2024-03-16
-permalink: /id
 categories:
     - Infectious Disease
 ---
 - AIDS
     - [INSIGHT-START: Early initiation of anti-retroviral therapy for HIV][2]
+- Antibiotics
+    - [Cefepime vs Piperacillin-Tazobactam in Adults Hospitalized With Acute Infection][16]
 - Bronchitis
 - Cellulitis
     - [Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America][3]
@@ -50,3 +50,4 @@ categories:
 [13]: https://pubmed.ncbi.nlm.nih.gov/25591209/{:target="_blank"}
 [14]: https://pubmed.ncbi.nlm.nih.gov/15487879/{:target="_blank"}
 [15]: https://pubmed.ncbi.nlm.nih.gov/28027261/{:target="_blank"}
+[16]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10576861/

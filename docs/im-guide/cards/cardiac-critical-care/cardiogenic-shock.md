@@ -19,6 +19,17 @@ tags:
     - (LVEDP >18 mmHg, RVEDP >10 mmHg) 
 ```
 
+## Etiology
+
+- Ischemic
+    - Acute MI most commonly
+    - [Impella in STEMI][8]
+- Valve related
+    - Acute Aortic or Mitral Regurgitation
+- Rate Related
+- Cardiomyopathy
+- Toxicologic
+
 ## [Management][3]
 
 - [Contemporary Management][6]
@@ -29,11 +40,19 @@ tags:
     - Rate Related
     - Cardiomyopathy
     - Toxicologic
-- Start Inotropes
+- Inotropic Therapy
     - [Milrinone = Dobutamine][2]
-    - Pressors if needed for MAP > 65
-        - Levophed > Dopamine
-        - Epinephrine is good too
+    - Use in hypotension, endo-organ hypoperfusion, shock
+        - Generally, presents with hypoperfusion (reduced urine output)
+    - If due to contractile failure
+        - Dobutamine + Norepinephrine to get MAP ≥65 w/ Mechanical circulatory support
+            - Intra-aortic Balloon Counter Pulsation
+    - [Short-term intravenous milrinone for acute exacerbation of chronic heart failure: a randomized controlled trial][12]
+- Pressors if needed for MAP > 65
+    - IV Vasopressor (norepinephrine)
+    - Levophed > Dopamine
+        - Useful in Pulmonary congestion for rapid dyspnea relief if preserved Blood pressure
+    - Epinephrine is good too but more arrhythmogenic
 - [Shock Centers][7]
 
 ## Mechanical Cardiac Support (MCS)
@@ -66,7 +85,6 @@ tags:
         - Wean to P2, pull from LV on P2, change to P0 and remove
         - Set to P2 to adjust
 
-
 ![Courtesy of Ouweneel, D. M., Claessen, B. E., Sjauw, K. D., & Henriques, J. P. (2015). The Role of Percutaneous Haemodynamic Support in High-risk Percutaneous Coronary Intervention and Cardiogenic Shock. Interventional cardiology (London, England), 10(1), 39–44. https://doi.org/10.15420/icr.2015.10.1.39](/assets/images/im-guide/cards/cicu/mcs_comparison.png)
 
 ## Examples
@@ -92,3 +110,4 @@ tags:
 [9]: https://pubmed.ncbi.nlm.nih.gov/22049313/{:target="_blank"}
 [10]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5860905/
 [11]: https://pubmed.ncbi.nlm.nih.gov/37107928/{:target="_blank"}
+[12]: https://pubmed.ncbi.nlm.nih.gov/11911756/{:target="_blank"}

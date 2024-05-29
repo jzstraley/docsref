@@ -11,26 +11,24 @@ tags:
 ---
 
 
-- [2018 Guideline on the Managment of Blood Cholesterol](https://pubmed.ncbi.nlm.nih.gov/30586774/){:target="_blank"}
-- Hypertriglyceridemia
-    - [2021 ACC Guideline for the Management of ASCVD Risk Reduction in Patients With Persistent Hypertriglyceridemia](https://pubmed.ncbi.nlm.nih.gov/34332805/){:target="_blank"}
-
+- [2018 Guideline on the Management of Blood Cholesterol][2]
 - Elevated LDL-C
     - Diet: Trans/Saturated Fats, Weight gain, Anorexia, Alcohol
     - Drug: Diuretics, Cyclosporines, Glucocorticoids, Amiodarone
     - Diseases: Biliary Obstruction, Nephrotic Syndrome
     - Other: Hypothyroidism, Obesity, Pregnancy
+    - Dietary fat has a greater impact on serum LDL-C than does dietary cholesterol intake
+        - Fats should be limited to ≤30% of total caloric intake
+        - Saturated fats should be limited to ≤10% of calories (7% if LDL-C above goal)
 - Elevated Triglycerides
+    - [2021 ACC Guideline for the Management of ASCVD Risk Reduction in Patients With Persistent Hypertriglyceridemia][3]
     - Diet: Weight gain, Very low fat diets, High intake of refined carbs, Excessive Alcohol intake
     - Drug: Oral estrogens, Glucocorticoids, Bile Acid Sequestrants, Protease inhibitors, Retinoic acid, Anabolic steroids, Sirolimus, Raloxifene, Tamoxifen, BB (not carvedilol), Thiazides
     - Diseases: Nephrotic Syndrome, Chronic Renal Failure, Lipodystrophies
     - Other: Poorly controlled diabetes, Hypothyroidism, Obesity, Pregnancy
-- Dietary fat has a greater impact on serum LDL-C than does dietary cholesterol intake
-    - Fats should be limited to \<30% of total caloric intake
-    - Saturated fats should be limited to \<10% of calories (7% if LDL-C above goal)
 - Higher-Risk
     - The following factors that may be considered for the identification of higher-risk patients with clinical CV disease:
-            - Age ≥65 years, prior MI or non-hemorrhagic stroke, current daily cigarette smoking, symptomatic PVD with prior MI or stroke, history of non-MI related coronary revascularization, residual coronary artery disease with ≥40% stenosis in ≥2 large vessels, HDL \<40 mg/dL for men and \<50 mg/dL for women, hs-CRP ≥2 mg/L, or metabolic syndrome
+            - Age ≥65 years, prior MI or non-hemorrhagic stroke, current daily cigarette smoking, symptomatic PVD with prior MI or stroke, history of non-MI related coronary revascularization, residual coronary artery disease with ≥40% stenosis in ≥2 large vessels, HDL ≤40 mg/dL for men and ≤50 mg/dL for women, hs-CRP ≥2 mg/L, or metabolic syndrome
 
 ## Liver
 
@@ -96,6 +94,7 @@ tags:
         - If AST/ALT ≥ 3x ULN, reduce or switch
         - Myalgias (symmetrical proximal muscle weakness or tenderness)
             - 1-10%, mc side effect
+                - [Statin-Associated Muscle Symptoms Among New Statin Users Randomly Assigned to Vitamin D or Placebo][1]
         - Myositis/Myopathy
             - Elevated CK
         - Rhabdomyolysis
@@ -104,19 +103,19 @@ tags:
         - High Intensity
             - Renal Dysfunction
                 - More common w/Rosuvastatin/Simvastatin
-                - Proteinuria, hematuria, AKI
-                - Switch to Atorvastatin, Fluvastatin, pravastatin
+                - Proteinuria, Hematuria, AKI
+                - Switch to Atorvastatin, Fluvastatin, Pravastatin
             - Diabetes Mellitus
                 - Increased plasma glucose concentrations
     - CI: Pregnancy, Lactation, Acute liver failure/decompensated cirrhosis
         - VATER association, TE fistulas, anal atresias
     - Interactions
-        - Amlodipine, diltiazem, verapamil with simvastatin or lovastatin increases risk of toxicity
-        - Gemfibrozil: Increased risk for muscle toc
+        - Amlodipine, diltiazem, verapamil + either simvastatin or lovastatin increases risk of toxicity
+        - Gemfibrozil: Increased risk for muscle toxicity
         - Colestipol and antacids decrease plasma concentration
         - Amiodarone, cranberry, grapefruit
     - Monitoring
-        - Lipid profile at baseline, then 2 months after
+        - Lipid profile at baseline, then 6-8 weeks after
         - LFTs and TSH at baseline, +/- CK level
 - Niacin
     - Drugs: Niacin
@@ -160,11 +159,18 @@ tags:
     - Evolocamab
     - Alirocumab (Praluent)
     - Trials
-        - FOURIER (2017)
-            - Among patients with clinical atherosclerotic disease and LDL ≥ 70 despite high or moderate intensity statin therapy (70% high intensity), Evolocumab resulted in an absolute 1.5% reduction in MACE at 26m. Mainly from reduction in nonfatal MI, stroke, and revascularization.
+        - [FOURIER (2017)][4]
+            - Among patients with clinical atherosclerotic disease and LDL ≥ 70 despite high or moderate intensity statin therapy (70% high intensity), Evolocumab resulted in an absolute 1.5% reduction in MACE at 26 months
+                - Mainly from reduction in nonfatal MI, stroke, and revascularization
                 - No mortality benefits
                 - Absolute reduction in CVE was greater with more advanced CKD
-        - ODESSEY OUTCOMES (2021)
+        - [ODESSEY OUTCOMES (2021)][5]
             - In recent ACS and LDL ~70 on optimized statin therapy, PCSK9 inhibitors provide clinical benefit only when lp(a) is at least mildly elevated.
             - Mortality benefit in the long term
     - SE: Injection site reaction
+
+[1]: https://jamanetwork.com/journals/jamacardiology/fullarticle/2798958
+[2]: https://pubmed.ncbi.nlm.nih.gov/30586774/{:target="_blank"}
+[3]: https://pubmed.ncbi.nlm.nih.gov/34332805/{:target="_blank"}
+[4]: https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2017/03/16/00/46/FOURIER
+[5]: https://pubmed.ncbi.nlm.nih.gov/33755145/

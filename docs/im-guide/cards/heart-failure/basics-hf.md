@@ -1,5 +1,5 @@
 ---
-title: Heart Failure
+title: Heart Failure Basics
 author: J. Austin Straley, DO
 date: 2024-03-16
 categories:

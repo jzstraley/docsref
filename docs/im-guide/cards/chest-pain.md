@@ -12,6 +12,7 @@ tags:
 ## Approach to Chest Pain
 
 - [Chest Pain in the ED (M4s)][1]
+- [Chest Pain Guideline Central][5]
 
 ## HPI
 
@@ -149,3 +150,4 @@ graph LR
 [2]: https://pubmed.ncbi.nlm.nih.gov/34756653/{:target="_blank"}
 [3]: https://www.internationaljournalofcardiology.com/article/S0167-5273(16)33282-X/fulltext
 [4]: http://www.emdocs.net/chest-pain-controversies-risk-stratification-stress-test-utility-part-1/
+[5]: https://www.guidelinecentral.com/guideline/450303/pocket-guide/450307/

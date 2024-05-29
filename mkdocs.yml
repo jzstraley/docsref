@@ -187,16 +187,16 @@ nav:
         - Atrial Fibrillation: im-guide/cards/ep/atrial-fibrillation.md
         - Cardioversion: im-guide/cards/ep/cardioversion.md
         - CIEDs: im-guide/cards/ep/cieds.md
+        - Conduction: im-guide/cards/ep/conduction.md
+        - Emergencies: im-guide/cards/ep/emergencies.md
         - QTc Disorders: im-guide/cards/ep/qtc.md
+        - Sinus Nodal Arrhythmias: im-guide/cards/ep/sinus_node.md
+        - SVT: im-guide/cards/ep/svt.md
+        - Ventricular Arrhythmias: im-guide/cards/ep/svt/vt_vf.md
       - Heart Failure: 
-        - im-guide/cards/heart-failure/index.md
-        - Acute Heart Failure:
-          - im-guide/cards/heart-failure/acute-hf/index.md
-          - Acute Decompensated Heart Failure: im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf.md
-        - Chronic Heart Failure:
-          - im-guide/cards/heart-failure/chronic-hf/index.md
-          - HFpEF: im-guide/cards/heart-failure/chronic-hf/hfpef.md
-          - HFrEF: im-guide/cards/heart-failure/chronic-hf/hfref.md
+        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf/index.md
+        - Basics of Heart Failure: im-guide/cards/heart-failure/basics-hf.md
+        - Chronic Heart Failure: im-guide/cards/heart-failure/chronic-hf/index.md
       - Hypertension: im-guide/cards/hypertension.md
       - Ischemic Heart Disease:
         - ACS: im-guide/cards/ihd/acs.md

@@ -11,7 +11,7 @@ date: 2024-05-13
   - In the menu bar, find the "Auto Text Copy Utility"
   - Search "Straley, James" on the left hand side
   - Copy the following dotphrases but rename them with your own initials
-    - Ex. For Dr. Alex Ball, he could name them any one of the following ways:
+    - Ex. For Dr. Ball, he could name them any one of the following ways:
       - .abappointment
       - ..abappointment
 
@@ -198,6 +198,26 @@ Next visit: [CBC/CMP]
       - Gradually increase your activity, as tolerable; schedule rest breaks as needed.
       - Weigh yourself daily on same scale in the morning; bring your weight record to your follow-up appointment.
       - If you gain 2 or more pounds in one day or 5 or more pounds in one week, return to the hospital.
+```
+
+## ED
+
+### .edchestpain
+
+``` markdown
+Acute coronary syndrome: No symptoms suggestive of acute coronary syndrome such as radiation of pain, associated diaphoresis, nausea, vomiting, or shortness of breath. Pulmonary embolism: No recent immobilization or surgery, no leg pain/swelling, no history of venous thromboembolic disease, pain is non-pleuritic and not associated with hemoptysis. Aortic dissection: No sudden onset of severe pain, no history of connective tissue disorder, no pulse deficits or blood pressure differentials. Pneumothorax: No sudden onset of dyspnea, no history of trauma, no decreased breath sounds on examination. Esophageal rupture: No history of severe vomiting, no subcutaneous emphysema on examination. Cardiac tamponade: No hypotension, no jugular venous distension, no muffled heart sounds.
+```
+
+### .edlegswelling
+
+``` markdown
+Key diagnoses considered for leg swelling include deep vein thrombosis (DVT), cellulitis, congestive heart failure (CHF), and lymphedema. DVT is less likely given the absence of recent immobilization or surgery, no history of venous thromboembolic disease, and no associated pain or tenderness. Cellulitis is less likely given the absence of skin warmth, erythema, or tenderness. CHF is less likely given the absence of associated symptoms such as dyspnea, orthopnea, or paroxysmal nocturnal dyspnea. Lymphedema is less likely given the absence of chronicity, non-pitting nature of the swelling, and absence of associated skin changes.
+```
+
+### .edsob
+
+``` markdown
+Considered life-threatening diagnoses for shortness of breath: Acute coronary syndrome - no chest pain, no radiation, no associated symptoms suggestive of ACS. Pulmonary embolism - no recent immobilization or surgery, no leg pain/swelling, no history of venous thromboembolic disease, no hemoptysis. Pneumothorax - no sudden onset, no pleuritic chest pain, no history of trauma. Acute heart failure - no orthopnea, no paroxysmal nocturnal dyspnea, no leg swelling. Acute severe asthma/COPD exacerbation - no wheezing, no history of obstructive lung disease. Tension pneumothorax - no trauma, no severe or worsening dyspnea, no tracheal deviation. Anaphylaxis - no rash, no facial swelling, no recent exposure to allergens.
 ```
 
 ## GERD
