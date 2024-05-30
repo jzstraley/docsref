@@ -192,11 +192,11 @@ nav:
         - QTc Disorders: im-guide/cards/ep/qtc.md
         - Sinus Nodal Arrhythmias: im-guide/cards/ep/sinus_node.md
         - SVT: im-guide/cards/ep/svt.md
-        - Ventricular Arrhythmias: im-guide/cards/ep/svt/vt_vf.md
+        - Ventricular Arrhythmias: im-guide/cards/ep/vt_vf.md
       - Heart Failure: 
-        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf/index.md
+        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf.md
         - Basics of Heart Failure: im-guide/cards/heart-failure/basics-hf.md
-        - Chronic Heart Failure: im-guide/cards/heart-failure/chronic-hf/index.md
+        - Chronic Heart Failure: im-guide/cards/heart-failure/chronic-hf.md
       - Hypertension: im-guide/cards/hypertension.md
       - Ischemic Heart Disease:
         - ACS: im-guide/cards/ihd/acs.md
