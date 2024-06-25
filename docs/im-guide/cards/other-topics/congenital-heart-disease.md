@@ -41,8 +41,8 @@ categories:
     - Prostaglandin E1 (alprostadil) to keep it open until surgical intervention
     - Indomethacin < Ibuprofen
         - Prostaglandin synthesis inhibitor
-    - >2 weeks: Unlikely to close, Surgical closure
-    - >6-8 months: Surgery
+    - more than 2 weeks: Unlikely to close, Surgical closure
+    - more than 6-8 months: Surgery
     - Adults: Surgical, endovascular approach to close
 
 ### Anomalous Coronary Artery

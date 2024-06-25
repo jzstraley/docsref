@@ -28,7 +28,7 @@ tags:
             - Builds in intensity over a few minutes (2-30mins)
                 - <2 mins: not MI
                 - 2-5 minutes: Stable angina
-                - >30mins: MI
+                - more than 30mins: MI
         - 2) Provoked by exercise or emotional stress
         - 3) Relieved by rest or nitroglycerin
     - Atypical Angina (Possibly Cardiac): only 2 of the 3 above
@@ -87,6 +87,9 @@ tags:
 ## Work-up
 
 - [2021 AHA/ACC Guideline for the Evaluation and Diagnosis of Chest Pain][2]
+
+### EKG
+
 - Best test is EKG followed by Cardiac Enzymes every 8 hours (3 sets needed)
     - Nonischemic ECG and negative biomarkers at 0 hr and 3 hr reduces risk of MACE to less than 1%
         - [Stress-testing cannot decrease risk beyond <1% (not warranted)][4]
@@ -104,40 +107,40 @@ graph LR
   H -->|No| I[TIMI/GRACE Scores];
   E -->|No| J[Unstable Angina/Non-Cardiac CP];
   J --> K[HEART Score];
+  K -->|Otherwise| G;
   K -->|ACS <2% by clinical eval or HEART 0| L[Discharge];
 ```
 
-- Troponin
-    - Causes of Troponin Elevation not related to Acute MI
-        - Other causes of myocardial injury
-            - Cardiac
-                - Heart Failure
-                - Myocarditis
-                - Cardiomyopathy of any type
-                - Takotsubo Syndrome
-                - Cardiac Contusion
-            - Systemic
-                - Sepsis
-                - CKD
-                - Stroke, subarachnoid hemorrhage
-                - PE, PHTN
-                - Infiltrative Disease
-                - Chemotherapy
-                - Critical illness
-                - Strenuous exercise
-        - Myocardial injury related to acute myocardial ischemia because of oxygen supply/demand imbalance
-            - Reduced myocardial perfusion
-                - Coronary Spasm
-                - Coronary Embolism, Coronary Artery Dissection
-                - Sustained Bradyarrhythmia
-                - Hypotension or Shock
-                - Respiratory Failure
-                - Severe Anemia
-            - Increased myocardial demand
-                - Tachycardia
-                - Severe HTN w/ + w/o LVH
-- CXR
-    - R/o pneumothorax
+### Troponin
+
+- Causes of Troponin Elevation not related to Acute MI
+    - Other causes of myocardial injury
+        - Cardiac
+            - Heart Failure
+            - Myocarditis
+            - Cardiomyopathy of any type
+            - Takotsubo Syndrome
+            - Cardiac Contusion
+        - Systemic
+            - Sepsis
+            - CKD
+            - Stroke, subarachnoid hemorrhage
+            - PE, PHTN
+            - Infiltrative Disease
+            - Chemotherapy
+            - Critical illness
+            - Strenuous exercise
+    - Myocardial injury related to acute myocardial ischemia because of oxygen supply/demand imbalance
+        - Reduced myocardial perfusion
+            - Coronary Spasm
+            - Coronary Embolism, Coronary Artery Dissection
+            - Sustained Bradyarrhythmia
+            - Hypotension or Shock
+            - Respiratory Failure
+            - Severe Anemia
+        - Increased myocardial demand
+            - Tachycardia
+            - Severe HTN w/ + w/o LVH
 
 ![Courtesy of Sandoval, Y. et al. J AM Coll Cardiology 2019;73(14):1846-60](/assets/images/im-guide/cards/chest-pain/cp_algorithm.jpeg)
 

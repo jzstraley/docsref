@@ -45,5 +45,5 @@ categories:
 [1]: https://pubmed.ncbi.nlm.nih.gov/33332150/
 [2]: https://pubmed.ncbi.nlm.nih.gov/33332149/
 [3]: https://pubmed.ncbi.nlm.nih.gov/8000586/
-[4]: /vhd/as/
-[5]: /vhd/mr/
+[4]: /im-guide/cards/vhd/as/
+[5]: /im-guide/cards/vhd/mr/

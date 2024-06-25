@@ -7,7 +7,7 @@ date: 2022-11-14
 <hr>
 
 - Welcome to my guide for internal medicine. Please see the disclaimer at the bottom left of the page.
-- Feel free to suggest edits via Github.
+- Feel free to suggest edits via Github or the [contact page][23].
 
 ## Resources
 
@@ -56,12 +56,12 @@ date: 2022-11-14
 
 </div>
 
-  [Language]: /docs/about/index.md
-  [Navigation]: /docs/about/index.md
-  [Blog]: /docs/about/index.md
-  [PowerPoint]: /docs/about/index.md
-  [Search]: /docs/about/index.md
-  [Tags]: /docs/tags.md
+  [Language]: /about/index.md
+  [Navigation]: /about/index.md
+  [Blog]: /about/index.md
+  [PowerPoint]: /about/index.md
+  [Search]: /about/index.md
+  [Tags]: /tags.md
 
 [1]: https://www.vim-book.org/
 [3]: https://www.acpjournals.org/topic/category/journal-club?_ga=2.229906524.1739076985.1691463051-1539549077.1685141287&_gac=1.187693530.1689654904.Cj0KCQjwzdOlBhCNARIsAPMwjbw3o6jFrtB3r5G9NTP_tC3QhDIYQGm7Me6Lb9HN3vNJxc1viNRKiDQaAg9hEALw_wcB&_gl=1*hcte7n*_ga*NjY3MDgxMzg5LjE2ODg5Mzk5OTU.*_ga_PM4F5HBGFQ*MTY5MTQ2MzA1MS4xMi4wLjE2OTE0NjMwNTEuNjAuMC4w
@@ -84,3 +84,4 @@ date: 2022-11-14
 [20]: https://kdpnet.kdp.louisville.edu/drugbook/adult/?node=4547
 [21]: https://kdpnet.kdp.louisville.edu/
 [22]: https://shmpublications.onlinelibrary.wiley.com/journal/15535606/twdfnr-teachingfiles
+[23]: /about/contact

@@ -79,7 +79,7 @@ tags:
         - Fluid Challenge/Inotropes
         - Hypertensive: Vasodilators
         - Normotensive: Inotropic Therapy
-    - 4) [Cardiogenic Shock][1]
+    - 4) [Cardiogenic Shock][17]
         - Wet & Cold
         - Hypotension, low cardiac output, and end organ failure
         - High-Risk Features: Extreme distress, pulmonary congestion, Renal failure
@@ -137,7 +137,6 @@ tags:
         - Inodilators: Positive inotropic, vasodilators
             - Dobutamine (5ng up to 20), Milrinone (50ng, then up to 1.13, renally dosed), Levosimendan (12ng)
 
-[1]: /im-guide/cards/cardiac-critical-care/cardiogenic-shock
 [2]: https://www.ncbi.nlm.nih.gov/books/NBK589894/
 [3]: https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/12/05/14/33/strong-hf
 [4]: https://academic.oup.com/eurheartj/article/44/31/2947/7175273
@@ -151,9 +150,9 @@ tags:
 [12]: https://pubmed.ncbi.nlm.nih.gov/21523383/{:target="_blank"}
 [13]: https://thoracickey.com/diagnostic-and-prognostic-biomarkers-in-emergency-department-heart-failure/
 [14]: https://pubmed.ncbi.nlm.nih.gov/31526538/{:target="_blank"}
-[15]: /docs/im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf
-[16]: /docs/im-guide/cards/cardiac-critical-care/rv-failure
-[17]: /docs/im-guide/cards/cardiac-critical-care/cardiogenic-shock
+[15]: /im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf
+[16]: /im-guide/cards/cardiac-critical-care/rv-failure
+[17]: /im-guide/cards/cardiac-critical-care/cardiogenic-shock
 [18]: https://www.nejm.org/doi/10.1056/NEJMoa2203094?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
 [19]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6222930/#jah33487-sec-0019title
 [20]: https://academic.oup.com/eurheartj/article/44/31/2966/7173307

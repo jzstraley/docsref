@@ -18,8 +18,8 @@ categories:
     - Reduce risk of MI/CV death
         - Anti-platelet
             - Aspirin or clopidogrel
-        - [4S]: Statins reduce Death, MI, Revasc in Angina/MI patients[8]
-            - [SATURN]: Crestor better LDL reduction, no better mortality than Lipitor[9]
+        - [4S: Statins reduce Death, MI, Revasc in Angina/MI patients][8]
+            - [SATURN: Crestor better LDL reduction, no better mortality than Lipitor][9]
             - Atorvastatin (Lipitor)
                 - [Muscle toxicity w/concurrent Amiodarone use (0.7%)][10]
             - Rosuvastatin (Crestor)
@@ -40,7 +40,7 @@ categories:
         - Beta-Blockers as initial therapy
         - CCBs or LA-Nitrates if BBs can not be used or are not controlling angina
         - Ranolazine if on maximal tolerable medical therapy
-        - [COURAGE]: PCI w/BMS in Stable CAD non-superior to medical therapy[19]
+        - [COURAGE: PCI w/BMS in Stable CAD non-superior to medical therapy][19]
         - [In life expectancy <1, discontinuation of statin did not increase 60-day mortality][20]
 
 ![Courtesy of Riordan M, Schuetze K.](/assets/images/im-guide/cards/stable-ischemic-disease/Vascular-EA-Schuetze-Riordan-Fig1.webp)
@@ -60,9 +60,9 @@ categories:
         - LM w/complex CAD
         - LM w/Syntax score >33
         - LM w/complex CAD + Syntax score >33 + Suitable Candidate
-        - MVCAD w/suitable anatomy + Suitable Candidate + LVEF $\leq$ 35%
+        - MVCAD w/suitable anatomy + Suitable Candidate + LVEF ($\leq$) 35%
     - Class 2a
-        - MVCAD w/suitable anatomy + Suitable Candidate + LVEF $\gt$ 35%
+        - MVCAD w/suitable anatomy + Suitable Candidate + LVEF ($\geq$) 35%
             - [ISCHEMIA][21], [FAME-2][22], and 10-year updates from the [MASS -II][23] trial showing a reduction in CV mortality
     - Class 2b
     - MVCAD w/suitable anatomy + LVEF >50% (Note PCI also 2b)

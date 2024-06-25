@@ -38,7 +38,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - [Heart Failure](/im-guide/cards/heart-failure/index)
         - Cor Pulmonale
         - Pulmonary embolus/Pulmonary embolism (PE)
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - [Aortic Stenosis](/im-guide/cards/vhd/as)
         - Aortic regurgitation
         - Mitral stenosis
@@ -70,7 +70,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Hypothyroidism
         - Hyperthyroidism
         - Hypercalcemia
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Cushing’s disease
         - Addison’s disease
         - Corticosteroid drug therapy
@@ -100,7 +100,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Thrombocytopenia
         - Chronic Leukemia
         - Breast Cancer
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Macrocytic anemia
         - Transfusions
         - Myelofibrosis/Myelodysplasia
@@ -129,7 +129,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - UTI’s
         - AIDS
         - Septic Shock
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Endocarditis
         - Meningitis
         - Lyme disease
@@ -155,7 +155,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
     ???+ success "Highest Yield"
         - Acute Renal Failure
         - Fluid/Electrolytes
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Chronic Renal Failure
         - Glomerulonephritis
         - Acid Base balance
@@ -178,7 +178,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Respiratory Tract Infections
         - IgE mediated disease
         - Sleep Apnea/Respiratory Control
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Pleural effusion/pneumothorax
         - Sarcoidosis
         - Pneumoconiosis
@@ -205,7 +205,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Gout
         - Ankylosing Spondylitis
         - Polymyalgia Rheumatica
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Giant Cell Vasculitis
         - Vasculitis (Wegener’s, PAN, HSP, etc.)
         - Reactive Arthritis (Reiter’s Syndrome)
@@ -239,7 +239,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Colon polyps/cancer
         - Jaundice
         - Gastrointestinal bleeding
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Alcoholic hepatitis
         - Cirrhosis
         - Complicaitons of portal hypertension
@@ -276,7 +276,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Hyperlipidemia
         - Alcohol/drug abuse
         - Preventive health care
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Nutrition/obesity
         - Geriatrics
         - Depression
@@ -293,7 +293,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Delirium/Dementia
         - Aging simulation to promote awareness
         - Adaptations to promote functioning
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Falls
         - Incontinence
         - Restraints
@@ -317,7 +317,7 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Cutaneous Infections
             - viral
             - bacterial
-    ??? warning "Medium Yield"
+    ??? warning "Average Yield"
         - Contact dermatitis
         - Psoriasis
         - Acne
