@@ -33,6 +33,7 @@ tags:
         - 3) Relieved by rest or nitroglycerin
     - Atypical Angina (Possibly Cardiac): only 2 of the 3 above
     - Non-anginal: <2 of the 3 above
+
 - Pulmonary/Pleuritic (pleurisy, pneumonia, pericarditis, PE)
     - Sharp/stabbing pain, worse with inspiration
     - Pericarditis is worse when lying flat, breathing
@@ -49,11 +50,13 @@ tags:
         - Pleural friction rib may be present (disappears with breath holding, pericardial friction rub does not)
     - ESR elevated in SLE Pleuritis, Not tenderness to palpation
     - CXR/Chest CT
+
 - Aortic (dissection, intramural hematoma)
     - Sudden, severe tearing pain, radiates to back, elderly, hypertension/atherosclerosis, tachycardia
     - Irregular aortic contour with inward displacement of atherosclerotic calcification
     - No tenderness to palpation
     - Chest CT
+
 - Esophageal Spasm
     - 5-60 minutes
     - Visceral, spontaneous, substernal, associated with cold liquids, relief with nitro
@@ -62,6 +65,7 @@ tags:
     - Non-pleuritic, Non-exertional/no pain with movement, worse with recumbency, visceral/burning, relieved by antacids or food, cough, hoarseness due to aspiration, upper abdominal/substernal, associated with regurgitation, nausea, dysphagia, nocturnal pain, non-radiating
     - Reflux may improve with siting up
     - Endoscope +/- pH testing
+
 - Chest wall/Musculoskeletal (MSK) chest pain
     - Persistent and or prolonged pain, worse with movement or position change, often follows repetitive activity
     - Costochondritis
@@ -86,6 +90,8 @@ tags:
 
 ## Work-up
 
+- EKG, CXR, Troponin(s)
+    - +/- D-Dimer/CTA/TTE
 - [2021 AHA/ACC Guideline for the Evaluation and Diagnosis of Chest Pain][2]
 
 ### EKG

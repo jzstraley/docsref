@@ -31,33 +31,33 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
 
 ???+ note "Cardiology"
     ???+ success "Highest Yield"
-        - [Coronary Artery Disease](/im-guide/cards/ihd/stable-ischemic-disease)
-        - [Atrial Fibrillation](/im-guide/cards/ep/atrial-fibrillation)
         - [Angina Pectoris & ACS](/im-guide/cards/chest-pain)
-        - [Hypertension](/im-guide/cards/hypertension)
+        - [Atrial Fibrillation](/im-guide/cards/ep/atrial-fibrillation)
+        - [Coronary Artery Disease](/im-guide/cards/ihd/stable-ischemic-disease)
         - [Heart Failure](/im-guide/cards/heart-failure/index)
-        - Cor Pulmonale
+        - [Hypertension](/im-guide/cards/hypertension)
         - Pulmonary embolus/Pulmonary embolism (PE)
     ??? warning "Average Yield"
+        - Acute pericarditis
         - [Aortic Stenosis](/im-guide/cards/vhd/as)
         - Aortic regurgitation
-        - Mitral stenosis
-        - [Mitral regurgitation](/im-guide/cards/vhd/mr)
-        - Premature ventricular contractions
-        - Ventricular Tachycardia
-        - Acute pericarditis
-        - Prinzmetal’s angina
+        - Atrial flutter
         - AV blocks
         - Cardiomyopathy
+        - Cor Pulmonale
+        - [Mitral regurgitation](/im-guide/cards/vhd/mr)
+        - Mitral stenosis
         - Multifocal atrial tachycardia
-        - Atrial flutter
+        - Premature ventricular contractions (PVC)
+        - Prinzmetal’s angina
+        - Ventricular Tachycardia
     ??? danger "Lower Yield"
+        - Atrial Septal Defect (ASD)
         - [Congenital Heart Disease](/im-guide/cards/other-topics/congenital-heart-disease)
+        - Junctional rhythms
         - [Pericarditis](/im-guide/cards/other-topics/pericardial-disease)
         - Restrictive Cardiac Tamponade
         - Wolf-Parkinson White
-        - Junctional rhythms
-        - Atrial Septal Defect
 
 ??? note "Endocrinology"
     ???+ success "Highest Yield"
@@ -67,9 +67,9 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
             - HHS
             - Neuropathy
             - Retinopathy
-        - Hypothyroidism
         - Hyperthyroidism
         - Hypercalcemia
+        - Hypothyroidism
     ??? warning "Average Yield"
         - Cushing’s disease
         - Addison’s disease
