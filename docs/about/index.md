@@ -229,6 +229,9 @@ social:
 
 ## Honors and Awards
 
+* Outpatient Resident of the Year
+    * Charleston Area Medical Center | Charleston, WV
+    * 06/15/2024
 * 1st Place Clinical Research/QI Resident Abstract Poster Competition
     * 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
     * 11/11/2023

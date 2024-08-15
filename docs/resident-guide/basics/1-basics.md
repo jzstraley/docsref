@@ -20,9 +20,9 @@ date: 2022-11-17
         - Where your onboarding was completed, where you will be logging you duty hours, signing into lecture, seeing your block schedule, completing evaluations and curriculum reviews
         - Duty Hour Tutorial: [Logging Duty Hours on New Innovations][3]
         - High Points:
-            - Must be logged every 72 hours per CAMC
+            - Must be logged every 72 hours
                 - You will get emails if you forget or don’t log them
-                    - You will then get a text from Katie to log them
+                    - You will then get a text to log them
                         - Then people get mad (So just do them)
 
 ## General (Slightly Less Important)
@@ -45,10 +45,10 @@ date: 2022-11-17
         - Pages are sent both to your pager and AMS, Messages are only on AMS
     - Please see Onboarding to ensure your AMS is set up to receive messages.
 - Sick Days
-    - See Leave Policy - 2024 in the resident drive for more information
+    - See Leave Policy in the resident drive for more information
         - “The resident calling in sick must notify their Attending and then send email to include Chiefs, Program Coordinator and Program Director/Associate Program Directors” - CAMC Staff Handbook
     - If Additional coverage needed:
-        - A clinic resident may be considered, and patients redistributed (M-Fr)
+        - A clinic resident may be considered, and patients redistributed
 - Questions?
     - Follow the ladder:
         - Senior -> Chief -> Attending -> APD -> PD

@@ -346,41 +346,48 @@ nav:
       - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
     - Rheumatology: 
       - im-guide/rheum/index.md
-    - Student/Intern Readings: im-guide/student-intern-readings.md
   - Resident Guide:
-    - Basics: resident-guide/1-basics.md
-    - Team Expectations: resident-guide/2-team-expectations.md
-    - Staying Organized: resident-guide/3-staying-organized.md
-    - How to Write an Admission Note: resident-guide/4-how-to-write-admit-note.md
-    - Transfers: resident-guide/5-transfers.md
-    - Discharge: resident-guide/6-discharge.md
-    - Patient Instructions: resident-guide/7-patient-instructions.md
-    - Common Inpatient Problems: resident-guide/8-common-inpt-problems.md
-    - Licensing: resident-guide/9-licensing.md
+    - resident-guide/index.md
+    - Basics: 
+      - Basics: resident-guide/basics/1-basics.md
+      - Team Expectations: resident-guide/basics/2-team-expectations.md
+      - How to Write an Admission Note: resident-guide/basics/4-how-to-write-admit-note.md
+      - Transfers: resident-guide/basics/5-transfers.md
+      - Discharge: resident-guide/basics/6-discharge.md
+      - Patient Instructions: resident-guide/basics/7-patient-instructions.md
+      - Common Inpatient Problems: resident-guide/basics/8-common-inpt-problems.md
+      - Licensing: resident-guide/basics/9-licensing.md
+    - Soft Skills:
+      - resident-guide/softskills/index.md
+      - Effective Feedback: resident-guide/softskills/effectivefeedback.md
+      - Utilizing Feedback: resident-guide/softskills/utilizingfeedback.md
+      - Upper Levelling 101: resident-guide/softskills/upperleveling101.md
+      - Residents as Teachers: resident-guide/softskills/residentsasteachers.md
+    - Efficiency:
+      - Staying Organized: resident-guide/efficiency/3-staying-organized.md
+      - Shortcuts: resident-guide/efficiency/shortcuts.md
+      - Important Websites: resident-guide/efficiency/important-websites.md
+      - Cerner: resident-guide/efficiency/cernerhelp.md
+      - Dotphrases: resident-guide/efficiency/dotphrases.md
+      - Searching Effectively Online: resident-guide/efficiency/how-to-search-more-effectively.md
+    - Interesting: resident-guide/interesting.md
+    - Blog: 
+      - resident-guide/blog/index.md
+    - Student/Intern Readings: resident-guide/student-intern-readings.md
   - Fellowship Guide:
     - fellowship-guide/index.md
     - Competency Requirements: fellowship-guide/cardsfellowshipreqs.md
     - Fellowship Excel Guide: fellowship-guide/fellowship-excel-guide.md
-  - Resources:
-    - General Concepts: resources/concepts.md
-    - Cerner: resources/cernerhelp.md
-    - Dotphrases: resources/dotphrases.md
-    - Important Websites: resources/important-websites.md
-    - Shortcuts: resources/shortcuts.md
-    - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
-    - Interesting: resources/interesting.md
-    - Blog: 
-      - resources/blog/index.md
-    - Website:
-      - Changelog: resources/website/changelog.md
-      - Site Development: resources/website/site-development.md
-      - Style Cheatsheet: resources/website/style-cheatsheet.md
   - Tags: tags.md
   - About: 
     - about/index.md
     - Contact: about/contact.md
     - Disclaimer: about/disclaimer.md
     - License: about/license.md
+    - Website:
+      - Changelog: about/website/changelog.md
+      - Site Development: about/website/site-development.md
+      - Style Cheatsheet: about/website/style-cheatsheet.md
 
 validation:
   links:

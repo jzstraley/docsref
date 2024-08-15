@@ -13,6 +13,10 @@ date: 2022-11-14
 
 - AI
     - [OpenEvidence AI][12]
+- Cardiology
+    - [Cardioguide][25]
+- FOAMed
+    - [EM Curious][24]
 - General
     - [WikiDoc][4]
     - [ddxof][8]
@@ -85,3 +89,5 @@ date: 2022-11-14
 [21]: https://kdpnet.kdp.louisville.edu/
 [22]: https://shmpublications.onlinelibrary.wiley.com/journal/15535606/twdfnr-teachingfiles
 [23]: /about/contact
+[24]: https://www.emcurious.com/resources
+[25]: https://www.cardioguide.ca/

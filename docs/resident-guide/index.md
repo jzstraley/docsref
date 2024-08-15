@@ -4,10 +4,8 @@ author: J. Austin Straley, DO
 date: 2024-04-07
 tags:
     - Efficiency
+    - Soft Skills
+    - Basics
 ---
 
-## Keeping Notes
-
-## Differentials
-
-## Teaching
+More to Come...  
