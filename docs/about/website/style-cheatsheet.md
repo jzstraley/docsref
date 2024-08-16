@@ -7,7 +7,7 @@ date: 2024-04-29
 
 ## Basic
 
-<!-- md:option https://squidfunk.github.io/mkdocs-material/reference/formatting/ -->
+<!-- https://squidfunk.github.io/mkdocs-material/reference/formatting/ -->
 
 - ==This was marked (highlight)==
 - ^^This was inserted (underline) with caret^^

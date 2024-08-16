@@ -32,15 +32,15 @@ catagories:
     - If you experience any difficulty assigning proxy access, please reach out to fellow residents or clinic chief prior to departing on vacation.  
     - Any deficiencies during the vacation/leave time period has potential to apply to either or both residents depending on circumstance.
     - Click this tab routinely (it will not change appearance to alert you for any new messages)<br>
-![Picture 1](../assets/images/internguidepages/1.8/1.8.12-picture1.png)
+![Picture 1](/docs/assets/images/internguidepages/1.8/1.8.12-picture1.png)
     <br><br>
 - Frozen Screen
     - If you're experiencing a frozen screen, try the below<br>
-![Picture 2](../assets/images/internguidepages/1.8/1.8.12-picture2.png)
+![Picture 2](/docs/assets/images/internguidepages/1.8/1.8.12-picture2.png)
     <br><br>
-![Picture 3](../assets/images/internguidepages/1.8/1.8.12-picture3.png)
+![Picture 3](/docs/assets/images/internguidepages/1.8/1.8.12-picture3.png)
     <br><br>
-![Picture 4](../assets/images/internguidepages/1.8/1.8.12-picture4.png)
+![Picture 4](/docs/assets/images/internguidepages/1.8/1.8.12-picture4.png)
     <br><br>
 
 [1]: /resources/dotphrases/

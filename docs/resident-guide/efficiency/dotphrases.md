@@ -13,9 +13,9 @@ date: 2024-05-13
   - Copy the following dotphrases but rename them with your own initials
     - Ex. For Dr. Ball, he could name them any one of the following ways:
       - .abappointment
-      - ..abappointment
+      - /docsabappointment
 
-![Shortcut 1.1](../assets/images/internguidepages/1.2/1.2.2-picture1.png)
+![Shortcut 1.1](/docs/assets/images/internguidepages/1.2/1.2.2-picture1.png)
 
 ## Diabetes
 

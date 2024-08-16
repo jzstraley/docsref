@@ -363,6 +363,7 @@ nav:
       - Utilizing Feedback: resident-guide/softskills/utilizingfeedback.md
       - Upper Levelling 101: resident-guide/softskills/upperleveling101.md
       - Residents as Teachers: resident-guide/softskills/residentsasteachers.md
+      - Feedback Templates: resident-guide/softskills/feedbacktemplates.md
     - Efficiency:
       - Staying Organized: resident-guide/efficiency/3-staying-organized.md
       - Shortcuts: resident-guide/efficiency/shortcuts.md
@@ -373,6 +374,8 @@ nav:
     - Interesting: resident-guide/interesting.md
     - Blog: 
       - resident-guide/blog/index.md
+      - Posts:
+        - Blog Support Just Landed: resident-guide/blog/posts/blog-support-just-landed.md
     - Student/Intern Readings: resident-guide/student-intern-readings.md
   - Fellowship Guide:
     - fellowship-guide/index.md
