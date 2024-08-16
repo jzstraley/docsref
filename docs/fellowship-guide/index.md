@@ -51,64 +51,64 @@ date: 2024-05-13
 
 ### Guidelines
 
-ACC: https://www.acc.org/guidelines
-AHA: https://professional.heart.org/en/guidelines-and-statements
-ESC: https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines)
-- Chronic coronary disease: https://www.jacc.org/doi/10.1016/j.jacc.2023.04.003
-- Chest Pain: https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053
-- Primary Prevention: https://www.jacc.org/doi/abs/10.1016/j.jacc.2019.03.010
-- Coronary Artery Revascularization: https://www.jacc.org/doi/10.1016/j.jacc.2021.09.006
-- Dual Antiplatelet Therapy in Patients with Coronary Artery Disease: https://www.jacc.org/doi/10.1016/j.jacc.2016.03.513
-- ST-Elevation Myocardial Infarction: https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.11.019
-- Non-ST-Elevation Acute Coronary Syndromes: https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.09.017
+- [ACC](https://www.acc.org/guidelines)
+- [AHA](https://professional.heart.org/en/guidelines-and-statements)
+- [ESC](https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines)
+- [Chronic coronary disease](https://www.jacc.org/doi/10.1016/j.jacc.2023.04.003)
+- [Chest Pain](https://www.jacc.org/doi/10.1016/j.jacc.2021.07.053)
+- [Primary Prevention](https://www.jacc.org/doi/abs/10.1016/j.jacc.2019.03.010)
+- [Coronary Artery Revascularization](https://www.jacc.org/doi/10.1016/j.jacc.2021.09.006)
+- [Dual Antiplatelet Therapy in Patients with Coronary Artery Disease](https://www.jacc.org/doi/10.1016/j.jacc.2016.03.513)
+- [ST-Elevation Myocardial Infarction](https://www.jacc.org/doi/abs/10.1016/j.jacc.2012.11.019)
+- [Non-ST-Elevation Acute Coronary Syndromes](https://www.jacc.org/doi/abs/10.1016/j.jacc.2014.09.017)
 
 ### Additional Articles
 
-- SCAI Expert Consensus Update on Best Practices in the Cardiac Catheterization Laboratory: https://onlinelibrary.wiley.com/doi/10.1002/ccd.29744
-- Evidence-Based Practices in the Cardiac Catheterization Laboratory: https://www.ahajournals.org/doi/10.1161/CIR.0000000000000996
-- Modern Right Heart Catheterization: Beyond Simple Hemodynamics: https://doi.org/10.21693/1933-088X-19.1.6
-- Cardiopulmonary Hemodynamics in Pulmonary Hypertension and Heart Failure:  https://doi.org/10.1016/j.jacc.2020.10.007
-- Contemporary Arterial Access in the Cardiac Catheterization Laboratory: https://doi.org/10.1016/j.jcin.2017.08.058
+- [SCAI Expert Consensus Update on Best Practices in the Cardiac Catheterization Laboratory](https://onlinelibrary.wiley.com/doi/10.1002/ccd.29744)
+- [Evidence-Based Practices in the Cardiac Catheterization Laboratory](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000996)
+- [Modern Right Heart Catheterization: Beyond Simple Hemodynamics](https://doi.org/10.21693/1933-088X-19.1.6)
+- [Cardiopulmonary Hemodynamics in Pulmonary Hypertension and Heart Failure](https://doi.org/10.1016/j.jacc.2020.10.007)
+- [Contemporary Arterial Access in the Cardiac Catheterization Laboratory](https://doi.org/10.1016/j.jcin.2017.08.058)
 
 ### Interventional Cardiology Fellows (in addition to the above resources)
 
 #### Books
 
-- Manual of Percutaneous Coronary Intervention: https://www.amazon.com/Manual-Percutaneous-Coronary-Interventions-Step/dp/0128193670/
-- Manual of Coronary Chronic Total Occlusion Intervention: https://www.amazon.com/Chronic-Occlusion-Percutaneous-Coronary-Interventions-dp-0323917879/dp/0323917879/
-- PCR-EAPCI Textbooks: https://www.pcronline.com/PCR-Publications/Textbooks
+- [Manual of Percutaneous Coronary Intervention](https://www.amazon.com/Manual-Percutaneous-Coronary-Interventions-Step/dp/0128193670/)
+- [Manual of Coronary Chronic Total Occlusion Intervention](https://www.amazon.com/Chronic-Occlusion-Percutaneous-Coronary-Interventions-dp-0323917879/dp/0323917879/)
+- [PCR-EAPCI Textbooks](https://www.pcronline.com/PCR-Publications/Textbooks)
 
 #### Online Resources
 
-- SCAI Interventional Cardiology Fellows Essentials: https://scai.org/interventional-cardiology-fellows-essentials
-- SCAI Clinical Documents: https://scai.org/publications/clinical-documents
-- ACC Coronary Interventions Handbook: https://www.acc.org/membership/features/coronary-interventions-handbook
-- Brilakis PCI Manual: https://www.pcimanual.org, CTO Manual: https://www.ctomanual.org, and YouTube channel: https://www.youtube.com/user/EmmanouilBrilakis
-- Modern PCI Trainers WondrMedical: https://wondrmedical.net/ch/Modern-PCI-Trainers
-- Intracoronary Imaging Course WondrMedical: https://wondrmedical.net/ch/Intracoronary-Imaging-Course
-- Interventional Complications Course 2023: https://www.tctmd.com/conference/complications2023
-- 6-in-the-A YouTube Channel: https://www.youtube.com/c/6intheA/videos
-- European Interventional Cardiology Fellows Course:
-https://www.pcronline.com/Cases-resources-images/Resources/Best-of-selection/EAPCI-Fellows-Course-resources
-- PCR Trials (Interventional Cardiology Trials): https://eurointervention.pcronline.com/trials
-- CardioNerds Cardiac Critical Care Page: https://www.cardionerds.com/cardiaccriticalcare
-- Mount Sinai CCC Live Cases YouTube Channel:
-https://www.youtube.com/c/CCCLiveCases
+- [SCAI Interventional Cardiology Fellows Essentials](https://scai.org/interventional-cardiology-fellows-essentials)
+- [SCAI Clinical Documents](https://scai.org/publications/clinical-documents)
+- [ACC Coronary Interventions Handbook](https://www.acc.org/membership/features/coronary-interventions-handbook)
+- [Brilakis PCI Manual: https://www.pcimanual.org, CTO Manual](https://www.ctomanual.org)
+    - [YouTube channel](https://www.youtube.com/user/EmmanouilBrilakis)
+- [Modern PCI Trainers WondrMedical](https://wondrmedical.net/ch/Modern-PCI-Trainers)
+- [Intracoronary Imaging Course WondrMedical](https://wondrmedical.net/ch/Intracoronary-Imaging-Course)
+- [Interventional Complications Course 2023](https://www.tctmd.com/conference/complications2023)
+- [6-in-the-A YouTube Channel](https://www.youtube.com/c/6intheA/videos)
+- [European Interventional Cardiology Fellows Course](https://www.pcronline.com/Cases-resources-images/Resources/Best-of-selection/EAPCI-Fellows-Course-resources)
+- [PCR Trials (Interventional Cardiology Trials)](https://eurointervention.pcronline.com/trials)
+- [CardioNerds Cardiac Critical Care Page](https://www.cardionerds.com/cardiaccriticalcare)
+- [Mount Sinai CCC Live Cases YouTube Channel](https://www.youtube.com/c/CCCLiveCases)
 
 #### Apps/Podcasts
 
-- PCI App: https://apps.apple.com/in/app/pci-app/id1607148631
-- Cardiology Apps: https://cardiologyapps.com
-- Podcasts: https://www.drjourneytobetter.com (Dr. Bill Lombardi) and https://podcasts.apple.com/au/podcast/sensei-podcast/id1650252168 (Dr. Manos Brilakis)
+- [PCI App](https://apps.apple.com/in/app/pci-app/id1607148631)
+- [Cardiology Apps](https://cardiologyapps.com)
+- [Podcasts](https://www.drjourneytobetter.com)
+    - [(Dr. Bill Lombardi) and (Dr. Manos Brilakis)](https://podcasts.apple.com/au/podcast/sensei-podcast/id1650252168)
 
 #### Additional Articles
 
-- Contemporary Issues in Chronic Total Occlusion Percutaneous Coronary Intervention: https://doi.org/10.1016/j.jcin.2021.09.027
-- The Impact of Coronary Physiology on Contemporary Clinical Decision-Making: https://doi.org/10.1016/j.jcin.2020.04.040
-- Management of Percutaneous Coronary Intervention Complications: https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.120.008962
-- SCAI Position Statement on Optimal Percutaneous Coronary Interventional Therapy for Complex Coronary Artery Disease: https://onlinelibrary.wiley.com/doi/10.1002/ccd.28994
-- Intravascular Imaging During Percutaneous Coronary Intervention: https://www.jacc.org/doi/10.1016/j.jacc.2022.11.045
-- Improving PCI Outcomes Using Postprocedural Physiology and Intravascular Imaging: https://doi.org/10.1016/j.jcin.2021.08.069
+- [Contemporary Issues in Chronic Total Occlusion Percutaneous Coronary Intervention](https://doi.org/10.1016/j.jcin.2021.09.027)
+- [The Impact of Coronary Physiology on Contemporary Clinical Decision-Making](https://doi.org/10.1016/j.jcin.2020.04.040)
+- [Management of Percutaneous Coronary Intervention Complications](https://www.ahajournals.org/doi/10.1161/CIRCINTERVENTIONS.120.008962)
+- [SCAI Position Statement on Optimal Percutaneous Coronary Interventional Therapy for Complex Coronary Artery Disease](https://onlinelibrary.wiley.com/doi/10.1002/ccd.28994)
+- [Intravascular Imaging During Percutaneous Coronary Intervention](https://www.jacc.org/doi/10.1016/j.jacc.2022.11.045)
+- [Improving PCI Outcomes Using Postprocedural Physiology and Intravascular Imaging](https://doi.org/10.1016/j.jcin.2021.08.069)
 
 [1]: https://www.acgme.org/globalassets/pfassets/programrequirements/cprfellowship_2023v2.pdf
 [2]: https://login.microsoftonline.com/

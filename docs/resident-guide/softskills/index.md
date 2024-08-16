@@ -38,7 +38,7 @@ tags:
 
 - Prioritization: Effectively managing time to prioritize patient care and administrative tasks.
 - Keeping effective and useful notes.
-- [Efficiency](resident-guide/efficiency/3-staying-organized): Balancing multiple responsibilities without compromising the quality of care.
+- [Efficiency](/resident-guide/efficiency/3-staying-organized): Balancing multiple responsibilities without compromising the quality of care.
 
 ## 7. Leadership
 
