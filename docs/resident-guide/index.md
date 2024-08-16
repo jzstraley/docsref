@@ -19,10 +19,10 @@ tags:
 
 </div>
 
-  [Basics]: /docs/resident-guide/basics/1-basics
-  [Efficiency]: /docs/resident-guide/efficiency/3-staying-organized
-  [Soft Skills]: /docs/resident-guide/softskills/index
-  [Interesting]: /docs/resident-guide/interesting
-  [Blog]: /docs/resident-guide/blog/index
-  [Student/Intern Reading]: /docs/resident-guide/student-intern-readings
+  [Basics]: /resident-guide/basics/1-basics
+  [Efficiency]: /resident-guide/efficiency/3-staying-organized
+  [Soft Skills]: /resident-guide/softskills/index
+  [Interesting]: /resident-guide/interesting
+  [Blog]: /resident-guide/blog/index
+  [Student/Intern Reading]: /resident-guide/student-intern-readings
   
