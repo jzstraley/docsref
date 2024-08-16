@@ -11,9 +11,9 @@ date: 2024-05-13
 
 ## Guides and Resources
 
-[ACGME Common Program Requirements (Fellowship) - 2023][1]
-[SUNY Upstate Cardiac Care Unit Survival Guide][7]
-[Emory CDU Guide][8]
+- [ACGME Common Program Requirements (Fellowship) - 2023][1]
+- [SUNY Upstate Cardiac Care Unit Survival Guide][7]
+- [Emory CDU Guide][8]
 
 ## Books (I can't read tho)
 
@@ -22,13 +22,15 @@ date: 2024-05-13
 
 ## Important Websites
 
-[Microsoft Login][2]
-[NewInnovations][3]
-[OpenEvidence][4]
-[Mayo Board Review][5]
-[EKGSource][6]
+- [Microsoft Login][2]
+- [NewInnovations][3]
+- [OpenEvidence][4]
+- [Mayo Board Review][5]
+- [EKGSource][6]
 
-## Other Recommended Resources
+## Other Recommended Resources for Cath
+
+- Initially assembled by Marwan Saad, MD, and Alex Truesdell, MD with additional resources
 
 ### Videos
 
