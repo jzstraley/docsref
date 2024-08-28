@@ -60,12 +60,12 @@ date: 2022-11-14
 
 </div>
 
-  [Language]: /about/index.md
-  [Navigation]: /about/index.md
-  [Blog]: /about/index.md
-  [PowerPoint]: /about/index.md
-  [Search]: /about/index.md
-  [Tags]: /tags.md
+  [Language]: /about/
+  [Navigation]: /about/
+  [Blog]: /resident-guide/blog/
+  [PowerPoint]: /about/
+  [Search]: /about/
+  [Tags]: /tags
 
 [1]: https://www.vim-book.org/
 [3]: https://www.acpjournals.org/topic/category/journal-club?_ga=2.229906524.1739076985.1691463051-1539549077.1685141287&_gac=1.187693530.1689654904.Cj0KCQjwzdOlBhCNARIsAPMwjbw3o6jFrtB3r5G9NTP_tC3QhDIYQGm7Me6Lb9HN3vNJxc1viNRKiDQaAg9hEALw_wcB&_gl=1*hcte7n*_ga*NjY3MDgxMzg5LjE2ODg5Mzk5OTU.*_ga_PM4F5HBGFQ*MTY5MTQ2MzA1MS4xMi4wLjE2OTE0NjMwNTEuNjAuMC4w
