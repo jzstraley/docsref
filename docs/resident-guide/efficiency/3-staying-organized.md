@@ -12,10 +12,10 @@ date: 2022-11-21
 - “Lab” System
     - System for keeping track of labs/changes/trends <br>
 
-![Box 1.1](/docs/assets/images/internguidepages/1.3/1.3.3-picture1.png)
+![Box 1.1](/assets/images/internguidepages/1.3/1.3.3-picture1.png)
         <br>
 
-![Box 1.2](/docs/assets/images/internguidepages/1.3/1.3.3-picture2.png)
+![Box 1.2](/assets/images/internguidepages/1.3/1.3.3-picture2.png)
         <br>
 
 - “Box” System
@@ -24,5 +24,5 @@ date: 2022-11-21
         - Half mark = In progress or half done
         - No mark = Not Done <br>
 
-![Box 1.3](/docs/assets/images/internguidepages/1.3/1.3.3-picture3.png)
+![Box 1.3](/assets/images/internguidepages/1.3/1.3.3-picture3.png)
         <br>

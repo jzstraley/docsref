@@ -31,21 +31,21 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
 
 ???+ note "Cardiology"
     ???+ success "Highest Yield"
-        - [Angina Pectoris & ACS](/im-guide/cards/chest-pain)
-        - [Atrial Fibrillation](/im-guide/cards/ep/atrial-fibrillation)
-        - [Coronary Artery Disease](/im-guide/cards/ihd/stable-ischemic-disease)
-        - [Heart Failure](/im-guide/cards/heart-failure/index)
-        - [Hypertension](/im-guide/cards/hypertension)
+        - [Angina Pectoris & ACS](/fellowship-guide/cards/chest-pain)
+        - [Atrial Fibrillation](/fellowship-guide/cards/ep/atrial-fibrillation)
+        - [Coronary Artery Disease](/fellowship-guide/cards/ihd/stable-ischemic-disease)
+        - [Heart Failure](/fellowship-guide/cards/heart-failure/index)
+        - [Hypertension](/fellowship-guide/cards/hypertension)
         - Pulmonary embolus/Pulmonary embolism (PE)
     ??? warning "Average Yield"
         - Acute pericarditis
-        - [Aortic Stenosis](/im-guide/cards/vhd/as)
+        - [Aortic Stenosis](/fellowship-guide/cards/vhd/as)
         - Aortic regurgitation
         - Atrial flutter
         - AV blocks
         - Cardiomyopathy
         - Cor Pulmonale
-        - [Mitral regurgitation](/im-guide/cards/vhd/mr)
+        - [Mitral regurgitation](/fellowship-guide/cards/vhd/mr)
         - Mitral stenosis
         - Multifocal atrial tachycardia
         - Premature ventricular contractions (PVC)
@@ -53,9 +53,9 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Ventricular Tachycardia
     ??? danger "Lower Yield"
         - Atrial Septal Defect (ASD)
-        - [Congenital Heart Disease](/im-guide/cards/other-topics/congenital-heart-disease)
+        - [Congenital Heart Disease](/fellowship-guide/cards/other-topics/congenital-heart-disease)
         - Junctional rhythms
-        - [Pericarditis](/im-guide/cards/other-topics/pericardial-disease)
+        - [Pericarditis](/fellowship-guide/cards/other-topics/pericardial-disease)
         - Restrictive Cardiac Tamponade
         - Wolf-Parkinson White
 

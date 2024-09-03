@@ -15,7 +15,7 @@ date: 2024-05-13
       - .abappointment
       - /docsabappointment
 
-![Shortcut 1.1](/docs/assets/images/internguidepages/1.2/1.2.2-picture1.png)
+![Shortcut 1.1](/assets/images/internguidepages/1.2/1.2.2-picture1.png)
 
 ## Diabetes
 

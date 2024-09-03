@@ -45,4 +45,4 @@ glucagon administration if you believe it to be secondary to the calcium channel
 7. Calculate the MAP: MAP <60 is associated with decreased perfusion to vital organs.
 8. Determine what your IV access is: Make sure there are two large bore IV’s and start Normal Saline wide open while you are thinking, unless the patient is in cardiogenic shock.
 
-[1]: /im-guide/cards/vascular-disease/hypertension/
+[1]: /fellowship-guide/cards/vascular-disease/hypertension/
