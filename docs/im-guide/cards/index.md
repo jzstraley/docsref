@@ -6,6 +6,6 @@ categories:
     - Cardiology
 ---
 
-[Migrated to the Fellowship-guide][1]
+[See the Cardiology Fellowship Guide][1]
 
-[1]: /fellowship-guide/Topics/index.md
+[1]: /fellowship-guide/index
