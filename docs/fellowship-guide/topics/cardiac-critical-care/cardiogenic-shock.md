@@ -6,6 +6,8 @@ categories:
     - Cardiology
 tags:
     - Heart Failure
+    - CICU
+    - Shock
 ---
 
 ## [Cardiogenic Shock][5]
@@ -23,15 +25,36 @@ tags:
 
 - Ischemic
     - Acute MI most commonly
-    - [Impella in STEMI][8]
 - Valve related
     - Acute Aortic or Mitral Regurgitation
 - Rate Related
 - Cardiomyopathy
 - Toxicologic
 
-## [Management][3]
+## Calculating CO, CI, and CPO
 
+- CO (Cardiac Output), L/min = VO2 / [(SaO2 - SvO2) x Hb x 13.4]
+    - Where VO2 = 125 mL O2/min x BSA
+    - BSA = [(Height, cm x Weight, kg)/ 3,600]1/2
+    - In elderly patients (age ≥70 years), use 110 mL O2 x BSA for VO2
+        - [Cardiac Output Calculator][9]
+- CI (Cardiac Index), L/min/m2 = CO/BSA
+    - SV (Stroke Volume), mL/beat = CO/HR
+    - [Normal Values][10]
+        - CO = 4.0-8.0 L/min
+        - CI = 2.5-4.0 L/min/m2
+        - SV = 60-100 mL/beat
+        - MAP ≥60 mmHg
+    - Note: SaO2 should be acquired by arterial blood gas measurement. SvO2 should be acquired by mixed venous gas from a pulmonary artery catheter. Formula assumes decimal values, not percentages
+- CPO (Cardiac Power), W = (CO x MAP) / 451
+    - CPO < 0.6 watts is indicative of hemodynamic compromise and is associated with increased risk of mortality
+        - Cardiac power is the strongest hemodynamic correlate of mortality in cardiogenic shock: a report from the [SHOCK trial registry][14]
+        - Improved Prognostic Performance of Cardiac Power Output With Right Atrial Pressure: A Subanalysis of the [ESCAPE Trial][13]
+    - [CPO Calculator][11]
+
+## Management
+
+- [Management of Cardiogenic Shock][3]
 - [Contemporary Management][6]
 - Figure out etiology
     - Valve related
@@ -53,51 +76,14 @@ tags:
     - Levophed > Dopamine
         - Useful in Pulmonary congestion for rapid dyspnea relief if preserved Blood pressure
     - Epinephrine is good too but more arrhythmogenic
+- [Mechanical Cardiac Support (MCS)](/fellowship-guide/topics/mechanical_support)
 - [Shock Centers][7]
 
-## Mechanical Cardiac Support (MCS)
+![Courtesy of SCAI](/assets/images/fellowship-guide/cards/cicu/scai_cardiogenic_shock.jpeg)
 
-- [Indications for MCS][9]
-    - Cardiogenic shock due to
-        - Acute myocardial infarction and related mechanical complications
-        - Acute decompensated heart failure
-        - Acute myocarditis
-        - Post-cardiotomy shock
-        - Acute rejection post-cardiac transplant with hemodynamic compromise
-    - High-risk interventions
-        - Percutaneous coronary intervention
-        - Ventricular tachycardia ablation
-    - Bridge to LVAD or transplant
-    - Right ventricular failure
+## Further Reading
 
-## [Differences in Mechanical Circulatory Support][10]
-
-- Impella
-    - Decreases PCWP
-    - Increases coronary blood flow, reduces infarct size
-    - Works independently of LV function and cardiac rhythm
-    - Impella 2.5
-        - CO: 2.5-4 L/min
-    - Impella 5
-        - CO: 5 L/min
-        - Requires surgical cutdown
-    - Notes
-        - Wean to P2, pull from LV on P2, change to P0 and remove
-        - Set to P2 to adjust
-    - [Simple Education - MCS][13]
-
-![Courtesy of Ouweneel, D. M., Claessen, B. E., Sjauw, K. D., & Henriques, J. P. (2015). The Role of Percutaneous Haemodynamic Support in High-risk Percutaneous Coronary Intervention and Cardiogenic Shock. Interventional cardiology (London, England), 10(1), 39–44. https://doi.org/10.15420/icr.2015.10.1.39](/assets/images/fellowship-guide/cards/cicu/mcs_comparison.png)
-
-## Examples
-
-- [The Use of Cardioprotective Devices and Strategies in Patients Undergoing Percutaneous Procedures and Cardiac Surgery][11]
-
-![Courtesy of Ouweneel, D. M., Claessen, B. E., Sjauw, K. D., & Henriques, J. P. (2015). The Role of Percutaneous Haemodynamic Support in High-risk Percutaneous Coronary Intervention and Cardiogenic Shock. Interventional cardiology (London, England), 10(1), 39–44. https://doi.org/10.15420/icr.2015.10.1.39](/assets/images/fellowship-guide/cards/cicu/mcs_images.png)
-
-![Illustration of Ventricular Assist Devices. Courtesy of Abdul-Rahman T, Lizano-Jubert I, Garg N, Tejerina-Marion E, Awais Bukhari SM, Luisa Ek A, Wireko AA, Mares AC, Sikora V, Gupta R. The Use of Cardioprotective Devices and Strategies in Patients Undergoing Percutaneous Procedures and Cardiac Surgery. Healthcare (Basel). 2023 Apr 11;11(8):1094. doi: 10.3390/healthcare11081094. PMID: 37107928; PMCID: PMC10137626.](/assets/images/fellowship-guide/cards/cicu/mcs_examples.jpeg)
-
-## Management
-
+- Manual of Cardiovascular Medicine by Brian P. Griffin MD is high yield and covers just about every topic you may encounter in the CICU. This manual is particularly useful for first-year fellows
 - [Managing Patients with Short-Term MCS][7]
 - Great [EMCrit article][1]
 - [Journal Feed][4]
@@ -107,11 +93,12 @@ tags:
 [3]: https://annalsofintensivecare.springeropen.com/articles/10.1186/s13613-015-0052-1/{:target="_blank"}
 [4]: https://journalfeed.org/article-a-day/2017/aha-cardiogenic-shock-spoon-feed//{:target="_blank"}
 [5]: https://pubmed.ncbi.nlm.nih.gov/31104355/{:target="_blank"}
-[6]: https://www.ahajournals.org/doi/full/10.1161/cir.0000000000000525
-[7]: https://www.sciencedirect.com/science/article/pii/S0735109718369407?via%3Dihub
+[6]: https://www.ahajournals.org/doi/full/10.1161/cir.0000000000000525{:target="_blank"}
+[7]: https://www.sciencedirect.com/science/article/pii/S0735109718369407?via%3Dihub{:target="_blank"}
 [8]: https://pubmed.ncbi.nlm.nih.gov/38587239/{:target="_blank"}
-[9]: https://pubmed.ncbi.nlm.nih.gov/22049313/{:target="_blank"}
-[10]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5860905/
-[11]: https://pubmed.ncbi.nlm.nih.gov/37107928/{:target="_blank"}
+[9]:  https://www.mdcalc.com/calc/10095/cardiac-output-ficks-formula{:target="_blank"}
+[10]: https://www.google.com/books/edition/Textbook_of_Clinical_Hemodynamics_E_Book/H7nHDgAAQBAJ?hl=en&gbpv=0{:target="_blank"}
+[11]: https://www.mdcalc.com/calc/10494/cardiac-power-output-cpo{:target="_blank"}
 [12]: https://pubmed.ncbi.nlm.nih.gov/11911756/{:target="_blank"}
-[13]: https://simpleeducation.co/moments/68/components/212/preview/{:target="_blank"}
+[13]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9085968/
+[14]: https://pubmed.ncbi.nlm.nih.gov/15261929/{:target="_blank"}

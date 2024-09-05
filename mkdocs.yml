@@ -173,6 +173,31 @@ nav:
     - im-guide/index.md
     - Cardiology:
       - im-guide/cards/index.md
+      - Chest Pain: im-guide/cards/chest-pain.md
+      - Coronary Artery Disease (CAD): 
+        - im-guide/cards/index.md
+        - Stable Ischemic Disease: im-guide/cards/cad/stable-ischemic-disease.md
+        - ACS: im-guide/cards/cad/acs.md
+      - Congenital Heart Disease: im-guide/cards/congenital-heart-disease.md
+      - Heart Failure: 
+        - Basics of Heart Failure: im-guide/cards/heart-failure/basics-hf.md
+        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf.md
+        - Chronic Heart Failure: im-guide/cards/heart-failure/chronic-hf.md
+      - Hypertension: im-guide/cards/hypertension.md
+      - Non-Ischemic Cardiomyopathies:
+        - Hypertrophic Cardiomyopathy: im-guide/cards/nicm/hcm.md
+        - Restrictive Cardiomyopathy: im-guide/cards/nicm/rcm.md
+        - Dilated Cardiomyopathy: im-guide/cards/nicm/dcm.md
+        - Other Cardiomyopathies: im-guide/cards/nicm/other.md
+      - Palpitations: im-guide/cards/palpitations.md
+      - Pericardial Disease: im-guide/cards/pericardial-disease.md
+      - Syncope: im-guide/cards/syncope.md
+      - Valvular Heart Disease: 
+        - im-guide/cards/vhd/index.md
+        - Aortic Stenosis: im-guide/cards/vhd/as.md
+        - Mitral Regurgitation: im-guide/cards/vhd/mr.md
+      - Vascular Disease: 
+        - im-guide/cards/vascular-disease/index.md
     - Dermatology: 
       - im-guide/derm/index.md
     - Endocrinology: 
@@ -288,6 +313,11 @@ nav:
       - fellowship-guide/topics/index.md
       - Cardiac Critical Care: 
         - Cardiogenic Shock: fellowship-guide/topics/cardiac-critical-care/cardiogenic-shock.md
+        - Mechanical Support: fellowship-guide/topics/cardiac-critical-care/mechanical_support.md
+      - Cath:
+        - Invasive Cardiology: fellowship-guide/topics/cath/invasive-cardiology.md
+        - Interventional Cardiology: fellowship-guide/topics/cath/interventional-cardiology.md
+      - Consults: fellowship-guide/topics/consults.md
       - Echo: 
         - Aortic Valve: fellowship-guide/topics/echo/aorticvalve.md
         - Indications: fellowship-guide/topics/echo/indications.md
@@ -304,42 +334,16 @@ nav:
         - Sinus Nodal Arrhythmias: fellowship-guide/topics/ep/sinus_node.md
         - SVT: fellowship-guide/topics/ep/svt.md
         - Ventricular Arrhythmias: fellowship-guide/topics/ep/vt_vf.md
-      - Heart Failure: 
-        - Acute Heart Failure: fellowship-guide/topics/heart-failure/acute-hf.md
-        - Basics of Heart Failure: fellowship-guide/topics/heart-failure/basics-hf.md
-        - Chronic Heart Failure: fellowship-guide/topics/heart-failure/chronic-hf.md
-      - Hypertension: fellowship-guide/topics/hypertension.md
-      - Imaging: fellowship-guide/topics/other-topics/imaging.md
-      - Ischemic Heart Disease:
-        - Chest Pain: fellowship-guide/topics/ihd/chest-pain.md
-        - ACS: fellowship-guide/topics/ihd/acs.md
-        - Invasive Cardiology: fellowship-guide/topics/ihd/invasive-cardiology.md
-        - Stable Ischemic Disease: fellowship-guide/topics/ihd/stable-ischemic-disease.md
-        - Stress Testing: fellowship-guide/topics/ihd/stress-testing.md
-      - Non-Ischemic Cardiomyopathies:
-        - Hypertrophic Cardiomyopathy: fellowship-guide/topics/nicm/hcm.md
-        - Restrictive Cardiomyopathy: fellowship-guide/topics/nicm/rcm.md
-        - Dilated Cardiomyopathy: fellowship-guide/topics/nicm/dcm.md
-        - Other Cardiomyopathies: fellowship-guide/topics/nicm/other.md
-      - Nuclear Cardiology: fellowship-guide/topics/nuclear-cardiology.md
-      - Other Topics: 
-        - Congenital Heart Disease: fellowship-guide/topics/other-topics/congenital-heart-disease.md
-        - Consults: fellowship-guide/topics/other-topics/consults.md
-        - Imaging: fellowship-guide/topics/other-topics/imaging.md
-        - Palpitations: fellowship-guide/topics/other-topics/palpitations.md
-        - Pericardial Disease: fellowship-guide/topics/other-topics/pericardial-disease.md
-        - Syncope: fellowship-guide/topics/other-topics/syncope.md
-        - Vascular Disease: 
-          - fellowship-guide/topics/other-topics/vascular-disease/index.md
+      - Imaging: fellowship-guide/topics/imaging.md
+      - Nuclear Cardiology:
+        - fellowship-guide/topics/nuc/index.md
+        - SPECT MPI: fellowship-guide/topics/nuc/spect.md
+        - Stress Testing: fellowship-guide/topics/nuc/stress-testing.md
       - Pharmacology: 
         - Antianginals: fellowship-guide/topics/cardiac-pharm/antianginals.md
         - Antiarrhythmics: fellowship-guide/topics/cardiac-pharm/antiarrhythmics.md
         - Antihypertensives: fellowship-guide/topics/cardiac-pharm/antihypertensives.md
         - Lipid Therapy: fellowship-guide/topics/cardiac-pharm/lipidtherapy.md
-      - Valvular Heart Disease: 
-        - fellowship-guide/topics/vhd/index.md
-        - Aortic Stenosis: fellowship-guide/topics/vhd/as.md
-        - Mitral Regurgitation: fellowship-guide/topics/vhd/mr.md
     - Competency Requirements: fellowship-guide/cardsfellowshipreqs.md
     - Fellowship Excel Guide: fellowship-guide/fellowship-excel-guide.md
   - Tags: tags.md

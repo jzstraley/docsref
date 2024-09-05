@@ -9,7 +9,23 @@ date: 2022-11-14
 - Welcome to my guide for internal medicine. Please see the disclaimer at the bottom left of the page.
 - Feel free to suggest edits via Github or the [contact page][23].
 
-## Resources
+## General
+
+- My general recommendation to excel in IM is to pick a resource and consistently study. Since most of us take STEP 3/COMLEX 3 during intern year, your initial goal should to just study to pass. I took my exam in October of my intern year and all I used for this was Anki and UWorld and did fine with not even completing UWorld and only studying 2-3 weeks
+    - [HOOP's STEP III Anki Deck][27]
+    - [WiWa Deck][26]
+    - COMLEX Additional Deck (Trust me): [TurnUp2Law&Ethics][28]
+- After your done with Level 3, give yourself a month or 3 to chill and try to catch up on how to be a good intern (which can be hard)
+- Around December of my intern year I purchased MKSAP individually because I felt I wasn't learning the key points on rounds/during lecture that my peers were
+- After buying MKSAP I would do blocks of 10 questions per week CONSISTENTLY and every once in awhile do an extra block or so on topics I had learned that week in the hospital
+    - I tried to pick questions that related to my patients and understand why attendings/residents don't do what MKSAP recommended and tried to talk to my attendings/peers about these differences to reenforce my learning. I felt this really helped my learn what was important, what was testable, and what was more clinical practice
+- By the end of intern year, I was getting bored with MKSAP so I started doing the MKSAP ANKI which helped solidify the information I had already learned and retain what I could. I'd say I did about 50% of the ABIM and MKSAP decks during ALL of second year. Went very slow and tried to look up a concept a day (related to patient care), mainly using them for reference
+    - [Anki ABIM Decks Link][29]
+        - [ABIM Deck][30]
+        - [MKSAP Deck][31]
+    - [EKG Deck][32]
+
+## Other Resources
 
 - AI
     - [OpenEvidence AI][12]
@@ -91,3 +107,10 @@ date: 2022-11-14
 [23]: /about/contact
 [24]: https://www.emcurious.com/resources
 [25]: https://www.cardioguide.ca/
+[26]: https://drive.google.com/file/d/1LBsDmn9UQ-uvfimarjYS7dsOgCfYoD7C/view
+[27]: https://www.reddit.com/r/medicalschoolanki/comments/e2outl/the_only_step_3_deck_youll_ever_need_new_anki_deck/
+[28]: https://www.reddit.com/r/medicalschoolanki/comments/cg470h/turnup2lawethics/
+[29]: https://ankiweb.net/shared/decks?search=abim&sort=modified
+[30]: https://ankiweb.net/shared/info/213121337
+[31]: https://ankiweb.net/shared/info/858827225
+[32]: https://www.reddit.com/r/medicalschoolanki/wiki/index/#wiki_residency.2Fspecialty_decks

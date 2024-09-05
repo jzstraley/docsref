@@ -1,7 +1,5 @@
 # Changelog
 
-## Material for MkDocs
-
 ### 9.5.20 <small>April 29, 2024</small> { id="9.5.20" }
 
 - Fixed deprecation warning in privacy plugin (9.5.19 regression)
