@@ -175,7 +175,7 @@ nav:
       - im-guide/cards/index.md
       - Chest Pain: im-guide/cards/chest-pain.md
       - Coronary Artery Disease (CAD): 
-        - im-guide/cards/index.md
+        - im-guide/cards/cad/index.md
         - Stable Ischemic Disease: im-guide/cards/cad/stable-ischemic-disease.md
         - ACS: im-guide/cards/cad/acs.md
       - Congenital Heart Disease: im-guide/cards/congenital-heart-disease.md
