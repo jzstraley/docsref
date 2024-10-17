@@ -1,35 +1,28 @@
-var weight, height, measure, bmi, error ;
+    function calculateBMI() {
+        const weight = parseFloat(document.getElementById("weight").value);
+        const height = parseFloat(document.getElementById("height").value) / 100; // Convert cm to meters
+        
+        const resultsElement = document.getElementById("results");
+        
+        // Error handling
+        if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0) {
+            resultsElement.innerHTML = "Please enter valid positive numbers for weight and height.";
+            return;
+        }
 
-function calculate() {
-	weight = document.getElementById("weight").value;
-	height = document.getElementById("height").value;
-	error = "Please enter some values";
-	height /= 100;
-	height *= height;
-	bmi = weight/height;
-	bmi = bmi.toFixed(1);
+        const bmi = weight / (height * height);
+        const bmiFixed = bmi.toFixed(1);
+        
+        let measure;
+        if (bmi <= 18.4) {
+            measure = "Underweight";
+        } else if (bmi <= 24.9) {
+            measure = "Normal";
+        } else if (bmi <= 29.9) {
+            measure = "Overweight";
+        } else {
+            measure = "Obese";
+        }
 
-	if (bmi <= 18.4) {
-		measure = "Your BMI is " + bmi + " which means " + "you are Underweight";
-	} else if (bmi >= 18.5 && bmi <= 24.9) {
-		measure = "Your BMI is " + bmi + " which means " + "You are Normal";
-	} else if (bmi >= 25 && bmi <= 29.9) {
-		measure = "Your BMI is " + bmi + " which means " + "You are Overweight";
-	} else if (bmi >= 30) {
-		measure = "Your BMI is " + bmi + " which means " + "You are Obese";
-	}
-	
-
-	if (weight === 0 ) {
-		document.getElementById("results").innerHTML = error;
-	} else if (height === 0){
-		document.getElementById("results").innerHTML = error;
-	}
-	 else {
-
-		document.getElementById("results").innerHTML = measure;
-	}
-	if (weight < 0) {
-		document.getElementById("results").innerHTML = "Negative Values not Allowed";
-	}
-}
+        resultsElement.innerHTML = `Your BMI is ${bmiFixed}, which means you are ${measure}.`;
+    }
