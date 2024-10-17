@@ -23,9 +23,64 @@
     					<p>Height (cm)</p>
 	    				 <input id="height" type="number" pattern="[0-9]*" name="b"/> 
     				</div>
-    		     <button type="button" class= "md-button" id= "btn" onclick="calculate()">Calculate BMI</button>
+    				<div id="ageInput">
+    					<p>Age</p>
+	    				 <input id="age" type="number" pattern="[0-9]*" name="c"/> 
+    				</div>
+    				<div id="sbpInput">
+    					<p>SBP (mmHg)</p>
+	    				 <input id="sbp" type="number" pattern="[0-9]*" name="d"/> 
+    				</div>
+    				<div id="dbpInput">
+    					<p>DBP (mmHg)</p>
+	    				 <input id="dbp" type="number" pattern="[0-9]*" name="e"/> 
+    				</div>
+    				<div id="sao2Input">
+    					<p>SaO2</p>
+	    				 <input id="sao2" type="number" pattern="[0-9]*" name="f"/> 
+    				</div>
+    				<div id="svo2Input">
+    					<p>SvO2</p>
+	    				 <input id="svo2" type="number" pattern="[0-9]*" name="g"/> 
+    				</div>
+    				<div id="cvpInput">
+    					<p>CVP</p>
+	    				 <input id="cvp" type="number" pattern="[0-9]*" name="h"/> 
+    				</div>
+    				<div id="therm_coInput">
+    					<p>Thermo CO</p>
+	    				 <input id="therm_co" type="number" pattern="[0-9]*" name="i"/> 
+    				</div>
+    				<div id="therm_ciInput">
+    					<p>Thermo CI</p>
+	    				 <input id="therm_ci" type="number" pattern="[0-9]*" name="j"/> 
+    				</div>
+    				<div id="sPAInput">
+    					<p>sPAP</p>
+	    				 <input id="sPA" type="number" pattern="[0-9]*" name="k"/> 
+    				</div>
+    				<div id="dPAsvo2Input">
+    					<p>dPAP</p>
+	    				 <input id="dPA" type="number" pattern="[0-9]*" name="l"/> 
+    				</div>
+    				<div id="mPAPInput">
+    					<p>mPAP</p>
+	    				 <input id="mPAP" type="number" pattern="[0-9]*" name="m"/> 
+    				</div>
+    				<div id="pcwpInput">
+    					<p>PCWP</p>
+	    				 <input id="pcwp" type="number" pattern="[0-9]*" name="n"/> 
+    				</div>
+    		     <button type="button" class= "md-button" id= "btn" onclick="calculateBMI()">Calculate</button>
     		</form>
+    		<div id="results_bmi" class="text-center">Your BMI results will appear here</div>
+            <div id="results_map" class="text-center">Your BMI results will appear here</div>
+            <div id="results" class="text-center">Your BMI results will appear here</div>
+            <div id="results" class="text-center">Your BMI results will appear here</div>
+            <div id="results" class="text-center">Your BMI results will appear here</div>
     		<div id="results" class="text-center">Your BMI results will appear here</div>
+            <div id="results" class="text-center">Your BMI results will appear here</div>
+            <div id="results" class="text-center">Your BMI results will appear here</div>
     	</div>
     </div>
   {{ super() }}
