@@ -12,8 +12,8 @@
 <!-- Adding Face/About-Box -->
     <div class="container">
     	<div class="panel">
-    		<h2 class="text-center">Check your BMI</h2>
-    			<p id="introText" class="text-center">Enter your weight and height below to check your BMI results</p>
+    		<h2 class="text-center">BMI/CPO/SVR/PVR/PAPI Calculators</h2>
+    			<p id="introText" class="text-center">Enter the below parameters for resulting outputs. Enter 0 if no value.</p>
     			<form>
     				<div id="weightInput">
     					<p>Weight (kg)</p>
@@ -35,17 +35,21 @@
     					<p>DBP (mmHg)</p>
 	    				 <input id="dbp" type="number" pattern="[0-9]*" name="e"/> 
     				</div>
-    				<div id="sao2Input">
+                    <div id="hrInput">
+    					<p>Heart Rate</p>
+	    				 <input id="hr" type="number" pattern="[0-9]*" name="o"/> 
+    				</div>
+                    <div id="sao2Input">
     					<p>SaO2</p>
 	    				 <input id="sao2" type="number" pattern="[0-9]*" name="f"/> 
+    				</div>
+                    <div id="hgbInput">
+    					<p>Hemoglobin</p>
+	    				 <input id="hgb" type="number" pattern="[0-9]*" name="o"/> 
     				</div>
     				<div id="svo2Input">
     					<p>SvO2</p>
 	    				 <input id="svo2" type="number" pattern="[0-9]*" name="g"/> 
-    				</div>
-    				<div id="cvpInput">
-    					<p>CVP</p>
-	    				 <input id="cvp" type="number" pattern="[0-9]*" name="h"/> 
     				</div>
     				<div id="therm_coInput">
     					<p>Thermo CO</p>
@@ -67,19 +71,23 @@
     					<p>mPAP</p>
 	    				 <input id="mPAP" type="number" pattern="[0-9]*" name="m"/> 
     				</div>
+                    <div id="cvpInput">
+    					<p>CVP</p>
+	    				 <input id="cvp" type="number" pattern="[0-9]*" name="h"/> 
+    				</div>
     				<div id="pcwpInput">
     					<p>PCWP</p>
 	    				 <input id="pcwp" type="number" pattern="[0-9]*" name="n"/> 
     				</div>
     		     <button type="button" class= "md-button" id= "btn" onclick="calculateButton()">Calculate</button>
     		</form>
-    		<div id="results_bmi" class="text-center">Your BMI results will appear here</div>
-            <div id="results_map" class="text-center">Your MAP results will appear here</div>
-            <div id="results_fickoutput" class="text-center">Your Fick CO/CI/CPO results will appear here</div>
-            <div id="results_thermpower" class="text-center">Your Thermodilution CO/CI/CPO results will appear here</div>
-            <div id="results_ficksvr" class="text-center">Your Fick SVR results will appear here</div>
-    		<div id="results_fickpvr" class="text-center">Your Fick PVR results will appear here</div>
-            <div id="results_papi" class="text-center">Your PAPI results will appear here</div>
+    		<div id="results_bmi" class="text-center">BMI/BSA: results will appear here</div>
+            <div id="results_map" class="text-center">MAP: results will appear here</div>
+            <div id="results_fickoutput" class="text-center">Fick CO/CI/CPO: results will appear here</div>
+            <div id="results_thermpower" class="text-center">Thermodilution CO/CI/CPO: results will appear here</div>
+            <div id="results_ficksvr" class="text-center">Fick SVR: results will appear here</div>
+    		<div id="results_fickpvr" class="text-center">Fick PVR: results will appear here</div>
+            <div id="results_papi" class="text-center">PAPI: results will appear here</div>
     	</div>
     </div>
   {{ super() }}

@@ -43,7 +43,7 @@ function calculateBMI() {
         // measure = "Obese";
     // }
      // which means you are ${measure}.
-    resultsElement_bmi.innerHTML = `BMI:${bmiFixed}, BSA:${bsaFixed}`;
+    resultsElement_bmi.innerHTML = `BMI/BSA: ${bmiFixed}/${bsaFixed}`;
 }
 
 function calculateMAP() {
@@ -52,7 +52,22 @@ function calculateMAP() {
     const resultsElement_map = document.getElementById("results_map");
     const map = (sbp / 3) + ((dbp * 2) / 3);
     const mapFixed = map.toFixed(1);
-    resultsElement_map.innerHTML = `MAP:${mapFixed}`;
+    if (isNaN(sbp) || isNaN(dpb) || sbp <= 0 || dbp <= 0) {
+        resultsElement_bmi.innerHTML = "Please enter valid positive numbers for sbp and dbp.";
+        return;
+    }
+    let measure_map = mapFixed;
+    if (mapFixed < 65) {
+        measure_map.style.color = "blue";
+    // } else if (bmi <= 24.9) {
+        // measure = "Normal";
+    // } else if (bmi <= 29.9) {
+        // measure = "Overweight";
+    } else {
+        measure_map.style.color = "black";
+    }
+     // which means you are ${measure}.
+    resultsElement_map.innerHTML = `MAP: ${mapFixed}`;
 }
 
 function fickoutput() {
@@ -73,7 +88,22 @@ function fickoutput() {
     const coFixed = co.toFixed(2);
     const ciFixed = ci.toFixed(2);
     const cpoFixed = cpo.toFixed(2);
-    resultsElement_fickoutput.innerHTML = `Fick CO/CI/CPO:${coFixed}/${ciFixed}/${cpoFixed}`;
+    resultsElement_fickoutput.innerHTML = `Fick CO/CI/CPO: ${coFixed}/${ciFixed}/${cpoFixed}`;
+}
+
+function ficksvr() {
+    const cvp = parseFloat(document.getElementById("cvp").value);
+    const ficksvr = (map - cvp)*80/co;
+    const resultsElement_ficksvr = document.getElementById("results_ficksvr");
+    resultsElement_ficksvr.innerHTML = `Fick SVR: ${ficksvr}`;
+}
+
+function fickpvr() {
+    const mPAP = parseFloat(document.getElementById("mPAP").value);
+    const pcwp = parseFloat(document.getElementById("pcwp").value);
+    const fickpvr = (mPAP - pcwp) / co;
+    const resultsElement_fickpvr = document.getElementById("results_fickpvr");
+    resultsElement_fickpvr.innerHTML = `Fick PVR: ${fickpvr}`;
 }
 
 function thermpower() {
@@ -81,27 +111,15 @@ function thermpower() {
     const therm_ci = parseFloat(document.getElementById("therm_ci").value) / 100; // Convert cm to meters
     const resultsElement_thermpower = document.getElementById("results_thermpower");
     const therm_cpo = (map*therm_co)/451;
-    resultsElement_thermpower.innerHTML = `Thermodilution CO/CI/CPO:${therm_co}/${therm_ci}/${therm_cpo}`;
+    resultsElement_thermpower.innerHTML = `Thermodilution CO/CI/CPO: ${therm_co}/${therm_ci}/${therm_cpo}`;
 }
-function ficksvr() {
-    const cvp = parseFloat(document.getElementById("cvp").value);
-    const ficksvr = (map - cvp)*80/co;
-    const resultsElement_ficksvr = document.getElementById("results_ficksvr");
-    resultsElement_ficksvr.innerHTML = `Fick SVR:${ficksvr}`;
-}
-function fickpvr() {
-    const mPAP = parseFloat(document.getElementById("mPAP").value);
-    const pcwp = parseFloat(document.getElementById("pcwp").value);
-    const fickpvr = (mPAP - pcwp) / co;
-    const resultsElement_fickpvr = document.getElementById("results_fickpvr");
-    resultsElement_fickpvr.innerHTML = `Fick PVR:${fickpvr}`;
-}
+
 function papi() {
     const sPA = parseFloat(document.getElementById("sPA").value);
     const dPA = parseFloat(document.getElementById("dPA").value);
     const therm_cpo = (sPA-dPA)/cvp;
     const resultsElement_papi = document.getElementById("results_papi");
-    resultsElement_papi.innerHTML = `PAPI:${papi}`;
+    resultsElement_papi.innerHTML = `PAPI: ${papi}`;
 }
 
 </script>
