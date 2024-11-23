@@ -8,7 +8,15 @@ template: calc.html
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const calculateButton = document.getElementById("btn");
-    calculateButton.addEventListener("click", calculateBMI, calculateMAP, fickoutput, thermpower, ficksvr, fickpvr, papi);
+    calculateButton.addEventListener("click", () => {
+        calculateBMI();
+        calculateMAP();
+        fickoutput();
+        thermpower();
+        ficksvr();
+        fickpvr();
+        papi();
+    });
     });
 
 function calculateBMI() {
@@ -67,6 +75,7 @@ function fickoutput() {
     const cpoFixed = cpo.toFixed(2);
     resultsElement_fickoutput.innerHTML = `Fick CO/CI/CPO:${coFixed}/${ciFixed}/${cpoFixed}`;
 }
+
 function thermpower() {
     const therm_co = parseFloat(document.getElementById("therm_co").value);
     const therm_ci = parseFloat(document.getElementById("therm_ci").value) / 100; // Convert cm to meters
@@ -74,20 +83,20 @@ function thermpower() {
     const therm_cpo = (map*therm_co)/451;
     resultsElement_thermpower.innerHTML = `Thermodilution CO/CI/CPO:${therm_co}/${therm_ci}/${therm_cpo}`;
 }
-function ficksvr () {
+function ficksvr() {
     const cvp = parseFloat(document.getElementById("cvp").value);
     const ficksvr = (map - cvp)*80/co;
     const resultsElement_ficksvr = document.getElementById("results_ficksvr");
-    resultsElement_ficksvr.innerHTML = `SVR:${ficksvr}`;
+    resultsElement_ficksvr.innerHTML = `Fick SVR:${ficksvr}`;
 }
-function fickpvr () {
+function fickpvr() {
     const mPAP = parseFloat(document.getElementById("mPAP").value);
     const pcwp = parseFloat(document.getElementById("pcwp").value);
     const fickpvr = (mPAP - pcwp) / co;
     const resultsElement_fickpvr = document.getElementById("results_fickpvr");
-    resultsElement_fickpvr.innerHTML = `PVR:${fickpvr}`;
+    resultsElement_fickpvr.innerHTML = `Fick PVR:${fickpvr}`;
 }
-function papi () {
+function papi() {
     const sPA = parseFloat(document.getElementById("sPA").value);
     const dPA = parseFloat(document.getElementById("dPA").value);
     const therm_cpo = (sPA-dPA)/cvp;
