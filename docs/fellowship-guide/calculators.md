@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ficksvr();
         fickpvr();
         papi();
-    });
+        });
     });
 
 function calculateBMI() {
@@ -56,16 +56,16 @@ function calculateMAP() {
         resultsElement_bmi.innerHTML = "Please enter valid positive numbers for sbp and dbp.";
         return;
     }
-    let measure_map = mapFixed;
-    if (mapFixed < 65) {
-        measure_map.style.color = "blue";
+    //let measure_map = mapFixed;
+    //if (mapFixed < 65) {
+        //measure_map.style.color = "blue";
     // } else if (bmi <= 24.9) {
         // measure = "Normal";
     // } else if (bmi <= 29.9) {
         // measure = "Overweight";
-    } else {
-        measure_map.style.color = "black";
-    }
+    //} else {
+        //measure_map.style.color = "black";
+    //}
      // which means you are ${measure}.
     resultsElement_map.innerHTML = `MAP: ${mapFixed}`;
 }
