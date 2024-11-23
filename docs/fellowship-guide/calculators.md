@@ -8,8 +8,8 @@ template: calc.html
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const calculateButton = document.getElementById("btn");
-    calculateButton.addEventListener("click", calculateBMI, map, fickoutput, thermpower, ficksvr, fickpvr, papi);
-});
+    calculateButton.addEventListener("click", calculateBMI, calculateMAP, fickoutput, thermpower, ficksvr, fickpvr, papi);
+    });
 
 function calculateBMI() {
     const weight = parseFloat(document.getElementById("weight").value);
@@ -24,27 +24,29 @@ function calculateBMI() {
     const bmiFixed = bmi.toFixed(1);
     const bsa = ((weight * height)/3600)^0.5;
     const bsaFixed = bsa.toFixed(1);
-    let measure;
-    if (bmi <= 18.4) {
-        measure = "Underweight";
-    } else if (bmi <= 24.9) {
-        measure = "Normal";
-    } else if (bmi <= 29.9) {
-        measure = "Overweight";
-    } else {
-        measure = "Obese";
-    }
-    resultsElement_bmi.innerHTML = `BMI:${bmiFixed}, BSA:${bsaFixed}, which means you are ${measure}.`;
+    // let measure;
+    // if (bmi <= 18.4) {
+        // measure = "Underweight";
+    // } else if (bmi <= 24.9) {
+        // measure = "Normal";
+    // } else if (bmi <= 29.9) {
+        // measure = "Overweight";
+    // } else {
+        // measure = "Obese";
+    // }
+     // which means you are ${measure}.
+    resultsElement_bmi.innerHTML = `BMI:${bmiFixed}, BSA:${bsaFixed}`;
 }
 
-function map() {
+function calculateMAP() {
     const sbp = parseFloat(document.getElementById("sbp").value);
     const dbp = parseFloat(document.getElementById("dbp").value);
     const resultsElement_map = document.getElementById("results_map");
     const map = (sbp / 3) + ((dbp * 2) / 3);
-    const mapFixed = map.toFixed(0);
+    const mapFixed = map.toFixed(1);
     resultsElement_map.innerHTML = `MAP:${mapFixed}`;
 }
+
 function fickoutput() {
     const age = parseFloat(document.getElementById("age").value);
     const hgb = parseFloat(document.getElementById("hgb").value);
