@@ -17,77 +17,80 @@
     			<form>
     				<div id="weightInput">
     					<p>Weight (kg)</p>
-    		     		<input id="weight" type="number" pattern="[0-9]*" name="a" />
+    		     		<input id="weight" type="number" name="a" />
     				</div>
     				<div id="heightInput">
     					<p>Height (cm)</p>
-	    				 <input id="height" type="number" pattern="[0-9]*" name="b"/> 
+	    				 <input id="height" type="number" name="b"/> 
     				</div>
     				<div id="ageInput">
     					<p>Age</p>
-	    				 <input id="age" type="number" pattern="[0-9]*" name="c"/> 
+	    				 <input id="age" type="number" name="c"/> 
     				</div>
     				<div id="sbpInput">
     					<p>SBP (mmHg)</p>
-	    				 <input id="sbp" type="number" pattern="[0-9]*" name="d"/> 
+	    				 <input id="sbp" type="number" name="d"/> 
     				</div>
     				<div id="dbpInput">
     					<p>DBP (mmHg)</p>
-	    				 <input id="dbp" type="number" pattern="[0-9]*" name="e"/> 
+	    				 <input id="dbp" type="number" name="e"/> 
     				</div>
                     <div id="hrInput">
     					<p>Heart Rate</p>
-	    				 <input id="hr" type="number" pattern="[0-9]*" name="o"/> 
+	    				 <input id="hr" type="number" name="o"/> 
     				</div>
                     <div id="sao2Input">
-    					<p>SaO2</p>
-	    				 <input id="sao2" type="number" pattern="[0-9]*" name="f"/> 
+    					<p>SaO2 (As measured on ABG)</p>
+	    				 <input id="sao2" type="number" name="f"/> 
+    				</div>
+    				<div id="svo2Input">
+    					<p>SvO2 (Mixed Venous from PA Catheter)</p>
+	    				 <input id="svo2" type="number" name="g"/> 
     				</div>
                     <div id="hgbInput">
     					<p>Hemoglobin</p>
-	    				 <input id="hgb" type="number" pattern="[0-9]*" name="o"/> 
-    				</div>
-    				<div id="svo2Input">
-    					<p>SvO2</p>
-	    				 <input id="svo2" type="number" pattern="[0-9]*" name="g"/> 
+	    				 <input id="hgb" type="number" name="o"/> 
     				</div>
     				<div id="therm_coInput">
-    					<p>Thermo CO</p>
-	    				 <input id="therm_co" type="number" pattern="[0-9]*" name="i"/> 
+    					<p>Thermodilution CO</p>
+	    				 <input id="therm_co" type="number" name="i"/> 
     				</div>
     				<div id="therm_ciInput">
-    					<p>Thermo CI</p>
-	    				 <input id="therm_ci" type="number" pattern="[0-9]*" name="j"/> 
+    					<p>Thermodilution CI</p>
+	    				 <input id="therm_ci" type="number" name="j"/> 
     				</div>
-    				<div id="sPAInput">
+                    <div id="therm_svrInput">
+    					<p>Thermodilution SVR</p>
+	    				 <input id="therm_svr" type="number" name="p"/> 
+    				</div>
+    				<div id="sPAPInput">
     					<p>sPAP</p>
-	    				 <input id="sPA" type="number" pattern="[0-9]*" name="k"/> 
+	    				 <input id="sPA" type="number" name="k"/> 
     				</div>
-    				<div id="dPAsvo2Input">
+    				<div id="dPAPInput">
     					<p>dPAP</p>
-	    				 <input id="dPA" type="number" pattern="[0-9]*" name="l"/> 
+	    				 <input id="dPA" type="number" name="l"/> 
     				</div>
     				<div id="mPAPInput">
     					<p>mPAP</p>
-	    				 <input id="mPAP" type="number" pattern="[0-9]*" name="m"/> 
+	    				 <input id="mPAP" type="number" name="m"/> 
     				</div>
                     <div id="cvpInput">
     					<p>CVP</p>
-	    				 <input id="cvp" type="number" pattern="[0-9]*" name="h"/> 
+	    				 <input id="cvp" type="number" name="h"/> 
     				</div>
     				<div id="pcwpInput">
     					<p>PCWP</p>
-	    				 <input id="pcwp" type="number" pattern="[0-9]*" name="n"/> 
+	    				 <input id="pcwp" type="number" name="n"/> 
     				</div>
     		     <button type="button" class= "md-button" id= "btn" onclick="calculateButton()">Calculate</button>
     		</form>
-    		<div id="results_bmi" class="text-center">BMI/BSA: results will appear here</div>
-            <div id="results_map" class="text-center">MAP: results will appear here</div>
-            <div id="results_fickoutput" class="text-center">Fick CO/CI/CPO: results will appear here</div>
-            <div id="results_thermpower" class="text-center">Thermodilution CO/CI/CPO: results will appear here</div>
-            <div id="results_ficksvr" class="text-center">Fick SVR: results will appear here</div>
-    		<div id="results_fickpvr" class="text-center">Fick PVR: results will appear here</div>
-            <div id="results_papi" class="text-center">PAPI: results will appear here</div>
+    		<div id="results_bmi" class="text-center">- BMI/BSA: results will appear here</div>
+            <div id="results_map" class="text-center">- MAP: results will appear here</div>
+            <div id="results_fickoutput" class="text-center">- Fick CO/CI/CPO/SV/SVR: results will appear here</div>
+            <div id="results_thermpower" class="text-center">- Thermodilution CO/CI/CPO/SV/SVR: results will appear here</div>
+            <div id="results_papi" class="text-center">- CVP/PAPI: results will appear here</div>
+            <div id="results_fickpvr" class="text-center">- Fick PVR/Thermodilution PVR: results will appear here</div>
     	</div>
     </div>
   {{ super() }}
