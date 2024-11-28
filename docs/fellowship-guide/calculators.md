@@ -5,9 +5,13 @@ date: 2024-09-21
 template: calc.html
 ---
 
+## BMI/CPO/SVR/PVR/PAPI Calculators
+
+* Enter the below parameters for resulting outputs.
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const calculateButton = document.getElementById("btn");
+    var calculateButton = document.getElementById("btn");
     calculateButton.addEventListener("click", () => {
         calculateBMI();
         calculateMAP();
@@ -78,7 +82,7 @@ function fickoutput() {
   const svo2 = parseFloat(document.getElementById("svo2").value) / 100;
   const cvp = parseFloat(document.getElementById("cvp").value);
   const resultsElement_fickoutput = document.getElementById("results_fickoutput");
-  let co_age;
+  var co_age;
   if (age <= 70) {
     co_age = 125;
   }
@@ -134,5 +138,4 @@ function fickpvr() {
     const resultsElement_fickpvr = document.getElementById("results_fickpvr");
     resultsElement_fickpvr.innerHTML = `Fick PVR/Thermodilution PVR: ${fick_pvrFixed}/${therm_pvrFixed}`;
 }
-
 </script>
