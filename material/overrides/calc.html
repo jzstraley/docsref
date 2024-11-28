@@ -4,9 +4,10 @@
 {% extends "main.html" %}
 {% block styles %}
 {{ super()}}
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/calculators.c577d988.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/calculators.9e42aa7a.min.css' | url }}">
 {% endblock %}
 {% block content %}
+  {{ super() }}
 <div class="calc">
     <div class="main_column">
         <div class="container">
@@ -14,7 +15,7 @@
                 <form>
                     <div class="side-by-side-container">
                         <div>
-                            <h2>BMI Calculator<h2>
+                            <h2 class="calc_header">BMI Calculator</h2>
                             <div class="calc_input-wrapper">
                                 <div class="calc_side-by-side">
                                     <div class="calc_input-name-label">
@@ -48,34 +49,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="calc_input-wrapper">
-                            <div class="calc_side-by-side">
-                                <div class="calc_input-name-label">
-                                    <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
-                                    <p style="margin:0">Age</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="calc_input-value-wrapper">
-                                        <input class="calc_input-value-label" id="age" type="text" name="c" placeholder="18-79">
-                                    <div class="calc_input-value-label-unit">years
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div>
-                            <h2>MAP Calculator<h2>
+                            <h2 class="calc_header">MAP Calculator</h2>
                             <div class="calc_input-wrapper">
                                 <div class="calc_side-by-side">
                                     <div class="calc_input-name-label">
                                         <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
-                                        <p style="margin:0">SBP</p>
+                                            <p style="margin:0">SBP</p>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="calc_input-value-wrapper">
-                                            <input class="calc_input-value-label" id="sbp" type="text" name="d" placeholder="Normal: 100-120">
+                                            <input class="calc_input-value-label" id="sbp" type="text" name="c" placeholder="Normal: 100-120">
                                         <div class="calc_input-value-label-unit">mm Hg
                                         </div>
                                         </div>
@@ -91,7 +76,7 @@
                                     </div>
                                     <div>
                                         <div class="calc_input-value-wrapper">
-                                            <input class="calc_input-value-label" id="dpp" type="text" name="e" placeholder="Normal: 60-80">
+                                            <input class="calc_input-value-label" id="dbp" type="text" name="d" placeholder="Normal: 60-80">
                                         <div class="calc_input-value-label-unit">mm Hg
                                         </div>
                                         </div>
@@ -99,49 +84,221 @@
                                 </div>
                             </div>
                         </div>
-                            <div id="hrInput">
-                                <p>Heart Rate</p>
-                                <input id="hr" type="number" name="o"> 
+                        <div>
+                            <h2 class="calc_header">Cardiac Output (Fick's Formula)</h2>
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Age</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="age" type="text" name="e" placeholder="18-79">
+                                        <div class="calc_input-value-label-unit">years
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="sao2Input">
-                                <p>SaO2 (As measured on ABG)</p>
-                                <input id="sao2" type="number" name="f"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Heart Rate</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="hr" type="text" name="f" placeholder="Normal: 60-100">
+                                        <div class="calc_input-value-label-unit">bpm
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="svo2Input">
-                                <p>SvO2 (Mixed Venous from PA Catheter)</p>
-                                <input id="svo2" type="number" name="g"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">SaO2 (As measured on ABG)</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="sao2" type="text" name="g" placeholder="Normal: 95-100">
+                                        <div class="calc_input-value-label-unit">%
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="hgbInput">
-                                <p>Hemoglobin</p>
-                                <input id="hgb" type="number" name="o"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">SvO2 (Mixed Venous from PA Catheter)</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="svo2" type="text" name="h" placeholder="Normal: 65-80">
+                                        <div class="calc_input-value-label-unit">%
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="therm_coInput">
-                                <p>Thermodilution CO</p>
-                                <input id="therm_co" type="number" name="i"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Hemoglobin</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="hgb" type="text" name="i" placeholder="Normal: 12-17">
+                                        <div class="calc_input-value-label-unit">g/dL
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="therm_ciInput">
-                                <p>Thermodilution CI</p>
-                                <input id="therm_ci" type="number" name="j"> 
+                        </div>
+                        <div>
+                            <h2 class="calc_header">Cardiac Power (CPO) - Thermodilution</h2>
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Thermodilution CO</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="therm_co" type="text" name="j" placeholder="Normal: 4-8">
+                                        <div class="calc_input-value-label-unit">L/min
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="therm_svrInput">
-                                <p>Thermodilution SVR</p>
-                                <input id="therm_svr" type="number" name="p"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Thermodilution CI</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="therm_ci" type="text" name="k" placeholder="Normal: 2.5-4">
+                                        <div class="calc_input-value-label-unit">L/min/m^2
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="sPAPInput">
-                                <p>sPAP</p>
-                                <input id="sPA" type="number" name="k"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Thermodilution SVR</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="therm_svr" type="text" name="k" placeholder="Normal: 800-1200">
+                                        <div class="calc_input-value-label-unit">dynes*sec/cm^5
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="dPAPInput">
-                                <p>dPAP</p>
-                                <input id="dPA" type="number" name="l"> 
+                        </div>
+                        <div>
+                            <h2 class="calc_header">PAPI Calculator</h2>
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">sPAP</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="sPA" type="text" name="k" placeholder="Normal: 15-30">
+                                        <div class="calc_input-value-label-unit">mm Hg
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="mPAPInput">
-                                <p>mPAP</p>
-                                <input id="mPAP" type="number" name="m"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">dPAP</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="dPA" type="text" name="k" placeholder="Normal: 4-12">
+                                        <div class="calc_input-value-label-unit">mm Hg
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="cvpInput">
-                                <p>CVP</p>
-                                <input id="cvp" type="number" name="h"> 
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">mPAP</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="mPAP" type="text" name="k" placeholder="Normal: 8-20">
+                                        <div class="calc_input-value-label-unit">mm Hg
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">Central Venous Pressure (CVP)</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="cvp" type="text" name="k" placeholder="Normal: 2-6">
+                                        <div class="calc_input-value-label-unit">mm Hg
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc_input-wrapper">
+                                <div class="calc_side-by-side">
+                                    <div class="calc_input-name-label">
+                                        <div style="font-family:Facit,Calibri,Helvetica,sans-serif!important;box-sizing:border-box">
+                                        <p style="margin:0">PCWP or PAWP</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="calc_input-value-wrapper">
+                                            <input class="calc_input-value-label" id="cvp" type="text" name="k" placeholder="Normal: <16">
+                                        <div class="calc_input-value-label-unit">mm Hg
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div id="pcwpInput">
                                 <p>PCWP</p>
@@ -162,7 +319,6 @@
         </div>
     </div>
 </div>
-  {{ super() }}
 {% endblock %}
 {% block script %}
 {{ super() }}

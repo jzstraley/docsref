@@ -8,6 +8,10 @@ template: calc.html
 ## BMI/CPO/SVR/PVR/PAPI Calculators
 
 * Enter the below parameters for resulting outputs.
+* References
+    * [PA Catheter Normative Data][1]
+
+[1]: https://emcrit.org/ibcc/pah/
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -19,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         thermpower();
         fickpvr();
         papi();
+        calculatemPAP();
         });
     });
 
@@ -126,10 +131,18 @@ function papi() {
     resultsElement_papi.innerHTML = `CVP/PAPI: ${cvp}/${papiFixed}`;
 }
 
+function calculatemPAP() {
+    const sPA = parseFloat(document.getElementById("sPA").value);
+    const dPA = parseFloat(document.getElementById("dPA").value);
+    const mPAP = (sPA / 3) + ((dPA * 2) / 3);
+    const mPAPFixed = mPAP.toFixed(1);
+    return mPAP;
+}
+
 function fickpvr() {
     var coFixed = fickoutput();
+    var mPAP = calculatemPAP();
     const therm_co = parseFloat(document.getElementById("therm_co").value);
-    const mPAP = parseFloat(document.getElementById("mPAP").value);
     const pcwp = parseFloat(document.getElementById("pcwp").value);
     const fick_pvr = (mPAP - pcwp) / coFixed;
     const therm_pvr = (mPAP - pcwp) / therm_co;

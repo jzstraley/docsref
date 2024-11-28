@@ -17,7 +17,6 @@ p {
 }
 .calc {
     position: relative;
-    margin: 2rem auto 20px;
     padding: 0 5px;
     max-width: 960px;
     display: flex;
@@ -31,13 +30,12 @@ p {
 .container{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #fff;
     padding: 20px 0;
     border-radius: 2px;
     margin: 11px 0;
 }
 .panel{
-    border-top: 1px solid #d7d7d7;
+    background-color: var(--md-typeset-color);
 }
 .side-by-side-container{
     -webkit-font-smoothing: antialiased;
@@ -66,11 +64,25 @@ p {
     grid-gap: 0;
     gap: 0;
 }
+
+.calc_header {
+    font-feature-settings: "kern", "liga";
+    color: var(--md-code-hl-color);
+    font-family: var(--md-text-font-family);
+}
+
 .calc_input-name-label{
+    color: var(--md-typeset-color);
     padding-top: 6px;
     padding-bottom: 0;
     padding-right: 10px;
     border: none;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex: 1 1 auto;
+    width: 40%;
+    padding: 8px 0 0;
+    width: 100%;
 }
 .calc_input-value-wrapper{
     display: flex;
