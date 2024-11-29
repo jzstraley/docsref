@@ -10,7 +10,7 @@ tags:
     - Shock
 ---
 
-## [Cardiogenic Shock][5]
+## [Definition][5]
 
 ```
 1. Persistent hypotension 
@@ -80,6 +80,8 @@ tags:
 - [Shock Centers][7]
 
 ![Courtesy of SCAI](/assets/images/fellowship-guide/cards/cicu/scai_cardiogenic_shock.jpeg)
+
+## Related Dotphrases
 
 ## Further Reading
 
