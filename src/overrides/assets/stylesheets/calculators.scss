@@ -35,7 +35,7 @@ p {
     margin: 11px 0;
 }
 .panel{
-    background-color: var(--md-typeset-color);
+    background-color: var(--md-default-fg-color--light);
 }
 .side-by-side-container{
     -webkit-font-smoothing: antialiased;
@@ -77,9 +77,8 @@ p {
     padding-bottom: 0;
     padding-right: 10px;
     border: none;
-    flex-basis: 100%;
-    flex-grow: 0;
-    flex: 1 1 auto;
+}
+.calc_input-div{
     width: 40%;
     padding: 8px 0 0;
     width: 100%;
@@ -117,7 +116,7 @@ p {
     border: 1px solid #d7d7d7;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
     box-shadow: none;
 }
