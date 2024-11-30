@@ -80,21 +80,17 @@ p {
     flex-basis: 100%;
     flex-grow: 0;
     flex: 1 1 auto;
-    width: 40%;
     padding: 8px 0 0;
     width: 100%;
+    display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 .calc_input-div{
-    width: 40%;
     padding: 8px 0 0;
-    width: 100%;
     flex-basis: 100%;
     flex-grow: 0;
     flex: 1 1 auto;
-    width: 40%;
-    padding: 8px 0 0;
     width: 100%;
 }
 .calc_input-value-wrapper{
@@ -134,4 +130,7 @@ p {
     font-size: 13px;
     font-weight: 400;
     box-shadow: none;
+}
+.results{
+    color: var(--md-primary-bg-color)
 }
