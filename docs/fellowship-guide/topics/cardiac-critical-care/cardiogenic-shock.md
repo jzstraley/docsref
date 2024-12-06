@@ -18,7 +18,11 @@ tags:
 2. Cardiac Index <1.8 L/min/m^2 w/o support 
     - (<2.2 L/min/m^2 with support)
 3. Adequate or elevated filling pressure 
-    - (LVEDP >18 mmHg, RVEDP >10 mmHg) 
+    - (LVEDP >18 mmHg, RVEDP >10 mmHg)
+    - PCWP >15
+    - RAP/PCWP ≥0.8
+    - CPO ≤0.6
+    - PAP <1.85
 ```
 
 ## Etiology
@@ -56,6 +60,19 @@ tags:
 
 - [Management of Cardiogenic Shock][3]
 - [Contemporary Management][6]
+- Determine Shock Profile
+    - Biventricular
+        - RA > 15, PCWP > 15-18, PAPi ≤ 0.9
+        - VA-ECMO +/- LV decompression
+        - TandemHeart-LVAD with TandemHeart-RVAD +/- ProtekDuo (+/- Oxygenator)
+        - Bipella
+    - LV
+        - RA < 15, PCWP > 15-18, PAPi > 0.9, RA/PCWP < 0.63
+        - Impella
+        - TandemHeart-LVAD
+        - Central Temporary LVAD
+    - RV
+        - RA > 15, PCWP < 15-18, PAPi ≤ 0.9, RA/PCWP > 0.63
 - Figure out etiology
     - Valve related
     - Ischemic

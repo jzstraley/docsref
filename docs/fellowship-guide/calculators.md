@@ -5,7 +5,7 @@ date: 2024-09-21
 template: calc.html
 ---
 
-## BMI/CPO/SVR/PVR/PAPI Calculators
+## Calculators
 
 * Enter the below parameters for resulting outputs.
 * References
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 function calculateBMI() {
-  const weight = parseFloat(document.getElementById("weight").value);
   const height = parseFloat(document.getElementById("height").value);
+  const weight = parseFloat(document.getElementById("weight").value);
   const resultsElement_bmi = document.getElementById("results_bmi");
   const adj_height = (height / 100) ** 2;
   const bmi = weight / adj_height;
