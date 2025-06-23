@@ -11,16 +11,19 @@ date: 2022-11-14
 
 ## General
 
-- Here’s my general advice for doing well in Internal Medicine (IM): pick a study resource and stick with it consistently. During intern year, most residents take STEP 3 or COMLEX Level 3, so your initial goal should simply be to pass the exam. I took STEP 3 in October of my intern year. My study approach was limited to using Anki and UWorld, and I did just fine despite only studying for 2–3 weeks and not even finishing the full UWorld question bank.
-    - Recommended decks:
-        - [HOOP's STEP III Anki Deck][27]
-        - [WiWa Deck][26]
-        - COMLEX Additional Deck (Trust me): [TurnUp2Law&Ethics][28]
-- After completing the exam, give yourself a month or two to focus on adjusting to intern life—that alone can be a tough transition.
-- By December of intern year, I realized I wasn’t learning some of the high-yield points my peers were picking up from rounds or didactics. So, I bought MKSAP independently and committed to doing 10 questions per week consistently. Occasionally, I would add an extra block related to topics I encountered that week on the wards.
-- I also made a habit of selecting questions relevant to my patients. I would think critically about why certain MKSAP-recommended approaches weren’t followed in real life, and then discuss those differences with attendings and co-residents. This helped me distinguish testable knowledge from real-world clinical decision-making.
-- Toward the end of intern year, I started to get burned out on MKSAP, so I switched to the MKSAP Anki decks to reinforce what I had already learned. Throughout my second year, I completed about 50% of the ABIM and MKSAP decks. I moved slowly and focused on truly understanding the material, often looking up one concept per day based on my clinical experiences. I mainly used the decks as a reference tool to support patient care.
-
+- My general recommendation to excel in IM is to pick a resource and consistently study. Since most of us take STEP 3/COMLEX 3 during intern year, your initial goal should to just study to pass. I took my exam in October of my intern year and all I used for this was Anki and UWorld and did fine with not even completing UWorld and only studying 2-3 weeks
+    - [HOOP's STEP III Anki Deck][27]
+    - [WiWa Deck][26]
+    - COMLEX Additional Deck (Trust me): [TurnUp2Law&Ethics][28]
+- After your done with Level 3, give yourself a month or 3 to chill and try to catch up on how to be a good intern (which can be hard)
+- Around December of my intern year I purchased MKSAP individually because I felt I wasn't learning the key points on rounds/during lecture that my peers were
+- After buying MKSAP I would do blocks of 10 questions per week CONSISTENTLY and every once in awhile do an extra block or so on topics I had learned that week in the hospital
+    - I tried to pick questions that related to my patients and understand why attendings/residents don't do what MKSAP recommended and tried to talk to my attendings/peers about these differences to reenforce my learning. I felt this really helped my learn what was important, what was testable, and what was more clinical practice
+- By the end of intern year, I was getting bored with MKSAP so I started doing the MKSAP ANKI which helped solidify the information I had already learned and retain what I could. I'd say I did about 50% of the ABIM and MKSAP decks during ALL of second year. Went very slow and tried to look up a concept a day (related to patient care), mainly using them for reference
+    - [Anki ABIM Decks Link][29]
+        - [ABIM Deck][30]
+        - [MKSAP Deck][31]
+    - [EKG Deck][32]
 
 ## Other Resources
 
