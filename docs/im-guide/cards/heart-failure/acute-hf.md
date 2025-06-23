@@ -150,9 +150,9 @@ tags:
 [12]: https://pubmed.ncbi.nlm.nih.gov/21523383/{:target="_blank"}
 [13]: https://thoracickey.com/diagnostic-and-prognostic-biomarkers-in-emergency-department-heart-failure/
 [14]: https://pubmed.ncbi.nlm.nih.gov/31526538/{:target="_blank"}
-[15]: /im-guide/cards/heart-failure/acute-hf/acute-decompensated-hf
-[16]: /im-guide/cards/cardiac-critical-care/rv-failure
-[17]: /im-guide/cards/cardiac-critical-care/cardiogenic-shock
+[15]: /fellowship-guide/cards/heart-failure/acute-hf/acute-decompensated-hf
+[16]: /fellowship-guide/cards/cardiac-critical-care/rv-failure
+[17]: /fellowship-guide/cards/cardiac-critical-care/cardiogenic-shock
 [18]: https://www.nejm.org/doi/10.1056/NEJMoa2203094?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
 [19]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6222930/#jah33487-sec-0019title
 [20]: https://academic.oup.com/eurheartj/article/44/31/2966/7173307
