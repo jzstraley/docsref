@@ -71,16 +71,23 @@ social:
 
 ## Research Experience
 
+* CHEST Poster Presentation - Case Report
+    * CHEST 2024 | Boston, MA
+    * 1st Author/Presenter
+    * Case: A Massive Disturbance: Pituitary Apoplexy Causing Bradycardia
+    * CAMC Department of Cardiology
+    * PI: Dr. Vikhyath Terla, MD, Assistant Professor, Department of Pulmonology/Critical Care,
+    * October 09, 2024
 * CAMC Research Day Oral Presentation – Clinical Research/QI Abstract
     * 2024 CAMC Research Day | Roanoke, WV
-    * Co-Investigator
+    * 1st Author/Presenter
     * Case: Evaluating Resident and Patient Satisfaction by Creating a Polypharmacy Clinic in an Internal Medicine Residency Program
     * CAMC Department of Internal Medicine
     * PI: Amna Anees, MD, Program Director, Department of Internal Medicine
     * April 2024
 * WV ACP Poster – Clinical Research/QI Abstract
     * 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
-    * Co-Investigator
+    * Co-Investigator/Presenter
     * Case: Evaluating Resident and Patient Satisfaction by Creating a Polypharmacy Clinic in an Internal Medicine Residency Program
     * CAMC Department of Internal Medicine
     * PI: Amna Anees, MD, Program Director, Department of Internal Medicine
@@ -94,27 +101,27 @@ social:
     * November 11, 2023
 * WV ACP Oral Presentation - Thieves Market
     * 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
-    * 1st Author
+    * 1st Author/Presenter
     * Case: Drug-Induced ANCA-Associated Vasculitis
     * CAMC Department of Internal Medicine
     * November 10, 2023
 * WV ACP Oral Presentation - Case Report
     * 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
-    * 1st Author
+    * 1st Author/Presenter
     * Case: “My Neck, My Back, Antibodies on the Attack”: A case of Statin-Associated Immune-Mediated Necrotizing Myopathy
     * CAMC Department of Internal Medicine
     * PI: James R. Campbell II, MD, Interim Associate Vice President for Health Sciences, Charleston Campus and Interim Dean, WVU School of Medicine, Charleston Campus; Associate Professor & Department Chair, Department of Internal Medicine * Charleston Campus
     * November 10, 2023
 * WV ACC Poster – Case Report
     * WV ACC Annual Meeting – Waterfront Place | Morgantown, WV
-    * 1st Author
+    * 1st Author/Presenter
     * Case: Pericarditis associated with a Pericardial Cyst
     * CAMC Department of Internal Medicine
     * PI: Dr. David D. Francke, MD, Cardiology, Department of Cardiology
     * August 26, 2023
 * WV ACC Poster – Case Report
     * WV ACC Annual Meeting – Waterfront Place | Morgantown, WV
-    * 1st Author
+    * 1st Author/Presenter
     * Case: Oh My! Mycoplasma Pneumoniae Myocarditis
     * CAMC Department of Internal Medicine
     * PI: Dr. Sarah J. Rinehart, MD, Program Director, Department of Cardiology
@@ -229,6 +236,9 @@ social:
 
 ## Honors and Awards
 
+* Outpatient Resident of the Year
+    * Charleston Area Medical Center | Charleston, WV
+    * 06/15/2024
 * 1st Place Clinical Research/QI Resident Abstract Poster Competition
     * 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
     * 11/11/2023

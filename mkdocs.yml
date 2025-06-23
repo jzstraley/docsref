@@ -3,7 +3,7 @@ site_name: DocsRef
 site_url: https://docsref.com
 site_author: Austin
 site_description: >-
-  DocsRef aka "Doctor's Reference" is your comprehensive online resource for all things medical. Whether you're a seasoned healthcare professional, in residency, or a curious medical student, we've got you covered. This platform offers access to a vast array of reliable and up-to-date medical information, making it easier than ever to stay informed.
+  Built in an effort to have a personal, accessible online reference.
 
 # Repository
 repo_name: jzstraley/docsref
@@ -72,7 +72,7 @@ theme:
 # Plugins
 plugins:
   - blog:
-      blog_dir: resources/blog/
+      blog_dir: resident-guide/blog/
       post_date_format: short
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
@@ -172,61 +172,32 @@ nav:
   - IM Guide:
     - im-guide/index.md
     - Cardiology:
-      - Cardiac Critical Care: 
-        - Cardiogenic Shock: im-guide/cards/cardiac-critical-care/cardiogenic-shock.md
-        - LV Failure: im-guide/cards/cardiac-critical-care/lv-failure.md
-        - RV Failure: im-guide/cards/cardiac-critical-care/rv-failure.md
+      - im-guide/cards/index.md
       - Chest Pain: im-guide/cards/chest-pain.md
-      - Echo: 
-        - Aortic Valve: im-guide/cards/echo/aorticvalve.md
-        - Indications: im-guide/cards/echo/indications.md
-        - Left Atrium: im-guide/cards/echo/leftatrium.md
-        - Resources: im-guide/cards/echo/resources.md
-      - EKG: im-guide/cards/ekg.md
-      - Electrophysiology: 
-        - Atrial Fibrillation: im-guide/cards/ep/atrial-fibrillation.md
-        - Cardioversion: im-guide/cards/ep/cardioversion.md
-        - CIEDs: im-guide/cards/ep/cieds.md
-        - Conduction: im-guide/cards/ep/conduction.md
-        - Emergencies: im-guide/cards/ep/emergencies.md
-        - QTc Disorders: im-guide/cards/ep/qtc.md
-        - Sinus Nodal Arrhythmias: im-guide/cards/ep/sinus_node.md
-        - SVT: im-guide/cards/ep/svt.md
-        - Ventricular Arrhythmias: im-guide/cards/ep/vt_vf.md
+      - Coronary Artery Disease (CAD): 
+        - im-guide/cards/cad/index.md
+        - Stable Ischemic Disease: im-guide/cards/cad/stable-ischemic-disease.md
+        - ACS: im-guide/cards/cad/acs.md
+      - Congenital Heart Disease: im-guide/cards/congenital-heart-disease.md
       - Heart Failure: 
-        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf.md
         - Basics of Heart Failure: im-guide/cards/heart-failure/basics-hf.md
+        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf.md
         - Chronic Heart Failure: im-guide/cards/heart-failure/chronic-hf.md
       - Hypertension: im-guide/cards/hypertension.md
-      - Ischemic Heart Disease:
-        - ACS: im-guide/cards/ihd/acs.md
-        - Invasive Cardiology: im-guide/cards/ihd/invasive-cardiology.md
-        - Nuclear Cardiology: im-guide/cards/ihd/nuclear-cardiology.md
-        - Stable Ischemic Disease: im-guide/cards/ihd/stable-ischemic-disease.md
-        - Stress Testing: im-guide/cards/ihd/stress-testing.md
       - Non-Ischemic Cardiomyopathies:
         - Hypertrophic Cardiomyopathy: im-guide/cards/nicm/hcm.md
         - Restrictive Cardiomyopathy: im-guide/cards/nicm/rcm.md
         - Dilated Cardiomyopathy: im-guide/cards/nicm/dcm.md
         - Other Cardiomyopathies: im-guide/cards/nicm/other.md
-      - Other Topics: 
-        - Congenital Heart Disease: im-guide/cards/other-topics/congenital-heart-disease.md
-        - Consults: im-guide/cards/other-topics/consults.md
-        - Imaging: im-guide/cards/other-topics/imaging.md
-        - Palpitations: im-guide/cards/other-topics/palpitations.md
-        - Pericardial Disease: im-guide/cards/other-topics/pericardial-disease.md
-        - Syncope: im-guide/cards/other-topics/syncope.md
-        - Vascular Disease: 
-          - im-guide/cards/other-topics/vascular-disease/index.md
-      - Pharmacology: 
-        - Antianginals: im-guide/cards/cardiac-pharm/antianginals.md
-        - Antiarrhythmics: im-guide/cards/cardiac-pharm/antiarrhythmics.md
-        - Antihypertensives: im-guide/cards/cardiac-pharm/antihypertensives.md
-        - Lipid Therapy: im-guide/cards/cardiac-pharm/lipidtherapy.md
+      - Palpitations: im-guide/cards/palpitations.md
+      - Pericardial Disease: im-guide/cards/pericardial-disease.md
+      - Syncope: im-guide/cards/syncope.md
       - Valvular Heart Disease: 
         - im-guide/cards/vhd/index.md
         - Aortic Stenosis: im-guide/cards/vhd/as.md
         - Mitral Regurgitation: im-guide/cards/vhd/mr.md
+      - Vascular Disease: 
+        - im-guide/cards/vascular-disease/index.md
     - Dermatology: 
       - im-guide/derm/index.md
     - Endocrinology: 
@@ -242,50 +213,9 @@ nav:
       - im-guide/heme-onc/index.md
     - Infectious Disease: 
       - im-guide/id/index.md
-    - Neurology: 
-      - CNS Disease:
-        - Cortex: 
-          - Dementia: 
-            - im-guide/neuro/cns-disease/cortex/dementia/index.md
-            - Cortical Dementia: im-guide/neuro/cns-disease/cortex/dementia/cortical.md
-            - Mixed Dementia: im-guide/neuro/cns-disease/cortex/dementia/mixed.md
-          - Altered Mental Status (AMS): im-guide/neuro/cns-disease/cortex/ams.md
-          - Coma: im-guide/neuro/cns-disease/cortex/coma.md
-          - Seizure Disorders: im-guide/neuro/cns-disease/cortex/seizures.md
-        - Subcortex: 
-          - im-guide/neuro/cns-disease/subcortex/index.md
-        - Ventricles/CSF: 
-          - Headaches: im-guide/neuro/cns-disease/ventricles-csf/headaches.md
-        - Global:
-          - Trauma: im-guide/neuro/cns-disease/global/trauma.md
-        - Miscellaneous:
-          - Vertigo:
-            - im-guide/neuro/cns-disease/miscellaneous/vertigo/index.md
-        - Neoplasms & Tumors: 
-          - im-guide/neuro/cns-disease/neoplasms-tumors/index.md
-        - Neurocutaneous Disease: 
-          - im-guide/neuro/cns-disease/neurocutaneous/index.md
-        - Treatment Modalities: 
-          - im-guide/neuro/cns-disease/treatment-modalities/index.md
+    - Neurology:
       - Consults: im-guide/neuro/consults.md
     - Nephrology: 
-      - Renal Anatomy: im-guide/nephro/renal-anatomy.md
-      - Renal Physiology: im-guide/nephro/renal-physiology.md
-      - Urinalysis: im-guide/nephro/urinalysis.md
-      - Electrolytes: 
-        - im-guide/nephro/electrolytes/index.md
-        - Hypernatremia: im-guide/nephro/electrolytes/hypernatremia.md
-        - Hyponatremia: im-guide/nephro/electrolytes/hyponatremia.md
-        - Hypomagnesemia: im-guide/nephro/electrolytes/hypomagnesemia.md
-        - Hyperkalemia: im-guide/nephro/electrolytes/hyperkalemia.md
-        - Hypokalemia: im-guide/nephro/electrolytes/hypokalemia.md
-        - Hypercalcemia: im-guide/nephro/electrolytes/hypercalcemia.md
-        - Hypocalcemia: im-guide/nephro/electrolytes/hypocalcemia.md
-        - Hyperphosphatemia: im-guide/nephro/electrolytes/hyperphosphatemia.md
-        - Hypophosphatemia: im-guide/nephro/electrolytes/hypophosphatemia.md
-        - Hypermagnesemia: im-guide/nephro/electrolytes/hypermagnesemia.md
-      - AKI: im-guide/nephro/aki.md
-      - CKD: im-guide/nephro/ckd.md
       - Consults: im-guide/nephro/consults.md
     - Pharmacology:
       - Autonomics: im-guide/pharm/autonomics.md
@@ -346,41 +276,89 @@ nav:
       - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
     - Rheumatology: 
       - im-guide/rheum/index.md
-    - Student/Intern Readings: im-guide/student-intern-readings.md
   - Resident Guide:
-    - Basics: resident-guide/1-basics.md
-    - Team Expectations: resident-guide/2-team-expectations.md
-    - Staying Organized: resident-guide/3-staying-organized.md
-    - How to Write an Admission Note: resident-guide/4-how-to-write-admit-note.md
-    - Transfers: resident-guide/5-transfers.md
-    - Discharge: resident-guide/6-discharge.md
-    - Patient Instructions: resident-guide/7-patient-instructions.md
-    - Common Inpatient Problems: resident-guide/8-common-inpt-problems.md
-    - Licensing: resident-guide/9-licensing.md
+    - resident-guide/index.md
+    - Basics: 
+      - Basics: resident-guide/basics/1-basics.md
+      - Team Expectations: resident-guide/basics/2-team-expectations.md
+      - How to Write an Admission Note: resident-guide/basics/4-how-to-write-admit-note.md
+      - Transfers: resident-guide/basics/5-transfers.md
+      - Discharge: resident-guide/basics/6-discharge.md
+      - Patient Instructions: resident-guide/basics/7-patient-instructions.md
+      - Common Inpatient Problems: resident-guide/basics/8-common-inpt-problems.md
+      - Licensing: resident-guide/basics/9-licensing.md
+    - Soft Skills:
+      - resident-guide/softskills/index.md
+      - Effective Feedback: resident-guide/softskills/effectivefeedback.md
+      - Utilizing Feedback: resident-guide/softskills/utilizingfeedback.md
+      - Upper Levelling 101: resident-guide/softskills/upperleveling101.md
+      - Residents as Teachers: resident-guide/softskills/residentsasteachers.md
+      - Feedback Templates: resident-guide/softskills/feedbacktemplates.md
+    - Efficiency:
+      - Staying Organized: resident-guide/efficiency/3-staying-organized.md
+      - Shortcuts: resident-guide/efficiency/shortcuts.md
+      - Important Websites: resident-guide/efficiency/important-websites.md
+      - Cerner: resident-guide/efficiency/cernerhelp.md
+      - Dotphrases: resident-guide/efficiency/dotphrases.md
+      - Searching Effectively Online: resident-guide/efficiency/how-to-search-more-effectively.md
+    - Interesting: resident-guide/interesting.md
+    - Blog: 
+      - resident-guide/blog/index.md
+      - Posts:
+        - Blog Support Just Landed: resident-guide/blog/posts/blog-support-just-landed.md
+    - Student/Intern Readings: resident-guide/student-intern-readings.md
   - Fellowship Guide:
     - fellowship-guide/index.md
+    - Topics:
+      - fellowship-guide/topics/index.md
+      - Cardiac Critical Care: 
+        - Cardiogenic Shock: fellowship-guide/topics/cardiac-critical-care/cardiogenic-shock.md
+        - Mechanical Support: fellowship-guide/topics/cardiac-critical-care/mechanical_support.md
+      - Cath:
+        - Invasive Cardiology: fellowship-guide/topics/cath/invasive-cardiology.md
+        - Interventional Cardiology: fellowship-guide/topics/cath/interventional-cardiology.md
+      - Consults: fellowship-guide/topics/consults.md
+      - Echo: 
+        - Aortic Valve: fellowship-guide/topics/echo/aorticvalve.md
+        - Indications: fellowship-guide/topics/echo/indications.md
+        - Left Atrium: fellowship-guide/topics/echo/leftatrium.md
+        - Resources: fellowship-guide/topics/echo/resources.md
+      - EKG: fellowship-guide/topics/ekg.md
+      - Electrophysiology: 
+        - Atrial Fibrillation: fellowship-guide/topics/ep/atrial-fibrillation.md
+        - Cardioversion: fellowship-guide/topics/ep/cardioversion.md
+        - CIEDs: fellowship-guide/topics/ep/cieds.md
+        - Conduction: fellowship-guide/topics/ep/conduction.md
+        - Emergencies: fellowship-guide/topics/ep/emergencies.md
+        - QTc Disorders: fellowship-guide/topics/ep/qtc.md
+        - Sinus Nodal Arrhythmias: fellowship-guide/topics/ep/sinus_node.md
+        - SVT: fellowship-guide/topics/ep/svt.md
+        - Ventricular Arrhythmias: fellowship-guide/topics/ep/vt_vf.md
+      - Imaging: fellowship-guide/topics/imaging.md
+      - Nuclear Cardiology:
+        - fellowship-guide/topics/nuc/index.md
+        - SPECT MPI: fellowship-guide/topics/nuc/spect.md
+        - Stress Testing: fellowship-guide/topics/nuc/stress-testing.md
+      - Pharmacology: 
+        - Antianginals: fellowship-guide/topics/cardiac-pharm/antianginals.md
+        - Antiarrhythmics: fellowship-guide/topics/cardiac-pharm/antiarrhythmics.md
+        - Antihypertensives: fellowship-guide/topics/cardiac-pharm/antihypertensives.md
+        - Lipid Therapy: fellowship-guide/topics/cardiac-pharm/lipidtherapy.md
+      - Dotphrases:
+        - fellowship-guide/topics/cardsdotphrases.md
     - Competency Requirements: fellowship-guide/cardsfellowshipreqs.md
     - Fellowship Excel Guide: fellowship-guide/fellowship-excel-guide.md
-  - Resources:
-    - General Concepts: resources/concepts.md
-    - Cerner: resources/cernerhelp.md
-    - Dotphrases: resources/dotphrases.md
-    - Important Websites: resources/important-websites.md
-    - Shortcuts: resources/shortcuts.md
-    - How to Search More Effectively Online: resources/how-to-search-more-effectively.md
-    - Interesting: resources/interesting.md
-    - Blog: 
-      - resources/blog/index.md
-    - Website:
-      - Changelog: resources/website/changelog.md
-      - Site Development: resources/website/site-development.md
-      - Style Cheatsheet: resources/website/style-cheatsheet.md
+    - Calculators: fellowship-guide/calculators.md
   - Tags: tags.md
   - About: 
     - about/index.md
     - Contact: about/contact.md
     - Disclaimer: about/disclaimer.md
     - License: about/license.md
+    - Website:
+      - Changelog: about/website/changelog.md
+      - Site Development: about/website/site-development.md
+      - Style Cheatsheet: about/website/style-cheatsheet.md
 
 validation:
   links:
