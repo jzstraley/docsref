@@ -21,7 +21,9 @@
 {% endif %}
 <h4>{{ config.extra.consent.title }}</h4>
 <p>{{ config.extra.consent.description }}</p>
-<input class="md-toggle" type="checkbox" id="__settings" {{ checked }}>
+<input class="md-toggle" type="checkbox" id="__settings"
+  {{ checked }}
+>
 <div class="md-consent__settings">
   <ul class="task-list">
     {% for type in cookies %}

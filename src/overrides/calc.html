@@ -113,10 +113,12 @@
               <div>
                 <h2 class="calc_header">PAPI Calculator</h2>
                 {% set papi_inputs = [
-                  ('sPA', 'sPAP', '15-30', 'mm Hg'),
-                  ('dPA', 'dPAP', '4-12', 'mm Hg'),
-                  ('cvp', 'CVP', '2-6', 'mm Hg'),
-                  ('pcwp', 'PCWP or PAWP', '< 16', 'mm Hg')
+                ('cvp', 'CVP (RA)', '< 8', 'mm Hg'),
+                ('pasp', 'sPA', '15–30', 'mm Hg'),
+                ('padp', 'dPA', '4–12', 'mm Hg'),
+                ('papi', 'PAPI', '> 1.5', ''),
+                ('pvr', 'PVR', '< 3', 'WU'),
+                ('tpr', 'TPR', '< 16', 'mm Hg')
                 ] %}
                 {% for id, label, placeholder, unit in papi_inputs %}
                 <div class="calc_input-wrapper">
