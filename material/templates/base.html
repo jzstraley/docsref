@@ -45,10 +45,10 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.c93ed1dd.min.css' | url }}">
       {% if config.theme.palette %}
         {% set palette = config.theme.palette %}
-        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.css' | url }}">
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.5e1ab47d.min.css' | url }}">
       {% endif %}
       {% include "partials/icons.html" %}
     {% endblock %}
@@ -78,11 +78,7 @@
     {% endblock %}
     {% if page.meta and page.meta.meta %}
       {% for tag in page.meta.meta %}
-        <meta
-          {% for key, value in tag.items() %}
-            {{ key }}="{{value}}"
-          {% endfor %}
-        >
+        <meta {% for key, value in tag.items() %} {{ key }}="{{value}}" {% endfor %}>
       {% endfor %}
     {% endif %}
     {% block extrahead %}{% endblock %}
@@ -161,9 +157,7 @@
               {% if page.meta and page.meta.hide %}
                 {% set hidden = "hidden" if "navigation" in page.meta.hide %}
               {% endif %}
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"
-                {{ hidden }}
-              >
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" {{ hidden }}>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     {% include "partials/nav.html" %}
@@ -175,9 +169,7 @@
               {% if page.meta and page.meta.hide %}
                 {% set hidden = "hidden" if "toc" in page.meta.hide %}
               {% endif %}
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc"
-                {{ hidden }}
-              >
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     {% include "partials/toc.html" %}
@@ -227,7 +219,7 @@
         "base": base_url,
         "features": features,
         "translations": {},
-        "search": "assets/javascripts/workers/search.da8330d9.min.js" | url
+        "search": "assets/javascripts/workers/search.b8dbb3d2.min.js" | url
       } -%}
       {%- if config.extra.version -%}
         {%- set mike = config.plugins.get("mike") -%}
@@ -258,7 +250,7 @@
       </script>
     {% endblock %}
     {% block scripts %}
-      <script src="{{ 'assets/javascripts/bundle.f8f10b0d.min.js' | url }}"></script>
+      <script src="{{ 'assets/javascripts/bundle.dd47dcab.min.js' | url }}"></script>
       {% for script in config.extra_javascript %}
         {{ script | script_tag }}
       {% endfor %}
