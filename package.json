@@ -1,42 +1,39 @@
 {
-  "name": "mkdocs-material",
-  "version": "9.6.14",
+  "name": "DocsRef",
+  "version": "1.0.0",
   "description": "Documentation that simply works",
   "keywords": [
     "mkdocs",
     "documentation",
     "theme"
   ],
-  "homepage": "https://squidfunk.github.io/mkdocs-material/",
+  "homepage": "https://DocsRef.com",
   "bugs": {
     "url": "https://github.com/squidfunk/mkdocs-material/issues",
-    "email": "martin.donath@squidfunk.com"
+    "email": "imteched@gmail.com"
   },
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Martin Donath",
-    "email": "martin.donath@squidfunk.com"
+    "name": "Austin Straley",
+    "email": "imteched@gmail.com"
   },
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/squidfunk/mkdocs-material.git"
+    "url": "https://github.com/jzstraley/docsref.git"
   },
   "scripts": {
-    "build": "rimraf material && ts-node -T tools/build --optimize",
-    "build:all": "rimraf material && ts-node -T tools/build --all --optimize",
-    "build:dirty": "ts-node -T tools/build --dirty",
+    "build": "rimraf material && ts-node -T tools/build/index.ts --optimize",
+    "build:all": "rimraf material && ts-node -T tools/build/index.ts --all --optimize",
+    "build:dirty": "ts-node -T tools/build/index.ts --dirty",
     "clean": "rimraf material",
     "check": "run-p check:*",
     "check:build": "tsc --noEmit",
     "check:style": "run-p check:style:*",
     "check:style:scss": "stylelint \"src/**/*.scss\"",
     "check:style:ts": "eslint --cache \"src/**/*.ts\"",
-    "fix": "run-p fix:*",
-    "fix:style": "run-p fix:style:*",
-    "fix:style:ts": "eslint --cache \"src/**/*.ts\" --fix",
-    "start": "ts-node -T tools/build --verbose --all --dirty --watch",
+    "start": "ts-node -T tools/build/index.ts --verbose --all --dirty --watch",
     "upgrade": "run-s upgrade:*",
     "upgrade:bump": "ncu --upgrade --filterVersion \"/^\\^/\"",
     "upgrade:install": "npm install"
