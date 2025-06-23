@@ -118,8 +118,8 @@ tags:
     - Estimated 7.9, actual 4.9 years gained for a 50 y/o with HFrEF
     - Estimated 5.0, actual 3.3 years gained for a 70 y/o with HFrEF
 
-[1]: /docs/im-guide/cards/heart-failure/acute-hf/index.md
-[2]: /docs/im-guide/cards/heart-failure/chronic-hf.md
+[1]: /docs/fellowship-guide/cards/heart-failure/acute-hf/index.md
+[2]: /docs/fellowship-guide/cards/heart-failure/chronic-hf.md
 [3]: https://derangedphysiology.com/main/cicm-primary-exam/required-reading/cardiovascular-system
 [4]: https://pubmed.ncbi.nlm.nih.gov/32164892/{:target="_blank"}
 [11]: https://www.acpjournals.org/doi/epdf/10.7326/AITC201806050
