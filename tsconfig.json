@@ -3,6 +3,8 @@
     "alwaysStrict": true,
     "baseUrl": "src",
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
     "jsx": "react",
     "jsxFactory": "h",
     "lib": [
@@ -25,6 +27,7 @@
     "removeComments": false,
     "sourceMap": true,
     "skipLibCheck": true,
+    "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,

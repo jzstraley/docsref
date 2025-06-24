@@ -1,6 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+  "name": "Node.js Debug with Increased Memory",
+  "type": "node",
+  "request": "launch",
+  "program": "${workspaceFolder}/path/to/your/script.js",
+  "runtimeArgs": [
+    "--max-old-space-size=8192"
+  ],
+  "console": "integratedTerminal",
+  "internalConsoleOptions": "neverOpen",
+  "skipFiles": [
+    "<node_internals>/**"
+  ]
+},
       {
         "name": "Chrome",
         "type": "chrome",

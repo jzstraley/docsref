@@ -178,7 +178,7 @@ export function read(file: string): Observable<string> {
  * @returns File observable
  */
 export function write(file: string, data: string): Observable<string> {
-  let contents = cache.get(file)
+  const contents = cache.get(file)
   if (contents === data) {
     return of(file)
   } else {
