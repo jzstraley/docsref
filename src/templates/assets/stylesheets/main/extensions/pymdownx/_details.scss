@@ -36,7 +36,7 @@
 
   // Details
   details {
-    @extend .admonition;
+    @extend .admonition !optional;;
 
     display: flow-root;
     padding-top: 0;
@@ -64,7 +64,7 @@
 
   // Details title
   summary {
-    @extend .admonition-title;
+    @extend .admonition-title !optional;
 
     display: block;
     min-height: px2rem(20px);

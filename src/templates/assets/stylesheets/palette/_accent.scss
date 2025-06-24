@@ -1,47 +1,24 @@
-////
-/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
-///
-/// Permission is hereby granted, free of charge, to any person obtaining a
-/// copy of this software and associated documentation files (the "Software"),
-/// to deal in the Software without restriction, including without limitation
-/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
-/// and/or sell copies of the Software, and to permit persons to whom the
-/// Software is furnished to do so, subject to the following conditions:
-///
-/// The above copyright notice and this permission notice shall be included in
-/// all copies or substantial portions of the Software.
-///
-/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
-/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-/// DEALINGS
-////
-
-// ----------------------------------------------------------------------------
-// Rules
-// ----------------------------------------------------------------------------
+@use "material-color";
+@use "sass:list";
 
 // Define accent colors
 @each $name, $color in (
-  "red":         $clr-red-a400,
-  "pink":        $clr-pink-a400,
-  "purple":      $clr-purple-a200,
-  "deep-purple": $clr-deep-purple-a200,
-  "indigo":      $clr-indigo-a200,
-  "blue":        $clr-blue-a200,
-  "light-blue":  $clr-light-blue-a700,
-  "cyan":        $clr-cyan-a700,
-  "teal":        $clr-teal-a700,
-  "green":       $clr-green-a700,
-  "light-green": $clr-light-green-a700,
-  "lime":        $clr-lime-a700,
-  "yellow":      $clr-yellow-a700,
-  "amber":       $clr-amber-a700,
-  "orange":      $clr-orange-a400,
-  "deep-orange": $clr-deep-orange-a200
+  "red":         material-color.$clr-red-a400,
+  "pink":        material-color.$clr-pink-a400,
+  "purple":      material-color.$clr-purple-a200,
+  "deep-purple": material-color.$clr-deep-purple-a200,
+  "indigo":      material-color.$clr-indigo-a200,
+  "blue":        material-color.$clr-blue-a200,
+  "light-blue":  material-color.$clr-light-blue-a700,
+  "cyan":        material-color.$clr-cyan-a700,
+  "teal":        material-color.$clr-teal-a700,
+  "green":       material-color.$clr-green-a700,
+  "light-green": material-color.$clr-light-green-a700,
+  "lime":        material-color.$clr-lime-a700,
+  "yellow":      material-color.$clr-yellow-a700,
+  "amber":       material-color.$clr-amber-a700,
+  "orange":      material-color.$clr-orange-a400,
+  "deep-orange": material-color.$clr-deep-orange-a200
 ) {
 
   // Color palette
@@ -50,7 +27,7 @@
     --md-accent-fg-color--transparent: hsla(#{hex2hsl($color)}, 0.1);
 
     // Inverted text for lighter shades
-    @if index("lime" "yellow" "amber" "orange", $name) {
+    @if list.index(("lime", "yellow", "amber", "orange"), $name) {
       --md-accent-bg-color:           hsla(0, 0%, 0%, 0.87);
       --md-accent-bg-color--light:    hsla(0, 0%, 0%, 0.54);
     } @else {

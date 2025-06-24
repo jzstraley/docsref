@@ -13,145 +13,6 @@
 <!-- Adding Calculator -->
 <div class="calc">
     <div class="main_column">
-<<<<<<< HEAD
-      <div class="container">
-        <div class="panel">
-          <form>
-            <div class="side-by-side-container">
-
-              {# Section: BMI Calculator #}
-              <div>
-                <h2 class="calc_header">BMI Calculator</h2>
-                {% set bmi_inputs = [
-                  ('height', 'Height', '152-213', 'cm'),
-                  ('weight', 'Weight', '1-150', 'kg')
-                ] %}
-                {% for id, label, placeholder, unit in bmi_inputs %}
-                <div class="calc_input-wrapper">
-                  <div class="calc_side-by-side">
-                    <div class="calc_input-name-label"><p style="margin: 0;">{{ label }}</p></div>
-                    <div class="calc_input-div">
-                      <div class="calc_input-value-wrapper">
-                        <input class="calc_input-value-label" id="{{ id }}" type="text" name="{{ id }}" placeholder="Normal: {{ placeholder }}"/>
-                        <div class="calc_input-value-label-unit">{{ unit }}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-
-              {# Section: MAP Calculator #}
-              <div>
-                <h2 class="calc_header">MAP Calculator</h2>
-                {% set map_inputs = [
-                  ('sbp', 'SBP', '100-120', 'mm Hg'),
-                  ('dbp', 'DBP', '60-80', 'mm Hg')
-                ] %}
-                {% for id, label, placeholder, unit in map_inputs %}
-                <div class="calc_input-wrapper">
-                  <div class="calc_side-by-side">
-                    <div class="calc_input-name-label"><p style="margin: 0;">{{ label }}</p></div>
-                    <div class="calc_input-div">
-                      <div class="calc_input-value-wrapper">
-                        <input class="calc_input-value-label" id="{{ id }}" type="text" name="{{ id }}" placeholder="Normal: {{ placeholder }}"/>
-                        <div class="calc_input-value-label-unit">{{ unit }}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-
-              {# Section: Fick's CO #}
-              <div>
-                <h2 class="calc_header">Cardiac Output (Fick's Formula)</h2>
-                {% set fick_inputs = [
-                  ('age', 'Age', '18-79', 'years'),
-                  ('hr', 'Heart Rate', '60-100', 'bpm'),
-                  ('sao2', 'SaO2 (ABG)', '95-100', '%'),
-                  ('svo2', 'SvO2 (PA Cath)', '65-80', '%'),
-                  ('hgb', 'Hemoglobin', '12-17', 'g/dL')
-                ] %}
-                {% for id, label, placeholder, unit in fick_inputs %}
-                <div class="calc_input-wrapper">
-                  <div class="calc_side-by-side">
-                    <div class="calc_input-name-label"><p style="margin: 0;">{{ label }}</p></div>
-                    <div class="calc_input-div">
-                      <div class="calc_input-value-wrapper">
-                        <input class="calc_input-value-label" id="{{ id }}" type="text" name="{{ id }}" placeholder="Normal: {{ placeholder }}"/>
-                        <div class="calc_input-value-label-unit">{{ unit }}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-
-              {# Section: Thermodilution #}
-              <div>
-                <h2 class="calc_header">Cardiac Power (CPO) - Thermodilution</h2>
-                {% set therm_inputs = [
-                  ('therm_co', 'Thermodilution CO', '4-8', 'L/min'),
-                  ('therm_ci', 'Thermodilution CI', '2.5-4', 'L/min/m²'),
-                  ('therm_svr', 'Thermodilution SVR', '800-1200', 'dyn·s/cm⁵')
-                ] %}
-                {% for id, label, placeholder, unit in therm_inputs %}
-                <div class="calc_input-wrapper">
-                  <div class="calc_side-by-side">
-                    <div class="calc_input-name-label"><p style="margin: 0;">{{ label }}</p></div>
-                    <div class="calc_input-div">
-                      <div class="calc_input-value-wrapper">
-                        <input class="calc_input-value-label" id="{{ id }}" type="text" name="{{ id }}" placeholder="Normal: {{ placeholder }}"/>
-                        <div class="calc_input-value-label-unit">{{ unit }}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-
-              {# Section: PAPI #}
-              <div>
-                <h2 class="calc_header">PAPI Calculator</h2>
-                {% set papi_inputs = [
-                  ('sPA', 'sPAP', '15-30', 'mm Hg'),
-                  ('dPA', 'dPAP', '4-12', 'mm Hg'),
-                  ('cvp', 'CVP', '2-6', 'mm Hg'),
-                  ('pcwp', 'PCWP or PAWP', '< 16', 'mm Hg')
-                ] %}
-                {% for id, label, placeholder, unit in papi_inputs %}
-                <div class="calc_input-wrapper">
-                  <div class="calc_side-by-side">
-                    <div class="calc_input-name-label"><p style="margin: 0;">{{ label }}</p></div>
-                    <div class="calc_input-div">
-                      <div class="calc_input-value-wrapper">
-                        <input class="calc_input-value-label" id="{{ id }}" type="text" name="{{ id }}" placeholder="Normal: {{ placeholder }}"/>
-                        <div class="calc_input-value-label-unit">{{ unit }}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-
-            </div>
-
-            {# Calculate Button #}
-            <button type="button" class="md-button" style="border: 1px solid #000;" id="btn">Calculate</button>
-          </form>
-
-          {# Results Display #}
-          <div style="margin: 10px 10px;">
-            <div id="results_bmi" class="results">- BMI/BSA: results will appear here</div>
-            <div id="results_map" class="results">- MAP: results will appear here</div>
-            <div id="results_fickoutput" class="results">- Fick CO/CI/CPO/SV/SVR: results will appear here</div>
-            <div id="results_thermpower" class="results">- Thermodilution CO/CI/CPO/SV/SVR: results will appear here</div>
-            <div id="results_papi" class="results">- CVP/PAPI: results will appear here</div>
-            <div id="results_fickpvr" class="results">- Fick PVR/Thermodilution PVR: results will appear here</div>
-          </div>
-
-=======
         <div class="container">
             <div class="panel">
                 <form>
@@ -469,20 +330,12 @@
                     <div id="results_fickpvr" class="results">- Fick PVR/Thermodilution PVR: results will appear here</div>
                 </div>
             </div>
->>>>>>> parent of ca9905040 (update packages)
         </div>
     </div>
 </div>
 {% endblock %}
 
 {% block script %}
-<<<<<<< HEAD
-  {{ super() }}
-  {# If you switch to JS version later, uncomment this: #}
-<script src="{{ 'assets/javascripts/calculators.js' | url }}"></script>
-{% endblock %}
-=======
   <!-- <script src="{{ 'assets/javascripts/calc.ts' | url }}"></script> -->
 {{ super() }}
 {% endblock %}
->>>>>>> parent of ca9905040 (update packages)

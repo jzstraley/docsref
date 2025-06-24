@@ -46,7 +46,6 @@
     round(color.channel($color, "saturation", $space: hsl)),
     round(color.channel($color, "lightness", $space: hsl));
 }
-
 // ----------------------------------------------------------------------------
 
 ///

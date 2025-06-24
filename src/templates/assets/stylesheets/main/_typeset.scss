@@ -1,28 +1,8 @@
-////
-/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
-///
-/// Permission is hereby granted, free of charge, to any person obtaining a
-/// copy of this software and associated documentation files (the "Software"),
-/// to deal in the Software without restriction, including without limitation
-/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
-/// and/or sell copies of the Software, and to permit persons to whom the
-/// Software is furnished to do so, subject to the following conditions:
-///
-/// The above copyright notice and this permission notice shall be included in
-/// all copies or substantial portions of the Software.
-///
-/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
-/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-/// DEALINGS
-////
-
 // ----------------------------------------------------------------------------
 // Rules: font definitions
 // ----------------------------------------------------------------------------
+
+@use "utilities/break" as break;
 
 // Enable font-smoothing in Webkit and FF
 body {
@@ -77,6 +57,9 @@ kbd {
   line-height: 1.6;
   overflow-wrap: break-word;
   color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+
 
   // [print]: We'll use a smaller `font-size` for printing, so code examples
   // don't break too early, and `16px` looks too big anyway.
@@ -216,6 +199,7 @@ kbd {
     word-break: break-word;
     background-color: var(--md-code-bg-color);
     border-radius: px2rem(2px);
+    -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 
     // Hide outline for pointer devices
@@ -243,6 +227,7 @@ kbd {
       scrollbar-width: thin;
       outline-color: var(--md-accent-fg-color);
       box-shadow: none;
+      -webkit-box-decoration-break: slice;
       box-decoration-break: slice;
 
       // Code block on hover
@@ -289,6 +274,7 @@ kbd {
     color: inherit;
     word-break: break-word;
     background-color: var(--md-typeset-mark-color);
+    -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
 
@@ -543,8 +529,11 @@ kbd {
       margin-inline-start: 0.5em;
       vertical-align: text-bottom;
       content: "";
+      -webkit-mask-image: var(--md-typeset-table-sort-icon);
       mask-image: var(--md-typeset-table-sort-icon);
+      -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
+      -webkit-mask-size: contain;
       mask-size: contain;
       transition: background-color 125ms;
     }
@@ -557,12 +546,14 @@ kbd {
     // Sort ascending icon
     &[aria-sort="ascending"]::after {
       background-color: var(--md-default-fg-color--light);
+      -webkit-mask-image: var(--md-typeset-table-sort-icon--asc);
       mask-image: var(--md-typeset-table-sort-icon--asc);
     }
 
     // Sort descending icon
     &[aria-sort="descending"]::after {
       background-color: var(--md-default-fg-color--light);
+      -webkit-mask-image: var(--md-typeset-table-sort-icon--desc);
       mask-image: var(--md-typeset-table-sort-icon--desc);
     }
   }
@@ -600,7 +591,7 @@ kbd {
 // ----------------------------------------------------------------------------
 
 // [mobile -]: Align with body copy
-@include break-to-device(mobile) {
+@include break.break-to-device(("mobile", "portrait")) {
 
   // Top-level unformatted content
   .md-content__inner > pre {

@@ -1,24 +1,4 @@
-////
-/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
-///
-/// Permission is hereby granted, free of charge, to any person obtaining a
-/// copy of this software and associated documentation files (the "Software"),
-/// to deal in the Software without restriction, including without limitation
-/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
-/// and/or sell copies of the Software, and to permit persons to whom the
-/// Software is furnished to do so, subject to the following conditions:
-///
-/// The above copyright notice and this permission notice shall be included in
-/// all copies or substantial portions of the Software.
-///
-/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
-/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-/// DEALINGS
-////
+@use "utilities/break" as break;
 
 // ----------------------------------------------------------------------------
 // Rules
@@ -34,7 +14,7 @@
     border-bottom: px2rem(1px) solid var(--md-default-fg-color--lightest);
 
     // [tablet -]: Hide post backlink
-    @include break-to-device(tablet) {
+    @include break.break-to-device(tablet) {
       display: none;
     }
 
@@ -141,7 +121,7 @@
   display: flex;
 
   // [tablet -]: Switch to inverted column layout
-  @include break-to-device(tablet) {
+  @include break.break-to-device(tablet) {
     flex-flow: column-reverse;
   }
 
@@ -151,7 +131,7 @@
     min-width: 0;
 
     // [screen +]: Adjust spacing between content area and sidebars
-    @include break-from-device(screen) {
+    @include break.break-from-device(screen) {
       margin-inline-start: px2rem(24px);
     }
   }
@@ -161,7 +141,7 @@
 .md-sidebar.md-sidebar--post {
 
   // [tablet -]: Adjust spacing
-  @include break-to-device(tablet) {
+  @include break.break-to-device(tablet) {
     position: initial;
     width: 100%;
     padding: 0;
