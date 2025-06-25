@@ -14,3 +14,11 @@ colorama~=0.4
 paginate~=0.5
 backrefs~=5.7.post1
 requests~=2.26
+regex>=2022.4
+
+mkdocs
+mkdocs-git-revision-date-localized-plugin
+mkdocs-material
+mkdocs-minify-plugin
+pymdown-extensions
+pre-commit
