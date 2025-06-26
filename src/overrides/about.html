@@ -10,14 +10,14 @@
 
 {% block content %}
 <!-- Adding Face/About-Box -->
+<div class="md-content">
   <div class="row">
     <div class="picture">
           <img id="profpicbg" 
-                srcset="../assets/images/aboutpage/profilepic/profilepic-large.webp  535w, 
-                    ../assets/images/aboutpage/profilepic/profilepic-medium.webp  400w,
-                    ../assets/images/aboutpage/profilepic/profilepic-small.webp  250w"
-                    sizes="(max-width: 535px) 80vw, 535px"
-                    src="../assets/images/aboutpage/profilepic-medium.webp" alt="Avatar">
+                srcset="{{ 'assets/images/aboutpage/profilepic/profilepic-large.webp' | url }} 535w,
+                        {{ 'assets/images/aboutpage/profilepic/profilepic-medium.webp' | url }} 400w,
+                        {{ 'assets/images/aboutpage/profilepic/profilepic-small.webp' | url }} 250w"
+                src="{{ 'assets/images/aboutpage/profilepic/profilepic-medium.webp' | url }}">
       </div>
     <div class="about-box">
       <div class="about-box-container">
@@ -26,6 +26,7 @@
         </div>
       </div>
     </div>
+</div>
   {{ super() }}
 {% endblock %}
 
