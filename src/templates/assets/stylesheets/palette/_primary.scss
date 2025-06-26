@@ -2,7 +2,7 @@
 @use "sass:list";
 @use "sass:math";
 @use "material-color";
-@use "utilities/break" as break;
+@use "../utilities/break" as break;
 
 
 // ----------------------------------------------------------------------------
@@ -96,8 +96,8 @@
     }
   }
 
-  // ["tablet portrait" +]: Header-embedded search
-  @include break.break-from-device("tablet landscape") {
+  // [(("tablet", "portrait")) +]: Header-embedded search
+  @include break.break-from-device(("tablet", "landscape")) {
 
     // Search form
     .md-search__form {
@@ -116,7 +116,7 @@
   }
 
   // [screen +]: Add bottom border for tabs
-  @include break.break-from-device("screen") {
+@include break.break-from-device(("mobile", "portrait")) {
 
     // Navigation tabs
     .md-tabs {
@@ -157,8 +157,8 @@
     background-color: hsla(var(--md-hue), 15%, 9%, 1);
   }
 
-  // ["tablet portrait" -]: Layered navigation
-  @include break.break-to-device("tablet portrait") {
+  // [(("tablet", "portrait")) -]: Layered navigation
+  @include break.break-from-device(("tablet", "landscape")) {
 
     // Repository information container
     .md-nav__source {
@@ -167,7 +167,7 @@
   }
 
   // [tablet -]: Layered navigation
-  @include break.break-to-device("tablet") {
+  @include break.break-to-device(("tablet", "landscape")) {
 
     // Site title in main navigation
     html & .md-nav--primary .md-nav__title[for="__drawer"] {
@@ -176,7 +176,7 @@
   }
 
   // [screen +]: Set background color for tabs
-  @include break.break-from-device("screen") {
+@include break.break-from-device(("mobile", "portrait")) {
 
     // Navigation tabs
     .md-tabs {

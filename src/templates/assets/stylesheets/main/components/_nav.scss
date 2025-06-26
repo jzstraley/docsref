@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../../utilities/break" as break;
 
 
 // ----------------------------------------------------------------------------
@@ -165,7 +165,7 @@
   }
 
   // [tablet -]: Layered navigation
-  @include break.break-to-device("tablet") {
+  @include break.break-to-device(("tablet", "landscape")) {
 
     // Primary and nested navigation
     &--primary,
@@ -399,8 +399,8 @@
     }
   }
 
-  // ["tablet portrait" -]: Layered navigation with table of contents
-  @include break.break-to-device("tablet portrait") {
+  // [(("tablet", "portrait")) -]: Layered navigation with table of contents
+  @include break.break-from-device(("tablet", "landscape")) {
 
     // Show link to table of contents
     &--primary &__link[for="__toc"] {
@@ -431,8 +431,8 @@
     }
   }
 
-  // ["tablet landscape"]: Layered navigation with table of contents
-@include break.break-at-device(("tablet", "landscape")) {
+  // [("tablet", "landscape")]: Layered navigation with table of contents
+@include break.break-at-device(("tablet")) {
 
     // Show link to integrated table of contents
     &--integrated &__link[for="__toc"] {
@@ -455,8 +455,8 @@
     }
   }
 
-  // ["tablet landscape" +]: Tree-like table of contents
-  @include break.break-from-device("tablet landscape") {
+  // [("tablet", "landscape") +]: Tree-like table of contents
+  @include break.break-from-device(("tablet", "landscape")) {
     margin-bottom: px2rem(-8px);
 
     // Table of contents
@@ -500,7 +500,7 @@
   }
 
   // [screen +]: Tree-like navigation
-  @include break.break-from-device("screen") {
+  @include break.break-from-device(("mobile", "portrait")) {
     margin-bottom: px2rem(-8px);
     transition: max-height 250ms cubic-bezier(0.86, 0, 0.07, 1);
 

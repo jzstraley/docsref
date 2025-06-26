@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../../utilities/break" as break;
 
 
 // ----------------------------------------------------------------------------
@@ -15,7 +15,7 @@
     border-bottom: px2rem(1px) solid var(--md-default-fg-color--lightest);
 
     // [tablet -]: Hide post backlink
-    @include break.break-to-device("tablet") {
+    @include break.break-to-device(("tablet", "landscape")) {
       display: none;
     }
 
@@ -122,7 +122,7 @@
   display: flex;
 
   // [tablet -]: Switch to inverted column layout
-  @include break.break-to-device("tablet") {
+  @include break.break-to-device(("tablet", "landscape")) {
     flex-flow: column-reverse;
   }
 
@@ -132,7 +132,7 @@
     min-width: 0;
 
     // [screen +]: Adjust spacing between content area and sidebars
-    @include break.break-from-device("screen") {
+    @include break.break-from-device(("mobile", "portrait")) {
       margin-inline-start: px2rem(24px);
     }
   }
@@ -142,7 +142,7 @@
 .md-sidebar.md-sidebar--post {
 
   // [tablet -]: Adjust spacing
-  @include break.break-to-device("tablet") {
+  @include break.break-to-device(("tablet", "landscape")) {
     position: initial;
     width: 100%;
     padding: 0;

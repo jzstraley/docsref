@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../utilities/break" as break;
 
 
 // ----------------------------------------------------------------------------
@@ -342,7 +342,7 @@
 // ----------------------------------------------------------------------------
 
 // [mobile -]: Align with body copy
-@include break.break-to-device(mobile) {
+@include break.break-to-device(("mobile", "portrait")) {
 
   // Top-level tabbed labels
   .md-content__inner > .tabbed-set .tabbed-labels {

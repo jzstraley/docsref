@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../../utilities/break" as break;
 
 
 // ----------------------------------------------------------------------------
@@ -92,7 +92,7 @@
       display: inline;
 
       // [tablet +]: Align buttons horizontally
-      @include break.break-to-device(mobile) {
+      @include break.break-to-device(("mobile", "portrait")) {
         display: block;
         width: 100%;
         margin-top: px2rem(8px);

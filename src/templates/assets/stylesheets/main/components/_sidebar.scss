@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../../utilities/break" as break;
 
 // ----------------------------------------------------------------------------
 // Rules
@@ -22,7 +22,7 @@
   &--primary {
 
     // [tablet -]: Show navigation as drawer
-    @include break.break-to-device("tablet") {
+    @include break.break-to-device(("tablet", "landscape")) {
       position: fixed;
       inset-inline-start: px2rem(-242px);
       top: 0;
@@ -59,7 +59,7 @@
   }
 
   // [screen +]: Show navigation as sidebar
-  @include break.break-from-device("screen") {
+  @include break.break-from-device(("mobile", "portrait")) {
     height: 0;
 
     // [no-js]: Switch to native sticky behavior
@@ -78,8 +78,8 @@
     display: none;
     order: 2;
 
-    // ["tablet landscape" +]: Show table of contents as sidebar
-    @include break.break-from-device("tablet landscape") {
+    // [("tablet", "landscape") +]: Show table of contents as sidebar
+    @include break.break-from-device(("tablet", "landscape")) {
       height: 0;
 
       // [no-js]: Switch to native sticky behavior
@@ -107,8 +107,8 @@
     // Hack: promote to own layer to reduce jitter
     backface-visibility: hidden;
 
-    // ["tablet landscape" +]: Show sidebars
-    @include break.break-from-device("tablet landscape") {
+    // [("tablet", "landscape") +]: Show sidebars
+    @include break.break-from-device(("tablet", "landscape")) {
       scrollbar-gutter: stable;
       // Hack: Chrome 81+ exhibits a strange bug, where it scrolls the container
       // to the bottom if `scroll-snap-type` is set on the initial render. For
@@ -163,7 +163,7 @@
 }
 
 // [tablet -]: Show overlay on active drawer
-@include break.break-to-device("tablet") {
+@include break.break-to-device(("tablet", "landscape")) {
 
   // Drawer overlay
   .md-overlay {

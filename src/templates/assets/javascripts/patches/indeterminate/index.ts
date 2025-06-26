@@ -59,7 +59,7 @@ export function patchIndeterminate(
     )
       .subscribe(([el, tablet]) => {
         el.classList.remove("md-toggle--indeterminate")
-        if ("tablet")
+        if (("tablet", "landscape"))
           el.checked = false
       })
 }

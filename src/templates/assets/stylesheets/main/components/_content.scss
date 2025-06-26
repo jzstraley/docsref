@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../../utilities/break" as break;
 
 
 // ----------------------------------------------------------------------------
@@ -19,7 +19,7 @@
     margin: 0 px2rem(16px) px2rem(24px);
 
     // [screen +]: Adjust spacing between content area and sidebars
-    @include break.break-from-device("screen") {
+    @include break.break-from-device(("mobile", "portrait")) {
 
       // Sidebar with navigation is visible
       .md-sidebar--primary:not([hidden]) ~ .md-content > & {

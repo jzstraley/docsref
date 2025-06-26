@@ -3,30 +3,27 @@
 @use "sass:math";
 @use "sass:meta";
 
-//
-// Variables
-//
-
+/// Breakpoints for responsive design
 $break-devices: (
   mobile: (
-    portrait: 220px 479px,
-    landscape: 480px 719px
+    portrait: (220px, 479px),
+    landscape: (480px, 719px)
   ),
   tablet: (
-    portrait: 720px 959px,
-    landscape: 960px 1219px
+    portrait: (720px, 959px),
+    landscape: (960px, 1219px)
   ),
   screen: (
-    small: 1220px 1599px,
-    medium: 1600px 1999px,
-    large: 2000px
+    small: (1220px, 1599px),
+    medium: (1600px, 1999px),
+    large: (2000px,) // Note: still a list
   )
 );
+// -----------------------------------------------------------------------------
+// Helper Functions
+// -----------------------------------------------------------------------------
 
-//
-// Helpers
-//
-
+/// Select min/max from list or nested maps
 @function break-select-min-max($devices) {
   $min: 1000000;
   $max: 0;
@@ -39,134 +36,104 @@ $break-devices: (
     @if meta.type-of($value) == "list" {
       @each $number in $value {
         @if meta.type-of($number) == "number" {
-          $min: math.min($number, $min);
-          $max: math.max($number, $max);
+          $min: math.min($min, $number);
+          $max: math.max($max, $number);
         } @else {
-          @error "Invalid number: #{$number}";
+          @error "Expected a number but got `#{$number}`.";
         }
       }
     } @else if meta.type-of($value) == "number" {
-      $min: math.min($value, $min);
+      $min: math.min($min, $value);
       $max: null;
     } @else {
       @error "Invalid value: #{$value}";
     }
   }
 
-  @return $min, $max;
+  @return (min: $min, max: $max);
 }
 
+/// Traverse device map using variadic path
 @function break-select-device($device) {
   $current: $break-devices;
 
-  @for $n from 1 through list.length($device) {
+  @for $i from 1 through length($device) {
     @if meta.type-of($current) == "map" {
-      $current: map.get($current, list.nth($device, $n));
+      $key: nth($device, $i);
+      $current: map.get($current, $key);
     } @else {
-      @error "Invalid device map: #{$device}";
+      @error "Invalid device map at level #{$i}: #{$device}";
     }
   }
 
-  @if meta.type-of($current) == "list" or meta.type-of($current) == "number" {
-    $current: (default: $current);
+@if meta.type-of($current) == "list" or meta.type-of($current) == "number" {
+    @return $current;
+  } @else {
+    @error "Device path `#{join($device, ', ')}` does not exist in $break-devices";
   }
-
-  @return break-select-min-max($current);
 }
 
-//
+// -----------------------------------------------------------------------------
 // Mixins
-//
+// -----------------------------------------------------------------------------
 
 @mixin break-at($breakpoint) {
   @if meta.type-of($breakpoint) == "number" {
     @media screen and (min-width: $breakpoint) {
       @content;
     }
-  } @else if meta.type-of($breakpoint) == "list" {
-    $min: list.nth($breakpoint, 1);
-    $max: list.nth($breakpoint, 2);
-    @if meta.type-of($min) == "number" and meta.type-of($max) == "number" {
-      @media screen and (min-width: $min) and (max-width: $max) {
-        @content;
-      }
-    } @else {
-      @error "Invalid breakpoint: #{$breakpoint}";
-    }
-  } @else {
-    @error "Invalid breakpoint: #{$breakpoint}";
-  }
-}
+  } @else if meta.type-of($breakpoint) == "map" {
+    $min: map.get($breakpoint, min);
+    $max: map.get($breakpoint, max);
 
-@mixin break-at-orientation($breakpoint) {
-  @if meta.type-of($breakpoint) == "string" {
-    @media screen and (orientation: $breakpoint) {
+    @media screen and (min-width: $min) and (max-width: $max) {
       @content;
     }
   } @else {
-    @error "Invalid breakpoint: #{$breakpoint}";
+    @error "Invalid breakpoint: `#{$breakpoint}`";
   }
 }
 
-@mixin break-at-ratio($breakpoint) {
-  @if meta.type-of($breakpoint) == "number" {
-    @media screen and (max-aspect-ratio: $breakpoint) {
+@mixin break-from-device($device...) {
+  $range: break-select-device($device...);
+    @media screen and (min-width: list.nth($range, 1)) {
+    @content;
+  }
+}
+
+@mixin break-to-device($device...) {
+  $range: break-select-device($device...);
+  @media screen and (max-width: list.nth($range, 2)) {
+    @content;
+  }
+}
+
+@mixin break-at-device($device...) {
+  $range: break-select-device($device...);
+  $min: map.get($range, min);
+  $max: map.get($range, max);
+
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin break-at-orientation($orientation) {
+  @if $orientation == "portrait" or $orientation == "landscape" {
+    @media screen and (orientation: #{$orientation}) {
       @content;
     }
   } @else {
-    @error "Invalid breakpoint: #{$breakpoint}";
+    @error "Orientation must be `portrait` or `landscape`, got `#{$orientation}`";
   }
 }
 
-@mixin break-at-device($device) {
-  @if meta.type-of($device) == "string" {
-    $device: ($device,);
-  }
-  @if meta.type-of($device) == "list" {
-    $breakpoint: break-select-device($device);
-    @if list.nth($breakpoint, 2) {
-      $min: list.nth($breakpoint, 1);
-      $max: list.nth($breakpoint, 2);
-
-      @media screen and (min-width: $min) and (max-width: $max) {
-        @content;
-      }
-    } @else {
-      @error "Invalid device: #{$device}";
-    }
-  } @else {
-    @error "Invalid device: #{$device}";
-  }
-}
-
-@mixin break-from-device($device) {
-  @if meta.type-of($device) == "string" {
-    $device: ($device,);
-  }
-  @if meta.type-of($device) == "list" {
-    $breakpoint: break-select-device($device);
-    $min: list.nth($breakpoint, 1);
-
-    @media screen and (min-width: $min) {
+@mixin break-at-ratio($ratio) {
+  @if meta.type-of($ratio) == "number" {
+    @media screen and (max-aspect-ratio: #{$ratio}) {
       @content;
     }
   } @else {
-    @error "Invalid device: #{$device}";
-  }
-}
-
-@mixin break-to-device($device) {
-  @if meta.type-of($device) == "string" {
-    $device: ($device,);
-  }
-  @if meta.type-of($device) == "list" {
-    $breakpoint: break-select-device($device);
-    $max: list.nth($breakpoint, 2);
-
-    @media screen and (max-width: $max) {
-      @content;
-    }
-  } @else {
-    @error "Invalid device: #{$device}";
+    @error "Aspect ratio must be a number, got `#{$ratio}`";
   }
 }

@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------
 
 @use "material-color";
-@use "utilities/break" as break;
+@use "../../../templates/assets/stylesheets/utilities/break" as break;
 
 
 // Pumping heart animation
@@ -149,8 +149,8 @@
     ul {
       columns: 2;
 
-      // ["mobile portrait" -]: Reset columns on mobile
-      @include break.break-to-device(("mobile" "portrait")) {
+      // [("mobile", "portrait") -]: Reset columns on mobile
+      @include break.break-to-device(("mobile", "portrait")) {
         columns: initial;
       }
     }

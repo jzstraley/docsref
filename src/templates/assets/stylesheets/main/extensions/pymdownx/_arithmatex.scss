@@ -1,4 +1,4 @@
-@use "utilities/break" as break;
+@use "../utilities/break" as break;
 
 // ----------------------------------------------------------------------------
 // Rules
@@ -12,7 +12,7 @@
     overflow: auto;
 
     // [mobile -]: Align with body copy
-    @include break.break-to-device(mobile) {
+    @include break.break-to-device(("mobile", "portrait")) {
       margin: 0 px2rem(-16px);
 
       // Arithmatex content

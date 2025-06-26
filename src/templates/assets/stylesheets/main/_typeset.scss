@@ -2,7 +2,7 @@
 // Rules: font definitions
 // ----------------------------------------------------------------------------
 
-@use "utilities/break" as break;
+@use "../utilities/break" as break;
 
 
 // Enable font-smoothing in Webkit and FF
@@ -592,7 +592,7 @@ kbd {
 // ----------------------------------------------------------------------------
 
 // [mobile -]: Align with body copy
-@include break.break-to-device(("mobile" "portrait")) {
+@include break.break-to-device(("mobile", "portrait")) {
 
   // Top-level unformatted content
   .md-content__inner > pre {

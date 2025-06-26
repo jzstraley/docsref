@@ -24,7 +24,7 @@ function patchIndeterminate({ document$, tablet$ }) {
         .pipe((0, rxjs_1.takeWhile)(() => el.classList.contains("md-toggle--indeterminate")), (0, rxjs_1.map)(() => el))), (0, rxjs_1.withLatestFrom)(tablet$))
         .subscribe(([el, tablet]) => {
         el.classList.remove("md-toggle--indeterminate");
-        if ("tablet")
+        if (("tablet", "landscape"))
             el.checked = false;
     });
 }
