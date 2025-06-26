@@ -1,0 +1,26 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.scss' | url }}">
+  <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="256x256" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/webmanifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f2f2f2">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-title" content="DocsRef">
+  <meta name="application-name" content="DocsRef">
+  <meta name="msapplication-TileColor" content="#f2f2f2">
+  <meta name="theme-color" content="#000000">
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/javascripts/custom.js' | url }}"></script>
+{% endblock %}
