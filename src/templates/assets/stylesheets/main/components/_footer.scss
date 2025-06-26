@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules
 // ----------------------------------------------------------------------------
@@ -133,8 +134,8 @@
   font-size: px2rem(12.8px);
   color: var(--md-footer-fg-color--lighter);
 
-  // [tablet portrait +]: Show copyright and social links in one line
-  @include break.break-from-device(tablet portrait) {
+  // ["tablet portrait" +]: Show copyright and social links in one line
+  @include break.break-from-device("tablet portrait") {
     width: auto;
   }
 
@@ -154,8 +155,8 @@
   padding: px2rem(4px) 0 px2rem(12px);
   margin: 0 px2rem(8px);
 
-  // [tablet portrait +]: Show copyright and social links in one line
-  @include break.break-from-device(tablet portrait) {
+  // ["tablet portrait" +]: Show copyright and social links in one line
+  @include break.break-from-device("tablet portrait") {
     padding: px2rem(12px) 0;
   }
 

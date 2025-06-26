@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules
 // ----------------------------------------------------------------------------
@@ -71,8 +72,8 @@
       font-size: px2rem(12.8px);
       color: var(--md-default-fg-color--lighter);
 
-      // [mobile portrait -]: Hide meta
-      @include break.break-to-device(mobile portrait) {
+      // ["mobile portrait" -]: Hide meta
+      @include break.break-to-device("mobile portrait") {
         display: none;
       }
     }

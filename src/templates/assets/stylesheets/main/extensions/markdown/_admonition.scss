@@ -3,6 +3,7 @@
 @use "sass:map";
 @use "material-color" as material-color;
 
+
 // ----------------------------------------------------------------------------
 // Variables
 // ----------------------------------------------------------------------------
@@ -126,6 +127,10 @@ $admonitions: (
       height: px2rem(20px);
       content: "";
       background-color: material-color.$clr-blue-a200;
+      -webkit-mask-image: var(--md-admonition-icon--note);
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      -webkit-mask-size: contain;
       mask-image: var(--md-admonition-icon--note);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -164,6 +169,7 @@ $admonitions: (
     // Admonition icon
     &::before {
       background-color: $tint;
+      -webkit-mask-image: var(--md-admonition-icon--#{$name});
       mask-image: var(--md-admonition-icon--#{$name});
     }
 

@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules
 // ----------------------------------------------------------------------------
@@ -84,7 +85,7 @@
       margin: px2rem(4px);
 
       // [tablet -]: Hide button
-      @include break.break-to-device(tablet) {
+      @include break.break-to-device("tablet") {
         display: none;
       }
 
@@ -100,8 +101,8 @@
     // Button for search
     &[for="__search"] {
 
-      // [tablet landscape +]: Hide button
-      @include break.break-from-device(tablet landscape) {
+      // ["tablet landscape" +]: Hide button
+      @include break.break-from-device("tablet landscape") {
         display: none;
       }
 
@@ -120,7 +121,7 @@
     &[for="__drawer"] {
 
       // [screen +]: Hide button
-      @include break.break-from-device(screen) {
+      @include break.break-from-device("screen") {
         display: none;
       }
     }
@@ -233,8 +234,8 @@
   &__source {
     display: none;
 
-    // [tablet landscape +]: Show repository information
-    @include break.break-from-device(tablet landscape) {
+    // ["tablet landscape" +]: Show repository information
+    @include break.break-from-device("tablet landscape") {
       display: block;
       width: px2rem(234px);
       max-width: px2rem(234px);
@@ -242,7 +243,7 @@
     }
 
     // [screen +]: Adjust spacing of search bar
-    @include break.break-from-device(screen) {
+    @include break.break-from-device("screen") {
       margin-inline-start: px2rem(28px);
     }
   }

@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules
 // ----------------------------------------------------------------------------
@@ -14,7 +15,7 @@
     border-bottom: px2rem(1px) solid var(--md-default-fg-color--lightest);
 
     // [tablet -]: Hide post backlink
-    @include break.break-to-device(tablet) {
+    @include break.break-to-device("tablet") {
       display: none;
     }
 
@@ -121,7 +122,7 @@
   display: flex;
 
   // [tablet -]: Switch to inverted column layout
-  @include break.break-to-device(tablet) {
+  @include break.break-to-device("tablet") {
     flex-flow: column-reverse;
   }
 
@@ -131,7 +132,7 @@
     min-width: 0;
 
     // [screen +]: Adjust spacing between content area and sidebars
-    @include break.break-from-device(screen) {
+    @include break.break-from-device("screen") {
       margin-inline-start: px2rem(24px);
     }
   }
@@ -141,7 +142,7 @@
 .md-sidebar.md-sidebar--post {
 
   // [tablet -]: Adjust spacing
-  @include break.break-to-device(tablet) {
+  @include break.break-to-device("tablet") {
     position: initial;
     width: 100%;
     padding: 0;

@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules
 // ----------------------------------------------------------------------------
@@ -51,7 +52,7 @@
       );
 
     // [screen +]: Sticky navigation tabs
-    @include break.break-from-device(screen) {
+    @include break.break-from-device("screen") {
 
       // Adjust scroll margin for sticky navigation tabs
       .md-header--lifted ~ .md-container & {

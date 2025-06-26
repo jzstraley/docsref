@@ -4,6 +4,7 @@
 
 @use "utilities/break" as break;
 
+
 // Stretch container to viewport and set base `font-size`
 html {
   height: 100%;
@@ -17,12 +18,12 @@ html {
   font-size: 125%;
 
   // [screen medium +]: Set base `font-size` to `11px`
-  @include break.break-from-device(screen medium) {
+  @include break.break-from-device("screen medium") {
     font-size: 137.5%;
   }
 
   // [screen large +]: Set base `font-size` to `12px`
-  @include break.break-from-device(screen large) {
+  @include break.break-from-device("screen large") {
     font-size: 150%;
   }
 }
@@ -48,8 +49,8 @@ body {
   // Body in locked state
   &[data-md-scrolllock] {
 
-    // [tablet portrait -]: Omit scroll bubbling
-    @include break.break-to-device(tablet portrait) {
+    // ["tablet portrait" -]: Omit scroll bubbling
+    @include break.break-to-device("tablet portrait") {
       position: fixed;
     }
   }

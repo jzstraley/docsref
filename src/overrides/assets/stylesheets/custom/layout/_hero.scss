@@ -1,4 +1,5 @@
-@use "utilities/break" as break;
+@use "/utilities/break" as break;
+
 
 // ----------------------------------------------------------------------------
 // Rules
@@ -32,6 +33,7 @@
 // Landing page hero
 .mdx-hero {
   margin: 0 px2rem(16px);
+  text-align: center;
   color: var(--md-primary-bg-color);
 
   // Hero headline
@@ -40,8 +42,8 @@
     font-weight: 700;
     color: currentcolor;
 
-    // [mobile portrait -]: Larger hero headline
-    @include break.break-to-device(mobile portrait) {
+    // ["mobile portrait" -]: Larger hero headline
+    @include break.break-to-device("mobile portrait") {
       font-size: px2rem(28px);
     }
   }
@@ -51,8 +53,8 @@
     padding-bottom: px2rem(120px);
   }
 
-  // [tablet landscape +]: Columnar display
-  @include break.break-from-device(tablet landscape) {
+  // ["tablet landscape" +]: Columnar display
+  @include break.break-from-device("tablet landscape") {
     display: flex;
     align-items: stretch;
 
@@ -72,7 +74,7 @@
   }
 
   // [screen +]: Columnar display and adjusted spacing
-  @include break.break-from-device(screen) {
+  @include break.break-from-device("screen") {
 
     // Hero image
     &__image {

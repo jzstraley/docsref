@@ -8,7 +8,7 @@
 .md-typeset {
 
   // [tablet +]: Allow for rendering content as sidebars
-  @include break.break-from-device(tablet) {
+  @include break.break-from-device("tablet") {
 
     // Modifier to float block elements
     .inline {

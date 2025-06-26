@@ -4,6 +4,7 @@
 
 @use "utilities/break" as break;
 
+
 // Enable font-smoothing in Webkit and FF
 body {
   -webkit-font-smoothing: antialiased;
@@ -56,9 +57,9 @@ kbd {
   font-size: px2rem(16px);
   line-height: 1.6;
   overflow-wrap: break-word;
-  color-adjust: exact;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
+  color-adjust: exact;
 
 
   // [print]: We'll use a smaller `font-size` for printing, so code examples
@@ -591,7 +592,7 @@ kbd {
 // ----------------------------------------------------------------------------
 
 // [mobile -]: Align with body copy
-@include break.break-to-device(("mobile", "portrait")) {
+@include break.break-to-device(("mobile" "portrait")) {
 
   // Top-level unformatted content
   .md-content__inner > pre {

@@ -10,7 +10,10 @@
           "-webkit-tap-highlight-color",
           "backdrop-filter",
           "scrollbar-color",
-          "width: fit-content"
+          "width: fit-content",
+          "color-adjust",
+          "scrollbar-width",
+          "scrollbar-width: thin"
         ]
       }
     ]

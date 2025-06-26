@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules: syntax highlighting
 // ----------------------------------------------------------------------------
@@ -183,7 +184,10 @@
     margin-left: px2em(-16px, 13.6px);
     color: var(--md-default-fg-color--light);
     content: attr(data-linenos);
-    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Standard */
     background-color: var(--md-code-bg-color);
     box-shadow: px2rem(-1px) 0 var(--md-default-fg-color--lightest) inset;
   }
@@ -265,7 +269,10 @@
     padding: px2em(10.5px, 13.6px) px2em(16px, 13.6px);
     padding-right: 0;
     font-size: px2em(13.6px);
-    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Standard */
     background-color: var(--md-code-bg-color);
     border-top-left-radius: px2rem(2px);
     border-bottom-left-radius: px2rem(2px);

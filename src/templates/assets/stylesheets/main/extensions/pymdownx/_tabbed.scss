@@ -1,5 +1,6 @@
 @use "utilities/break" as break;
 
+
 // ----------------------------------------------------------------------------
 // Rules
 // ----------------------------------------------------------------------------
@@ -276,6 +277,10 @@
       height: 100%;
       content: "";
       background-color: currentcolor;
+      -webkit-mask-image: var(--md-tabbed-icon--prev);
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      -webkit-mask-size: contain;
       mask-image: var(--md-tabbed-icon--prev);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -325,6 +330,7 @@
 
       // Tabbed button icon content
       .tabbed-button::after {
+        -webkit-mask-image: var(--md-tabbed-icon--next);
         mask-image: var(--md-tabbed-icon--next);
       }
     }
