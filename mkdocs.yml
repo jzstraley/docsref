@@ -119,6 +119,9 @@ extra:
 # Extra CSS
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/custom.css
+  - assets/stylesheets/home.css
+  - assets/stylesheets/about.css
 
 # Extensions
 markdown_extensions:
