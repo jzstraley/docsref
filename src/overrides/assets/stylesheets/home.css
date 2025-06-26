@@ -1,0 +1,38 @@
+/* @import "custom/layout/sections"; */
+/* Header */
+.md-header {
+  position: sticky;
+}
+
+.md-header--shadow {
+  transition: background-color 0.25s, transform 0.25s cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0.25s;
+}
+
+.md-header:not(.md-header--shadow) {
+  transition: background-color 125ms, transform 125ms cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0ms;
+}
+
+/* Remove spacing, as we cannot hide it completely */
+.md-main__inner {
+  margin: 0;
+}
+
+/* Hide main content for now */
+.md-content {
+  display: none;
+}
+
+/* Hide table of contents */
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary {
+    display: none;
+  }
+}
+/* Hide navigation */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
