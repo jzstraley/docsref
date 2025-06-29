@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderPublicSponsor = renderPublicSponsor;
 exports.renderPrivateSponsor = renderPrivateSponsor;
@@ -17,7 +16,7 @@ const utilities_1 = require("~/utilities");
 function renderPublicSponsor(user) {
     const title = `@${user.name}`;
     return ((0, utilities_1.h)("a", { href: user.url, title: title, class: "mdx-sponsorship__item" },
-        (0, utilities_1.h)("img", { src: user.image })));
+        (0, utilities_1.h)("img", { src: user.image, alt: user.name })));
 }
 /**
  * Render private sponsor

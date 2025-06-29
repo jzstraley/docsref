@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.watchDetails = watchDetails;
 exports.mountDetails = mountDetails;

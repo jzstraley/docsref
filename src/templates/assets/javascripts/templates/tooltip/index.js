@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderTooltip = renderTooltip;
 exports.renderInlineTooltip2 = renderInlineTooltip2;

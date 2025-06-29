@@ -400,7 +400,7 @@
   }
 
   // [(("tablet", "portrait")) -]: Layered navigation with table of contents
-  @include break.break-from-device(("tablet", "landscape")) {
+  @include break.break-from-device(("tablet", "portrait")) {
 
     // Show link to table of contents
     &--primary &__link[for="__toc"] {
@@ -432,7 +432,7 @@
   }
 
   // [("tablet", "landscape")]: Layered navigation with table of contents
-@include break.break-at-device(("tablet")) {
+@include break.break-at-device(("tablet", "landscape")) {
 
     // Show link to integrated table of contents
     &--integrated &__link[for="__toc"] {

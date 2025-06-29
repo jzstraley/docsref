@@ -16,7 +16,6 @@ import {
   zip
 } from "rxjs"
 import { optimize } from "svgo"
-import sass from "sass"
 
 import { IconSearchIndex } from "_/components"
 
@@ -221,7 +220,7 @@ const templates$ = manifest$
       from: "src",
       to: base,
       watch: process.argv.includes("--watch"),
-      transform: async (data: string, name: string): Promise<string> => {
+      transform: async (data: string, _name: string): Promise<string> => {
         const metadata = require("../../package.json");
         const banner =
           "{#-\n" +
@@ -312,7 +311,7 @@ const index$ = zip(icons$, emojis$)
 const schema$ = merge(
 
   /* Compute fonts schema */
-  defer(() => import("google-fonts-complete"))
+  defer(() => import("google-fonts-complete/google-fonts.json"))
     .pipe(
       map(({ default: fonts }) => Object.keys(fonts)),
       map(fonts => ({

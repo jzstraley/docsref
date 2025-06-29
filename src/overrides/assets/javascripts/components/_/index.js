@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getComponentElement = getComponentElement;
 exports.getComponentElements = getComponentElements;

@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.watchViewportAt = watchViewportAt;
 const rxjs_1 = require("rxjs");

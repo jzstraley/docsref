@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderTable = renderTable;
 const utilities_1 = require("~/utilities");

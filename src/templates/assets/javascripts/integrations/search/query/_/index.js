@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.transformSearchQuery = transformSearchQuery;
 exports.parseSearchQuery = parseSearchQuery;

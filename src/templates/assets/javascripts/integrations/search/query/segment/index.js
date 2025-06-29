@@ -1,10 +1,9 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.segment = segment;
 /* ----------------------------------------------------------------------------
  * Functions
  * ------------------------------------------------------------------------- */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.segment = segment;
 /**
  * Segment a search query using the inverted index
  *

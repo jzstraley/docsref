@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.mountIconSearchQuery = mountIconSearchQuery;
 const rxjs_1 = require("rxjs");

@@ -97,7 +97,7 @@
   }
 
   // [(("tablet", "portrait")) +]: Header-embedded search
-  @include break.break-from-device(("tablet", "landscape")) {
+  @include break.break-from-device(("tablet", "portrait")) {
 
     // Search form
     .md-search__form {

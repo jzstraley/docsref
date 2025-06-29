@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderIconSearchResult = renderIconSearchResult;
 const fuzzaldrin_plus_1 = require("fuzzaldrin-plus");
@@ -39,7 +38,7 @@ function highlight(icon, query) {
 function renderIconSearchResult(icon, query, file) {
     return ((0, utilities_1.h)("li", { class: "mdx-iconsearch-result__item" },
         (0, utilities_1.h)("span", { class: "twemoji" },
-            (0, utilities_1.h)("img", { src: icon.url })),
+            (0, utilities_1.h)("img", { src: icon.url, alt: icon.shortcode })),
         (0, utilities_1.h)("button", { class: "md-clipboard--inline", title: (0, _1.translation)("clipboard.copy"), "data-clipboard-text": file ? icon.shortcode : `:${icon.shortcode}:` },
             (0, utilities_1.h)("code", null, file
                 ? highlight(icon, query)

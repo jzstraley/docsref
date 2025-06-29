@@ -96,9 +96,7 @@ export function transformStyle(
           ],
           encode: false
         }),
-        ...process.argv.includes("--optimize")
-          ? [require("cssnano")]
-          : []
+        ...(process.argv.includes("--optimize") ? [require("cssnano")] : [])
       ])
         .process(css, {
           from: options.from,

@@ -25,6 +25,7 @@
       "_/*": ["./overrides/assets/javascripts/*"]
     },
     "removeComments": false,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "skipLibCheck": true,
     "strict": true,

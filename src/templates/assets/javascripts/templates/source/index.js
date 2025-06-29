@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderSourceFacts = renderSourceFacts;
 const utilities_1 = require("~/utilities");

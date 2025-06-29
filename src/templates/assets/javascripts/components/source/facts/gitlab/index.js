@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchSourceFactsFromGitLab = fetchSourceFactsFromGitLab;
 const rxjs_1 = require("rxjs");

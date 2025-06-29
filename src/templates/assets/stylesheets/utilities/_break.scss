@@ -2,6 +2,7 @@
 @use "sass:map";
 @use "sass:math";
 @use "sass:meta";
+@use 'sass:string';
 
 /// Breakpoints for responsive design
 $break-devices: (
@@ -57,9 +58,9 @@ $break-devices: (
 @function break-select-device($device) {
   $current: $break-devices;
 
-  @for $i from 1 through length($device) {
+  @for $i from 1 through list.length($device) {
     @if meta.type-of($current) == "map" {
-      $key: nth($device, $i);
+      $key: list.nth($device, $i);
       $current: map.get($current, $key);
     } @else {
       @error "Invalid device map at level #{$i}: #{$device}";
@@ -69,6 +70,7 @@ $break-devices: (
 @if meta.type-of($current) == "list" or meta.type-of($current) == "number" {
     @return $current;
   } @else {
+    @debug $device;
     @error "Device path `#{join($device, ', ')}` does not exist in $break-devices";
   }
 }
@@ -96,25 +98,75 @@ $break-devices: (
 
 @mixin break-from-device($device...) {
   $range: break-select-device($device...);
-    @media screen and (min-width: list.nth($range, 1)) {
-    @content;
+
+  @if meta.type-of($range) == "map" {
+    $min: map.get($range, min);
+    @media screen and (min-width: $min) {
+      @content;
+    }
+  } @else if meta.type-of($range) == "list" {
+    $min: list.nth($range, 1);
+    @media screen and (min-width: $min) {
+      @content;
+    }
+  } @else if meta.type-of($range) == "number" {
+    @media screen and (min-width: $range) {
+      @content;
+    }
+  } @else {
+    @error "Unsupported breakpoint range format for break-from-device";
   }
 }
 
 @mixin break-to-device($device...) {
   $range: break-select-device($device...);
-  @media screen and (max-width: list.nth($range, 2)) {
-    @content;
+
+  @if meta.type-of($range) == "map" {
+    $max: map.get($range, max);
+    @media screen and (max-width: $max) {
+      @content;
+    }
+  } @else if meta.type-of($range) == "list" {
+    $max: list.nth($range, 2);
+    @media screen and (max-width: $max) {
+      @content;
+    }
+  } @else if meta.type-of($range) == "number" {
+    @media screen and (max-width: $range) {
+      @content;
+    }
+  } @else {
+    @error "Unsupported breakpoint range format for break-to-device";
   }
 }
 
 @mixin break-at-device($device...) {
-  $range: break-select-device($device...);
-  $min: map.get($range, min);
-  $max: map.get($range, max);
 
-  @media screen and (min-width: $min) and (max-width: $max) {
-    @content;
+  $range: break-select-device($device...);
+  $min: null;
+  $max: null; // <-- initialize here!
+
+  @if meta.type-of($range) == "map" {
+    $min: map.get($range, min);
+    $max: map.get($range, max);
+  } @else if meta.type-of($range) == "list" {
+    $min: list.nth($range, 1);
+    $max: if(list.length($range) > 1, list.nth($range, 2), null);
+  } @else if meta.type-of($range) == "number" {
+    $min: $range;
+    $max: null;
+  } @else {
+    @error "Unsupported breakpoint range format for break-at-device";
+  }
+
+  @if $max != null {
+    @media screen and (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @media screen and (min-width: $min) {
+      @content;
+    }
   }
 }
 

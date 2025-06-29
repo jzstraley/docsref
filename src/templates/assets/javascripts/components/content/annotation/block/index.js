@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.mountAnnotationBlock = mountAnnotationBlock;
 const rxjs_1 = require("rxjs");

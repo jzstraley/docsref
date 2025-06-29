@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderClipboardButton = renderClipboardButton;
 const _1 = require("~/_");

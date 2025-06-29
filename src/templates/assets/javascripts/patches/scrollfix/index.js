@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.patchScrollfix = patchScrollfix;
 const rxjs_1 = require("rxjs");

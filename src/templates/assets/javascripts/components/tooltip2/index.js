@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.watchTooltip2 = watchTooltip2;
 exports.mountTooltip2 = mountTooltip2;

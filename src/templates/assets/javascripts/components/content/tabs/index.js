@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.watchContentTabs = watchContentTabs;
 exports.mountContentTabs = mountContentTabs;

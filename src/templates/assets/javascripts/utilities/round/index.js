@@ -1,10 +1,9 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.round = round;
 /* ----------------------------------------------------------------------------
  * Functions
  * ------------------------------------------------------------------------- */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.round = round;
 /**
  * Round a number for display with repository facts
  *

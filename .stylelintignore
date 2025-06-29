@@ -2,6 +2,11 @@
 docs
 material
 src/**/*.html
+node_modules/material-design-color
+node_modules/material-design-color/material-color.scss
+src/templates/assets/stylesheets/main.scss
+src/templates/assets/stylesheets/palette.scss
+src/overrides/assets/stylesheets/custom.scss
 
 # Prevent stylelint from constantly complaining
 *.css

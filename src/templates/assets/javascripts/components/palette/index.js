@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.watchPalette = watchPalette;
 exports.mountPalette = mountPalette;
