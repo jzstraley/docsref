@@ -1,0 +1,148 @@
+div {
+  box-sizing: border-box;
+}
+
+[dir="ltr"] p {
+  margin-left: 0px;
+}
+
+[dir="rtl"] p {
+  margin-right: 0px;
+}
+
+[dir="ltr"] p {
+  margin-right: 0px;
+}
+
+[dir="rtl"] p {
+  margin-left: 0px;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  unicode-bidi: isolate;
+}
+
+@media (max-width: 767px) {
+  .calc {
+    padding: 1.5rem 5px 20px;
+    margin: 0;
+  }
+}
+.calc {
+  position: relative;
+  padding: 0 5px;
+  max-width: 960px;
+  display: flex;
+}
+
+.main_column {
+  flex: 1 1 100%;
+  max-width: 610px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px 0;
+  border-radius: 2px;
+  margin: 11px 0;
+}
+
+.panel {
+  background-color: var(--md-default-fg-color--light);
+}
+
+.side-by-side-container {
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  margin: 2em auto;
+  width: 90%;
+  max-width: 600px;
+  color: #595959;
+  font-size: 14.5px;
+  line-height: 1.4;
+}
+
+.calc_input-wrapper {
+  min-height: 44px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #d7d7d7;
+  transition: height 0.8s ease-in-out;
+}
+
+.calc_side-by-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  flex: 1 1;
+  height: 100%;
+  grid-gap: 0;
+  gap: 0;
+}
+
+.calc_header {
+  font-feature-settings: "kern", "liga";
+  color: var(--md-code-hl-color);
+  font-family: var(--md-text-font-family);
+}
+
+.calc_input-name-label {
+  color: var(--md-typeset-color);
+  padding-top: 6px;
+  padding-bottom: 0;
+  padding-right: 10px;
+  border: none;
+}
+
+.calc_input-div {
+  width: 40%;
+  padding: 8px 0 0;
+  width: 100%;
+}
+
+.calc_input-value-wrapper {
+  display: flex;
+  padding: 0;
+  border: none;
+}
+
+.calc_input-value-label {
+  flex: 1 1 auto;
+  padding: 0px 6px;
+  min-width: 0;
+  width: 67%;
+  display: inline-block;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.calc_input-value-label-unit {
+  font-family: Facit, Calibri, Helvetica, sans-serif;
+  flex: 0 0 auto;
+  height: 44px;
+  padding: 0 6px;
+  border-radius: 4px;
+  line-height: 47px;
+  display: inline-block;
+  min-width: 33%;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #d7d7d7;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 11px;
+  font-weight: 400;
+  box-shadow: none;
+}
