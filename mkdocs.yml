@@ -79,11 +79,6 @@ plugins:
   - tags
   - minify:
       minify_html: true
-      minify_css: true
-      minify_js: true
-      cache_safe: true
-      htmlmin_opts:
-        remove_comments: true
       css_files:
         - assets/stylesheets/extra.css
   - search:

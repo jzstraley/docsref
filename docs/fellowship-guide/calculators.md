@@ -12,5 +12,3 @@ template: calc.html
     * [PA Catheter Normative Data][1]
 
 [1]: https://emcrit.org/ibcc/pah/
-
-<script src="../assets/javascripts/calculators.js"></script>

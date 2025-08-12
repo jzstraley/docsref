@@ -1,0 +1,30 @@
+# Language for theme localization
+language: en
+
+# Text direction (can be ltr or rtl), default: ltr
+direction:
+
+# Feature flags for functionality that alters behavior significantly, and thus
+# may be a matter of taste
+features: []
+
+# Fonts used by Material, automatically loaded from Google Fonts - see the site
+# for a list of available fonts
+font:
+
+  # Default font for text
+  text: Roboto
+
+  # Fixed-width font for code listings
+  code: Roboto Mono
+
+# From Material 5.x on, icons are inlined into the HTML and CSS as SVGs.
+# Icons that are part of the HTML can be configured and replaced
+icon:
+
+# Favicon to be rendered
+favicon: assets/images/favicon.png
+
+# Static pages to build
+static_templates:
+  - 404.html

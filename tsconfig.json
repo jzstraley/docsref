@@ -41,5 +41,5 @@
     "src/templates/assets/javascripts",
     "tools",
     "typings"
-  ]
+, "_drafts/index.ts"  ]
 }
