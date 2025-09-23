@@ -1,5 +1,5 @@
 # Requirements for core
-jinja2~=3.0
+jinja2~=3.1
 markdown~=3.2
 mkdocs~=1.6
 mkdocs-material-extensions~=1.3
@@ -10,12 +10,9 @@ pymdown-extensions~=10.2
 babel~=2.10
 colorama~=0.4
 paginate~=0.5
-regex>=2022.4
+backrefs~=5.7.post1
 requests~=2.26
 
-mkdocs
-mkdocs-git-revision-date-localized-plugin
-mkdocs-material
-mkdocs-minify-plugin
-pymdown-extensions
-pre-commit
+# Temporarily pin click until this is resolved in MkDocs, see
+# https://github.com/mkdocs/mkdocs/issues/4014#issuecomment-3146508306
+click<8.2.2

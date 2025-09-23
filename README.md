@@ -1,1 +1,1 @@
-Welcome to DocsRef. A resource for user level infomation, fast. 
+Welcome to DocsRef. A resource for user level information, fast. 
