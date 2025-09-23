@@ -1,3 +1,29 @@
+////
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+///
+/// Permission is hereby granted, free of charge, to any person obtaining a
+/// copy of this software and associated documentation files (the "Software"),
+/// to deal in the Software without restriction, including without limitation
+/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+/// and/or sell copies of the Software, and to permit persons to whom the
+/// Software is furnished to do so, subject to the following conditions:
+///
+/// The above copyright notice and this permission notice shall be included in
+/// all copies or substantial portions of the Software.
+///
+/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+/// DEALINGS
+////
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
 // Scoped in typesetted content to match specificity of regular content
 .md-typeset {
 
@@ -33,8 +59,8 @@
     // Hack: promote to own layer to reduce jitter
     backface-visibility: hidden;
     touch-action: pan-y;
-    scrollbar-width: thin;
     scrollbar-color: var(--md-default-fg-color--lighter) transparent;
+    scrollbar-width: thin;
 
     // Icon search result inside tooltip
     .md-tooltip & {
@@ -64,6 +90,38 @@
       right: px2rem(12px);
       font-size: px2rem(12.8px);
       color: var(--md-default-fg-color--lighter);
+
+      // [mobile portrait -]: Hide meta
+      @include break-to-device(mobile portrait) {
+        display: none;
+      }
+    }
+
+    // Icon search result select
+    &__select {
+      position: absolute;
+      top: px2rem(8px);
+      right: px2rem(12px);
+      padding-block: 0.15em;
+      font-size: px2rem(12.8px);
+      color: var(--md-default-fg-color--light);
+      background-color: var(--md-default-fg-color--lightest);
+      border: none;
+      border-radius: px2rem(2px);
+      transition: color 125ms, background-color 125ms;
+
+      // Focused or hovered
+      &:focus,
+      &:hover {
+        color: var(--md-accent-bg-color);
+        background-color: var(--md-accent-fg-color);
+        outline: none;
+      }
+
+      // Adjust spacing
+      + .mdx-iconsearch-result__meta {
+        right: px2rem(82px);
+      }
     }
 
     // Icon search result list
@@ -95,24 +153,16 @@
         margin-right: px2rem(12px);
       }
 
-      // Set icon dimensions to fit 
+      // Set icon dimensions to fit
       img {
         width: px2rem(18px);
         height: px2rem(18px);
 
         // Slate theme, i.e. dark mode
-        [data-md-color-scheme="slate"] &[src*="profpicbg"] {
+        [data-md-color-scheme="slate"] &[src*="squidfunk"] {
           filter: invert(1); /* stylelint-disable-line */
         }
       }
     }
   }
-}
-
-
-.md-header__button.md-logo img,.md-header__button.md-logo svg, .md-nav__button svg {
-  /* fill: currentcolor; */
-  display: block;
-  height: 2rem;
-  width: auto
 }

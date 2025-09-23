@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+# Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -23,7 +23,7 @@ import json
 import logging
 import os
 import platform
-import regex
+import re
 import requests
 import site
 import sys
@@ -212,6 +212,9 @@ class InfoPlugin(BasePlugin[InfoConfig]):
                 pattern = _resolve_pattern(project_config.site_dir)
                 self.exclusion_patterns.append(pattern)
 
+        # Track dotpath inclusion to inform about it later
+        contains_dotpath: bool = False
+
         # Create self-contained example from project
         files: list[str] = []
         with ZipFile(archive, "a", ZIP_DEFLATED, False) as f:
@@ -228,6 +231,11 @@ class InfoPlugin(BasePlugin[InfoConfig]):
                     # Exclude the directory and all subdirectories
                     if self._is_excluded(path):
                         dirnames.remove(name)
+                        continue
+
+                    # Warn about .dotdirectories
+                    if _is_dotpath(path, log_warning = True):
+                        contains_dotpath = True
 
                 # Write files to the in-memory archive
                 for name in filenames:
@@ -237,6 +245,10 @@ class InfoPlugin(BasePlugin[InfoConfig]):
                     # Exclude the file
                     if self._is_excluded(path):
                         continue
+
+                    # Warn about .dotfiles
+                    if _is_dotpath(path, log_warning = True):
+                        contains_dotpath = True
 
                     # Resolve the relative path to create a matching structure
                     path = os.path.relpath(path, os.path.curdir)
@@ -278,8 +290,11 @@ class InfoPlugin(BasePlugin[InfoConfig]):
 
             # Retrieve list of processed files
             for a in f.filelist:
+                # Highlight .dotpaths in a more explicit manner
+                color = (Fore.LIGHTYELLOW_EX if "/." in a.filename
+                         else Fore.LIGHTBLACK_EX)
                 files.append("".join([
-                    Fore.LIGHTBLACK_EX, a.filename, " ",
+                    color, a.filename, " ",
                     _size(a.compress_size)
                 ]))
 
@@ -308,6 +323,14 @@ class InfoPlugin(BasePlugin[InfoConfig]):
         print(Style.RESET_ALL)
         if buffer.nbytes > 1000000:
             log.warning("Archive exceeds recommended maximum size of 1 MB")
+
+        # Print warning when file contains hidden .dotpaths
+        if contains_dotpath:
+            log.warning(
+                "Archive contains dotpaths, which could contain sensitive "
+                "information.\nPlease review them at the bottom of the list "
+                "and share only necessary data to reproduce the issue."
+            )
 
         # Aaaaaand done
         sys.exit(1)
@@ -385,9 +408,8 @@ class InfoPlugin(BasePlugin[InfoConfig]):
 
         # Resolve the path into POSIX format to match the patterns
         pattern_path = _resolve_pattern(abspath, return_path = True)
-
         for pattern in self.exclusion_patterns:
-            if regex.search(pattern, pattern_path):
+            if re.search(pattern, pattern_path):
                 log.debug(f"Excluded pattern '{pattern}': {abspath}")
                 self.excluded_entries.append(f"{pattern} - {pattern_path}")
                 return True
@@ -487,6 +509,18 @@ def _get_project_config(project_config_file: str):
         config.validate()
 
         return config
+
+# Check if the path is a .dotpath. A warning can also be issued when the param
+# is set. The function also returns a boolean to track results outside it.
+def _is_dotpath(path: str, log_warning: bool = False) -> bool:
+    posix_path = _resolve_pattern(path, return_path = True)
+    name = posix_path.rstrip("/").rsplit("/", 1)[-1]
+    if name.startswith("."):
+        if log_warning:
+            log.warning(f"The following .dotpath will be included: {path}")
+        return True
+    return False
+
 
 # -----------------------------------------------------------------------------
 # Data

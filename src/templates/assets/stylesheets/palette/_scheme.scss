@@ -1,5 +1,5 @@
 ////
-/// Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 ///
 /// Permission is hereby granted, free of charge, to any person obtaining a
 /// copy of this software and associated documentation files (the "Software"),
@@ -34,11 +34,11 @@
     color-scheme: dark;
 
     // Default color shades
-    --md-default-fg-color:             hsla(var(--md-hue), 15%, 90%, 0.82); //Grey 
+    --md-default-fg-color:             hsla(var(--md-hue), 15%, 90%, 0.82);
     --md-default-fg-color--light:      hsla(var(--md-hue), 15%, 90%, 0.56);
     --md-default-fg-color--lighter:    hsla(var(--md-hue), 15%, 90%, 0.32);
     --md-default-fg-color--lightest:   hsla(var(--md-hue), 15%, 90%, 0.12);
-    --md-default-bg-color:             hsla(var(--md-hue), 15%, 14%, 1);    //black 
+    --md-default-bg-color:             hsla(var(--md-hue), 15%, 14%, 1);
     --md-default-bg-color--light:      hsla(var(--md-hue), 15%, 14%, 0.54);
     --md-default-bg-color--lighter:    hsla(var(--md-hue), 15%, 14%, 0.26);
     --md-default-bg-color--lightest:   hsla(var(--md-hue), 15%, 14%, 0.07);
@@ -112,6 +112,7 @@
       display: none;
     }
   }
+
   // --------------------------------------------------------------------------
 
   // Adjust link colors for dark primary colors

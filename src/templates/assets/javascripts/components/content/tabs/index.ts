@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+ * Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to
@@ -38,7 +38,6 @@ import {
   skip,
   startWith,
   subscribeOn,
-  switchMap,
   takeUntil,
   tap,
   withLatestFrom
@@ -137,7 +136,7 @@ export function mountContentTabs(
   return defer(() => {
     const push$ = new Subject<ContentTabs>()
     const done$ = push$.pipe(ignoreElements(), endWith(true))
-    combineLatest([push$, watchElementSize(el)])
+    combineLatest([push$, watchElementSize(el), watchElementVisibility(el)])
       .pipe(
         takeUntil(done$),
         auditTime(1, animationFrameScheduler)
@@ -286,9 +285,8 @@ export function mountContentTabs(
       })
 
     /* Create and return component */
-    return watchElementVisibility(el)
+    return watchContentTabs(inputs)
       .pipe(
-        switchMap(() => watchContentTabs(inputs)),
         tap(state => push$.next(state)),
         finalize(() => push$.complete()),
         map(state => ({ ref: el, ...state }))

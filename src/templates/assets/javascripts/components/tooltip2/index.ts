@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+ * Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to
@@ -27,6 +27,7 @@ import {
   Subject,
   animationFrameScheduler,
   combineLatest,
+  combineLatestWith,
   debounce,
   defer,
   distinctUntilChanged,
@@ -138,7 +139,12 @@ export function watchTooltip2(
     defer(() => getElementContainers(el)).pipe(
       mergeMap(watchElementContentOffset),
       throttleTime(1),
-      map(() => getElementOffsetAbsolute(el))
+      // Note that we need to poll the value again if the active state changes,
+      // as otherwise the tooltip might be misplaced. This particularly happens
+      // when using third-party integrations like tablesort that change the
+      // position of elements – see https://t.ly/Y-V7X
+      combineLatestWith(active$),
+      map(() => getElementOffsetAbsolute(el)),
     )
 
   // Only track parent elements and compute offset of the tooltip host if the

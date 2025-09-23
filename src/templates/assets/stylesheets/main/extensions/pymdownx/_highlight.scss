@@ -1,3 +1,25 @@
+////
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+///
+/// Permission is hereby granted, free of charge, to any person obtaining a
+/// copy of this software and associated documentation files (the "Software"),
+/// to deal in the Software without restriction, including without limitation
+/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+/// and/or sell copies of the Software, and to permit persons to whom the
+/// Software is furnished to do so, subject to the following conditions:
+///
+/// The above copyright notice and this permission notice shall be included in
+/// all copies or substantial portions of the Software.
+///
+/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+/// DEALINGS
+////
+
 // ----------------------------------------------------------------------------
 // Rules: syntax highlighting
 // ----------------------------------------------------------------------------
@@ -181,7 +203,6 @@
     margin-left: px2em(-16px, 13.6px);
     color: var(--md-default-fg-color--light);
     content: attr(data-linenos);
-    -webkit-user-select: none;
     user-select: none;
     background-color: var(--md-code-bg-color);
     box-shadow: px2rem(-1px) 0 var(--md-default-fg-color--lightest) inset;
@@ -201,6 +222,11 @@
   // Copying in progress - this class is set before the content is copied and
   // removed after copying is done to mitigate whitespace-related issues.
   code[data-md-copying] {
+    // Hack: since we're using grid layout when line spans are enabled, we need
+    // to set the display property to `initial` to prevent the grid layout from
+    // being applied to the code block when copying, because it will add empty
+    // lines to the copied content - see https://t.ly/wt4ye
+    display: initial;
 
     // Temporarily remove highlighted lines - see https://bit.ly/32iVGWh
     .hll {
@@ -259,7 +285,6 @@
     padding: px2em(10.5px, 13.6px) px2em(16px, 13.6px);
     padding-right: 0;
     font-size: px2em(13.6px);
-    -webkit-user-select: none;
     user-select: none;
     background-color: var(--md-code-bg-color);
     border-top-left-radius: px2rem(2px);

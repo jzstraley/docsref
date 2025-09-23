@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+# Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -40,10 +40,11 @@ font:
 
 # From Material 5.x on, icons are inlined into the HTML and CSS as SVGs.
 # Icons that are part of the HTML can be configured and replaced
-icon: assets/images/icon-logo/favicon.ico
+icon:
 
 # Favicon to be rendered
 favicon: assets/images/favicon.png
 
+# Static pages to build
 static_templates:
   - 404.html

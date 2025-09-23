@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+# Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -44,6 +44,8 @@ from xml.etree.ElementTree import Element, tostring
 from .config import PrivacyConfig
 from .parser import FragmentParser
 
+DEFAULT_TIMEOUT_IN_SECS = 5
+
 # -----------------------------------------------------------------------------
 # Classes
 # -----------------------------------------------------------------------------
@@ -64,8 +66,8 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
         # Initialize collections of external assets
         self.assets = Files([])
         self.assets_expr_map = {
-            ".css": r"url\((\s*http?[^)]+)\)",
-            ".js": r"[\"'](http[^\"']+\.(?:css|js(?:on)?))[\"']",
+            ".css": r"url\(\s*([\"']?)(?P<url>http?[^)'\"]+)\1\s*\)",
+            ".js": r"[\"'](?P<url>http[^\"']+\.(?:css|js(?:on)?))[\"']",
             **self.config.assets_expr_map
         }
 
@@ -96,11 +98,9 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
                     # automatically loads Mermaid.js when a Mermaid diagram is
                     # found in the page - https://bit.ly/36tZXsA.
                     if "mermaid.min.js" in url.path and not config.site_url:
-                        path = url.geturl()
-                        if path not in config.extra_javascript:
-                            config.extra_javascript.append(
-                                ExtraScriptValue(path)
-                            )
+                        script = ExtraScriptValue(url.geturl())
+                        if script not in config.extra_javascript:
+                            config.extra_javascript.append(script)
 
             # The local asset references at least one external asset, which
             # means we must download and replace them later
@@ -149,6 +149,14 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
             if not self._is_excluded(url, page.file):
                 self._queue(url, config, concurrent = True)
 
+    # Sync all concurrent jobs
+    def on_env(self, env, *, config, files):
+        if not self.config.enabled:
+            return
+
+        # Wait until all jobs until now are finished
+        wait(self.pool_jobs)
+
     # Process external assets in template (run later)
     @event_priority(-50)
     def on_post_template(self, output_content, *, template_name, config):
@@ -192,9 +200,11 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
                     self._patch, file
                 ))
 
-            # Otherwise just copy external asset to output directory
+            # Otherwise just copy external asset to output directory if it
+            # exists, i.e., if the download succeeded
             else:
-                file.copy_file()
+                if os.path.exists(file.abs_src_path):
+                    file.copy_file()
 
         # Reconcile concurrent jobs for the last time, so the plugins following
         # in the build process always have a consistent state to work with
@@ -251,7 +261,7 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
         # quote, we need to catch this here, as we're using pretty basic
         # regular expression based extraction
         raise PluginError(
-            f"Could not parse due to possible syntax error in HTML: \n\n"
+            "Couldn't parse due to possible syntax error in HTML: \n\n"
             + fragment
         )
 
@@ -262,10 +272,16 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
         if extension not in self.assets_expr_map:
             return []
 
+        # Skip if source path is not set, which might be true for generated
+        # files or for files that were added programatically in plugins
+        if not initiator.abs_src_path:
+            return []
+
         # Find and extract all external asset URLs
         expr = re.compile(self.assets_expr_map[extension], flags = re.I | re.M)
         with open(initiator.abs_src_path, encoding = "utf-8-sig") as f:
-            return [urlparse(url) for url in re.findall(expr, f.read())]
+            results = re.finditer(expr, f.read())
+            return [urlparse(result.group("url")) for result in results]
 
     # Parse template or page HTML and find all external links that need to be
     # replaced. Many of the assets should already be downloaded earlier, i.e.,
@@ -295,24 +311,34 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
                     if rel == "preconnect":
                         return ""
 
-                    # Replace external style sheet or favicon
-                    if rel == "stylesheet" or rel == "icon":
+                    # Replace external favicon, preload hint or style sheet
+                    if rel in ("icon", "preload", "stylesheet"):
                         file = self._queue(url, config)
-                        el.set("href", resolve(file))
+                        if file:
+                            el.set("href", resolve(file))
 
             # Handle external script or image
             if el.tag == "script" or el.tag == "img":
                 url = urlparse(el.get("src"))
                 if not self._is_excluded(url, initiator):
                     file = self._queue(url, config)
-                    el.set("src", resolve(file))
+                    if file:
+                        el.set("src", resolve(file))
+
+            # Handle external image in SVG
+            if el.tag == "image":
+                url = urlparse(el.get("href"))
+                if not self._is_excluded(url, initiator):
+                    file = self._queue(url, config)
+                    if file:
+                        el.set("href", resolve(file))
 
             # Return element as string
             return self._print(el)
 
         # Find and replace all external asset URLs in current page
         return re.sub(
-            r"<(?:(?:a|link)[^>]+href|(?:script|img)[^>]+src)=['\"]?http[^>]+>",
+            r"<(?:(?:a|link|image)[^>]+href|(?:script|img)[^>]+src)=['\"]?http[^>]+>",
             replace, output, flags = re.I | re.M
         )
 
@@ -330,7 +356,7 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
 
         # Return void or opening tag as string, strip closing tag
         data = tostring(el, encoding = "unicode")
-        return data.replace(" />", ">").replace(f"\"{temp}\"", "")
+        return data.replace(" />", ">").replace(f"=\"{temp}\"", "")
 
     # Enqueue external asset for download, if not already done
     def _queue(self, url: URL, config: MkDocsConfig, concurrent = False):
@@ -361,7 +387,8 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
             # Fetch external asset synchronously, as it either has no extension
             # or is fetched from a context in which replacements are done
             else:
-                self._fetch(file, config)
+                if not self._fetch(file, config):
+                    return None
 
             # Register external asset as file - it might have already been
             # registered, and since MkDocs 1.6, trigger a deprecation warning
@@ -385,18 +412,30 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
 
             # Download external asset
             log.info(f"Downloading external file: {file.url}")
-            res = requests.get(file.url, headers = {
+            try:
+                res = requests.get(
+                    file.url,
+                    headers = {
+                        # Set user agent explicitly, so Google Fonts gives us
+                        # *.woff2 files, which according to caniuse.com is the
+                        # only format we need to download as it covers the range
+                        # range of browsers we're officially supporting.
+                        "User-Agent": " ".join(
+                            [
+                                "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+                                "AppleWebKit/537.36 (KHTML, like Gecko)",
+                                "Chrome/98.0.4758.102 Safari/537.36",
+                            ]
+                        )
+                    },
+                    timeout=DEFAULT_TIMEOUT_IN_SECS,
+                )
+                res.raise_for_status()
 
-                # Set user agent explicitly, so Google Fonts gives us *.woff2
-                # files, which according to caniuse.com is the only format we
-                # need to download as it covers the entire range of browsers
-                # we're officially supporting.
-                "User-Agent": " ".join([
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-                    "AppleWebKit/537.36 (KHTML, like Gecko)",
-                    "Chrome/98.0.4758.102 Safari/537.36"
-                ])
-            })
+            # Intercept errors of type `ConnectionError` and `HTTPError`
+            except Exception as error:
+                log.warning(f"Couldn't retrieve {file.url}: {error}")
+                return False
 
             # Compute expected file extension and append if missing
             mime = res.headers["content-type"].split(";")[0]
@@ -447,13 +486,16 @@ class PrivacyPlugin(BasePlugin[PrivacyConfig]):
             if not self._is_excluded(url, file):
                 self._queue(url, config, concurrent = True)
 
+        # External asset was successfully downloaded
+        return True
+
     # Patch all links to external assets in the given file
     def _patch(self, initiator: File):
         with open(initiator.abs_src_path, encoding = "utf-8-sig") as f:
 
             # Replace callback
             def replace(match: Match):
-                value = match.group(1)
+                value = match.group("url")
 
                 # Map URL to canonical path
                 path = self._path_from_url(urlparse(value))
