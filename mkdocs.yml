@@ -76,9 +76,15 @@ plugins:
       post_date_format: short
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
-  - tags
+  - tags:
+      tags_file: tags.md
   - minify:
       minify_html: true
+      minify_css: true
+      minify_js: true
+      cache_safe: true
+      htmlmin_opts:
+        remove_comments: true
       css_files:
         - assets/stylesheets/extra.css
   - search:
@@ -91,9 +97,9 @@ plugins:
 strict: true
 
 # Hooks
-# hooks:
-#  - material/overrides/hooks/shortcodes.py
-#  - material/overrides/hooks/translations.py
+hooks:
+  - material/overrides/hooks/shortcodes.py
+  - material/overrides/hooks/translations.py
 
 # Additional configuration
 extra:

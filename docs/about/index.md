@@ -78,19 +78,13 @@ social:
     * CAMC Department of Cardiology
     * PI: Dr. Vikhyath Terla, MD, Assistant Professor, Department of Pulmonology/Critical Care,
     * October 09, 2024
-* Society of Hospital Medicine Poster Presentation - Case Report
-    * 2024 Society of Hospital Medicine | Charleston, WV
-    * Co-Investigator
-    * Case: Microscopic Polyangiitis with Temporal Artery Involvement Mimicking Giant Cell Arteritis
-    * PI: James R. Campbell II, MD, Interim Associate Vice President for Health Sciences, Charleston Campus and Interim Dean, WVU School of Medicine, Charleston Campus; Associate Professor & Department Chair, Department of Internal Medicine * Charleston Campus
-    * April 26, 2024
 * CAMC Research Day Oral Presentation – Clinical Research/QI Abstract
     * 2024 CAMC Research Day | Roanoke, WV
     * 1st Author/Presenter
     * Case: Evaluating Resident and Patient Satisfaction by Creating a Polypharmacy Clinic in an Internal Medicine Residency Program
     * CAMC Department of Internal Medicine
     * PI: Amna Anees, MD, Program Director, Department of Internal Medicine
-    * April 16, 2024
+    * April 2024
 * WV ACP Poster – Clinical Research/QI Abstract
     * 2023 ACP WV Chapter Annual Scientific Meeting | Roanoke, WV
     * Co-Investigator/Presenter

@@ -1,8 +1,27 @@
+////
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+///
+/// Permission is hereby granted, free of charge, to any person obtaining a
+/// copy of this software and associated documentation files (the "Software"),
+/// to deal in the Software without restriction, including without limitation
+/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+/// and/or sell copies of the Software, and to permit persons to whom the
+/// Software is furnished to do so, subject to the following conditions:
+///
+/// The above copyright notice and this permission notice shall be included in
+/// all copies or substantial portions of the Software.
+///
+/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+/// DEALINGS
+////
+
 @use "sass:color";
 @use "sass:list";
-@use "sass:map";
-@use "material-color" as material-color;
-
 
 // ----------------------------------------------------------------------------
 // Variables
@@ -10,18 +29,18 @@
 
 /// Admonition flavours
 $admonitions: (
-  "note":     pencil-circle         material-color.$clr-blue-a200,
-  "abstract": clipboard-text        material-color.$clr-light-blue-a400,
-  "info":     information           material-color.$clr-cyan-a700,
-  "tip":      fire                  material-color.$clr-teal-a700,
-  "success":  check                 material-color.$clr-green-a700,
-  "question": help-circle           material-color.$clr-light-green-a700,
-  "warning":  alert                 material-color.$clr-orange-a400,
-  "failure":  close                 material-color.$clr-red-a200,
-  "danger":   lightning-bolt-circle material-color.$clr-red-a400,
-  "bug":      shield-bug            material-color.$clr-pink-a400,
-  "example":  test-tube             material-color.$clr-deep-purple-a200,
-  "quote":    format-quote-close    material-color.$clr-grey
+  "note":     pencil-circle         $clr-blue-a200,
+  "abstract": clipboard-text        $clr-light-blue-a400,
+  "info":     information           $clr-cyan-a700,
+  "tip":      fire                  $clr-teal-a700,
+  "success":  check                 $clr-green-a700,
+  "question": help-circle           $clr-light-green-a700,
+  "warning":  alert                 $clr-orange-a400,
+  "failure":  close                 $clr-red-a200,
+  "danger":   lightning-bolt-circle $clr-red-a400,
+  "bug":      shield-bug            $clr-pink-a400,
+  "example":  test-tube             $clr-deep-purple-a200,
+  "quote":    format-quote-close    $clr-grey
 ) !default;
 
 // ----------------------------------------------------------------------------
@@ -50,7 +69,7 @@ $admonitions: (
     font-size: px2rem(12.8px);
     color: var(--md-admonition-fg-color);
     background-color: var(--md-admonition-bg-color);
-    border: px2rem(1.5) solid material-color.$clr-blue-a200;
+    border: px2rem(1.5px) solid $clr-blue-a200;
     border-radius: px2rem(4px);
     box-shadow: var(--md-shadow-z1);
     transition: box-shadow 125ms;
@@ -63,7 +82,7 @@ $admonitions: (
 
     // Admonition on focus
     &:focus-within {
-      box-shadow: 0 0 0 px2rem(4px) color.adjust(material-color.$clr-blue-a200, $alpha: -0.3);
+      box-shadow: 0 0 0 px2rem(4px) color.adjust($clr-blue-a200, $alpha: -0.9);
     }
 
     // Hack: Chrome exhibits a weird issue where it will set nested elements to
@@ -107,7 +126,7 @@ $admonitions: (
     margin-block: 0;
     margin-inline: px2rem(-12px);
     font-weight: 700;
-    background-color: color.adjust(material-color.$clr-blue-a200, $alpha: -0.9);
+    background-color: color.adjust($clr-blue-a200, $alpha: -0.9);
     border: none;
     border-inline-start-width: px2rem(4px);
     border-start-start-radius: px2rem(2px);
@@ -126,11 +145,7 @@ $admonitions: (
       width: px2rem(20px);
       height: px2rem(20px);
       content: "";
-      background-color: material-color.$clr-blue-a200;
-      -webkit-mask-image: var(--md-admonition-icon--note);
-      -webkit-mask-repeat: no-repeat;
-      -webkit-mask-position: center;
-      -webkit-mask-size: contain;
+      background-color: $clr-blue-a200;
       mask-image: var(--md-admonition-icon--note);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -169,7 +184,6 @@ $admonitions: (
     // Admonition icon
     &::before {
       background-color: $tint;
-      -webkit-mask-image: var(--md-admonition-icon--#{$name});
       mask-image: var(--md-admonition-icon--#{$name});
     }
 

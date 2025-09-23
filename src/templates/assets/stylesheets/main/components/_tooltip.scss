@@ -1,3 +1,24 @@
+////
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+///
+/// Permission is hereby granted, free of charge, to any person obtaining a
+/// copy of this software and associated documentation files (the "Software"),
+/// to deal in the Software without restriction, including without limitation
+/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+/// and/or sell copies of the Software, and to permit persons to whom the
+/// Software is furnished to do so, subject to the following conditions:
+///
+/// The above copyright notice and this permission notice shall be included in
+/// all copies or substantial portions of the Software.
+///
+/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+/// DEALINGS
+////
 
 // ----------------------------------------------------------------------------
 // Keyframes
@@ -78,10 +99,7 @@
   &--inline {
     width: auto;
     font-weight: 700;
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* Internet Explorer/Edge */
-    user-select: none;         /* Standard */
+    user-select: none;
 
     // Tooltip is not active
     &:not(.md-tooltip--active) {
@@ -161,10 +179,7 @@
     margin-inline: 0.4ch;
     vertical-align: text-top;
     cursor: pointer;
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* Internet Explorer/Edge */
-    user-select: none;         /* Standard */
+    user-select: none;
     outline: none;
     // Hack: Work around Firefox bug that renders a subpixel outline when
     // rotating a mask image element - see https://t.ly/qA1s4
@@ -195,10 +210,6 @@
         height: 2.2ch;
         content: "";
         background: var(--md-default-bg-color);
-        -webkit-mask-image: var(--md-annotation-bg-icon);
-        -webkit-mask-repeat: no-repeat;
-        -webkit-mask-position: center;
-        -webkit-mask-size: contain;
         mask-image: var(--md-annotation-bg-icon);
         mask-repeat: no-repeat;
         mask-position: center;
@@ -217,10 +228,6 @@
         height: 2.2ch;
         content: "";
         background-color: var(--md-default-fg-color--lighter);
-        -webkit-mask-image: var(--md-annotation-icon);
-        -webkit-mask-repeat: no-repeat;
-        -webkit-mask-position: center;
-        -webkit-mask-size: contain;
         mask-image: var(--md-annotation-icon);
         mask-repeat: no-repeat;
         mask-position: center;

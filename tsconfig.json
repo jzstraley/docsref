@@ -3,8 +3,6 @@
     "alwaysStrict": true,
     "baseUrl": "src",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "incremental": true,
     "jsx": "react",
     "jsxFactory": "h",
     "lib": [
@@ -25,10 +23,8 @@
       "_/*": ["./overrides/assets/javascripts/*"]
     },
     "removeComments": false,
-    "resolveJsonModule": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
@@ -41,5 +37,5 @@
     "src/templates/assets/javascripts",
     "tools",
     "typings"
-, "_drafts/index.ts"  ]
+  ]
 }

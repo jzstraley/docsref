@@ -1,5 +1,24 @@
-@use "utilities/break" as break;
-
+////
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+///
+/// Permission is hereby granted, free of charge, to any person obtaining a
+/// copy of this software and associated documentation files (the "Software"),
+/// to deal in the Software without restriction, including without limitation
+/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+/// and/or sell copies of the Software, and to permit persons to whom the
+/// Software is furnished to do so, subject to the following conditions:
+///
+/// The above copyright notice and this permission notice shall be included in
+/// all copies or substantial portions of the Software.
+///
+/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+/// DEALINGS
+////
 
 // ----------------------------------------------------------------------------
 // Rules
@@ -33,17 +52,16 @@
 // Landing page hero
 .mdx-hero {
   margin: 0 px2rem(16px);
-  text-align: center;
   color: var(--md-primary-bg-color);
 
   // Hero headline
   h1 {
-    margin-bottom: 40px; //px2rem(20px)
+    margin-bottom: px2rem(20px);
     font-weight: 700;
     color: currentcolor;
 
-    // [("mobile", "portrait") -]: Larger hero headline
-    @include break.break-to-device(("mobile", "portrait")) {
+    // [mobile portrait -]: Larger hero headline
+    @include break-to-device(mobile portrait) {
       font-size: px2rem(28px);
     }
   }
@@ -53,8 +71,8 @@
     padding-bottom: px2rem(120px);
   }
 
-  // [("tablet", "landscape") +]: Columnar display
-  @include break.break-from-device(("tablet", "landscape")) {
+  // [tablet landscape +]: Columnar display
+  @include break-from-device(tablet landscape) {
     display: flex;
     align-items: stretch;
 
@@ -74,7 +92,7 @@
   }
 
   // [screen +]: Columnar display and adjusted spacing
-  @include break.break-from-device(("mobile", "portrait")) {
+  @include break-from-device(screen) {
 
     // Hero image
     &__image {

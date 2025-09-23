@@ -1,5 +1,24 @@
-@use "../../utilities/break" as break;
-
+////
+/// Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+///
+/// Permission is hereby granted, free of charge, to any person obtaining a
+/// copy of this software and associated documentation files (the "Software"),
+/// to deal in the Software without restriction, including without limitation
+/// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+/// and/or sell copies of the Software, and to permit persons to whom the
+/// Software is furnished to do so, subject to the following conditions:
+///
+/// The above copyright notice and this permission notice shall be included in
+/// all copies or substantial portions of the Software.
+///
+/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+/// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+/// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+/// DEALINGS
+////
 
 // ----------------------------------------------------------------------------
 // Rules
@@ -16,8 +35,8 @@
 .md-search {
   position: relative;
 
-  // [("tablet", "landscape") +]: Header-embedded search
-  @include break.break-from-device(("tablet", "landscape")) {
+  // [tablet landscape +]: Header-embedded search
+  @include break-from-device(tablet landscape) {
     padding: px2rem(4px) 0;
   }
 
@@ -31,8 +50,8 @@
     z-index: 1;
     opacity: 0;
 
-    // [(("tablet", "portrait")) -]: Search modal
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet portrait -]: Search modal
+    @include break-to-device(tablet portrait) {
       position: absolute;
       inset-inline-start: px2rem(-44px);
       top: px2rem(-20px);
@@ -56,8 +75,8 @@
       }
     }
 
-    // [("tablet", "landscape") +]: Header-embedded search
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Header-embedded search
+    @include break-from-device(tablet landscape) {
       position: fixed;
       inset-inline-start: 0;
       top: 0;
@@ -89,18 +108,18 @@
     // Adjust appearance when search is active
     [data-md-toggle="search"]:checked ~ .md-header & {
 
-      // [("mobile", "portrait") -]: Scale up 45 times
-      @include break.break-to-device(("mobile", "portrait")) {
+      // [mobile portrait -]: Scale up 45 times
+      @include break-to-device(mobile portrait) {
         transform: scale(45);
       }
 
       // [mobile landscape]: Scale up 60 times
-      @include break.break-at-device(mobile landscape) {
+      @include break-at-device(mobile landscape) {
         transform: scale(60);
       }
 
-      // [(("tablet", "portrait"))]: Scale up 75 times
-      @include break.break-at-device((("tablet", "portrait"))) {
+      // [tablet portrait]: Scale up 75 times
+      @include break-at-device(tablet portrait) {
         transform: scale(75);
       }
     }
@@ -111,8 +130,8 @@
     // Hack: promote to own layer to reduce jitter
     backface-visibility: hidden;
 
-    // [(("tablet", "portrait")) -]: Search modal
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet portrait -]: Search modal
+    @include break-to-device(tablet portrait) {
       position: fixed;
       inset-inline-start: 0;
       top: 0;
@@ -147,8 +166,8 @@
       }
     }
 
-    // [("tablet", "landscape") +]: Header-embedded search
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Header-embedded search
+    @include break-from-device(tablet landscape) {
       position: relative;
       float: inline-end;
       width: px2rem(234px);
@@ -159,13 +178,13 @@
     // Adjust appearance when search is active
     [data-md-toggle="search"]:checked ~ .md-header & {
 
-      // [("tablet", "landscape")]: Omit overlaying header title
-@include break.break-at-device((("tablet", "landscape"))) {
+      // [tablet landscape]: Omit overlaying header title
+      @include break-at-device(tablet landscape) {
         width: px2rem(468px);
       }
 
       // [screen +]: Match width of content area
-      @include break.break-from-device(("mobile", "portrait")) {
+      @include break-from-device(screen) {
         width: px2rem(688px);
       }
     }
@@ -182,8 +201,8 @@
       color            250ms,
       background-color 250ms;
 
-    // [("tablet", "landscape") +]: Header-embedded search
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Header-embedded search
+    @include break-from-device(tablet landscape) {
       height: px2rem(36px);
       background-color: hsla(0, 0%, 0%, 0.26);
       border-radius: px2rem(2px);
@@ -230,15 +249,15 @@
       display: none;
     }
 
-    // [(("tablet", "portrait")) -]: Search modal
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet portrait -]: Search modal
+    @include break-to-device(tablet portrait) {
       width: 100%;
       height: px2rem(48px);
       font-size: px2rem(18px);
     }
 
-    // [("tablet", "landscape") +]: Header-embedded search
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Header-embedded search
+    @include break-from-device(tablet landscape) {
       padding-inline-start: px2rem(44px);
       font-size: px2rem(16px);
       color: inherit;
@@ -297,8 +316,8 @@
         transform: scaleX(-1);
       }
 
-      // [(("tablet", "portrait")) -]: Search modal
-      @include break.break-from-device(("tablet", "landscape")) {
+      // [tablet portrait -]: Search modal
+      @include break-to-device(tablet portrait) {
         inset-inline-start: px2rem(16px);
         top: px2rem(12px);
 
@@ -308,8 +327,8 @@
         }
       }
 
-      // [("tablet", "landscape") +]: Header-embedded search
-      @include break.break-from-device(("tablet", "landscape")) {
+      // [tablet landscape +]: Header-embedded search
+      @include break-from-device(tablet landscape) {
         pointer-events: none;
 
         // Hide the back arrow
@@ -328,8 +347,8 @@
     z-index: 2;
     pointer-events: none;
 
-    // [(("tablet", "portrait")) -]: Search modal
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet portrait -]: Search modal
+    @include break-to-device(tablet portrait) {
       inset-inline-end: px2rem(16px);
       top: px2rem(12px);
     }
@@ -380,8 +399,8 @@
     opacity: 0;
     transition: opacity 50ms;
 
-    // [("tablet", "landscape") +]: Header-embedded search
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Header-embedded search
+    @include break-from-device(tablet landscape) {
       padding-inline-start: px2rem(44px);
       font-size: px2rem(16px);
     }
@@ -402,14 +421,14 @@
     border-end-start-radius: px2rem(2px);
     border-end-end-radius: px2rem(2px);
 
-    // [(("tablet", "portrait")) -]: Search modal
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet portrait -]: Search modal
+    @include break-to-device(tablet portrait) {
       top: px2rem(48px);
       bottom: 0;
     }
 
-    // [("tablet", "landscape") +]: Header-embedded search
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Header-embedded search
+    @include break-from-device(tablet landscape) {
       top: px2rem(38px);
       opacity: 0;
       transition: opacity 400ms;
@@ -439,18 +458,18 @@
       transform: translateZ(0);
     }
 
-    // [("tablet", "landscape")]: Set fixed width to omit unnecessary reflow
-@include break.break-at-device((("tablet", "landscape"))) {
+    // [tablet landscape]: Set fixed width to omit unnecessary reflow
+    @include break-at-device(tablet landscape) {
       width: px2rem(468px);
     }
 
     // [screen +]: Set fixed width to omit unnecessary reflow
-    @include break.break-from-device(("mobile", "portrait")) {
+    @include break-from-device(screen) {
       width: px2rem(688px);
     }
 
-    // [("tablet", "landscape") +]: Limit height to viewport
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Limit height to viewport
+    @include break-from-device(tablet landscape) {
       max-height: 0;
       scrollbar-color: var(--md-default-fg-color--lighter) transparent;
       scrollbar-width: thin;
@@ -498,8 +517,8 @@
     scroll-snap-align: start;
     background-color: var(--md-default-fg-color--lightest);
 
-    // [("tablet", "landscape") +]: Adjust spacing
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Adjust spacing
+    @include break-from-device(tablet landscape) {
       padding-inline-start: px2rem(44px);
     }
   }
@@ -510,11 +529,7 @@
     margin: 0;
     list-style: none;
     // Hack: omit accidental text selection on fast toggle of more button
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* Internet Explorer/Edge */
-    user-select: none;         /* Standard */
-
+    user-select: none;
   }
 
   // Search result item
@@ -575,8 +590,8 @@
         color            250ms,
         background-color 250ms;
 
-      // [("tablet", "landscape") +]: Adjust spacing
-      @include break.break-from-device(("tablet", "landscape")) {
+      // [tablet landscape +]: Adjust spacing
+      @include break-from-device(tablet landscape) {
         padding-inline-start: px2rem(44px);
       }
     }
@@ -600,8 +615,8 @@
     padding: 0 px2rem(16px);
     overflow: hidden;
 
-    // [("tablet", "landscape") +]: Adjust spacing
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet landscape +]: Adjust spacing
+    @include break-from-device(tablet landscape) {
       padding-inline-start: px2rem(44px);
     }
   }
@@ -615,8 +630,8 @@
     margin: px2rem(10px);
     color: var(--md-default-fg-color--light);
 
-    // [(("tablet", "portrait")) -]: Hide icon
-    @include break.break-from-device(("tablet", "landscape")) {
+    // [tablet portrait -]: Hide icon
+    @include break-to-device(tablet portrait) {
       display: none;
     }
 
@@ -627,10 +642,6 @@
       height: 100%;
       content: "";
       background-color: currentcolor;
-      -webkit-mask-image: var(--md-search-result-icon);
-      -webkit-mask-repeat: no-repeat;
-      -webkit-mask-position: center;
-      -webkit-mask-size: contain;
       mask-image: var(--md-search-result-icon);
       mask-repeat: no-repeat;
       mask-position: center;
