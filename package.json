@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "docsref",
-=======
-  "name": "DocsRef",
->>>>>>> 40f293974f6e1aeaa4c10c374d74493d587a1a7a
   "version": "3.0.0",
   "description": "Documentation that simply works",
   "keywords": [

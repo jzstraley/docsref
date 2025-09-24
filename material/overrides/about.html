@@ -1,0 +1,27 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block styles %}
+{{ super()}}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/about.css' | url }}">
+{% endblock %}
+{% block content %}
+<div class="md-content">
+  <div class="row">
+    <div class="picture">
+          <img id="profpicbg" srcset="{{ 'assets/images/aboutpage/profilepic/profilepic-large.webp' | url }} 535w, {{ 'assets/images/aboutpage/profilepic/profilepic-medium.webp' | url }} 400w, {{ 'assets/images/aboutpage/profilepic/profilepic-small.webp' | url }} 250w" src="{{ 'assets/images/aboutpage/profilepic/profilepic-medium.webp' | url }}">
+      </div>
+    <div class="about-box">
+      <div class="about-box-container">
+        <h2 class="about">About</h2>
+        <p id="mainp"> Welcome to my webpage! My name is Austin. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+        </div>
+      </div>
+    </div>
+</div>
+  {{ super() }}
+{% endblock %}
+{% block script %}
+{{ super() }}
+{% endblock %}
