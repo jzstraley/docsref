@@ -275,14 +275,14 @@
           end = isWordEnd(pos + n - 1, subject, subject_lw, m);
           return scoreExact(n, m, scorePattern(n, n, sameCase, start, end), pos);
         };
-        AcronymResult = /* @__PURE__ */ function() {
+        AcronymResult = /* @__PURE__ */ (function() {
           function AcronymResult2(score, pos, count) {
             this.score = score;
             this.pos = pos;
             this.count = count;
           }
           return AcronymResult2;
-        }();
+        })();
         emptyAcronymResult = new AcronymResult(0, 0.1, 0);
         exports.scoreAcronyms = scoreAcronyms = function(subject, subject_lw, query, query_lw) {
           var count, fullWord, i, j, m, n, qj_lw, sameCase, score, sepCount, sumPos;
@@ -462,7 +462,7 @@
       (function() {
         var Query, coreChars, countDir, getCharCodes, getExtension, opt_char_re, truncatedUpperCase, _ref;
         _ref = require_pathScorer(), countDir = _ref.countDir, getExtension = _ref.getExtension;
-        module.exports = Query = /* @__PURE__ */ function() {
+        module.exports = Query = /* @__PURE__ */ (function() {
           function Query2(query, _arg) {
             var optCharRegEx, pathSeparator, _ref1;
             _ref1 = _arg != null ? _arg : {}, optCharRegEx = _ref1.optCharRegEx, pathSeparator = _ref1.pathSeparator;
@@ -479,7 +479,7 @@
             this.charCodes = getCharCodes(this.query_lw);
           }
           return Query2;
-        }();
+        })();
         opt_char_re = /[ _\-:\/\\]/g;
         coreChars = function(query, optCharRegEx) {
           if (optCharRegEx == null) {
@@ -822,13 +822,13 @@
               return [];
             }
             if (string === query) {
-              return function() {
+              return (function() {
                 _results = [];
                 for (var _i2 = 0, _ref2 = string.length; 0 <= _ref2 ? _i2 < _ref2 : _i2 > _ref2; 0 <= _ref2 ? _i2++ : _i2--) {
                   _results.push(_i2);
                 }
                 return _results;
-              }.apply(this);
+              }).apply(this);
             }
             options = parseOptions(options, query);
             return matcher.match(string, query, options);
@@ -1135,7 +1135,7 @@
   }
 
   // node_modules/rxjs/dist/esm5/internal/Subscription.js
-  var Subscription = function() {
+  var Subscription = (function() {
     function Subscription2(initialTeardown) {
       this.initialTeardown = initialTeardown;
       this.closed = false;
@@ -1248,13 +1248,13 @@
         teardown._removeParent(this);
       }
     };
-    Subscription2.EMPTY = function() {
+    Subscription2.EMPTY = (function() {
       var empty = new Subscription2();
       empty.closed = true;
       return empty;
-    }();
+    })();
     return Subscription2;
-  }();
+  })();
   var EMPTY_SUBSCRIPTION = Subscription.EMPTY;
   function isSubscription(value) {
     return value instanceof Subscription || value && "closed" in value && isFunction(value.remove) && isFunction(value.add) && isFunction(value.unsubscribe);
@@ -1313,9 +1313,9 @@
   }
 
   // node_modules/rxjs/dist/esm5/internal/NotificationFactories.js
-  var COMPLETE_NOTIFICATION = function() {
+  var COMPLETE_NOTIFICATION = (function() {
     return createNotification("C", void 0, void 0);
-  }();
+  })();
   function errorNotification(error) {
     return createNotification("E", void 0, error);
   }
@@ -1358,7 +1358,7 @@
   }
 
   // node_modules/rxjs/dist/esm5/internal/Subscriber.js
-  var Subscriber = function(_super) {
+  var Subscriber = (function(_super) {
     __extends(Subscriber2, _super);
     function Subscriber2(destination) {
       var _this = _super.call(this) || this;
@@ -1424,12 +1424,12 @@
       }
     };
     return Subscriber2;
-  }(Subscription);
+  })(Subscription);
   var _bind = Function.prototype.bind;
   function bind(fn, thisArg) {
     return _bind.call(fn, thisArg);
   }
-  var ConsumerObserver = function() {
+  var ConsumerObserver = (function() {
     function ConsumerObserver2(partialObserver) {
       this.partialObserver = partialObserver;
     }
@@ -1466,8 +1466,8 @@
       }
     };
     return ConsumerObserver2;
-  }();
-  var SafeSubscriber = function(_super) {
+  })();
+  var SafeSubscriber = (function(_super) {
     __extends(SafeSubscriber2, _super);
     function SafeSubscriber2(observerOrNext, error, complete) {
       var _this = _super.call(this) || this;
@@ -1498,7 +1498,7 @@
       return _this;
     }
     return SafeSubscriber2;
-  }(Subscriber);
+  })(Subscriber);
   function handleUnhandledError(error) {
     if (config.useDeprecatedSynchronousErrorHandling) {
       captureError(error);
@@ -1523,9 +1523,9 @@
   };
 
   // node_modules/rxjs/dist/esm5/internal/symbol/observable.js
-  var observable = function() {
+  var observable = (function() {
     return typeof Symbol === "function" && Symbol.observable || "@@observable";
-  }();
+  })();
 
   // node_modules/rxjs/dist/esm5/internal/util/identity.js
   function identity(x) {
@@ -1555,7 +1555,7 @@
   }
 
   // node_modules/rxjs/dist/esm5/internal/Observable.js
-  var Observable = function() {
+  var Observable = (function() {
     function Observable11(subscribe) {
       if (subscribe) {
         this._subscribe = subscribe;
@@ -1634,7 +1634,7 @@
       return new Observable11(subscribe);
     };
     return Observable11;
-  }();
+  })();
   function getPromiseCtor(promiseCtor) {
     var _a;
     return (_a = promiseCtor !== null && promiseCtor !== void 0 ? promiseCtor : config.Promise) !== null && _a !== void 0 ? _a : Promise;
@@ -1669,7 +1669,7 @@
   function createOperatorSubscriber(destination, onNext, onComplete, onError, onFinalize) {
     return new OperatorSubscriber(destination, onNext, onComplete, onError, onFinalize);
   }
-  var OperatorSubscriber = function(_super) {
+  var OperatorSubscriber = (function(_super) {
     __extends(OperatorSubscriber2, _super);
     function OperatorSubscriber2(destination, onNext, onComplete, onError, onFinalize, shouldUnsubscribe) {
       var _this = _super.call(this, destination) || this;
@@ -1711,7 +1711,7 @@
       }
     };
     return OperatorSubscriber2;
-  }(Subscriber);
+  })(Subscriber);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/animationFrameProvider.js
   var animationFrameProvider = {
@@ -1760,7 +1760,7 @@
   });
 
   // node_modules/rxjs/dist/esm5/internal/Subject.js
-  var Subject = function(_super) {
+  var Subject = (function(_super) {
     __extends(Subject3, _super);
     function Subject3() {
       var _this = _super.call(this) || this;
@@ -1886,8 +1886,8 @@
       return new AnonymousSubject(destination, source);
     };
     return Subject3;
-  }(Observable);
-  var AnonymousSubject = function(_super) {
+  })(Observable);
+  var AnonymousSubject = (function(_super) {
     __extends(AnonymousSubject2, _super);
     function AnonymousSubject2(destination, source) {
       var _this = _super.call(this) || this;
@@ -1912,10 +1912,10 @@
       return (_b = (_a = this.source) === null || _a === void 0 ? void 0 : _a.subscribe(subscriber)) !== null && _b !== void 0 ? _b : EMPTY_SUBSCRIPTION;
     };
     return AnonymousSubject2;
-  }(Subject);
+  })(Subject);
 
   // node_modules/rxjs/dist/esm5/internal/BehaviorSubject.js
-  var BehaviorSubject = function(_super) {
+  var BehaviorSubject = (function(_super) {
     __extends(BehaviorSubject2, _super);
     function BehaviorSubject2(_value) {
       var _this = _super.call(this) || this;
@@ -1946,7 +1946,7 @@
       _super.prototype.next.call(this, this._value = value);
     };
     return BehaviorSubject2;
-  }(Subject);
+  })(Subject);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/dateTimestampProvider.js
   var dateTimestampProvider = {
@@ -1957,7 +1957,7 @@
   };
 
   // node_modules/rxjs/dist/esm5/internal/ReplaySubject.js
-  var ReplaySubject = function(_super) {
+  var ReplaySubject = (function(_super) {
     __extends(ReplaySubject2, _super);
     function ReplaySubject2(_bufferSize, _windowTime, _timestampProvider) {
       if (_bufferSize === void 0) {
@@ -2015,10 +2015,10 @@
       }
     };
     return ReplaySubject2;
-  }(Subject);
+  })(Subject);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/Action.js
-  var Action = function(_super) {
+  var Action = (function(_super) {
     __extends(Action2, _super);
     function Action2(scheduler, work) {
       return _super.call(this) || this;
@@ -2030,7 +2030,7 @@
       return this;
     };
     return Action2;
-  }(Subscription);
+  })(Subscription);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/intervalProvider.js
   var intervalProvider = {
@@ -2053,7 +2053,7 @@
   };
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/AsyncAction.js
-  var AsyncAction = function(_super) {
+  var AsyncAction = (function(_super) {
     __extends(AsyncAction2, _super);
     function AsyncAction2(scheduler, work) {
       var _this = _super.call(this, scheduler, work) || this;
@@ -2140,10 +2140,10 @@
       }
     };
     return AsyncAction2;
-  }(Action);
+  })(Action);
 
   // node_modules/rxjs/dist/esm5/internal/Scheduler.js
-  var Scheduler = function() {
+  var Scheduler = (function() {
     function Scheduler2(schedulerActionCtor, now) {
       if (now === void 0) {
         now = Scheduler2.now;
@@ -2159,10 +2159,10 @@
     };
     Scheduler2.now = dateTimestampProvider.now;
     return Scheduler2;
-  }();
+  })();
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/AsyncScheduler.js
-  var AsyncScheduler = function(_super) {
+  var AsyncScheduler = (function(_super) {
     __extends(AsyncScheduler2, _super);
     function AsyncScheduler2(SchedulerAction, now) {
       if (now === void 0) {
@@ -2195,14 +2195,14 @@
       }
     };
     return AsyncScheduler2;
-  }(Scheduler);
+  })(Scheduler);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/async.js
   var asyncScheduler = new AsyncScheduler(AsyncAction);
   var async = asyncScheduler;
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/AnimationFrameAction.js
-  var AnimationFrameAction = function(_super) {
+  var AnimationFrameAction = (function(_super) {
     __extends(AnimationFrameAction2, _super);
     function AnimationFrameAction2(scheduler, work) {
       var _this = _super.call(this, scheduler, work) || this;
@@ -2238,10 +2238,10 @@
       return void 0;
     };
     return AnimationFrameAction2;
-  }(AsyncAction);
+  })(AsyncAction);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/AnimationFrameScheduler.js
-  var AnimationFrameScheduler = function(_super) {
+  var AnimationFrameScheduler = (function(_super) {
     __extends(AnimationFrameScheduler2, _super);
     function AnimationFrameScheduler2() {
       return _super !== null && _super.apply(this, arguments) || this;
@@ -2272,7 +2272,7 @@
       }
     };
     return AnimationFrameScheduler2;
-  }(AsyncScheduler);
+  })(AsyncScheduler);
 
   // node_modules/rxjs/dist/esm5/internal/scheduler/animationFrame.js
   var animationFrameScheduler = new AnimationFrameScheduler(AnimationFrameAction);
@@ -2302,9 +2302,9 @@
   }
 
   // node_modules/rxjs/dist/esm5/internal/util/isArrayLike.js
-  var isArrayLike = function(x) {
+  var isArrayLike = (function(x) {
     return x && typeof x.length === "number" && typeof x !== "function";
-  };
+  });
 
   // node_modules/rxjs/dist/esm5/internal/util/isPromise.js
   function isPromise(value) {
@@ -3898,7 +3898,7 @@
     });
   }
   function renderIconSearchResult(icon, query, file) {
-    return /* @__PURE__ */ h("li", { class: "mdx-iconsearch-result__item" }, /* @__PURE__ */ h("span", { class: "twemoji" }, /* @__PURE__ */ h("img", { src: icon.url, alt: icon.shortcode })), /* @__PURE__ */ h(
+    return /* @__PURE__ */ h("li", { class: "mdx-iconsearch-result__item" }, /* @__PURE__ */ h("span", { class: "twemoji" }, /* @__PURE__ */ h("img", { src: icon.url })), /* @__PURE__ */ h(
       "button",
       {
         class: "md-clipboard--inline",
@@ -3912,7 +3912,7 @@
   // src/overrides/assets/javascripts/templates/sponsorship/index.tsx
   function renderPublicSponsor(user) {
     const title = `@${user.name}`;
-    return /* @__PURE__ */ h("a", { href: user.url, title, class: "mdx-sponsorship__item" }, /* @__PURE__ */ h("img", { src: user.image, alt: user.name }));
+    return /* @__PURE__ */ h("a", { href: user.url, title, class: "mdx-sponsorship__item" }, /* @__PURE__ */ h("img", { src: user.image }));
   }
   function renderPrivateSponsor(count) {
     return /* @__PURE__ */ h(
