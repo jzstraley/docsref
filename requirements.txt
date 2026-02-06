@@ -14,6 +14,7 @@ paginate~=0.5
 backrefs~=5.7.post1
 requests~=2.26
 mkdocs-git-revision-date-localized-plugin~=1.2
+mkdocs-minify-plugin~=0.7
 
 # Temporarily pin click until this is resolved in MkDocs, see
 # https://github.com/mkdocs/mkdocs/issues/4014#issuecomment-3146508306
