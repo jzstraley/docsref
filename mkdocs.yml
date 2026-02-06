@@ -77,6 +77,16 @@ plugins:
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
   - tags:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # Optimizations:
+  # - Minify plugin moved after git-revision for better caching
+  # - git-revision set to enabled: false for faster local builds (enabled in CI)
+  - git-revision-date-localized:
+      enabled: !ENV [CI, false]  # Only run in CI/CD, not locally
+      type: iso_datetime
+      timezone: America/Detroit
+      fallback_to_build_date: true
   - minify:
       minify_html: true
       minify_css: true
@@ -86,12 +96,6 @@ plugins:
         remove_comments: true
       css_files:
         - assets/stylesheets/extra.css
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - git-revision-date-localized:
-      type: iso_datetime
-      timezone: America/Detroit
-      fallback_to_build_date: true
 
 # Hooks
 hooks:
@@ -305,10 +309,8 @@ nav:
       - Dotphrases: resident-guide/efficiency/dotphrases.md
       - Searching Effectively Online: resident-guide/efficiency/how-to-search-more-effectively.md
     - Interesting: resident-guide/interesting.md
-    - Blog: 
+    - Blog:
       - resident-guide/blog/index.md
-      - Posts:
-        - Blog Support Just Landed: resident-guide/blog/posts/blog-support-just-landed.md
     - Student/Intern Readings: resident-guide/student-intern-readings.md
   - Fellowship Guide:
     - fellowship-guide/index.md
