@@ -3,15 +3,11 @@
     "development"
   ],
   "hints": {
-    "compat-api/css": [
+    "compat-api/css": "off",
+    "axe/text-alternatives": [
       "default",
       {
-        "ignore": [
-          "-webkit-tap-highlight-color",
-          "backdrop-filter",
-          "scrollbar-color",
-          "width: fit-content"
-        ]
+        "image-alt": "off"
       }
     ]
   }

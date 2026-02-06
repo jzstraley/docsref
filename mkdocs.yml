@@ -77,7 +77,6 @@ plugins:
       post_url_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
   - tags:
-      tags_file: tags.md
   - minify:
       minify_html: true
       minify_css: true
