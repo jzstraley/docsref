@@ -1,10 +1,8 @@
 ---
-title: Hemodynamic Calculators
+title: CICU Hemodynamic Calculators
 author: J. Austin Straley, DO
 date: 2024-09-21
 ---
-
-# CICU Hemodynamic Calculators
 
 Interactive calculators for cardiac critical care hemodynamics. All calculations update in real-time.
 
@@ -219,35 +217,6 @@ Interactive calculators for cardiac critical care hemodynamics. All calculations
 
 </div>
 
-## Clinical Interpretation
-
-### Cardiac Power Output (CPO)
-
-- **Normal**: >0.6 W
-- **Cardiogenic Shock**: <0.53 W
-- **Critical**: <0.4 W (high mortality)
-- **Formula**: MAP × CO ÷ 451
-
-### PAPI (Pulmonary Artery Pulsatility Index)
-
-- **Normal**: >1.85
-- **RV Dysfunction**: <1.0
-- **Severe RV Dysfunction**: <0.9
-- **Formula**: (sPAP - dPAP) ÷ CVP
-
-### Cardiac Index (CI)
-
-- **Normal**: 2.5-4.0 L/min/m²
-- **Hyperdynamic**: >4.0 L/min/m²
-- **Mild hypoperfusion**: 2.0-2.5 L/min/m²
-- **Shock**: <2.0 L/min/m²
-
-### SVR (Systemic Vascular Resistance)
-
-- **Normal**: 800-1200 dynes·sec/cm⁵
-- **High**: >1200 (vasoconstriction, hypovolemia)
-- **Low**: <800 (sepsis, vasodilation)
-
 ## References
 
 - [PA Catheter Normative Data - EMCrit][1]
@@ -376,7 +345,7 @@ function displayResults(r) {
     document.getElementById('basicResults').innerHTML = html;
 
     // Hemodynamic calculations
-    html = '<h4>💓 Hemodynamics</h4><div class="calc-result">';
+    html = '<h4>Hemodynamics</h4><div class="calc-result">';
 
     if (r.cardiacOutput) {
         html += '<div class="result-item">';
@@ -395,8 +364,8 @@ function displayResults(r) {
         html += '<div class="result-value">' + r.ci.toFixed(2) + '</div>';
         html += '<div class="result-label">CI <span class="result-unit">(L/min/m²)</span></div>';
         html += '<div class="normal-range">Normal: 2.5-4.0</div>';
-        if (r.ci < 2.0) html += '<div class="alert alert-danger">⚠️ Shock</div>';
-        else if (r.ci < 2.5) html += '<div class="alert alert-warning">⚠️ Low</div>';
+        if (r.ci < 2.0) html += '<div class="alert alert-danger">Shock</div>';
+        else if (r.ci < 2.5) html += '<div class="alert alert-warning">Low</div>';
         html += '</div>';
     }
 
@@ -405,9 +374,9 @@ function displayResults(r) {
         html += '<div class="result-value" style="font-size: 2em;">' + r.cpo.toFixed(2) + '</div>';
         html += '<div class="result-label">CPO <span class="result-unit">(Watts)</span></div>';
         html += '<div class="normal-range">Normal: >0.6 W</div>';
-        if (r.cpo < 0.4) html += '<div class="alert alert-danger">⚠️ Critical</div>';
-        else if (r.cpo < 0.53) html += '<div class="alert alert-danger">⚠️ Cardiogenic Shock</div>';
-        else if (r.cpo < 0.6) html += '<div class="alert alert-warning">⚠️ Low</div>';
+        if (r.cpo < 0.4) html += '<div class="alert alert-danger">Critical</div>';
+        else if (r.cpo < 0.53) html += '<div class="alert alert-danger">Cardiogenic Shock</div>';
+        else if (r.cpo < 0.6) html += '<div class="alert alert-warning">Low</div>';
         html += '</div>';
     }
 
@@ -432,8 +401,8 @@ function displayResults(r) {
         html += '<div class="result-value">' + r.svr.toFixed(0) + '</div>';
         html += '<div class="result-label">SVR <span class="result-unit">(dynes·s/cm⁵)</span></div>';
         html += '<div class="normal-range">Normal: 800-1200</div>';
-        if (r.svr > 1200) html += '<div class="alert alert-warning">⚠️ High</div>';
-        else if (r.svr < 800) html += '<div class="alert alert-warning">⚠️ Low</div>';
+        if (r.svr > 1200) html += '<div class="alert alert-warning">High</div>';
+        else if (r.svr < 800) html += '<div class="alert alert-warning">Low</div>';
         html += '</div>';
     }
 
@@ -450,14 +419,14 @@ function displayResults(r) {
 
     // Pulmonary calculations
     if (r.mpap || r.papi || r.pvr) {
-        html = '<h4>🫁 Pulmonary Hemodynamics</h4><div class="calc-result">';
+        html = '<h4>Pulmonary Hemodynamics</h4><div class="calc-result">';
 
         if (r.mpap) {
             html += '<div class="result-item">';
             html += '<div class="result-value">' + r.mpap.toFixed(0) + '</div>';
             html += '<div class="result-label">mPAP <span class="result-unit">(mmHg)</span></div>';
             html += '<div class="normal-range">Normal: 10-20</div>';
-            if (r.mpap > 20) html += '<div class="alert alert-warning">⚠️ PHTN</div>';
+            if (r.mpap > 20) html += '<div class="alert alert-warning">PHTN</div>';
             html += '</div>';
         }
 
@@ -466,9 +435,9 @@ function displayResults(r) {
             html += '<div class="result-value" style="font-size: 2em;">' + r.papi.toFixed(2) + '</div>';
             html += '<div class="result-label">PAPI</div>';
             html += '<div class="normal-range">Normal: >1.85</div>';
-            if (r.papi < 0.9) html += '<div class="alert alert-danger">⚠️ Severe RV Dysfunction</div>';
-            else if (r.papi < 1.0) html += '<div class="alert alert-danger">⚠️ RV Dysfunction</div>';
-            else if (r.papi < 1.85) html += '<div class="alert alert-warning">⚠️ Borderline RV Function</div>';
+            if (r.papi < 0.9) html += '<div class="alert alert-danger">Severe RV Dysfunction</div>';
+            else if (r.papi < 1.0) html += '<div class="alert alert-danger">RV Dysfunction</div>';
+            else if (r.papi < 1.85) html += '<div class="alert alert-warning">Borderline RV Function</div>';
             html += '</div>';
         }
 
@@ -477,7 +446,7 @@ function displayResults(r) {
             html += '<div class="result-value">' + r.pvr.toFixed(1) + '</div>';
             html += '<div class="result-label">PVR <span class="result-unit">(Wood Units)</span></div>';
             html += '<div class="normal-range">Normal: <2</div>';
-            if (r.pvr > 3) html += '<div class="alert alert-warning">⚠️ Elevated</div>';
+            if (r.pvr > 3) html += '<div class="alert alert-warning">Elevated</div>';
             html += '</div>';
         }
 
@@ -501,7 +470,7 @@ function displayResults(r) {
 
     // Classification
     if (r.spa !== null && r.pcwp !== null && r.ci && r.pvr) {
-        html = '<h4>🏥 Classification</h4>';
+        html = '<h4>Classification</h4>';
         let phType = '';
         if (r.pcwp <= 15 && r.ci >= 3) {
             phType = 'Pre-Capillary PH';

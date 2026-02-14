@@ -13,11 +13,15 @@ social:
 
 ## Education
 
+* Cardiology Chief Fellow
+    * PGY-6 Chief Fellow
+    * Charleston Area Medical Center (CAMC) | Charleston, WV
+    * July 2026 – July 2027
 * Cardiology Fellowship
     * Charleston Area Medical Center (CAMC) | Charleston, WV
     * July 2024 – July 2027
-* Chief Resident
-    * 3rd Year Chief Resident
+* Internal Medicine Chief Resident
+    * PGY-3 Chief Resident
     * Charleston Area Medical Center (CAMC) | Charleston, WV
     * July 2023 – July 2024
 * Internal Medicine Residency
@@ -34,6 +38,9 @@ social:
 
 ## Leadership Experiences
 
+* Chief Fellow
+    * Charleston Area Medical Center (CAMC) | Charleston, WV
+    * July 2026 – July 2027
 * Chief Resident
     * Charleston Area Medical Center (CAMC) | Charleston, WV
     * July 2023 – July 2024

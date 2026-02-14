@@ -23,7 +23,6 @@ date: 2022-11-19
 ## PGY-3s
 
 - Your license will expire. You will need to renew this
-    - Make sure to get your 32 CME hours prior to June
 
 [1]: https://www.wvbdosteo.org/
 [2]: https://www.wvbdosteo.org/licensing/do/app/index.asp

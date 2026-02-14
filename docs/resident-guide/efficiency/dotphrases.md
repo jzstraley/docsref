@@ -17,57 +17,39 @@ date: 2024-05-13
 
 ![Shortcut 1.1](/assets/images/internguidepages/1.2/1.2.2-picture1.png)
 
-## Diabetes
+## Afib
 
-### .diabetesplan_inpatient
+### .afib
 
 ``` markdown
-- Home regimen: [insert medications, insulin #U & frequency].
-- A1c: 
-- [Well controlled currently.]
-- Holding home meds.
-- Currently NPO.
-- Plan: [Will start SSI, Moderate Correction factor.]
+- [New-Onset][Chronic] atrial fibrillation, suspected to be paroxysmal.
+- CHA2DS2-VASc: [(CHF/LVEF<=40, HTN, Age, DM, Stroke/TIA/VTE, Vascular Disease, Female)]
+- [Rate][Rhythm] controlled on [Metoprolol][Amiodarone] at home with goal HR <110.
+- Anticoagulated with [Eliquis][Heparin Drip], continue.
+- Recommend potassium of >4.0 and magnesium of >2.0.
+- Continue rate control and home AC.
+- Monitor on telemetry for now.
 ```
 
-### .diabetesplan_outpatient
+- Optional
 
 ``` markdown
-- With complications: [Microalbuminuria, CKD, ulcers, retinopathy, recurrent infections]
-- Current regimen: [insert medications, insulin #U & frequency]
-- Most recent A1c: [value & date, controlled/uncontrolled]
-- Last ophthalmology/retinal exam: [date]
-- Last foot exam/podiatrist appt: [date]
-- Currently well controlled on current regimen.
-- Plan: [Continue current regimen]
-```
+- Paroxysmal: Start and stop within 7 days of onset, ≥2 episodes
+- Early Persistent: ≥2 episodes, each lasts >7 days, <3 months
+- Long-standing Persistent: Continuous >3 months
+- Permanent: Agreed decision to abandon rhythm control 
 
-## Heart Failure
+- Will need PFTs yearly, TSH/LFTs q3-6 months with PCP upon discharge.
+- LFT's/TSH for AAD management Q6 months.
+- Advised on annual CXRs/Dilated Eye Exams.
+- Recommend baseline and routine PFTs for symptoms or reduced DLCO.
+- Advised on limited sun exposure and liberal use of sunscreen while on Amiodarone.
+- RTC in 6 months. 
 
-### .aechf
-
-``` markdown
-- History of [HFrEF] w/LVEF [ ] on TTE: [ ].
-- Home Regimen: [Current medical therapy].
-- Evidence of acute exacerbation with [ ]
-- [No obvious inciting incident, mild trop leak with AKI that improved with diuresis suggestive of cardiorenal process].
-- No adherence issues suspected, consider gut wall edema with poor absorption to be reason for readmission.
-- Admit to medicine service to intermediate care given risk of decompensation in the setting of known heart failure.
-- Obtain new TTE to r/o new structural cause.
-- [Holding GDMT].
-- Lasix 40mg IV qAM, prn qPM depending on UOP. Goal UOP >300cc out @ 2h.
-- Monitor I/Os, Obtain daily standing weights.
-- Restrict fluid intake to <2L daily.
-- Repeat BMP and Mg in the morning.
-- CHF powerplan in, will need close f/u with CHF clinic once outpatient.
-```
-
-### .heartfailure
-
-``` markdown
-- NYHA Class [ ] ACC/AHA Stage [ ] [HFrEF] w/LVEF [ ] on TTE: [ ].
-- Current Regimen: [Current medical therapy].
-- [Continue current regimen].
+[(Eliquis LD (2/3): Age >=80, <=60kg, Creatinine >/1.5), (Xarelto: CrCl <15 or Dialysis)]
+- Recommend 30 day monitor (MCT Mobile Cardiac Telemetry) at discharge.
+​​​​​​​- Recommend potassium of >4.0 and magnesium of >2.0.
+- Discontinue telemetry if no events over the next 24 hours.
 ```
 
 ## AKI
@@ -75,10 +57,20 @@ date: 2024-05-13
 ### .aki
 
 ``` markdown
-- [Non-Oliguric] Stage [ ] AKI w/o underlying CKD with baseline creatinine of [ ].
+- [Non-Oliguric] Stage [_] AKI w/o underlying CKD with baseline creatinine of [_].
 - [Likely 2/2 ATN]
 - [Creatinine improved today to]
 - [Plan to monitor I/Os. Will repeat labs in the morning for change.]
+- Consider nephrology consultation given plan for contrast administration and risk of worsening AKI.
+
+- [Non-oliguric / Oliguric] Stage [_] AKI without known underlying CKD, baseline creatinine [_].
+- Suspect etiology [likely 2/2 contrast exposure / ATN from hemodynamic insult / prerenal from diuresis].
+- Creatinine today [_], trending [down/up] from [_].
+- Will continue to monitor renal labs and strict I/Os.
+- [Hold ACEi/ARB/ARNI, MRA, SGLT2i] pending renal recovery.
+- Minimize further nephrotoxic exposures.
+- If contrast is required for LHC/CTA, will optimize pre- and post-hydration strategy.
+[- Recommend nephrology consultation given increased risk of worsening AKI.]
 ```
 
 ### .aki2ckd
@@ -109,20 +101,44 @@ date: 2024-05-13
 - Will workup with LDH, RC, Peripheral Smear.
 ```
 
+## Arrest
+
+### .arrest
+
+``` markdown
+- Initial rhythm [VF][pulseless VT][PEA][asystole][bradycardia].
+- Likely 2/2 [(cardiac, traumatic, drug overdose, drowning, electrocution, asphyxial)].
+- Continue to assess for possible reversible causes (H's & T's).
+- EKG [without evidence of ischemia][concerning for ischemia]; [low][moderate][high] suspicion for cardiac etiology.
+- TTE ordered for structural and functional assessment.
+- Troponin elevation favored to reflect myocardial injury, continue ICU monitoring (telemetry, invasive support as indicated).
+- Will consider ischemic evaluation once stabilized.
+[- No plan for ischemic evaluation at this time. Can consider risk stratification once stable on the floor.]
+```
+
 ## CAD
 
 ### .cad
 
 ``` markdown
-- Primary Cardiologist: [ ].
 - History of CAD as seen on [CT/Cath], [without] previous intervention, currently [asymptomatic.]
-- Last imaging/testing: [ ].
-- EKG: [No current evidence of ischemia.]
-- Currently on: [All should be on statin, RR of death decreased by 24%, stroke by 31%, need for CABG/Angioplasty by 27%; ASA for secondary prevention, increased risk of thromboembolic events if stopped, 70% within 7-10 days]
-- Discussed risk factor modification as tolerable (HTN, HLD, Smoking, Diabetes).
+- EKG without ischemic changes.
+- Recommend LDL-c <70, ideally <55. Currently[ not at][ not at ideal][ at] goal.
+- Continue[ atorvastatin][ rosuvastatin][ 40mg][ 80mg] daily.
+- Emphasize aggressive risk factor management (HTN, HLD, Smoking, Diabetes).
 ```
 
 ## Clinic
+
+### .clinic_header_specialty
+
+``` markdown
+DOS: [ Current Date ]
+PCP: [ Primary Care Physician ]
+Referring: [ Primary Care Physician ]
+Reason for Referral: [Chest Pain]
+Primary Cardiologist: Establishing Care w/Dr. _.
+```
 
 ### .clinic_plan_f/u
 
@@ -149,6 +165,31 @@ Next visit: [CBC/CMP]
 - LDCT will be ordered for January, previously [normal].
 - [No] interest in smoking cessation at this time.
 - Continue home inhalers.
+```
+
+## Diabetes
+
+### .diabetesplan_inpatient
+
+``` markdown
+- Home regimen: [insert medications, insulin #U & frequency].
+- A1c: [ ]
+- [Well controlled currently.]
+- Holding home meds.
+- Currently NPO.
+- Plan: [Start SSI, Moderate Correction factor.]
+```
+
+### .diabetesplan_outpatient
+
+``` markdown
+- With complications: [Microalbuminuria, CKD, ulcers, retinopathy, recurrent infections]
+- Current regimen: [insert medications, insulin #U & frequency]
+- Most recent A1c: [value & date, controlled/uncontrolled]
+- Last ophthalmology/retinal exam: [date]
+- Last foot exam/podiatrist appt: [date]
+- Currently well controlled on current regimen.
+- Plan: [Continue current regimen]
 ```
 
 ## Discharge Instructions
@@ -178,26 +219,28 @@ Next visit: [CBC/CMP]
 ### .dischargeinstructions_stent
 
 ``` markdown
-- 1) You were admitted to the hospital for: Heart Attack/Stent Placement.
-- 2) What was done during your admission:
+- 1) You were admitted to the hospital for: Chest Pain.
+- 2) What was done during your admission: Left heart Catheterization and Coronary Artery Stent Placement.
 - 3) What you need to do:
       - Please follow up with your PCP within 1 week of discharge.
-      - Please follow-up with specialists as listed above.
-      - Take your aspirin and antiplatelet (Plavix, Brilinta, Effient) every day, without missing any doses.
+      - Please follow up with the Acute MI clinic in 1-2 weeks.
+      - Please follow up with Dr. [_] in 12 weeks (Cardiology).
+      - Please follow up with the CHF clinic as directed.
+      - Take your Aspirin 81mg and [Brilinta] every day, without missing any doses.
       - Return to the Emergency Room if you experience:
                 - New or worsening chest pain
                 - Shortness of breath, increased leg swelling
                 - Dizziness, seizures, or loss of consciousness
 - 4) Why it is important:
-      - Taking your Antiplatelet and Aspirin keep your stent open.
-      - If you have any trouble getting your medicine, please call cardiology office.
+      - Taking your Aspirin 81mg and [Brilinta] keep your stent open.
+      - If you have any trouble getting your medicine, please call the cardiology office.
 - 5) Additional Instructions
-      - No lifting over 10lbs x 10 days. No driving x 3 days.
-      - No tubs baths, swimming pools, or hot tubs x 7 days. OK to shower.
+      - No lifting over 10lbs x 10 days. No driving x 3 days. 
+      - No tubs baths, swimming pools, or hot tubs x 7 days. OK to shower. 
       - If you notice any bleeding from the cath site, hold pressure above the site and call 911.
       - Gradually increase your activity, as tolerable; schedule rest breaks as needed.
       - Weigh yourself daily on same scale in the morning; bring your weight record to your follow-up appointment.
-      - If you gain 2 or more pounds in one day or 5 or more pounds in one week, return to the hospital.
+      - If you gain 2 or more pounds in one day or 5 or more pounds in one week, return to the hospital. 
 ```
 
 ## ED
@@ -231,6 +274,69 @@ Considered life-threatening diagnoses for shortness of breath: Acute coronary sy
 - If persistent symptoms despite lifestyle modifications, will trial PPI.
 - Daily symptoms: Omeprazole, Esomeprazole, Pantoprazole 8 week trial, taken 30-60 minutes before meal (dosing: omeprazole 10mg once daily, can increase to 20mg daily in 4-8 weeks; pantoprazole 20mg once daily, can increase to 40mg daily in 4-8 weeks. Advise lowest effective dose)
 - Advised lifestyle modifications including avoidance of smoking, drinking, specific triggering foods, weight loss, avoiding NSAIDS, and avoiding lying down for 2-3 hours after eating.
+```
+
+## Heart Failure
+
+### .aechf_inpatient
+
+``` markdown
+- Acute Exacerbation of [HFrEF][HFpEF][HFmrEF]  w/previous LVEF [_] on TTE [_].
+- New LVEF [_] on TTE [_] with evidence of decompensation on presentation.
+
+- Monitor I/Os, UOP, daily weights, fluid restriction <2L daily.
+- CHF powerplan in, will need close f/u with CHF clinic once outpatient.
+```
+
+- Optional
+
+``` markdown
+- HFrEF, HFmrEF, HFimpEF, HFpEF
+- Euvolemic on exam today, clinically improving.
+- Volume overloaded on exam today evidenced by [_].
+- Optimizing volume status while titrating GDMT as BP allows.
+- Holding GDMT due to [_].
+
+- Check iron panel for iron deficiency.
+- Iron deficient based on labs, starting Venofer 300mg IV daily for 3 days.
+- Continue [Losartan 25mg daily], Metoprolol [tartrate 50mg BID], [Spironolactone 25mg daily], [Jardiance 10mg daily].
+- No obvious inciting incident, will need ischemic w/u prior to discharge.
+- [Optimizing volume status while titrating GDMT as BP allows].
+- Ischemic w/u pending resolution of AECHF. Recommend prior to discharge.
+- Needs to be switched to Metoprolol Succinate prior to discharge.
+- No adherence issues suspected, consider gut wall edema with poor absorption to be reason for readmission.
+- Will avoid heavy diuresis given known aortic valve repair and moderate to severe mitral regurgitation.
+- Continue Lasix 40mg IV BID; target UOP >300cc within 2h of each dose.
+- Titrate dose to meet goal and transition to oral meds once euvolemic.
+- Recommend adding SGLT-2 if no contraindication prior to discharge​​​​​​​.
+- CHF powerplan pending floor downgrade, will need close f/u with CHF clinic once outpatient. 
+```
+
+### .heartfailure_stable
+
+``` markdown
+- NYHA Class [II-III] ACC/AHA Stage [C] [HFrEF][HFmrEF][HFpEF] w/LVEF [_] on TTE [_].
+- Euvolemic on exam, no evidence of acute exacerbation.
+- Continue current regimen.
+- CHF powerplan in, will need close f/u with CHF clinic once outpatient.
+```
+
+- Optional
+
+``` markdown
+- Euvolemic on exam, acute exacerbation resolved.
+- Check iron panel for iron deficiency.
+- Iron deficient based on labs, starting Venofer 300mg IV daily for 3 days.
+- Holding GDMT due to [_].
+- Currently on [Losartan 25mg daily], Metoprolol [tartrate 50mg BID], [Spironolactone 25mg daily], [Jardiance 10mg daily].
+- CHF powerplan pending floor downgrade, will need close f/u with CHF clinic once outpatient.  
+- Needs to be switched to Metoprolol Succinate prior to discharge.
+- No adherence issues suspected, consider gut wall edema with poor absorption to be reason for readmission.
+- Will avoid heavy diuresis given known aortic valve repair and moderate to severe mitral regurgitation.
+- Continue Lasix 40mg IV BID; target UOP >300cc within 2h of each dose.
+- Titrate dose to meet goal and transition to oral meds once euvolemic.
+- Recommend adding SGLT-2 if no contraindication prior to discharge​​​​​​​.
+- CHF powerplan pending floor downgrade, will need close f/u with CHF clinic once outpatient.
 ```
 
 ## Hypertension
@@ -268,13 +374,23 @@ Constitutional: Alert, no acute distress, appears stated age
 Eye: Normal conjunctiva, without scleral icterus
 HENT: Atraumatic, hearing grossly intact, without nasal discharge, moist oral mucosa, grossly average neck circumference
 Resp: Clear to auscultation bilaterally, non-labored respiration on room air, without rales/rhonchi, without wheezing
-CV: Normal rate, regular rhythm, without murmurs on auscultation
-GI: Soft, non-tender, non-distended, without obvious masses, w/o rigidity or guarding
+CV: Normal rate, regular rhythm, without murmur on auscultation
+GI: Soft, non-tender, non-distended, without obvious masses
 MSK: Extremities non-tender to palpation, without LE edema bilaterally
 Skin: Skin is warm, dry, and pale
 Heme/Lymph/Imm: Without obvious bleeding, without significant bruising
-Psychiatric: Cooperative, appropriate mood and affect, normal judgement
-Neurologic: Awake and oriented X4
+Psychiatric: Cooperative, appropriate mood and affect
+Neurologic: Awake, moving all 4 extremities, oriented X4
+```
+
+## Pulmonary Hypertension
+
+``` markdown
+- TTE (_) w/RVSP _ mmHg, mild systolic RV dysfunction and moderate TR.
+- High probability given RVSP >50 mmHg, likely severe given RVSP >60 mmHg.
+- Given co-morbidities and age, pt is a poor candidate for further evaluation with RHC.
+- In the absence of invasive confirmation, goal is optimization of volume status with diuretics.
+- Continue to treat underlying CHF, supplemental O2 as needed.
 ```
 
 ## Obesity
@@ -315,38 +431,68 @@ Psych: Denies anxiety, problems sleeping
 ### .syncope
 
 ``` markdown
-- Suspected to be [Orthostatic] syncope due to [Prodrome], [Clean] EKG, [w/] RF present.
-- Low suspicion for PE (if able, PERC rule[ ])
-- Orthostatic Vital Signs: [ ]
-- CTH: [ ]
-- Admit to Telemetry to monitor for arrhythmia.
-- Continue conservative measures.
+- Syncope, likely [vasovagal][orthostatic][cardiogenic][other] etiology. 
+- Orthostatic vitals: Supine [_], Sitting [_], Standing [_]; [positive/negative]. 
+- EKG: [normal][abnormal; see details]. 
+- CT Head: [_] (if obtained).
+- Monitor on telemetry. 
+- Low suspicion for PE, seizure, stroke, or structural neurologic event at this time.  
+- Continue conservative measures with oral hydration, compression stockings, fall precautions. 
+```
+
+- Optional
+
+``` markdown
+- Presentation consistent with reflex syncope given prodrome and normal EKG
+- Episode consistent with orthostatic syncope related to volume depletion and medication effect
+- Findings concerning for cardiogenic syncope given exertional onset and abnormal EKG
+- Neurologic and metabolic mimics such as seizure, TIA, and hypoglycemia considered less likely
+- Repeat orthostatic vitals obtained to confirm diagnosis
+- TTE ordered to evaluate for structural heart disease
+- Ambulatory rhythm monitoring (Holter, Zio, or MCOT) arranged for recurrent or unexplained episodes
+- CCTA or MPI pursued to evaluate for ischemia when indicated
+- Recommend conservative management with oral hydration, compression stockings, fall precautions
+- Hydration and salt repletion encouraged to reduce recurrence
+- Medication regimen reviewed for orthostasis; discontinue doxazosin and switch lisinopril to losartan
+- Spironolactone initiated for blood pressure control with lower risk of orthostasis
+- Fall precautions reinforced during hospitalization
+- Return precautions provided for chest pain, palpitations, or neurologic symptoms
+- Driving restrictions reviewed given diagnosis of syncope
+- Given prodrome, normal EKG, and orthostatic findings, low risk for MACE
+- Given abnormal EKG and exertional presentation, higher risk for MACE
+- Will have patient f/u in Cardiology clinic in [4-6] weeks to reassess
+- F/u with primary cardiologist in outpatient setting in [4-6] weeks
+- Electrophysiology referral placed for suspected arrhythmic etiology.
+- POCUS performed to assess IVC, ventricular function, and pericardial effusion.
+- Labs reviewed for contributors including CBC, BMP, glucose, and troponin; abnormalities addressed.
+- Education provided on hydration strategies, trigger avoidance, and counterpressure maneuvers.
+- Antihypertensive regimen simplified to minimize orthostasis risk.
 ```
 
 ## Under Construction
 
-1. .jsappointment
-2. .jsclinic_header
-3. .jscodenote
-4. .jscodestatus
-5. .jsconsult_orders
-6. .jscontrolrx_hpi
-7. .jscontrolrx_plan
-8. .jsdeathpronouncement
-9. .jsdiabetes_insulintitration
-10. .jsdiabeteslabs
-11. .jsdischarge_dates
-12. .jsdischargeQIPS
-13. .jsimaging_radiology_report
-14. .jsmedicareAWV
-15. .jspcp
-16. .jsphonemsg
-17. .jsprevent_female
-18. .jsprevent_male
-19. .jsproblembased
-20. .jsssi
-21. .jstcm
-22. .jstelevisitaudio
-23. .jstelevisitvideo
-24. .jstransfusions
-25. .jsventsettingsonly
+1. .appointment
+2. .clinic_header
+3. .codenote
+4. .codestatus
+5. .consult_orders
+6. .controlrx_hpi
+7. .controlrx_plan
+8. .deathpronouncement
+9. .diabetes_insulintitration
+10. .diabeteslabs
+11. .discharge_dates
+12. .dischargeQIPS
+13. .imaging_radiology_report
+14. .medicareAWV
+15. .pcp
+16. .phonemsg
+17. .prevent_female
+18. .prevent_male
+19. .problembased
+20. .ssi
+21. .tcm
+22. .televisitaudio
+23. .televisitvideo
+24. .transfusions
+25. .ventsettingsonly
