@@ -2,6 +2,7 @@
 title: CICU Hemodynamic Calculators
 author: J. Austin Straley, DO
 date: 2024-09-21
+visible: false
 ---
 
 Interactive calculators for cardiac critical care hemodynamics. All calculations update in real-time.
