@@ -181,10 +181,11 @@ nav:
     - Cardiology:
       - im-guide/cards/index.md
       - Chest Pain: im-guide/cards/chest-pain.md
-      - Coronary Artery Disease (CAD): 
+      - Coronary Artery Disease (CAD):
         - im-guide/cards/cad/index.md
         - Stable Ischemic Disease: im-guide/cards/cad/stable-ischemic-disease.md
         - ACS: im-guide/cards/cad/acs.md
+        - Vasospastic Angina: im-guide/cards/cad/vasospastic-angina.md
       - Congenital Heart Disease: im-guide/cards/congenital-heart-disease.md
       - Heart Failure: 
         - Basics of Heart Failure: im-guide/cards/heart-failure/basics-hf.md
@@ -199,10 +200,16 @@ nav:
       - Palpitations: im-guide/cards/palpitations.md
       - Pericardial Disease: im-guide/cards/pericardial-disease.md
       - Syncope: im-guide/cards/syncope.md
-      - Valvular Heart Disease: 
+      - Arrhythmias:
+        - Atrial Flutter: im-guide/cards/atrial-flutter.md
+        - Multifocal Atrial Tachycardia: im-guide/cards/mat.md
+      - Cor Pulmonale: im-guide/cards/cor-pulmonale.md
+      - Valvular Heart Disease:
         - im-guide/cards/vhd/index.md
+        - Aortic Regurgitation: im-guide/cards/vhd/ar.md
         - Aortic Stenosis: im-guide/cards/vhd/as.md
         - Mitral Regurgitation: im-guide/cards/vhd/mr.md
+        - Mitral Stenosis: im-guide/cards/vhd/ms.md
       - Vascular Disease: 
         - im-guide/cards/vascular-disease/index.md
     - Dermatology: 

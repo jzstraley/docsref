@@ -10,7 +10,7 @@ tags:
   - Residents
 ---
 
-The best thing you can do for the IM Shelf is UWorld. There really is no replacement for it. Anki can be used to supplement but shouldn't be your primary source of information.
+The best thing you can do for the IM Shelf/STEP 3/COMLEX 3 is UWorld. There really is no replacement for it. Anki can be used to supplement but shouldn't be your primary source of information.
 
 [Step III Anki Deck][8]
 
@@ -41,16 +41,16 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
         - Pulmonary embolus/Pulmonary embolism (PE)
     ??? warning "Average Yield"
         - [Aortic Stenosis](/im-guide/cards/vhd/as)
-        - Aortic regurgitation
-        - Atrial flutter
+        - [Aortic Regurgitation](/im-guide/cards/vhd/ar)
+        - [Atrial Flutter](/im-guide/cards/atrial-flutter)
         - AV blocks
         - [Cardiomyopathy](/im-guide/cards/nicm/hcm)
-        - Cor Pulmonale
-        - [Mitral regurgitation](/im-guide/cards/vhd/mr)
-        - Mitral stenosis
-        - Multifocal atrial tachycardia
-        - Premature ventricular contractions (PVC)
-        - Prinzmetal’s angina
+        - [Cor Pulmonale](/im-guide/cards/cor-pulmonale)
+        - [Mitral Regurgitation](/im-guide/cards/vhd/mr)
+        - [Mitral Stenosis](/im-guide/cards/vhd/ms)
+        - [Multifocal Atrial Tachycardia](/im-guide/cards/mat)
+        - Premature Ventricular Contractions (PVC)
+        - [Prinzmetal’s Angina](/im-guide/cards/cad/vasospastic-angina)
         - [Ventricular Tachycardia](/fellowship-guide/topics/ep/vt_vf)
     ??? danger "Lower Yield"
         - Atrial Septal Defect (ASD)
