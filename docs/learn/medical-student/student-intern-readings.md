@@ -33,31 +33,31 @@ Largely modeled after SIU's Reading list, but with topics I've commonly encounte
 
 ???+ note "Cardiology"
     ???+ success "Highest Yield"
-        - [Angina Pectoris & ACS](/im-guide/cards/chest-pain)
-        - [Atrial Fibrillation](/fellowship-guide/topics/ep/atrial-fibrillation)
-        - [Coronary Artery Disease](/im-guide/cards/cad/index)
-        - [Heart Failure](/im-guide/cards/heart-failure/basics-hf)
-        - [Hypertension](/im-guide/cards/hypertension)
+        - [Angina Pectoris & ACS](/reference/cardiology/presentations/chest-pain/)
+        - [Atrial Fibrillation](/reference/cardiology/electrophysiology/atrial-fibrillation/)
+        - [Coronary Artery Disease](/reference/cardiology/coronary-disease/)
+        - [Heart Failure](/reference/cardiology/heart-failure/basics-hf/)
+        - [Hypertension](/reference/cardiology/hypertension-vascular/hypertension/)
         - Pulmonary embolus/Pulmonary embolism (PE)
     ??? warning "Average Yield"
-        - [Aortic Stenosis](/im-guide/cards/vhd/as)
-        - [Aortic Regurgitation](/im-guide/cards/vhd/ar)
-        - [Atrial Flutter](/im-guide/cards/atrial-flutter)
+        - [Aortic Stenosis](/reference/cardiology/valvular-structural/aortic-stenosis/)
+        - [Aortic Regurgitation](/reference/cardiology/valvular-structural/aortic-regurgitation/)
+        - [Atrial Flutter](/reference/cardiology/electrophysiology/atrial-flutter/)
         - AV blocks
-        - [Cardiomyopathy](/im-guide/cards/nicm/hcm)
-        - [Cor Pulmonale](/im-guide/cards/cor-pulmonale)
-        - [Mitral Regurgitation](/im-guide/cards/vhd/mr)
-        - [Mitral Stenosis](/im-guide/cards/vhd/ms)
-        - [Multifocal Atrial Tachycardia](/im-guide/cards/mat)
+        - [Hypertrophic Cardiomyopathy](/reference/cardiology/cardiomyopathies/hcm/)
+        - [Cor Pulmonale](/reference/cardiology/pulmonary-hypertension-rv/cor-pulmonale/)
+        - [Mitral Regurgitation](/reference/cardiology/valvular-structural/mitral-regurgitation/)
+        - [Mitral Stenosis](/reference/cardiology/valvular-structural/mitral-stenosis/)
+        - [Multifocal Atrial Tachycardia](/reference/cardiology/electrophysiology/mat/)
         - Premature Ventricular Contractions (PVC)
-        - [Prinzmetal’s Angina](/im-guide/cards/cad/vasospastic-angina)
-        - [Ventricular Tachycardia](/fellowship-guide/topics/ep/vt_vf)
+        - [Prinzmetal Angina](/reference/cardiology/coronary-disease/vasospastic-angina/)
+        - [Ventricular Tachycardia](/reference/cardiology/electrophysiology/ventricular-arrhythmias/)
     ??? danger "Lower Yield"
         - Atrial Septal Defect (ASD)
         - Cardiac Tamponade
-        - [Congenital Heart Disease](/im-guide/cards/congenital-heart-disease)
+        - [Congenital Heart Disease](/reference/cardiology/adult-congenital-heart-disease/)
         - Junctional rhythms
-        - [Pericarditis](/im-guide/cards/pericardial-disease)
+        - [Pericarditis](/reference/cardiology/pericardial-disease/pericardial-disease/)
         - Wolf-Parkinson White
 
 ??? note "Endocrinology"

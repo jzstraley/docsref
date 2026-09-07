@@ -72,9 +72,9 @@ theme:
 # Plugins
 plugins:
   - blog:
-      blog_dir: resident-guide/blog/
+      blog_dir: writing/blog/
       post_date_format: short
-      post_url_date_format: yyyy/MM/dd
+      post_url_date_format: MM/dd/yyyy
       post_url_format: "{date}/{slug}"
   - tags:
   - search:
@@ -175,202 +175,516 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: 'index.md'
-  - IM Guide:
-    - im-guide/index.md
-    - Cardiology:
-      - im-guide/cards/index.md
-      - Chest Pain: im-guide/cards/chest-pain.md
-      - Coronary Artery Disease (CAD):
-        - im-guide/cards/cad/index.md
-        - Stable Ischemic Disease: im-guide/cards/cad/stable-ischemic-disease.md
-        - ACS: im-guide/cards/cad/acs.md
-        - Vasospastic Angina: im-guide/cards/cad/vasospastic-angina.md
-      - Congenital Heart Disease: im-guide/cards/congenital-heart-disease.md
-      - Heart Failure: 
-        - Basics of Heart Failure: im-guide/cards/heart-failure/basics-hf.md
-        - Acute Heart Failure: im-guide/cards/heart-failure/acute-hf.md
-        - Chronic Heart Failure: im-guide/cards/heart-failure/chronic-hf.md
-      - Hypertension: im-guide/cards/hypertension.md
-      - Non-Ischemic Cardiomyopathies:
-        - Hypertrophic Cardiomyopathy: im-guide/cards/nicm/hcm.md
-        - Restrictive Cardiomyopathy: im-guide/cards/nicm/rcm.md
-        - Dilated Cardiomyopathy: im-guide/cards/nicm/dcm.md
-        - Other Cardiomyopathies: im-guide/cards/nicm/other.md
-      - Palpitations: im-guide/cards/palpitations.md
-      - Pericardial Disease: im-guide/cards/pericardial-disease.md
-      - Syncope: im-guide/cards/syncope.md
-      - Arrhythmias:
-        - Atrial Flutter: im-guide/cards/atrial-flutter.md
-        - Multifocal Atrial Tachycardia: im-guide/cards/mat.md
-      - Cor Pulmonale: im-guide/cards/cor-pulmonale.md
-      - Valvular Heart Disease:
-        - im-guide/cards/vhd/index.md
-        - Aortic Regurgitation: im-guide/cards/vhd/ar.md
-        - Aortic Stenosis: im-guide/cards/vhd/as.md
-        - Mitral Regurgitation: im-guide/cards/vhd/mr.md
-        - Mitral Stenosis: im-guide/cards/vhd/ms.md
-      - Vascular Disease: 
-        - im-guide/cards/vascular-disease/index.md
-    - Dermatology: 
-      - im-guide/derm/index.md
-    - Endocrinology: 
-      - im-guide/endo/index.md
-    - Gastroenterology: 
-      - im-guide/gi/index.md
-    - General: 
-      - im-guide/general/index.md
-      - Perioperative Management of Surgical Patients: im-guide/general/perioperative.md
-    - Geriatrics: 
-      - im-guide/geri/index.md
-    - Hematology/Oncology: 
-      - im-guide/heme-onc/index.md
-    - Infectious Disease: 
-      - im-guide/id/index.md
-    - Neurology:
-      - Consults: im-guide/neuro/consults.md
-    - Nephrology: 
-      - Consults: im-guide/nephro/consults.md
-    - Pharmacology:
-      - Autonomics: im-guide/pharm/autonomics.md
-      - Chemotherapy & ID:
-        - Antibiotics: im-guide/pharm/chemo-id/antibiotics.md
-        - Antiemetics: im-guide/pharm/chemo-id/antiemetics.md
-        - Antivirals: im-guide/pharm/chemo-id/antivirals.md
-        - Oncologic Meds: im-guide/pharm/chemo-id/oncologic_meds.md
-      - Endocrine:
-        - Anti-Obesity: im-guide/pharm/endocrine/antiobesity.md
-        - Diabetes Management: im-guide/pharm/endocrine/diabetes_management.md
-        - Osteoporosis: im-guide/pharm/endocrine/osteoporosis.md
-        - Thyroid Meds: im-guide/pharm/endocrine/thyroid_meds.md
-      - Labs and Side Effects:
-        - General: im-guide/pharm/labs-and-se/general.md
-        - Labs: im-guide/pharm/labs-and-se/labs.md
-        - Other: im-guide/pharm/labs-and-se/other.md
-        - Side Effects: im-guide/pharm/labs-and-se/side_effects.md
-      - Nervous System:
-        - Anesthetics: im-guide/pharm/nervous-system/anesthetics.md
-        - Anticonvulsants: im-guide/pharm/nervous-system/anticonvulsants.md
-        - CNS Drugs: im-guide/pharm/nervous-system/cnsdrugs.md
-        - ICU: im-guide/pharm/nervous-system/icu.md
-        - Pain Management: im-guide/pharm/nervous-system/pain_management.md
-        - Sleep: im-guide/pharm/nervous-system/sleep.md
-      - Psychiatry:
-        - Antidepressants: im-guide/pharm/psychiatry/antidepressants.md
-        - Antipsychotics: im-guide/pharm/psychiatry/antipsychotics.md
-        - Anxiolytics: im-guide/pharm/psychiatry/anxiolytics.md
-        - Mood Stabilizers: im-guide/pharm/psychiatry/mood_stabilizers.md
-        - Stimulants: im-guide/pharm/psychiatry/stimulants.md
-      - Smooth Muscle:
-        - Anaphylaxis: im-guide/pharm/smooth-muscle/anaphylaxis.md
-        - Antihistamines: im-guide/pharm/smooth-muscle/antihistamines.md
-        - Antipruritics: im-guide/pharm/smooth-muscle/antipruritics.md
-        - Asthma/COPD: im-guide/pharm/smooth-muscle/asthma-copd.md
-      - Special Topics:
-        - Antidiarrheals: im-guide/pharm/special-topics/antidiarrheals.md
-        - Contraceptives: im-guide/pharm/special-topics/contraceptives.md
-        - Dermatology: im-guide/pharm/special-topics/dermatology.md
-        - GERD: im-guide/pharm/special-topics/gerd.md
-        - Laxatives: im-guide/pharm/special-topics/laxatives.md
-        - Pregnancy: im-guide/pharm/special-topics/pregnancy.md
-        - Prostate: im-guide/pharm/special-topics/prostate.md
-        - Vitamins: im-guide/pharm/special-topics/vitamins.md
-      - Toxicology: im-guide/pharm/tox/index.md
-      - Blood & Anti-inflammatories:
-        - Antiplatelets: im-guide/pharm/blood&anti-inflammatories/antiplatelets.md
-        - Antithrombotics: im-guide/pharm/blood&anti-inflammatories/antithrombotics.md
-        - Fibrinolytics: im-guide/pharm/blood&anti-inflammatories/fibrinolytics.md
-        - Gout: im-guide/pharm/blood&anti-inflammatories/gout.md
-        - Steroids: im-guide/pharm/blood&anti-inflammatories/steroids.md
-    - Psychiatry:
-      - im-guide/psych/index.md
-    - Pulmonology/Critical Care: 
-      - im-guide/pccm/index.md
-      - General: im-guide/pccm/general.md
-      - FASTHUGSBID: im-guide/pccm/fasthugsbid.md
-    - Rheumatology: 
-      - im-guide/rheum/index.md
-  - Resident Guide:
-    - resident-guide/index.md
-    - Basics: 
-      - Basics: resident-guide/basics/1-basics.md
-      - Team Expectations: resident-guide/basics/2-team-expectations.md
-      - How to Write an Admission Note: resident-guide/basics/4-how-to-write-admit-note.md
-      - Transfers: resident-guide/basics/5-transfers.md
-      - Discharge: resident-guide/basics/6-discharge.md
-      - Patient Instructions: resident-guide/basics/7-patient-instructions.md
-      - Common Inpatient Problems: resident-guide/basics/8-common-inpt-problems.md
-      - Licensing: resident-guide/basics/9-licensing.md
-    - Soft Skills:
-      - resident-guide/softskills/index.md
-      - Effective Feedback: resident-guide/softskills/effectivefeedback.md
-      - Utilizing Feedback: resident-guide/softskills/utilizingfeedback.md
-      - Upper Levelling 101: resident-guide/softskills/upperleveling101.md
-      - Residents as Teachers: resident-guide/softskills/residentsasteachers.md
-      - Feedback Templates: resident-guide/softskills/feedbacktemplates.md
-    - Efficiency:
-      - Staying Organized: resident-guide/efficiency/3-staying-organized.md
-      - Shortcuts: resident-guide/efficiency/shortcuts.md
-      - Important Websites: resident-guide/efficiency/important-websites.md
-      - Cerner: resident-guide/efficiency/cernerhelp.md
-      - Dotphrases: resident-guide/efficiency/dotphrases.md
-      - Searching Effectively Online: resident-guide/efficiency/how-to-search-more-effectively.md
-    - Interesting: resident-guide/interesting.md
-    - Blog:
-      - resident-guide/blog/index.md
-    - Student/Intern Readings: resident-guide/student-intern-readings.md
-  - Fellowship Guide:
-    - fellowship-guide/index.md
-    - Topics:
-      - fellowship-guide/topics/index.md
-      - Cardiac Critical Care: 
-        - Cardiogenic Shock: fellowship-guide/topics/cardiac-critical-care/cardiogenic-shock.md
-        - Mechanical Support: fellowship-guide/topics/cardiac-critical-care/mechanical_support.md
-      - Cath:
-        - Invasive Cardiology: fellowship-guide/topics/cath/invasive-cardiology.md
-        - Interventional Cardiology: fellowship-guide/topics/cath/interventional-cardiology.md
-      - Consults: fellowship-guide/topics/consults.md
-      - Echo: 
-        - Aortic Valve: fellowship-guide/topics/echo/aorticvalve.md
-        - Indications: fellowship-guide/topics/echo/indications.md
-        - Left Atrium: fellowship-guide/topics/echo/leftatrium.md
-        - Resources: fellowship-guide/topics/echo/resources.md
-      - EKG: fellowship-guide/topics/ekg.md
-      - Electrophysiology: 
-        - Atrial Fibrillation: fellowship-guide/topics/ep/atrial-fibrillation.md
-        - Cardioversion: fellowship-guide/topics/ep/cardioversion.md
-        - CIEDs: fellowship-guide/topics/ep/cieds.md
-        - Conduction: fellowship-guide/topics/ep/conduction.md
-        - Emergencies: fellowship-guide/topics/ep/emergencies.md
-        - QTc Disorders: fellowship-guide/topics/ep/qtc.md
-        - Sinus Nodal Arrhythmias: fellowship-guide/topics/ep/sinus_node.md
-        - SVT: fellowship-guide/topics/ep/svt.md
-        - Ventricular Arrhythmias: fellowship-guide/topics/ep/vt_vf.md
-      - Imaging: fellowship-guide/topics/imaging.md
+  - Home: index.md
+
+  # ============================================================
+  # REFERENCE
+  # ============================================================
+  - Reference:
+      - Overview: reference/index.md
+
+      - Internal Medicine:
+          - Overview: reference/internal-medicine/index.md
+
+          - General Medicine:
+              - Overview: reference/internal-medicine/general/index.md
+              - Perioperative Management: reference/internal-medicine/general/perioperative.md
+              # TODO: Common Inpatient Problems
+              # TODO: Fluids and Electrolytes
+              # TODO: Fever
+              # TODO: Altered Mental Status
+
+          - Dermatology:
+              - Overview: reference/internal-medicine/dermatology/index.md
+
+          - Endocrinology:
+              - Overview: reference/internal-medicine/endocrinology/index.md
+
+          - Gastroenterology:
+              - Overview: reference/internal-medicine/gastroenterology/index.md
+
+          - Geriatrics:
+              - Overview: reference/internal-medicine/geriatrics/index.md
+
+          - Hematology & Oncology:
+              - Overview: reference/internal-medicine/hematology-oncology/index.md
+
+          - Infectious Disease:
+              - Overview: reference/internal-medicine/infectious-disease/index.md
+
+          - Nephrology:
+              - Consults: reference/internal-medicine/nephrology/consults.md
+
+          - Neurology:
+              - Consults: reference/internal-medicine/neurology/consults.md
+
+          - Psychiatry:
+              - Overview: reference/internal-medicine/psychiatry/index.md
+
+          - Pulmonary & Critical Care:
+              - Overview: reference/internal-medicine/pulmonary-critical-care/index.md
+              - General: reference/internal-medicine/pulmonary-critical-care/general.md
+              - FASTHUGSBID: reference/internal-medicine/pulmonary-critical-care/fasthugsbid.md
+
+          - Rheumatology:
+              - Overview: reference/internal-medicine/rheumatology/index.md
+
+      # ========================================================
+      # CARDIOLOGY
+      # ========================================================
+      - Cardiology:
+          - Overview: reference/cardiology/index.md
+
+          - Presentations:
+              - Chest Pain: reference/cardiology/presentations/chest-pain.md
+              - Palpitations: reference/cardiology/presentations/palpitations.md
+              - Syncope: reference/cardiology/presentations/syncope.md
+              # TODO: Dyspnea
+              # TODO: Edema
+              # TODO: Elevated Troponin
+              # TODO: Hypotension
+              # TODO: Bradycardia
+              # TODO: Wide-Complex Tachycardia
+              # TODO: New Murmur
+              # TODO: Cardiac Arrest
+
+          - Coronary Artery Disease:
+              - Overview: reference/cardiology/coronary-disease/index.md
+              - Stable Ischemic Disease: reference/cardiology/coronary-disease/stable-ischemic-disease.md
+              - Acute Coronary Syndromes: reference/cardiology/coronary-disease/acs.md
+              - Vasospastic Angina: reference/cardiology/coronary-disease/vasospastic-angina.md
+              # TODO: STEMI
+              # TODO: NSTEMI
+              # TODO: Unstable Angina
+              # TODO: MINOCA
+              # TODO: INOCA and Microvascular Angina
+              # TODO: Spontaneous Coronary Artery Dissection
+              # TODO: Coronary Anomalies
+              # TODO: Post-MI Complications
+
+          - Heart Failure:
+              - Heart Failure Basics: reference/cardiology/heart-failure/basics-hf.md
+              - Acute Heart Failure: reference/cardiology/heart-failure/acute-hf.md
+              - Chronic Heart Failure: reference/cardiology/heart-failure/chronic-hf.md
+              - Cardiogenic Shock: reference/cardiology/heart-failure/cardiogenic-shock.md
+              - Mechanical Circulatory Support: reference/cardiology/heart-failure/mechanical-circulatory-support.md
+              # TODO: HFrEF
+              # TODO: HFmrEF and HFimpEF
+              # TODO: HFpEF
+              # TODO: Right-Heart Failure
+              # TODO: Advanced Heart Failure
+              # TODO: Diuretic Resistance
+              # TODO: Inotropes and Vasopressors
+
+          - Cardiomyopathies:
+              - Hypertrophic Cardiomyopathy: reference/cardiology/cardiomyopathies/hcm.md
+              - Restrictive Cardiomyopathy: reference/cardiology/cardiomyopathies/rcm.md
+              - Dilated Cardiomyopathy: reference/cardiology/cardiomyopathies/dcm.md
+              - Other Cardiomyopathies: reference/cardiology/cardiomyopathies/other.md
+              # TODO: Cardiac Amyloidosis
+              # TODO: Cardiac Sarcoidosis
+              # TODO: Arrhythmogenic Cardiomyopathy
+              # TODO: Stress Cardiomyopathy
+              # TODO: Myocarditis
+              # TODO: Peripartum Cardiomyopathy
+              # TODO: Toxic Cardiomyopathies
+              # TODO: Athlete's Heart
+
+          - Electrophysiology:
+              - ECG Approach: reference/cardiology/electrophysiology/ekg.md
+              - Atrial Fibrillation: reference/cardiology/electrophysiology/atrial-fibrillation.md
+              - Atrial Flutter: reference/cardiology/electrophysiology/atrial-flutter.md
+              - Multifocal Atrial Tachycardia: reference/cardiology/electrophysiology/mat.md
+              - Cardioversion: reference/cardiology/electrophysiology/cardioversion.md
+              - Sinus Node Disorders: reference/cardiology/electrophysiology/sinus-node-disorders.md
+              - Conduction Disorders: reference/cardiology/electrophysiology/conduction.md
+              - Supraventricular Tachycardia: reference/cardiology/electrophysiology/svt.md
+              - Ventricular Arrhythmias: reference/cardiology/electrophysiology/ventricular-arrhythmias.md
+              - QTc Disorders: reference/cardiology/electrophysiology/qtc.md
+              - EP Emergencies: reference/cardiology/electrophysiology/emergencies.md
+              - Cardiac Implantable Devices: reference/cardiology/electrophysiology/cieds.md
+              # TODO: Premature Atrial Contractions
+              # TODO: Premature Ventricular Contractions
+              # TODO: AV Block
+              # TODO: Bundle-Branch Block
+              # TODO: Pre-excitation and WPW
+              # TODO: Junctional Rhythms
+              # TODO: Tachycardia-Mediated Cardiomyopathy
+              # TODO: Device Interrogation
+              # TODO: Pacemaker Troubleshooting
+              # TODO: Electrical Storm
+              # TODO: EP Studies and Ablation
+
+          - Valvular & Structural Heart Disease:
+              - Overview: reference/cardiology/valvular-structural/index.md
+              - Aortic Stenosis: reference/cardiology/valvular-structural/aortic-stenosis.md
+              - Aortic Regurgitation: reference/cardiology/valvular-structural/aortic-regurgitation.md
+              - Mitral Stenosis: reference/cardiology/valvular-structural/mitral-stenosis.md
+              - Mitral Regurgitation: reference/cardiology/valvular-structural/mitral-regurgitation.md
+              # TODO: Tricuspid Regurgitation
+              # TODO: Tricuspid Stenosis
+              # TODO: Pulmonic Valve Disease
+              # TODO: Prosthetic Valves
+              # TODO: Prosthetic Valve Dysfunction
+              # TODO: Infective Endocarditis
+              # TODO: Paravalvular Leak
+              # TODO: TAVR
+              # TODO: Mitral TEER
+              # TODO: Left Atrial Appendage Occlusion
+              # TODO: ASD and PFO Closure
+
+          - Adult Congenital Heart Disease:
+              - Overview: reference/cardiology/adult-congenital-heart-disease/index.md
+
+          - Pericardial Disease:
+              - Overview: reference/cardiology/pericardial-disease/pericardial-disease.md
+              # TODO: Acute Pericarditis
+              # TODO: Pericardial Effusion
+              # TODO: Cardiac Tamponade
+              # TODO: Constrictive Pericarditis
+              # TODO: Effusive-Constrictive Pericarditis
+              # TODO: Pericardial Masses and Cysts
+
+          - Pulmonary Hypertension & Right Ventricle:
+              - Cor Pulmonale: reference/cardiology/pulmonary-hypertension-rv/cor-pulmonale.md
+              # TODO: Right-Ventricular Anatomy
+              # TODO: Right-Ventricular Function
+              # TODO: Acute RV Failure
+              # TODO: Pulmonary Hypertension
+              # TODO: Pulmonary Arterial Hypertension
+              # TODO: Chronic Thromboembolic Pulmonary Hypertension
+              # TODO: Acute Pulmonary Embolism
+              # TODO: RHC in Pulmonary Hypertension
+
+          - Hypertension & Vascular Medicine:
+              - Overview: reference/cardiology/hypertension-vascular/index.md
+              - Hypertension: reference/cardiology/hypertension-vascular/hypertension.md
+              # TODO: Hypertensive Emergency
+              # TODO: Resistant Hypertension
+              # TODO: Secondary Hypertension
+              # TODO: Aortic Aneurysm
+              # TODO: Aortic Dissection
+              # TODO: Aortitis
+              # TODO: Aortic Atheroma
+              # TODO: Peripheral Arterial Disease
+              # TODO: Carotid Disease
+              # TODO: Mesenteric Ischemia
+              # TODO: Renal Artery Stenosis
+
+          # Future: Prevention & Special Populations
+          # TODO: Dyslipidemia
+          # TODO: Cardiovascular Risk Assessment
+          # TODO: Obesity and Cardiovascular Disease
+          # TODO: Diabetes and Cardiovascular Disease
+          # TODO: Cardio-Obstetrics
+          # TODO: Cardio-Oncology
+          # TODO: Geriatric Cardiology
+          # TODO: Sports Cardiology
+
+      # ========================================================
+      # PHARMACOLOGY
+      # ========================================================
+      - Pharmacology:
+          - Fundamentals:
+              - Autonomics: reference/pharmacology/autonomics.md
+
+          - Cardiovascular:
+              - Antianginals: reference/pharmacology/cardiovascular/antianginals.md
+              - Antiarrhythmics: reference/pharmacology/cardiovascular/antiarrhythmics.md
+              - Antihypertensives: reference/pharmacology/cardiovascular/antihypertensives.md
+              - Lipid Therapy: reference/pharmacology/cardiovascular/lipid-therapy.md
+              - Antiplatelets: reference/pharmacology/hematology-inflammation/antiplatelets.md
+              - Antithrombotics: reference/pharmacology/hematology-inflammation/antithrombotics.md
+              - Fibrinolytics: reference/pharmacology/hematology-inflammation/fibrinolytics.md
+              # TODO: Heart-Failure Medications
+              # TODO: Vasopressors and Inotropes
+              # TODO: Pulmonary Hypertension Medications
+              # TODO: Anticoagulant Reversal
+
+          - Antimicrobials & Oncology:
+              - Antibiotics: reference/pharmacology/antimicrobial-oncology/antibiotics.md
+              - Antiemetics: reference/pharmacology/antimicrobial-oncology/antiemetics.md
+              - Antivirals: reference/pharmacology/antimicrobial-oncology/antivirals.md
+              - Oncologic Medications: reference/pharmacology/antimicrobial-oncology/oncologic-medications.md
+
+          - Endocrine:
+              - Anti-Obesity: reference/pharmacology/endocrine/antiobesity.md
+              - Diabetes Management: reference/pharmacology/endocrine/diabetes-management.md
+              - Osteoporosis: reference/pharmacology/endocrine/osteoporosis.md
+              - Thyroid Medications: reference/pharmacology/endocrine/thyroid-medications.md
+
+          - Neurologic & Critical Care:
+              - Anesthetics: reference/pharmacology/neurologic-critical-care/anesthetics.md
+              - Anticonvulsants: reference/pharmacology/neurologic-critical-care/anticonvulsants.md
+              - CNS Drugs: reference/pharmacology/neurologic-critical-care/cns-drugs.md
+              - ICU Medications: reference/pharmacology/neurologic-critical-care/icu.md
+              - Pain Management: reference/pharmacology/neurologic-critical-care/pain-management.md
+              - Sleep: reference/pharmacology/neurologic-critical-care/sleep.md
+
+          - Psychiatry:
+              - Antidepressants: reference/pharmacology/psychiatry/antidepressants.md
+              - Antipsychotics: reference/pharmacology/psychiatry/antipsychotics.md
+              - Anxiolytics: reference/pharmacology/psychiatry/anxiolytics.md
+              - Mood Stabilizers: reference/pharmacology/psychiatry/mood-stabilizers.md
+              - Stimulants: reference/pharmacology/psychiatry/stimulants.md
+
+          - Allergy & Pulmonary:
+              - Anaphylaxis: reference/pharmacology/allergy-pulmonary/anaphylaxis.md
+              - Antihistamines: reference/pharmacology/allergy-pulmonary/antihistamines.md
+              - Antipruritics: reference/pharmacology/allergy-pulmonary/antipruritics.md
+              - Asthma & COPD: reference/pharmacology/allergy-pulmonary/asthma-copd.md
+
+          - GI, GU & Special Populations:
+              - Antidiarrheals: reference/pharmacology/gi-gu-special-populations/antidiarrheals.md
+              - Contraceptives: reference/pharmacology/gi-gu-special-populations/contraceptives.md
+              - Dermatology: reference/pharmacology/gi-gu-special-populations/dermatology.md
+              - GERD: reference/pharmacology/gi-gu-special-populations/gerd.md
+              - Laxatives: reference/pharmacology/gi-gu-special-populations/laxatives.md
+              - Pregnancy: reference/pharmacology/gi-gu-special-populations/pregnancy.md
+              - Prostate: reference/pharmacology/gi-gu-special-populations/prostate.md
+              - Vitamins: reference/pharmacology/gi-gu-special-populations/vitamins.md
+
+          - Monitoring & Adverse Effects:
+              - General: reference/pharmacology/monitoring-adverse-effects/general.md
+              - Laboratory Monitoring: reference/pharmacology/monitoring-adverse-effects/labs.md
+              - Other: reference/pharmacology/monitoring-adverse-effects/other.md
+              - Side Effects: reference/pharmacology/monitoring-adverse-effects/side-effects.md
+
+          - Inflammation & Toxicology:
+              - Toxicology: reference/pharmacology/toxicology/index.md
+              - Gout: reference/pharmacology/hematology-inflammation/gout.md
+              - Steroids: reference/pharmacology/hematology-inflammation/steroids.md
+
+  # ============================================================
+  # IMAGING & PROCEDURES
+  # ============================================================
+  - Imaging & Procedures:
+      - Overview: imaging-procedures/index.md
+
+      - Echocardiography:
+          - Aortic Valve: imaging-procedures/echocardiography/aortic-valve.md
+          - Indications: imaging-procedures/echocardiography/indications.md
+          - Left Atrium: imaging-procedures/echocardiography/left-atrium.md
+          - Resources: imaging-procedures/echocardiography/resources.md
+          # TODO: Echo Fundamentals
+          # TODO: Left Ventricle
+          # TODO: Right Ventricle
+          # TODO: Diastology
+          # TODO: Mitral Valve
+          # TODO: Tricuspid and Pulmonic Valves
+          # TODO: Prosthetic Valves
+          # TODO: TEE
+          # TODO: Stress Echocardiography
+          # TODO: Hemodynamics by Echo
+          # TODO: Cardiac Masses
+          # TODO: Artifacts and Mimics
+          # TODO: Reporting Guide
+
       - Nuclear Cardiology:
-        - fellowship-guide/topics/nuc/index.md
-        - SPECT MPI: fellowship-guide/topics/nuc/spect.md
-        - Stress Testing: fellowship-guide/topics/nuc/stress-testing.md
-      - Pharmacology: 
-        - Antianginals: fellowship-guide/topics/cardiac-pharm/antianginals.md
-        - Antiarrhythmics: fellowship-guide/topics/cardiac-pharm/antiarrhythmics.md
-        - Antihypertensives: fellowship-guide/topics/cardiac-pharm/antihypertensives.md
-        - Lipid Therapy: fellowship-guide/topics/cardiac-pharm/lipidtherapy.md
-      - Dotphrases:
-        - fellowship-guide/topics/cardsdotphrases.md
-    - Competency Requirements: fellowship-guide/cardsfellowshipreqs.md
-    - Fellowship Excel Guide: fellowship-guide/fellowship-excel-guide.md
-    - Calculators: fellowship-guide/calculators.md
-  - Tags: tags.md
-  - About: 
-    - about/index.md
-    - Contact: about/contact.md
-    - Disclaimer: about/disclaimer.md
-    - License: about/license.md
-    - Website:
-      - Changelog: about/website/changelog.md
-      - Site Development: about/website/site-development.md
-      - Style Cheatsheet: about/website/style-cheatsheet.md
+          - Overview: imaging-procedures/nuclear-cardiology/index.md
+          - SPECT MPI: imaging-procedures/nuclear-cardiology/spect.md
+          - Stress Testing: imaging-procedures/nuclear-cardiology/stress-testing.md
+          # TODO: PET MPI
+          # TODO: Viability Imaging
+          # TODO: Amyloid Imaging
+          # TODO: Radiotracers
+          # TODO: Artifacts
+          # TODO: Interpretation and Reporting
+          # TODO: Radiation Safety
+
+      # Future: Cardiac CT
+      # TODO: CT Fundamentals
+      # TODO: Acquisition and Protocols
+      # TODO: Coronary Anatomy
+      # TODO: Coronary CTA
+      # TODO: Calcium Scoring
+      # TODO: Plaque Characterization
+      # TODO: CT-FFR
+      # TODO: Structural Heart CT
+      # TODO: TAVR Planning
+      # TODO: Pulmonary Vein CT
+      # TODO: Congenital CT
+      # TODO: Aortic CT
+      # TODO: Artifacts and Pitfalls
+      # TODO: Reporting Guide
+
+      # Future: Cardiac MRI
+      # TODO: CMR Fundamentals
+      # TODO: Sequences
+      # TODO: Ventricular Function
+      # TODO: Late Gadolinium Enhancement
+      # TODO: T1 and T2 Mapping
+      # TODO: Cardiomyopathies
+      # TODO: Myocarditis
+      # TODO: Ischemic Heart Disease
+      # TODO: Viability
+      # TODO: Valvular Disease
+      # TODO: Congenital Heart Disease
+      # TODO: Cardiac Masses
+      # TODO: Pericardial Disease
+      # TODO: Reporting Guide
+
+      - Diagnostic Catheterization:
+          - Invasive Cardiology: imaging-procedures/diagnostic-catheterization/invasive-cardiology.md
+          # TODO: Cath Lab Fundamentals
+          # TODO: Coronary Angiography
+          # TODO: Right-Heart Catheterization
+          # TODO: Cardiac Output
+          # TODO: Shunt Calculations
+          # TODO: Valve Hemodynamics
+          # TODO: Constrictive vs Restrictive Physiology
+          # TODO: Coronary Physiology
+          # TODO: Complications
+          # TODO: Cath Report Writing
+
+      - Interventional Cardiology:
+          - Overview: imaging-procedures/interventional-cardiology/interventional-cardiology.md
+          # Future groups: Fundamentals, Access, Equipment, PCI Techniques,
+          # Imaging & Physiology, Complications & Bailouts, Acute & Complex Care
+
+  # ============================================================
+  # LEARN BY LEVEL
+  # ============================================================
+  - Learn:
+      - Overview: learn/index.md
+
+      - Student & Intern:
+          - Recommended Readings: learn/medical-student/student-intern-readings.md
+          # TODO: Cardiology for Medical Students
+          # TODO: Surviving Intern Year
+          # TODO: Presenting on Rounds
+          # TODO: Basic ECG Interpretation
+          # TODO: When to Call Cardiology
+
+      - Internal Medicine Resident:
+          - Resident Guide: learn/internal-medicine-resident/index.md
+
+          - Getting Started:
+              - Basics: learn/internal-medicine-resident/basics/1-basics.md
+              - Team Expectations: learn/internal-medicine-resident/basics/2-team-expectations.md
+              - Admission Notes: learn/internal-medicine-resident/basics/4-how-to-write-admit-note.md
+              - Transfers: learn/internal-medicine-resident/basics/5-transfers.md
+              - Discharge: learn/internal-medicine-resident/basics/6-discharge.md
+              - Patient Instructions: learn/internal-medicine-resident/basics/7-patient-instructions.md
+              - Common Inpatient Problems: learn/internal-medicine-resident/basics/8-common-inpt-problems.md
+              - Licensing: learn/internal-medicine-resident/basics/9-licensing.md
+
+          - Efficiency & Workflow:
+              - Staying Organized: learn/internal-medicine-resident/efficiency/3-staying-organized.md
+              - Shortcuts: learn/internal-medicine-resident/efficiency/shortcuts.md
+              - Important Websites: learn/internal-medicine-resident/efficiency/important-websites.md
+              - Cerner: learn/internal-medicine-resident/efficiency/cernerhelp.md
+              - Dotphrases: learn/internal-medicine-resident/efficiency/dotphrases.md
+              - Searching Effectively: learn/internal-medicine-resident/efficiency/how-to-search-more-effectively.md
+
+          - Teaching & Professional Skills:
+              - Overview: learn/internal-medicine-resident/softskills/index.md
+              - Effective Feedback: learn/internal-medicine-resident/softskills/effectivefeedback.md
+              - Utilizing Feedback: learn/internal-medicine-resident/softskills/utilizingfeedback.md
+              - Upper Leveling 101: learn/internal-medicine-resident/softskills/upperleveling101.md
+              - Residents as Teachers: learn/internal-medicine-resident/softskills/residentsasteachers.md
+              - Feedback Templates: learn/internal-medicine-resident/softskills/feedbacktemplates.md
+
+          - Additional Material:
+              - Interesting Topics: learn/internal-medicine-resident/interesting.md
+              - Fellowship Excel Guide: learn/internal-medicine-resident/fellowship-excel-guide.md
+              # TODO: Internal Medicine Board Review
+              # TODO: Preparing for Fellowship
+
+      - Cardiology Fellow:
+          - Fellowship Guide: learn/cardiology-fellow/index.md
+          - Consults: learn/cardiology-fellow/consults.md
+          - Competency Requirements: learn/cardiology-fellow/cardsfellowshipreqs.md
+          # TODO: Starting Cardiology Fellowship
+          # TODO: CCU Rotation Guide
+          # TODO: Cath Rotation Guide
+          # TODO: Echo Rotation Guide
+          # TODO: Nuclear Rotation Guide
+          # TODO: CT and MRI Rotation Guide
+          # TODO: EP Rotation Guide
+          # TODO: Clinic Guide
+          # TODO: Cardiology Board Review
+          # TODO: Research During Fellowship
+          # TODO: Finding a Job
+          # TODO: Applying to Subspecialty Fellowship
+
+      # Future: Interventional Fellow curriculum
+      # Future: Attending guide
+
+  # ============================================================
+  # TOOLS
+  # ============================================================
+  - Tools:
+      - Clinical Calculators: tools/calculators.md
+      - Cardiology Dotphrases: tools/cardsdotphrases.md
+      # TODO: Diagnostic Criteria
+      # TODO: Severity Cutoffs
+      # TODO: Medication Doses
+      # TODO: Reversal Agents
+      # TODO: Hemodynamic Formulas
+      # TODO: Echo Normal Values
+      # TODO: Procedure Checklists
+      # TODO: Clinical Decision Pathways
+      # TODO: Guideline Index
+      # TODO: Landmark Trials Index
+
+  # ============================================================
+  # WRITING
+  # ============================================================
+  - Writing:
+      - Blog: writing/blog/index.md
+      # TODO: Clinical Commentary
+      # TODO: Medical Education
+      # TODO: Technology and Informatics
+      # TODO: Research
+      # TODO: Quality Improvement
+      # TODO: Leadership
+      # TODO: Career
+      # TODO: Personal Reflections
+      # TODO: Archive
+
+  # ============================================================
+  # PROJECTS
+  # ============================================================
+  # Activate when the first project page exists.
+  #
+  # - Projects:
+  #     - TODO: Current Projects
+  #     - TODO: Research Projects
+  #     - TODO: Quality-Improvement Projects
+  #     - TODO: Educational Projects
+  #     - TODO: Presentations
+  #     - TODO: Software and Informatics
+  #     - TODO: Publications
+  #     - TODO: Completed Projects
+
+  # ============================================================
+  # BROWSE
+  # ============================================================
+  - Browse:
+      - Tags: tags.md
+      # TODO: Alphabetical Index
+      # TODO: Recently Updated
+      # TODO: Guidelines by Year
+      # TODO: Landmark Trials Index
+      # TODO: Image and Figure Index
+
+  # ============================================================
+  # ABOUT
+  # ============================================================
+  - About:
+      - About Austin: about/index.md
+      - Contact: about/contact.md
+      - Disclaimer: about/disclaimer.md
+      - License: about/license.md
+
+      - About DocsRef:
+          - Changelog: about/website/changelog.md
+          - Site Development: about/website/site-development.md
+          - Style Cheatsheet: about/website/style-cheatsheet.md
+          # TODO: How to Use DocsRef
+          # TODO: Editorial Approach
+          # TODO: Citation and Evidence Policy
 
 validation:
   links:
