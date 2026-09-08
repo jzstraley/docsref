@@ -2,622 +2,686 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docsref.com/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/tags/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/contact/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/disclaimer/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/license/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/website/changelog/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/website/site-development/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/about/website/style-cheatsheet/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/diagnostic-catheterization/invasive-cardiology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/aorta/</loc>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/aortic-valve/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/congenital-heart-disease/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/diastolic-function/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/fundamentals/</loc>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/indications/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/intracardiac-shunts/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/ivc-and-right-atrial-pressure/</loc>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/left-atrium/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/left-ventricle/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/mitral-valve/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/pericardium/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/prosthetic-valves/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/pulmonic-valve/</loc>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/resources/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/right-atrium/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/right-ventricle/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/septum/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/tricuspid-valve/</loc>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/interventional-cardiology/interventional-cardiology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/spect/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/stress-testing/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/cardiology-fellow/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/cardiology-fellow/cardsfellowshipreqs/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/cardiology-fellow/consults/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/fellowship-excel-guide/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/interesting/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/1-basics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/2-team-expectations/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/4-how-to-write-admit-note/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/5-transfers/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/6-discharge/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/7-patient-instructions/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/8-common-inpt-problems/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/basics/9-licensing/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/3-staying-organized/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/cernerhelp/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/dotphrases/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/how-to-search-more-effectively/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/important-websites/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/shortcuts/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/softskills/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/softskills/effectivefeedback/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/softskills/feedbacktemplates/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/softskills/residentsasteachers/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/softskills/upperleveling101/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/internal-medicine-resident/softskills/utilizingfeedback/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/learn/medical-student/student-intern-readings/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/adult-congenital-heart-disease/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/cardiomyopathies/dcm/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/cardiomyopathies/hcm/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/cardiomyopathies/other/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/cardiomyopathies/rcm/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/coronary-disease/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/coronary-disease/acs/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/coronary-disease/stable-ischemic-disease/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/coronary-disease/vasospastic-angina/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/atrial-fibrillation/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/atrial-flutter/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/cardioversion/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/cieds/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/conduction/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/ekg/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/emergencies/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/mat/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/qtc/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/sinus-node-disorders/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/svt/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/electrophysiology/ventricular-arrhythmias/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/heart-failure/acute-hf/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/heart-failure/basics-hf/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/heart-failure/cardiogenic-shock/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/heart-failure/chronic-hf/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/heart-failure/mechanical-circulatory-support/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/hypertension-vascular/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/hypertension-vascular/hypertension/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/pericardial-disease/pericardial-disease/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/presentations/chest-pain/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/presentations/palpitations/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/presentations/syncope/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/pulmonary-hypertension-rv/cor-pulmonale/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/valvular-structural/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/valvular-structural/aortic-regurgitation/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/valvular-structural/aortic-stenosis/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/valvular-structural/mitral-regurgitation/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/cardiology/valvular-structural/mitral-stenosis/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/dermatology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/endocrinology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/gastroenterology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/general/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/general/perioperative/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/geriatrics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/hematology-oncology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/infectious-disease/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/nephrology/consults/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/neurology/consults/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/psychiatry/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/pulmonary-critical-care/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/pulmonary-critical-care/fasthugsbid/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/pulmonary-critical-care/general/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/internal-medicine/rheumatology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/autonomics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/allergy-pulmonary/anaphylaxis/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/allergy-pulmonary/antihistamines/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/allergy-pulmonary/antipruritics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/allergy-pulmonary/asthma-copd/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/antimicrobial-oncology/antibiotics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/antimicrobial-oncology/antiemetics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/antimicrobial-oncology/antivirals/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/antimicrobial-oncology/oncologic-medications/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/cardiovascular/antianginals/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/cardiovascular/antiarrhythmics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/cardiovascular/antihypertensives/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/cardiovascular/lipid-therapy/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/endocrine/antiobesity/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/endocrine/diabetes-management/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/endocrine/osteoporosis/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/endocrine/thyroid-medications/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/antidiarrheals/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/contraceptives/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/dermatology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/gerd/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/laxatives/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/pregnancy/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/prostate/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/gi-gu-special-populations/vitamins/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/hematology-inflammation/antiplatelets/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/hematology-inflammation/antithrombotics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/hematology-inflammation/fibrinolytics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/hematology-inflammation/gout/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/hematology-inflammation/steroids/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/monitoring-adverse-effects/general/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/monitoring-adverse-effects/labs/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/monitoring-adverse-effects/other/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/monitoring-adverse-effects/side-effects/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/neurologic-critical-care/anesthetics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/neurologic-critical-care/anticonvulsants/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/neurologic-critical-care/cns-drugs/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/neurologic-critical-care/icu/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/neurologic-critical-care/pain-management/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/neurologic-critical-care/sleep/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/psychiatry/antidepressants/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/psychiatry/antipsychotics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/psychiatry/anxiolytics/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/psychiatry/mood-stabilizers/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/psychiatry/stimulants/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/reference/pharmacology/toxicology/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/tools/calculators/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/tools/cardsdotphrases/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/writing/blog/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/writing/blog/08/28/2024/blog-support-just-landed/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <loc>https://docsref.com/writing/blog/2024/08/28/blog-support-just-landed/</loc>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/writing/blog/archive/2024/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
     <url>
          <loc>https://docsref.com/writing/blog/category/blog/</loc>
-         <lastmod>2026-09-07</lastmod>
+         <lastmod>2026-09-08</lastmod>
     </url>
 </urlset>
