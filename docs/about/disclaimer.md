@@ -1,81 +1,101 @@
 ---
-title: Disclaimer
+title: Terms of Use and Disclaimer
 author: J. Austin Straley, DO
 date: 2022-11-24
 ---
 
-#### Terms of Use Agreement and Disclaimer
+**Effective date:** September 1, 2026
 
-##### Terms of Use Agreement
+These Terms of Use and Disclaimer apply to DocsRef and IMTechEd, including their websites, pages, articles, images, tools, and related content (collectively, the **Site**). The Site is created and maintained by J. Austin Straley, DO (the **Author**).
 
-- This Terms of Use Agreement (this ‘Agreement') is entered into by and between the author and ‘you', the user of this website, also known as ‘IMTechEd' (the Site). Access to, use of and/or browsing of the Site is provided subject to the terms and conditions set forth herein. By accessing, using and/or browsing the Site, you hereby agree to these terms and conditions.
-- THIS AGREEMENT CONTAINS WARRANTY DISCLAIMERS AND OTHER PROVISIONS THAT LIMIT THE AUTHOR'S LIABILITY TO YOU. PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY AND IN THEIR ENTIRETY, AS USING, ACCESSING AND/OR BROWSING THE SITE CONSTITUTES ACCEPTANCE OF THESE TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO BE BOUND TO EACH AND EVERY TERM AND CONDITION SET FORTH HEREIN, PLEASE EXIT THE SITE IMMEDIATELY AND DO NOT USE, ACCESS AND/OR BROWSE THE SITE.
-- BY ENTERING THE SITE, YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE READ AND UNDERSTAND THESE TERMS AND CONDITIONS, THAT THE PROVISIONS, DISCLOSURES AND DISCLAIMERS SET FORTH HEREIN ARE FAIR AND REASONABLE, AND THAT YOUR AGREEMENT TO FOLLOW AND BE BOUND BY THESE TERMS AND CONDITIONS IS VOLUNTARY AND IS NOT THE RESULT OF FRAUD, DURESS OR UNDUE INFLUENCE EXERCISED UPON YOU BY ANY PERSON OR ENTITY.
+By accessing or using the Site, you acknowledge these terms. If you do not agree with them, do not use the Site.
 
-##### MEDICAL ADVICE DISCLAIMER
+## Educational Purpose Only
 
-- The Author provides the Site and the services, information, content and/or data (collectively, ‘Information') contained therein for informational purposes only. The Author does not provide any medical advice on the Site, and the Information should not be so construed or used. Using, accessing and/or browsing the Site and/or providing personal or medical information to the Author does not create a physician-patient relationship between you and the Author. Nothing contained in the Site is intended to create a physician-patient relationship, to replace the services of a licensed, trained physician or health professional or to be a substitute for medical advice of a physician or trained health professional licensed in your state. You should not rely on anything contained in the Site, and you should consult a physician licensed in your state in all matters relating to your health. You hereby agree that you shall not make any health or medical related decision based in whole or in part on anything contained in the Site.
+The Site provides general medical and educational information. Its content is intended primarily for education and reference and does not constitute medical advice, diagnosis, treatment, consultation, or any other professional service.
 
-##### FINANCIAL, LEGAL AND OTHER ADVICE DISCLAIMER
+The Site is not a substitute for an independent clinical assessment, professional judgment, or advice from a qualified healthcare professional who knows the relevant patient and circumstances. Do not delay or disregard professional medical advice because of information on the Site.
 
-- You hereby acknowledge that nothing contained in the Site shall constitute financial, investment, legal and/or other professional advice and that no professional relationship of any kind is created between you and the Author. You hereby agree that you shall not make any financial, investment, legal and/or other decision based in whole or in part on anything contained in the Site.
+The Site is not intended for emergency use. If you believe you or another person may be experiencing a medical emergency, contact local emergency services immediately.
 
-##### INFORMATION DISCLAIMER
+## No Physician–Patient Relationship
 
-- The opinions expressed in the Site are not necessarily the opinions of the Author and do not reflect the opinion of his employer(s). The Site is created by the Author in the Author's individual capacity, is the Author's personal web site, is not edited by the Author's employer(s) and, as a result, may not be attributed to the Author's employer.
-- Any opinions of the Author on the Site are or have been rendered based on specific facts, under certain conditions, and subject to certain assumptions, and may not and should not be used or relied upon for any other purpose, including, but not limited to, for use in or in connection with any legal proceeding.
-- The Information may be changed without notice and is not guaranteed to be complete, correct, timely, current or up-to-date. Similar to any printed materials, the Information may become out-of-date. The Author undertakes no obligation to update any Information on the Site; provided, however, that the Author may update the Information at any time without notice in the Author's sole and absolute discretion. The Author reserves the right to make alterations or deletions to the Information at any time without notice.
+Accessing, reading, using, or communicating through the Site does not create a physician–patient relationship between you and the Author. The Site does not undertake to evaluate any individual patient or assume responsibility for a user's medical care.
 
-##### POSTING DISCLAIMER
+Do not submit confidential, identifying, or protected health information through the Site or by email. Any contact information provided by the Site is not a secure channel for patient care.
 
-- The Site is open to the public. Therefore, consider your comments carefully and do not include anything in a comment that you would like to keep private. By uploading or otherwise making available any information to the Author in the form of user generated comments or otherwise, you grant the Author the unlimited, perpetual right to distribute, display, publish, reproduce, reuse and copy the information contained therein.
-- By submitting or posting content on the Site, you grant the Author and any company substantially under the control of the Author, the right to remove any content or comment that, in Author's sole judgment, does not comply with the terms and conditions of this Agreement or is otherwise objectionable. You also grant the Author and any company substantially under the control of Author the right to modify, adapt, and edit any content.
+## Professional Use
 
-##### THIRD PARTY LINKS AND ADVERTISEMENTS DISCLAIMER
+Healthcare professionals are responsible for independently confirming the accuracy, applicability, contraindications, dosing, calculations, guidelines, and current regulatory status of any information before using it in clinical practice.
 
-- The Site may in the future, from time to time, contain links to third party web sites. These links are provided solely as a convenience to you and not as a guarantee, warranty, or recommendation by the Author of the services, information, content and/or data on such third party web sites or as an indication of any affiliation, sponsorship or endorsement of such third party web sites. The Author is not responsible for the content of linked third party web sites and does not make any representations or warranties regarding the privacy practices of, or the content or accuracy of materials on, such third party websites. If you decide to access linked third-party web sites, you do so at your own risk. Your use of third-party websites is subject to the terms of use for such sites.
-- THE INCLUSION OF THIRD PARTY ADVERTISEMENTS DOES NOT CONSTITUTE AN ENDORSEMENT, GUARANTEE, WARRANTY, OR RECOMMENDATION OF, AND THE AUTHOR MAKES NO REPRESENTATIONS AND/OR WARRANTIES ABOUT, ANY PRODUCT OR SERVICE CONTAINED THEREIN.
+Clinical decisions must be based on the complete clinical context, current primary sources, applicable guidelines, local protocols, and the professional's own judgment. The Site should not be used as the sole basis for diagnosis, treatment, medication administration, procedural planning, or any other patient-care decision.
 
-##### DISCLAIMER OF ALL WARRANTIES
+## Accuracy and Currency
 
-- The Information made available at the Site is provided on an 'AS IS' and 'AS AVAILABLE' basis without warranties of any kind, either express or implied, including, without limitation, warranties of title, noninfringement, and implied warranties of merchantability or fitness for a particular purpose. Without limiting the generality of the foregoing, the Author makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of the Information, that the Information may be relied upon for any reason or that the Information will be uninterrupted or error free or that any defects can or will be corrected.
-- Without limiting the generality of the foregoing, the Author makes no representations or warranties with respect to any Information offered or provided within or through the Site regarding treatment of medical conditions, action, or application of medication.
-- Under no circumstances, as a result of your use of the Site, will the Author be liable to you or to any other person for any direct, indirect, special, incidental, exemplary, consequential or other damages under any legal theory, including, without limitation, tort, contract, strict liability or otherwise, even if advised of the possibility of such damages. Without limiting the generality of the foregoing, the Author shall have absolutely no liability in connection with the Site for:
-    1. damages as a result of lost profits, loss of good will, work stoppage, failure of performance, delays in operation or transmission, non-delivery of information, deletions of files, mistakes, defects, errors, interruptions or computer failure or malfunction;
-    2. any loss or injury caused, in whole or in part, by the Author's actions, omissions, or negligence, or for contingencies beyond the Author's control, in procuring, compiling, or delivering the Information;
-    3. any errors, omissions, or inaccuracies in the Information regardless of how caused, or delays or interruptions in delivery of the Information; or
-    4. any decision made or action taken or not taken in reliance upon the Information.
+The Author makes reasonable efforts to provide useful information but does not guarantee that Site content is complete, accurate, current, error-free, or suitable for a particular purpose. Medical knowledge, guidelines, drug information, device information, and standards of care change over time. Content may be revised, corrected, relocated, or removed without notice.
 
-##### RESERVATION OF INTELLECTUAL PROPERTY RIGHTS
+References and links may become outdated. Publication or revision dates do not guarantee that every statement reflects the most recent evidence or recommendation.
 
-- The Site is protected by United States copyright laws. The Author hereby reserves any and all intellectual property rights in the Site.
+## Independence and Affiliations
 
-##### INDEMNIFICATION
+The Site is a personal educational project created by the Author in an individual capacity. Unless expressly stated otherwise, opinions and content on DocsRef and IMTechEd are the Author's own and do not represent or imply endorsement by any employer, hospital, healthcare system, training program, university, professional organization, or other affiliated entity.
 
-- You agree to indemnify and hold the Author harmless from any claim or demand, including attorneys' fees, made by any third party as a result of:
-    1. any content posted or made available by you on this Site;
-    2. any violation of law that occurs by you through the Site; and/or
-    3. anything you do using the Site and/or the Information contained therein.
+References to organizations, products, medications, devices, or services do not imply endorsement. Trademarks and trade names belong to their respective owners.
 
-##### INVALIDITY
+## Clinical Images and Patient Privacy
 
-- If any provision of this Agreement is held to be invalid or unenforceable in whole or in part in any jurisdiction, then that provision shall be deemed ineffective in such jurisdiction but shall have no effect on the enforceability of the remaining provisions.
+Clinical images and case material may be simplified, modified, de-identified, reproduced under an applicable license, or used with appropriate authorization. They are presented for education and may not include the complete clinical context.
 
-##### GOVERNING LAW, CONSENT TO JURISDICTION AND LIMITATION ON CLAIMS
+No image or case should be used to identify, diagnose, or draw conclusions about a particular individual. If you believe material on the Site may contain identifying information or raises a privacy concern, contact the Author promptly at [imteched@gmail.com](mailto:imteched@gmail.com).
 
-- This Agreement and your use of the Site, along with the Information contained therein, shall be governed by and construed in accordance with the laws of the State of West Virginia without regard to conflict of laws principles, and you agree to submit to the jurisdiction of courts in the State of West Virginia. You further agree that any claims or causes of action arising out of or related to this Agreement and the Site, along with the Information contained therein, shall be filed within one (1) year after such claim or cause of action arose, or such claim or cause of action shall be forever barred.
+De-identification does not by itself establish ownership or permission to publish. Clinical material is used subject to applicable privacy requirements, institutional policies, licenses, and permissions.
 
-##### ENTIRE AGREEMENT
+## External Links and Third-Party Content
 
-- You hereby acknowledge that this Agreement represents the entire understanding between you and the Author concerning your use of the Site and the Information contained therein.
+The Site may link to or display material from third-party websites. Links are provided for convenience and reference. The Author does not control third-party sites and does not guarantee their availability, security, privacy practices, accuracy, or content.
 
-##### MODIFICATION
+A link, citation, or reference does not necessarily constitute endorsement, affiliation, sponsorship, or approval. Your use of a third-party website is governed by that site's own terms and policies.
 
-- The Author may, in the Author's sole and absolute discretion, modify the terms and conditions of this Agreement in whole or in party at any time for any reason without any notice to you, whether prior or otherwise.
-- Such modified terms and conditions shall supersede these terms and conditions and shall become binding when published online on the Site.
+Third-party images, figures, quotations, trademarks, and other materials remain subject to the rights and licenses identified in their captions, source pages, or accompanying notices.
 
-##### WAIVER
+## Intellectual Property and Licenses
 
-- The Author's failure to exercise or enforce any right or provision of this Agreement shall not be deemed to be a waiver of such right or provision.
+Copyright and licensing terms for the Site are described on the separate [License](license.md) page.
 
-THE SITE AND THE INFORMATION CONTAINED THEREIN IS MADE AVAILABLE BY THE AUTHOR FOR EDUCATIONAL PURPOSES ONLY AND IS NOT INTENDED TO PROVIDE MEDICAL ADVICE. BY ACCESSING THE SITE, YOU UNDERSTAND AND ACKNOWLEDGE THAT THERE IS NO PHYSICIAN-PATIENT RELATIONSHIP BETWEEN YOU AND THE AUTHOR. YOU FURTHER ACKNOWLEDGE YOUR UNDERSTANDING THAT THE SITE SHOULD NOT BE USED AS A SUBSTITUTE FOR COMPETENT MEDICAL ADVICE FROM A LICENSED PHYSICIAN IN YOUR STATE.
+Unless otherwise stated:
+
+- The MIT License applies only to original software and source code identified as MIT-licensed.
+- Original written content, clinical reference material, tables, images, and illustrations are not licensed under the MIT License.
+- Third-party material remains subject to the rights of its respective owner and any license or permission identified with that material.
+
+Nothing in these terms grants permission to reuse third-party material. Attribution alone does not create a right to reproduce copyrighted content.
+
+## No Warranties
+
+To the fullest extent permitted by applicable law, the Site and its content are provided **“as is”** and **“as available,”** without warranties of any kind, express or implied. The Author disclaims warranties of accuracy, completeness, reliability, availability, merchantability, fitness for a particular purpose, title, and non-infringement.
+
+The Author does not warrant that the Site will be continuously available, secure, or free from errors, harmful code, or other technical defects.
+
+## Limitation of Liability
+
+To the fullest extent permitted by applicable law, the Author will not be liable for any direct, indirect, incidental, consequential, special, exemplary, or punitive damages; personal injury; loss of data; loss of revenue; or other loss arising from or related to access to, use of, inability to use, or reliance on the Site or its content.
+
+This limitation applies regardless of the legal theory asserted and even if the Author has been advised that such harm may occur. Nothing in these terms excludes or limits liability that cannot lawfully be excluded or limited.
+
+## Changes to the Site or These Terms
+
+The Author may modify the Site or these terms at any time. Revised terms become effective when posted, with the effective date shown above. Continued use of the Site after a revision constitutes acceptance of the revised terms to the extent permitted by applicable law.
+
+## Governing Law
+
+To the extent permitted by applicable law, these terms are governed by the laws of the State of West Virginia, without regard to conflict-of-law principles.
+
+If any provision is found unenforceable, the remaining provisions will remain in effect. Failure to enforce a provision does not waive the right to enforce it later.
+
+## Contact
+
+Questions concerning the Site, permissions, privacy concerns, or these terms may be directed to:
+
+[imteched@gmail.com](mailto:imteched@gmail.com)
+
+These terms are provided as general website terms and have not been represented as individualized legal advice. Material legal provisions should be reviewed by a qualified attorney familiar with the Site's actual features, data practices, and jurisdiction.
