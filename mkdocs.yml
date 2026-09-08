@@ -386,6 +386,7 @@ nav:
       # ========================================================
       - Pharmacology:
           - Fundamentals:
+              - Overview: reference/pharmacology/index.md
               - Autonomics: reference/pharmacology/autonomics.md
 
           - Cardiovascular:
@@ -573,8 +574,8 @@ nav:
       - Overview: learn/index.md
 
       - Student & Intern:
+          - Overview: learn/medical-student/index.md
           - Recommended Readings: learn/medical-student/student-intern-readings.md
-          # TODO: Overview: learn/medical-student/index.md
           # TODO: Cardiology Basics: learn/medical-student/cardiology-basics.md
           # TODO: Surviving Intern Year: learn/medical-student/surviving-intern-year.md
           # TODO: Presenting on Rounds: learn/medical-student/presenting-on-rounds.md
