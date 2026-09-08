@@ -1,31 +1,45 @@
 ---
-title: Cards Fellowship Guide
+title: Cardiology Fellowship
 author: J. Austin Straley, DO
 date: 2024-05-13
+categories:
+  - Medical Education
+  - Cardiology
+tags:
+  - Fellowship
+  - Cardiology Training
 ---
 
-- Welcome to my guide for cardiology fellowship. Please see the disclaimer on the main page.
-- I've tried to include as much information as I've learned to make this as useful as possible for training.
+Practical guidance and resources for navigating cardiology fellowship. This material reflects personal experience and is intended to supplement—not replace—local program policies, supervision, or formal training requirements.
 
-## Guides and Resources
+## Fellowship Guides
 
-- [ACGME Common Program Requirements (Fellowship) - 2023][1]
-- [SUNY Upstate Cardiac Care Unit Survival Guide][7]
-- [Emory CDU Guide][8]
+- [Cardiology Consults](consults.md)
+- [Competency Requirements](competency-requirements.md)
 
-## Important Websites
+## External Resources
 
-- [Microsoft Login][2]
-- [NewInnovations][3]
-- [OpenEvidence][4]
-- [Mayo Board Review][5]
-- [EKGSource][6]
+- [ACGME Common Program Requirements for Fellowship](https://www.acgme.org/globalassets/pfassets/programrequirements/cprfellowship_2023v2.pdf)
+- [SUNY Upstate Cardiac Care Unit Survival Guide](https://www.upstate.edu/medresidency/pdf/ccu_handbook_2_.pdf)
+- [Emory Clinical Decision Unit Guide](https://med.emory.edu/departments/emergency-medicine/_documents/cdu-manual-and-protocols-3-8-2024.pdf)
 
-[1]: https://www.acgme.org/globalassets/pfassets/programrequirements/cprfellowship_2023v2.pdf
-[2]: https://login.microsoftonline.com/
-[3]: https://www.new-innov.com/login/
-[4]: https://www.openevidence.com/tldr
-[5]: https://cveducation.mayo.edu/
-[6]: https://ecgsource.com/index_main.php
-[7]: https://www.upstate.edu/medresidency/pdf/ccu_handbook_2_.pdf
-[8]: https://med.emory.edu/departments/emergency-medicine/_documents/cdu-manual-and-protocols-3-8-2024.pdf
+## Educational Resources
+
+- [Mayo Clinic Cardiovascular Board Review](https://cveducation.mayo.edu/)
+- [ECGsource](https://ecgsource.com/index_main.php)
+- [OpenEvidence](https://www.openevidence.com/)
+
+## Training Tools
+
+- [Microsoft 365 Login](https://login.microsoftonline.com/)
+- [New Innovations](https://www.new-innov.com/login/)
+
+## In Development
+
+Additional guides will cover:
+
+- CCU and consultation services
+- Catheterization and imaging rotations
+- Electrophysiology and continuity clinic
+- Research and board preparation
+- Employment and advanced fellowship applications

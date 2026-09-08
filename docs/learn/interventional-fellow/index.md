@@ -1,20 +1,18 @@
 ---
-title: Interventional Cardiology
+title: Interventional Cardiology Fellow Resources
 author: J. Austin Straley, DO
 date: 2024-09-04
 categories:
     - Cardiology
 ---
 
-### Interventional Cardiology Fellow Resources
-
-#### Books
+## Books
 
 - [Manual of Percutaneous Coronary Intervention](https://www.amazon.com/Manual-Percutaneous-Coronary-Interventions-Step/dp/0128193670/)
 - [Manual of Coronary Chronic Total Occlusion Intervention](https://www.amazon.com/Chronic-Occlusion-Percutaneous-Coronary-Interventions-dp-0323917879/dp/0323917879/)
 - [PCR-EAPCI Textbooks](https://www.pcronline.com/PCR-Publications/Textbooks)
 
-#### Online Resources
+## Online Resources
 
 - [SCAI Interventional Cardiology Fellows Essentials](https://scai.org/interventional-cardiology-fellows-essentials)
 - [SCAI Clinical Documents](https://scai.org/publications/clinical-documents)
@@ -30,14 +28,14 @@ categories:
 - [CardioNerds Cardiac Critical Care Page](https://www.cardionerds.com/cardiaccriticalcare)
 - [Mount Sinai CCC Live Cases YouTube Channel](https://www.youtube.com/c/CCCLiveCases)
 
-#### Apps/Podcasts
+## Apps/Podcasts
 
 - [PCI App](https://apps.apple.com/in/app/pci-app/id1607148631)
 - [Cardiology Apps](https://cardiologyapps.com)
 - [Podcasts](https://www.drjourneytobetter.com)
     - [(Dr. Bill Lombardi) and (Dr. Manos Brilakis)](https://podcasts.apple.com/au/podcast/sensei-podcast/id1650252168)
 
-#### Additional Articles
+## Additional Articles
 
 - [Contemporary Issues in Chronic Total Occlusion Percutaneous Coronary Intervention](https://doi.org/10.1016/j.jcin.2021.09.027)
 - [The Impact of Coronary Physiology on Contemporary Clinical Decision-Making](https://doi.org/10.1016/j.jcin.2020.04.040)

@@ -1,18 +1,40 @@
 ---
-title: Student/Resident Reading Topics
+title: Student Reading Topics
 author: J. Austin Straley, DO
 date: 2024-05-19
 categories:
-  - Resources
+  - Medical Education
 tags:
-  - Suggested Reading
   - Medical Students
-  - Residents
+  - Interns
+  - Suggested Reading
 ---
 
 The best thing you can do for the IM Shelf/STEP 3/COMLEX 3 is UWorld. There really is no replacement for it. Anki can be used to supplement but shouldn't be your primary source of information.
 
+## Recommended Approach
+
+1. Complete question-bank blocks regularly.
+2. Review incorrect or uncertain answers.
+3. Read briefly about patients encountered that day.
+4. Track recurring weaknesses by organ system.
+5. Practice presenting an assessment and plan—not merely recalling facts.
+
 [Step III Anki Deck][8]
+
+## Skills for the Wards
+
+Medical knowledge is only part of performing well. Students and interns should also practice:
+
+- Giving a focused one-liner
+- Building a prioritized problem list
+- Developing an independent assessment
+- Proposing a specific diagnostic and treatment plan
+- Recognizing unstable patients
+- Following laboratory and imaging results
+- Communicating tasks during transitions of care
+- Writing concise notes that explain clinical reasoning
+- Asking for feedback early enough to act on it
 
 ## Ward Resources
 

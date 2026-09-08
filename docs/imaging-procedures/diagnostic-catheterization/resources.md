@@ -1,8 +1,7 @@
 ---
-title: Invasive Cardiology
+title: Resources
 author: J. Austin Straley, DO
 date: 2024-03-16
-updated: 2024-04-26
 categories:
     - Cardiology
     - Cath

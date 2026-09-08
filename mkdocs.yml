@@ -460,85 +460,109 @@ nav:
   # ============================================================
   - Imaging & Procedures:
       - Overview: imaging-procedures/index.md
+      - Choosing the Right Cardiac Test: imaging-procedures/test-selection.md
+      - Stress Testing: imaging-procedures/stress-testing.md
 
       - Echocardiography:
-          - Aortic Valve: imaging-procedures/echocardiography/aortic-valve.md
+          - Overview: imaging-procedures/echocardiography/index.md
+          - Echo Fundamentals: imaging-procedures/echocardiography/fundamentals.md
           - Indications: imaging-procedures/echocardiography/indications.md
+          - Left Ventricle: imaging-procedures/echocardiography/left-ventricle.md
+          - Right Ventricle: imaging-procedures/echocardiography/right-ventricle.md
+          - Right Atrium: imaging-procedures/echocardiography/right-atrium.md
           - Left Atrium: imaging-procedures/echocardiography/left-atrium.md
+          - IVC and Right Atrial Pressure: imaging-procedures/echocardiography/ivc-and-right-atrial-pressure.md
+          - Septum: imaging-procedures/echocardiography/septum.md
+          - Diastolic Function: imaging-procedures/echocardiography/diastolic-function.md
+          - Aortic Valve: imaging-procedures/echocardiography/aortic-valve.md
+          - Mitral Valve: imaging-procedures/echocardiography/mitral-valve.md
+          - Tricuspid Valve: imaging-procedures/echocardiography/tricuspid-valve.md
+          - Pulmonic Valve: imaging-procedures/echocardiography/pulmonic-valve.md
+          - Prosthetic Valves: imaging-procedures/echocardiography/prosthetic-valves.md
+          - Intracardiac Shunts: imaging-procedures/echocardiography/intracardiac-shunts.md
+          - Pericardium: imaging-procedures/echocardiography/pericardium.md
+          - Aorta: imaging-procedures/echocardiography/aorta.md
+          - Congenital Heart Disease: imaging-procedures/echocardiography/congenital-heart-disease.md
+          - Transesophageal Echocardiography: imaging-procedures/echocardiography/tee.md
+          - Stress Echocardiography: imaging-procedures/echocardiography/stress-echocardiography.md
+          - Hemodynamics by Echo: imaging-procedures/echocardiography/hemodynamics-by-echo.md
+          - Cardiac Masses: imaging-procedures/echocardiography/cardiac-masses.md
+          - Artifacts and Mimics: imaging-procedures/echocardiography/artifacts-and-mimics.md
+          - Reporting Guide: imaging-procedures/echocardiography/reporting-guide.md
           - Resources: imaging-procedures/echocardiography/resources.md
-          # TODO: Echo Fundamentals
-          # TODO: Left Ventricle
-          # TODO: Right Ventricle
-          # TODO: Diastology
-          # TODO: Mitral Valve
-          # TODO: Tricuspid and Pulmonic Valves
-          # TODO: Prosthetic Valves
-          # TODO: TEE
-          # TODO: Stress Echocardiography
-          # TODO: Hemodynamics by Echo
-          # TODO: Cardiac Masses
-          # TODO: Artifacts and Mimics
-          # TODO: Reporting Guide
 
       - Nuclear Cardiology:
           - Overview: imaging-procedures/nuclear-cardiology/index.md
+          - Nuclear Physics and Instrumentation: imaging-procedures/nuclear-cardiology/physics-and-instrumentation.md
+          - Radiopharmaceuticals: imaging-procedures/nuclear-cardiology/radiopharmaceuticals.md
           - SPECT MPI: imaging-procedures/nuclear-cardiology/spect.md
-          - Stress Testing: imaging-procedures/nuclear-cardiology/stress-testing.md
-          # TODO: PET MPI
-          # TODO: Viability Imaging
-          # TODO: Amyloid Imaging
-          # TODO: Radiotracers
-          # TODO: Artifacts
-          # TODO: Interpretation and Reporting
-          # TODO: Radiation Safety
+          - PET MPI and Myocardial Blood Flow: imaging-procedures/nuclear-cardiology/pet.md
+          - Interpretation and Reporting: imaging-procedures/nuclear-cardiology/interpretation-and-reporting.md
+          - Artifacts and Pitfalls: imaging-procedures/nuclear-cardiology/artifacts-and-pitfalls.md
+          - Risk Stratification: imaging-procedures/nuclear-cardiology/risk-stratification.md
+          - Myocardial Viability: imaging-procedures/nuclear-cardiology/viability.md
+          - Cardiac Amyloidosis: imaging-procedures/nuclear-cardiology/amyloidosis.md
+          - Radionuclide Ventriculography: imaging-procedures/nuclear-cardiology/ventriculography.md
+          - Radiation Safety: imaging-procedures/nuclear-cardiology/radiation-safety.md
+          - Resources: imaging-procedures/nuclear-cardiology/resources.md
 
-      # Future: Cardiac CT
-      # TODO: CT Fundamentals
-      # TODO: Acquisition and Protocols
-      # TODO: Coronary Anatomy
-      # TODO: Coronary CTA
-      # TODO: Calcium Scoring
-      # TODO: Plaque Characterization
-      # TODO: CT-FFR
-      # TODO: Structural Heart CT
-      # TODO: TAVR Planning
-      # TODO: Pulmonary Vein CT
-      # TODO: Congenital CT
-      # TODO: Aortic CT
-      # TODO: Artifacts and Pitfalls
-      # TODO: Reporting Guide
+      - Cardiac CT:
+          - Overview: imaging-procedures/cardiac-ct/index.md
+          # TODO: CT Fundamentals
+          # TODO: Acquisition and Protocols
+          # TODO: Coronary Anatomy
+          # TODO: Coronary CTA
+          # TODO: Calcium Scoring
+          # TODO: Plaque Characterization
+          # TODO: CT-FFR
+          # TODO: Structural Heart CT
+          # TODO: TAVR Planning
+          # TODO: Pulmonary Vein CT
+          # TODO: Congenital CT
+          # TODO: Aortic CT
+          # TODO: Artifacts and Pitfalls
+          # TODO: Reporting Guide
+          # TODO: Resources
 
-      # Future: Cardiac MRI
-      # TODO: CMR Fundamentals
-      # TODO: Sequences
-      # TODO: Ventricular Function
-      # TODO: Late Gadolinium Enhancement
-      # TODO: T1 and T2 Mapping
-      # TODO: Cardiomyopathies
-      # TODO: Myocarditis
-      # TODO: Ischemic Heart Disease
-      # TODO: Viability
-      # TODO: Valvular Disease
-      # TODO: Congenital Heart Disease
-      # TODO: Cardiac Masses
-      # TODO: Pericardial Disease
-      # TODO: Reporting Guide
+      - Cardiac MRI:
+          - Overview: imaging-procedures/cardiac-mri/index.md
+          # TODO: CMR Fundamentals
+          # TODO: Sequences
+          # TODO: Ventricular Function
+          # TODO: Late Gadolinium Enhancement
+          # TODO: T1 and T2 Mapping
+          # TODO: Cardiomyopathies
+          # TODO: Myocarditis
+          # TODO: Ischemic Heart Disease
+          # TODO: Viability
+          # TODO: Valvular Disease
+          # TODO: Congenital Heart Disease
+          # TODO: Cardiac Masses
+          # TODO: Pericardial Disease
+          # TODO: Artifacts and Pitfalls
+          # TODO: Reporting Guide
+          # TODO: Resources
 
       - Diagnostic Catheterization:
-          - Invasive Cardiology: imaging-procedures/diagnostic-catheterization/invasive-cardiology.md
-          # TODO: Cath Lab Fundamentals
-          # TODO: Coronary Angiography
-          # TODO: Right-Heart Catheterization
-          # TODO: Cardiac Output
-          # TODO: Shunt Calculations
-          # TODO: Valve Hemodynamics
-          # TODO: Constrictive vs Restrictive Physiology
-          # TODO: Coronary Physiology
-          # TODO: Complications
-          # TODO: Cath Report Writing
+          - Overview: imaging-procedures/diagnostic-catheterization/index.md
+        #  - Cath Lab Fundamentals: imaging-procedures/diagnostic-catheterization/cath-lab-fundamentals.md
+        #  - Coronary Angiography: imaging-procedures/diagnostic-catheterization/coronary-angiography.md
+        #  - Hemodynamics:
+        #      - Overview: imaging-procedures/diagnostic-catheterization/hemodynamics/index.md
+        #      - Right Heart Catheterization: imaging-procedures/diagnostic-catheterization/hemodynamics/right-heart-catheterization.md
+        #      - Cardiac Output: imaging-procedures/diagnostic-catheterization/hemodynamics/cardiac-output.md
+        #      - Shunt Calculations: imaging-procedures/diagnostic-catheterization/hemodynamics/shunt-calculations.md
+        #      - Valve Hemodynamics: imaging-procedures/diagnostic-catheterization/hemodynamics/valve-hemodynamics.md
+        #      - Constriction vs Restriction: imaging-procedures/diagnostic-catheterization/hemodynamics/constriction-vs-restriction.md
+        #  - Coronary Physiology: imaging-procedures/diagnostic-catheterization/coronary-physiology.md
+        #  - Complications: imaging-procedures/diagnostic-catheterization/complications.md
+        #  - Cath Report Writing: imaging-procedures/diagnostic-catheterization/cath-report-writing.md
+          - Resources: imaging-procedures/diagnostic-catheterization/resources.md
 
       - Interventional Cardiology:
-          - Overview: imaging-procedures/interventional-cardiology/interventional-cardiology.md
+          - Overview: imaging-procedures/interventional-cardiology/index.md
+          - PCI Techniques:
+              - Bifurcation Stenting: imaging-procedures/interventional-cardiology/bifurcation-stenting.md
           # Future groups: Fundamentals, Access, Equipment, PCI Techniques,
           # Imaging & Physiology, Complications & Bailouts, Acute & Complex Care
 
@@ -550,66 +574,81 @@ nav:
 
       - Student & Intern:
           - Recommended Readings: learn/medical-student/student-intern-readings.md
-          # TODO: Cardiology for Medical Students
-          # TODO: Surviving Intern Year
-          # TODO: Presenting on Rounds
-          # TODO: Basic ECG Interpretation
-          # TODO: When to Call Cardiology
+          # TODO: Overview: learn/medical-student/index.md
+          # TODO: Cardiology Basics: learn/medical-student/cardiology-basics.md
+          # TODO: Surviving Intern Year: learn/medical-student/surviving-intern-year.md
+          # TODO: Presenting on Rounds: learn/medical-student/presenting-on-rounds.md
+          # TODO: Basic ECG Interpretation: learn/medical-student/basic-ecg-interpretation.md
+          # TODO: When to Call Cardiology: learn/medical-student/when-to-call-cardiology.md
 
       - Internal Medicine Resident:
           - Resident Guide: learn/internal-medicine-resident/index.md
 
           - Getting Started:
-              - Basics: learn/internal-medicine-resident/basics/1-basics.md
-              - Team Expectations: learn/internal-medicine-resident/basics/2-team-expectations.md
-              - Admission Notes: learn/internal-medicine-resident/basics/4-how-to-write-admit-note.md
-              - Transfers: learn/internal-medicine-resident/basics/5-transfers.md
-              - Discharge: learn/internal-medicine-resident/basics/6-discharge.md
-              - Patient Instructions: learn/internal-medicine-resident/basics/7-patient-instructions.md
-              - Common Inpatient Problems: learn/internal-medicine-resident/basics/8-common-inpt-problems.md
-              - Licensing: learn/internal-medicine-resident/basics/9-licensing.md
+              - Overview: learn/internal-medicine-resident/getting-started/index.md
+              - Team Expectations: learn/internal-medicine-resident/getting-started/team-expectations.md
+              - Admission Notes: learn/internal-medicine-resident/getting-started/admission-notes.md
+              - Transfers: learn/internal-medicine-resident/getting-started/transfers.md
+              - Discharge: learn/internal-medicine-resident/getting-started/discharge.md
+              - Patient Instructions: learn/internal-medicine-resident/getting-started/patient-instructions.md
+              - Common Inpatient Problems: learn/internal-medicine-resident/getting-started/common-inpatient-problems.md
 
-          - Efficiency & Workflow:
-              - Staying Organized: learn/internal-medicine-resident/efficiency/3-staying-organized.md
-              - Shortcuts: learn/internal-medicine-resident/efficiency/shortcuts.md
-              - Important Websites: learn/internal-medicine-resident/efficiency/important-websites.md
-              - Cerner: learn/internal-medicine-resident/efficiency/cernerhelp.md
-              - Dotphrases: learn/internal-medicine-resident/efficiency/dotphrases.md
-              - Searching Effectively: learn/internal-medicine-resident/efficiency/how-to-search-more-effectively.md
+          - Workflow & Efficiency:
+              - Staying Organized: learn/internal-medicine-resident/workflow/staying-organized.md
+              - Shortcuts: learn/internal-medicine-resident/workflow/shortcuts.md
+              - Important Websites: learn/internal-medicine-resident/workflow/important-websites.md
+              - Cerner: learn/internal-medicine-resident/workflow/cerner.md
+              - Dotphrases: learn/internal-medicine-resident/workflow/dotphrases.md
+              - Searching Effectively: learn/internal-medicine-resident/workflow/searching-effectively.md
 
-          - Teaching & Professional Skills:
-              - Overview: learn/internal-medicine-resident/softskills/index.md
-              - Effective Feedback: learn/internal-medicine-resident/softskills/effectivefeedback.md
-              - Utilizing Feedback: learn/internal-medicine-resident/softskills/utilizingfeedback.md
-              - Upper Leveling 101: learn/internal-medicine-resident/softskills/upperleveling101.md
-              - Residents as Teachers: learn/internal-medicine-resident/softskills/residentsasteachers.md
-              - Feedback Templates: learn/internal-medicine-resident/softskills/feedbacktemplates.md
+          - Teaching & Leadership:
+              - Overview: learn/internal-medicine-resident/teaching/index.md
+              - Effective Feedback: learn/internal-medicine-resident/teaching/effective-feedback.md
+              - Utilizing Feedback: learn/internal-medicine-resident/teaching/utilizing-feedback.md
+              - Upper Leveling: learn/internal-medicine-resident/teaching/upper-leveling.md
+              - Residents as Teachers: learn/internal-medicine-resident/teaching/residents-as-teachers.md
+              - Feedback Templates: learn/internal-medicine-resident/teaching/feedback-templates.md
 
-          - Additional Material:
-              - Interesting Topics: learn/internal-medicine-resident/interesting.md
-              - Fellowship Excel Guide: learn/internal-medicine-resident/fellowship-excel-guide.md
-              # TODO: Internal Medicine Board Review
-              # TODO: Preparing for Fellowship
+          - Career Development:
+              - Fellowship Excel Guide: learn/internal-medicine-resident/career/fellowship-excel-guide.md
+              - Licensing: learn/internal-medicine-resident/career/licensing.md
+              # TODO: Overview: learn/internal-medicine-resident/career/index.md
+              # TODO: Preparing for Fellowship: learn/internal-medicine-resident/career/preparing-for-fellowship.md
+
+          - Additional Topics:
+              - Interesting Topics: learn/internal-medicine-resident/interesting-topics.md
+              # TODO: Board Review: learn/internal-medicine-resident/board-review/index.md
 
       - Cardiology Fellow:
           - Fellowship Guide: learn/cardiology-fellow/index.md
           - Consults: learn/cardiology-fellow/consults.md
-          - Competency Requirements: learn/cardiology-fellow/cardsfellowshipreqs.md
-          # TODO: Starting Cardiology Fellowship
-          # TODO: CCU Rotation Guide
-          # TODO: Cath Rotation Guide
-          # TODO: Echo Rotation Guide
-          # TODO: Nuclear Rotation Guide
-          # TODO: CT and MRI Rotation Guide
-          # TODO: EP Rotation Guide
-          # TODO: Clinic Guide
-          # TODO: Cardiology Board Review
-          # TODO: Research During Fellowship
-          # TODO: Finding a Job
-          # TODO: Applying to Subspecialty Fellowship
+          - Competency Requirements: learn/cardiology-fellow/competency-requirements.md
 
-      # Future: Interventional Fellow curriculum
-      # Future: Attending guide
+          # TODO: Starting Fellowship: learn/cardiology-fellow/starting-fellowship.md
+
+          # TODO: Rotations:
+          #   - Overview: learn/cardiology-fellow/rotations/index.md
+          #   - CCU: learn/cardiology-fellow/rotations/ccu.md
+          #   - Catheterization: learn/cardiology-fellow/rotations/catheterization.md
+          #   - Echocardiography: learn/cardiology-fellow/rotations/echocardiography.md
+          #   - Nuclear Cardiology: learn/cardiology-fellow/rotations/nuclear-cardiology.md
+          #   - Cardiac CT and MRI: learn/cardiology-fellow/rotations/cardiac-ct-mri.md
+          #   - Electrophysiology: learn/cardiology-fellow/rotations/electrophysiology.md
+          #   - Clinic: learn/cardiology-fellow/rotations/clinic.md
+
+          # TODO: Board Review: learn/cardiology-fellow/board-review/index.md
+
+          # TODO: Career:
+          #   - Overview: learn/cardiology-fellow/career/index.md
+          #   - Research During Fellowship: learn/cardiology-fellow/career/research-during-fellowship.md
+          #   - Finding a Job: learn/cardiology-fellow/career/finding-a-job.md
+          #   - Subspecialty Fellowship: learn/cardiology-fellow/career/subspecialty-fellowship.md
+
+      - Interventional Fellow:
+          - Overview: learn/interventional-fellow/index.md
+
+      # TODO: Attending:
+      #   - Overview: learn/attending/index.md
 
   # ============================================================
   # TOOLS

@@ -1,66 +1,137 @@
 ---
-title: SPECT MPI
+title: SPECT Myocardial Perfusion Imaging
 author: J. Austin Straley, DO
 date: 2024-05-03
-categories:
   - Cardiology
-  - Nuclear
+  - Nuclear Cardiology
 ---
 
-- Framingham Risk Stratification:
-    - High Risk >3%:
-        - Resting LVEF <35%
-        - High risk treadmill score ≤-11
-        - Exercise LVEF <35%
-        - Stress induced large perfusion defect
-        - Multiple, moderate-sized perfusion defects
-        - Large, fixed perfusion defect with LV dilation or increased lung uptake
-        - more than 2 segments of wall motion abnormalities on echo at low dobutamine does or low HR <102
-        - Stress echo evidence of extensive ischemia
-    - Intermediate Risk (1-3%):
-        - Mild/moderate resting LV dysfunction (LVEF 35-49%)
-        - Duke Treadmill -11 to 5
-        - Stress induced moderate perfusion defect
-        - ≤2 segments of wall motion abnormalities on echo at high dobutamine does or low HR <102
-    - Low Risk (<1%)
-        - Low risk Duke treadmill score ≥5
-        - Normal or small defect at rest or with stress
-        - Normal stress echo wall motion or no change of limited resting wall motion abnormalities during stress
+SPECT MPI compares relative myocardial tracer uptake during stress and rest to detect ischemia, infarction, and high-risk physiology.
 
-## Single Photon Emission Computed Tomography (SPECT) Myocardial Perfusion Imaging Guidelines
+## Core Principle
 
-- [Instrumentation, Acquisition, Processing, and Interpretation][2]
-- [Stress, protocols, and tracers][3]
-- [Quality metrics][1]
+Coronary stenosis → impaired stress hyperemia → relatively reduced tracer delivery.
 
-### LOW-RISK STRESS FINDINGS (associated with a cardiac mortality of less than 1% per year)
+Because uptake is normalized to the region with the highest activity, SPECT demonstrates **relative**, not absolute, perfusion.
 
-- 1. Low risk treadmill score (score ≥ 5)
-- 2. Normal or small myocardial perfusion defect at rest or with stress
-- 3. Normal stress echocardiographic wall motion or no change of limited resting wall motion abnormalities during stress
+## Common Protocols
 
-### INTERMEDIATE-RISK STRESS FINDINGS (associated with a 1-3% per year cardiac mortality)
+| Protocol | Use |
+|---|---|
+| 1-day rest–stress | Common; higher stress dose limits shine-through |
+| 1-day stress–rest | Allows stress-first evaluation |
+| 2-day stress–rest | Improved count quality in larger patients |
+| Stress-only | Rest imaging omitted when stress study is unequivocally normal |
 
-- 1. Mild/moderate resting left ventricular dysfunction (LVEF 35-49%)
-- 2. Intermediate risk treadmill score (-11 score to < 5)
-- 3. Stress-induced moderate perfusion defect without LV dilation or increased lung intake (thallium-201)
+Tc-99m sestamibi and tetrofosmin are the principal contemporary tracers. See [Radiopharmaceuticals](radiopharmaceuticals.md).
 
-### HIGH-RISK STRESS FINDINGS (associated with a >3% per year cardiac mortality)
+## Systematic Interpretation
 
-- 1. Severe resting left ventricular dysfunction (LVEF < 35%)
-- 2. High-risk treadmill score (score ≤ -11)
-- 3. Severe exercise left ventricular dysfunction (exercise LVEF < 35%)
-- 4. Stress-induced large perfusion defect (particularly if anterior)
-- 5. Stress-induced multiple perfusion defects of moderate size.
-- 6. Large, fixed perfusion defect with LV dilation or increased lung uptake (Thallium-201)
-- 7. Stress-induced moderate perfusion defect with LV dilation or increased lung uptake (thallium-201)
+1. Review the indication, symptoms, stress response, and ECG.
+2. Inspect raw projection images.
+3. Confirm adequate acquisition, reconstruction, and gating.
+4. Compare stress and rest perfusion.
+5. Define defect location, size, severity, and reversibility.
+6. Assess wall motion, thickening, LV volumes, and LVEF.
+7. Look for high-risk and extracardiac findings.
+8. Integrate everything into a final risk assessment.
 
-## Balanced Ischemia
+## Perfusion Patterns
 
-- High risk features on Exercise testing
-    - Coronary blood low is equally or nearly equally impaired
-    - ST depression in multiple leads during peak stress but no evidence of ischemia on radionuclide MPI
+| Stress | Rest | Interpretation |
+|---|---|---|
+| Normal | Normal | Normal perfusion |
+| Abnormal | Normal or improved | Ischemia |
+| Abnormal | Abnormal without change | Scar or artifact |
+| Abnormal | Partially improved | Mixed scar and ischemia |
 
-[1]: https://www.journalofnuclearcardiology.org/article/S1071-3581(23)00167-8/abstract
-[2]: https://www.journalofnuclearcardiology.org/article/S1071-3581(23)02418-2/abstract
-[3]: https://www.journalofnuclearcardiology.org/article/S1071-3581(23)06859-9/abstract
+A fixed defect with normal regional wall motion and thickening favors attenuation artifact. A fixed defect with matching dysfunction favors infarction.
+
+## Semiquantitative Scoring
+
+Each of the 17 LV segments is scored:
+
+- 0 = normal
+- 1 = mildly reduced
+- 2 = moderately reduced
+- 3 = severely reduced
+- 4 = absent uptake
+
+\[
+\text{SDS} = \text{SSS} - \text{SRS}
+\]
+
+- **SSS:** summed stress score
+- **SRS:** summed rest score
+- **SDS:** reversible component
+
+Approximate ischemic burden:
+
+\[
+\%\text{ ischemic myocardium} =
+\frac{\text{SDS}}{68}\times100
+\]
+
+| Defect size | Approximate LV involvement |
+|---|---:|
+| Small | <10% |
+| Moderate | 10%–20% |
+| Large | >20% |
+
+## Gated SPECT
+
+ECG gating provides:
+
+- LVEF
+- LV volumes
+- Regional wall motion
+- Regional wall thickening
+- Evidence of post-stress stunning
+
+Wall thickening is reflected by increasing regional brightness during systole. Gating may be unreliable with significant arrhythmia, poor counts, or incorrect R-wave detection.
+
+## High-Risk Findings
+
+- Large or multiple reversible defects
+- Ischemia involving multiple vascular territories
+- Transient ischemic dilation
+- Stress-induced fall in LVEF
+- Post-stress regional stunning
+- Increased lung uptake
+- Increased RV uptake or RV dilation
+- Severe LV dysfunction
+- High-risk exercise or ECG findings
+
+!!! warning "Balanced ischemia"
+    Left main or multivessel CAD may produce uniformly reduced perfusion and an apparently normal relative study. Suspect it when perfusion appears normal but TID, LV dysfunction, severe coronary calcium, ischemic ECG changes, or other high-risk findings are present.
+
+## Reporting Essentials
+
+Include:
+
+- Stress method and adequacy
+- Study quality
+- Defect location, size, severity, and reversibility
+- LV function and volumes
+- TID and other high-risk findings
+- Comparison with prior imaging
+- Overall interpretation and risk
+
+## Board Pearls
+
+- Reversible defect = ischemia.
+- Fixed defect + abnormal motion = infarction.
+- Fixed defect + normal motion = consider attenuation.
+- TID with abnormal perfusion suggests extensive CAD.
+- A normal relative study does not exclude balanced ischemia.
+- Review raw data before interpreting reconstructed images.
+
+## References
+
+- [ASNC SPECT: Stress, Protocols, and Tracers][protocols]
+- [ASNC SPECT Instrumentation and Interpretation][interpretation]
+- [ASNC SPECT Quality Metrics][quality]
+
+[protocols]: https://www.asnc.org/wp-content/uploads/2024/06/ASNC-SPECT-ProtocolsTracers-Guidelines2016.pdf
+[interpretation]: https://www.journalofnuclearcardiology.org/article/S1071-3581(23)02418-2/abstract
+[quality]: https://www.journalofnuclearcardiology.org/article/S1071-3581(23)00167-8/abstract
