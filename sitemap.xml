@@ -41,7 +41,27 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/imaging-procedures/diagnostic-catheterization/invasive-cardiology/</loc>
+         <loc>https://docsref.com/imaging-procedures/stress-testing/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/test-selection/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/cardiac-ct/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/cardiac-mri/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/diagnostic-catheterization/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/diagnostic-catheterization/resources/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
@@ -57,6 +77,14 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/artifacts-and-mimics/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/cardiac-masses/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/congenital-heart-disease/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
@@ -66,6 +94,10 @@
     </url>
     <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/fundamentals/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/hemodynamics-by-echo/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
@@ -105,6 +137,10 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/reporting-guide/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/resources/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
@@ -121,11 +157,23 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/stress-echocardiography/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/echocardiography/tee/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
          <loc>https://docsref.com/imaging-procedures/echocardiography/tricuspid-valve/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/imaging-procedures/interventional-cardiology/interventional-cardiology/</loc>
+         <loc>https://docsref.com/imaging-procedures/interventional-cardiology/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/interventional-cardiology/bifurcation-stenting/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
@@ -133,11 +181,51 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/amyloidosis/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/artifacts-and-pitfalls/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/interpretation-and-reporting/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/pet/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/physics-and-instrumentation/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/radiation-safety/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/radiopharmaceuticals/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/resources/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/risk-stratification/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
          <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/spect/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/stress-testing/</loc>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/ventriculography/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/imaging-procedures/nuclear-cardiology/viability/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
@@ -149,7 +237,7 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/cardiology-fellow/cardsfellowshipreqs/</loc>
+         <loc>https://docsref.com/learn/cardiology-fellow/competency-requirements/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
@@ -161,91 +249,95 @@
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/fellowship-excel-guide/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/interesting-topics/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/interesting/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/career/fellowship-excel-guide/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/1-basics/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/career/licensing/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/2-team-expectations/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/4-how-to-write-admit-note/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/admission-notes/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/5-transfers/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/common-inpatient-problems/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/6-discharge/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/discharge/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/7-patient-instructions/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/patient-instructions/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/8-common-inpt-problems/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/team-expectations/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/basics/9-licensing/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/getting-started/transfers/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/3-staying-organized/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/teaching/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/cernerhelp/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/teaching/effective-feedback/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/dotphrases/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/teaching/feedback-templates/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/how-to-search-more-effectively/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/teaching/residents-as-teachers/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/important-websites/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/teaching/upper-leveling/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/efficiency/shortcuts/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/teaching/utilizing-feedback/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/softskills/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/workflow/cerner/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/softskills/effectivefeedback/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/workflow/dotphrases/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/softskills/feedbacktemplates/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/workflow/important-websites/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/softskills/residentsasteachers/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/workflow/searching-effectively/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/softskills/upperleveling101/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/workflow/shortcuts/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
-         <loc>https://docsref.com/learn/internal-medicine-resident/softskills/utilizingfeedback/</loc>
+         <loc>https://docsref.com/learn/internal-medicine-resident/workflow/staying-organized/</loc>
+         <lastmod>2026-09-08</lastmod>
+    </url>
+    <url>
+         <loc>https://docsref.com/learn/interventional-fellow/</loc>
          <lastmod>2026-09-08</lastmod>
     </url>
     <url>
